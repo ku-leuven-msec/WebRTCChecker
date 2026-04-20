@@ -1,7 +1,7 @@
-# WebRTCChecker
-## WebRTC Security Analysis
+# RTCChecker
+## RTC Security Analysis
 
-**WebRTCChecker** is a comprehensive framework for analyzing the security of WebRTC communications from network captures (**PCAP files**) and presenting the findings in an interactive, web-based dashboard.  
+**RTCChecker** is a comprehensive framework for analyzing the security of RTC communications from network captures (**PCAP files**) and presenting the findings in an interactive, web-based dashboard.  
 
 It is designed for **security researchers, pentesters, and developers** to quickly assess the security posture of IoT devices and web applications that rely on Real-Time Communication protocols.
 
@@ -14,13 +14,13 @@ It is designed for **security researchers, pentesters, and developers** to quick
 Pull the published image from Docker Hub:
 
 ```bash
-docker pull christoph0sanders/webrtcchecker:1.0.2
+docker pull christoph0sanders/rtcchecker:1.0.2
 ```
 
 Run the container:
 
 ```bash
-docker run -d --name webrtc-checker -p 5000:5000 christoph0sanders/webrtcchecker:1.0.2
+docker run -d --name rtc-checker -p 5000:5000 christoph0sanders/rtcchecker:1.0.2
 ```
 
 Open the web interface at:
@@ -66,7 +66,7 @@ python app.py
 ## Project Structure
 
 ```text
-/WebRTCChecker
+/RTCChecker
 │
 ├── app.py # Main Flask web application
 ├── main.py # Analysis script for IoT devices
