@@ -136,5 +136,11 @@ python app.py
 
 ---
 
-## 📖 License
-*MIT*
+## Paper
+Accepted for presentation at USENIX WOOT '26.
+
+## Authors
+Victor Goemans, Tom Cordemans, Christoph Sanders, Jorn Lapon, and Vincent Naessens
+
+## License
+MIT
