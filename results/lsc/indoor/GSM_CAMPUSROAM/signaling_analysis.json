@@ -1,0 +1,43 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.194:35851-3.69.54.194:1443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.194:35851-3.69.54.194:1443",
+      "likelihood_score": 10,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 17 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (6.80)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf",
+          "bff50b1b27d10beb66bdf"
+        ],
+        "base64_strings": [
+          "bff50b1b27d10beb66bdfu1674587877oyRnrYZb",
+          "bff50b1b27d10beb66bd",
+          "bff50b1b27d10beb66bdfu1674587877oyRnrYZb",
+          "bff50b1b27d10beb66bd",
+          "bff50b1b27d10beb66bdfu1674587877oyRnrYZb",
+          "bff50b1b27d10beb66bd",
+          "bff50b1b27d10beb66bdfu1674587877oyRnrYZb",
+          "bff50b1b27d10beb66bd"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00f4\u0000\u00018\u0000\u0001\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u00101\u00180\\\u00f1\u00ef\u0092\u0014\u00ba\u00fce\u0014\u00b7u\u00ca\u00e2\u0000\u0003\u0000(bff50b1b27d10beb66bdfu1674587877oyRnrYZb\u0000\u0004\u0000!1674587877:bff50b1b27d10beb66bdfu\u0000\u0000\u0000\u0000\u0007\u0000\u00a06h\u00b7\u00d1I\u0004\u0003G\u00afO\u00db\u009d\u0098\u0083\\e%'\u00f5\u0082>\u00d0S\u00f6\u00e0\u0017\u00c9F%\u0012\u0014]\u00eb\u00dd8t\u0013P\u00f3\u00dc\u00c8C\u00aa\u0006v\u0012\u008d\u00c5\u0018\u00f5/.#\u00bf\u00a5\u00ea\u00ff\u00a5~J\u009b\u00ceT\u00afa\u0084\u00de\u00de$d\u00c0m\u00d8b\u00e9FH\u008d\u00ee\u0002",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "geoip_summary": {
+    "108.177.119.127": {
+      "ip": "108.177.119.127",
+      "hostname": "ei-in-f127.1e100.net",
+      "city": "Delfzijl",
+      "region": "Groningen",
+      "country": "NL",
+      "location": "53.3300,6.9181",
+      "organization": "AS15169 Google LLC",
+      "timezone": "Europe/Amsterdam"
+    },
+    "10.129.179.30": {
+      "ip": "10.129.179.30",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "stun_transactions": {
+    "2a6e487d80bc7559d6eb3b1c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "10.129.179.30",
+      "stun_server_ip": "108.177.119.127",
+      "exposed_ip_address": "193.190.225.245:49320",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1672825632.5860195,
+          "src_ip": "10.129.179.30",
+          "src_port": 49320,
+          "dst_ip": "108.177.119.127",
+          "dst_port": 19302,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1672825632.6000378,
+          "src_ip": "108.177.119.127",
+          "src_port": 19302,
+          "dst_ip": "10.129.179.30",
+          "dst_port": 49320,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:49320"
+          }
+        }
+      ]
+    }
+  }
+}

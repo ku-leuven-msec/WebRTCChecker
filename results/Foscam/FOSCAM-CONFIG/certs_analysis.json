@@ -1,0 +1,131 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-05-12T00:00:00+00:00",
+    "valid_until": "2023-06-11T23:59:59+00:00",
+    "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+    "subject_cn": "*.myfoscam.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.myfoscam.com')>",
+      "<DNSName(value='myfoscam.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9",
+    "found_in_packet_number": "257",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.3.84.22",
+      "type": "Public",
+      "hostname": "ec2-52-3-84-22.compute-1.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-09-21T00:00:00+00:00",
+    "valid_until": "2023-08-26T23:59:59+00:00",
+    "issuer_cn": "Amazon",
+    "subject_cn": "*.s3.amazonaws.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.s3.amazonaws.com')>",
+      "<DNSName(value='s3.amazonaws.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "A8:C3:D3:F3:B0:80:74:E2:E2:13:E1:9C:B9:8D:57:CE:08:43:15:06:1B:7E:6E:21:4F:DD:8F:58:E2:C2:82:56",
+    "found_in_packet_number": "4849",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.218.179.49",
+      "type": "Public",
+      "hostname": "s3-us-west-2-w.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2021-12-14T06:05:20+00:00",
+    "valid_until": "2071-12-02T06:05:20+00:00",
+    "issuer_cn": "foscam-security-prd.myfoscam.com",
+    "subject_cn": "foscloud-client",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "17:31:E4:36:80:95:FF:C8:8E:52:F9:8B:E2:B1:9F:59:AD:7A:2F:72:04:E4:8A:4B:F6:51:8E:B4:0D:C7:0F:BA",
+    "found_in_packet_number": "9525",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    },
+    "receiver_info": {
+      "ip": "52.21.187.214",
+      "type": "Public",
+      "hostname": "ec2-52-21-187-214.compute-1.amazonaws.com"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-03-01T00:00:00+00:00",
+    "valid_until": "2023-03-23T23:59:59+00:00",
+    "issuer_cn": "DigiCert Basic RSA CN CA G2",
+    "subject_cn": "*.ivyiot.io",
+    "subject_alternative_names": [
+      "<DNSName(value='*.ivyiot.io')>",
+      "<DNSName(value='ivyiot.io')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "3E:08:4B:68:BA:4D:8A:C2:CA:7C:95:5D:8D:BF:9F:71:D5:39:75:1F:31:EB:E8:52:7F:3C:42:0C:67:4F:43:AA",
+    "found_in_packet_number": "25693",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.54.83.95",
+      "type": "Public",
+      "hostname": "ec2-52-54-83-95.compute-1.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2021-11-02T11:16:53+00:00",
+    "valid_until": "2071-10-21T11:16:53+00:00",
+    "issuer_cn": "security-iot-mqtt.ivyiot.io",
+    "subject_cn": "security-iot-mqtt",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "F6:E3:9B:3A:21:A8:1E:ED:34:A6:E4:20:93:2B:C3:16:2B:A4:3F:93:91:F7:FD:12:B7:01:BD:A7:72:6D:5F:62",
+    "found_in_packet_number": "25696",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    },
+    "receiver_info": {
+      "ip": "52.54.83.95",
+      "type": "Public",
+      "hostname": "ec2-52-54-83-95.compute-1.amazonaws.com"
+    }
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.111:58942-52.22.240.139:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.111:58942-52.22.240.139:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 434 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.49)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA"
+        ]
+      },
+      "payload_snippet": "E\u0002 B\u0095\u00f6=\u00b0\u00d4\u0099\u0019\u00b9\u00bfNA\u0085,/\u00e7Z\u0004Uv\u00eb\u00d3\u008c=y\u0095\u0083Z\u0001\u00a4\u00fd\u00b6\u0002!\u0000\u00c6B\u00da\u0011+5(\u00ad\u0012\u00e6wot\u0006\u00ae\u00b0\u00db\u00a2\u0095\u0017\u00b2P\u00e4\u00aa\u009cY!\r\u00e3=f\u00e20\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000Iq\u00f3\u001a\u00bb\u00cea\u00dc\u0090Zt&~(\u00a0\u0088&\u0083\u0092\u00bcI!\u00b6\u00afN\u00de\b\u0099\u0012:\u0004t\u0019\u0095U\u00e5\u00f7r\u00c6\u009dl\u0006u\u00a7\u0086\u008c\u0018 ]%\u00bb\u001b\u0013T\u0006\u00cd_\u0000\u00c6\u00ea\u00a8L\u0095\u009cc\u00a5\u009fRw\u007f\u00d3\u00a1\u00f9\\\u00dc\u00e2)GoE\u00f2\u00df]\u00c61/\u00df\u00b1Q\u00c6\u00d5\\\u00a4\u00d1G\u00df\u00eaR\u00a8\u0096F\u00d0\u00ac%\u00894\u00d9`\u00fe\u00ad",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.111:64109-54.84.129.4:9998",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.111:64109-54.84.129.4:9998",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 44 bytes)",
+        "Medium entropy (7.15)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000-\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0016\u0094o\u00e9\u00d1\u00b8\u00f8]\u00d2B)\u0016\u0092W\u00f2N\u00c4\u008b\u00ca}\u00e0\u0019f#\u00a8\u00c6*\u00d2\u0006\u00a1\u00b0\u00d9\u001d\u0014\u00f3\u00fc\u008aL\u0017\u0003\u0003\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0017\u001f\u00acF\r\u00d0\u00f6\u0083\u00d0T\u0092\u0019\u00df|\b\u00cd\u00dc\u00eaa\u0017\u0003\u0003\u0000/\u00e4\u00d0M)7z\u00e5\u00e9\u0006\u00d2\u009f\u00c8A'3\u009c\u0088;S\f\u00d4\u00ab|\u00a0\u00eb\u00a1(\u0003\u00eb$\u00eb\u00d7t@\u00b3\u00f8{\u00e7\u00ffl\u00b3\u00f8qel\u0013\u00c5\u0017\u0003\u0003\u0000-\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0018\u00b7U\u00a0\u00be\u00b6\u00bb\u0019\u00ee\u00cb\u00d3\u00fb<\u00d4\n\u0090\u00d5m\u0011\u00de\u00b8\u00a2_\u000b\u00d1\u00c4\u00c9\u0012<\u0003\u0096\u000e\u00b8[{\u00a7\u008b]\u0017\u0003\u0003\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0019\\X\u00fd\u00d2",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    }
+  ]
+}

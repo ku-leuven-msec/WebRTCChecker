@@ -1,0 +1,150 @@
+{
+  "geoip_summary": {
+    "74.125.128.127": {
+      "ip": "74.125.128.127",
+      "hostname": "ec-in-f127.1e100.net",
+      "city": "Delfzijl",
+      "region": "Groningen",
+      "country": "NL",
+      "location": "53.3300,6.9181",
+      "organization": "AS15169 Google LLC",
+      "timezone": "Europe/Amsterdam"
+    },
+    "10.129.179.30": {
+      "ip": "10.129.179.30",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "193.190.225.242": {
+      "ip": "193.190.225.242",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "stun_transactions": {
+    "ccc1add54922ee0255370434": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "10.129.179.30",
+      "stun_server_ip": "193.190.225.242",
+      "exposed_ip_address": "Not detected",
+      "library_info": "v2.12.27",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1686298142.618061,
+          "src_ip": "10.129.179.30",
+          "src_port": 45265,
+          "dst_ip": "193.190.225.242",
+          "dst_port": 45471,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "86ho:Ie8uDM5ImGxGDCnq",
+            "Unknown(0x8029)": "c0ff3bc1841cdff0",
+            "Unknown(0x0024)": "6efeffff",
+            "SOFTWARE": "v2.12.27",
+            "MESSAGE-INTEGRITY": "2c4d9d3fcd3aeafb7aeb1103bb591aa8be2cf0fc",
+            "FINGERPRINT": "fe935294"
+          }
+        },
+        {
+          "timestamp": 1686298143.8183863,
+          "src_ip": "10.129.179.30",
+          "src_port": 45265,
+          "dst_ip": "193.190.225.242",
+          "dst_port": 45471,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "86ho:Ie8uDM5ImGxGDCnq",
+            "Unknown(0x8029)": "c0ff3bc1841cdff0",
+            "Unknown(0x0024)": "6efeffff",
+            "SOFTWARE": "v2.12.27",
+            "MESSAGE-INTEGRITY": "2c4d9d3fcd3aeafb7aeb1103bb591aa8be2cf0fc",
+            "FINGERPRINT": "fe935294"
+          }
+        },
+        {
+          "timestamp": 1686298145.012659,
+          "src_ip": "10.129.179.30",
+          "src_port": 45265,
+          "dst_ip": "193.190.225.242",
+          "dst_port": 45471,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "86ho:Ie8uDM5ImGxGDCnq",
+            "Unknown(0x8029)": "c0ff3bc1841cdff0",
+            "Unknown(0x0024)": "6efeffff",
+            "SOFTWARE": "v2.12.27",
+            "MESSAGE-INTEGRITY": "2c4d9d3fcd3aeafb7aeb1103bb591aa8be2cf0fc",
+            "FINGERPRINT": "fe935294"
+          }
+        },
+        {
+          "timestamp": 1686298146.2120852,
+          "src_ip": "10.129.179.30",
+          "src_port": 45265,
+          "dst_ip": "193.190.225.242",
+          "dst_port": 45471,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "86ho:Ie8uDM5ImGxGDCnq",
+            "Unknown(0x8029)": "c0ff3bc1841cdff0",
+            "Unknown(0x0024)": "6efeffff",
+            "SOFTWARE": "v2.12.27",
+            "MESSAGE-INTEGRITY": "2c4d9d3fcd3aeafb7aeb1103bb591aa8be2cf0fc",
+            "FINGERPRINT": "fe935294"
+          }
+        },
+        {
+          "timestamp": 1686298147.408965,
+          "src_ip": "10.129.179.30",
+          "src_port": 45265,
+          "dst_ip": "193.190.225.242",
+          "dst_port": 45471,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "86ho:Ie8uDM5ImGxGDCnq",
+            "Unknown(0x8029)": "c0ff3bc1841cdff0",
+            "Unknown(0x0024)": "6efeffff",
+            "SOFTWARE": "v2.12.27",
+            "MESSAGE-INTEGRITY": "2c4d9d3fcd3aeafb7aeb1103bb591aa8be2cf0fc",
+            "FINGERPRINT": "fe935294"
+          }
+        }
+      ]
+    },
+    "fab326d16c946c84e43b3599": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "10.129.179.30",
+      "stun_server_ip": "74.125.128.127",
+      "exposed_ip_address": "193.190.225.244:35972",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1686298159.6858983,
+          "src_ip": "10.129.179.30",
+          "src_port": 35972,
+          "dst_ip": "74.125.128.127",
+          "dst_port": 19302,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1686298159.702103,
+          "src_ip": "74.125.128.127",
+          "src_port": 19302,
+          "dst_ip": "10.129.179.30",
+          "dst_port": 35972,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.244:35972"
+          }
+        }
+      ]
+    }
+  }
+}

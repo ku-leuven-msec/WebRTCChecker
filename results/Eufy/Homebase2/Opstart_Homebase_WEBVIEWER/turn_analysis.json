@@ -1,0 +1,296 @@
+{
+  "geoip_summary": {
+    "3.123.109.172": {
+      "ip": "3.123.109.172",
+      "hostname": "ec2-3-123-109-172.eu-central-1.compute.amazonaws.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS16509 Amazon.com, Inc.",
+      "timezone": "Europe/Berlin"
+    }
+  },
+  "turn_transactions": {
+    "6e0dc33e6deef5d7ef413495": [
+      {
+        "timestamp": 1698398503.635202,
+        "src": "192.168.100.133:59694",
+        "dst": "3.123.109.172:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "6e0dc33e6deef5d7ef413495",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0003004c2112a4426e0dc33e6deef5d7ef413495000d00040000025800190004110000008022000a6c6962636f7265696365000000060020663266663835363064363536663630633230306533663264383239373062636480280004b2df819f",
+        "credentials": {
+          "username": "f2ff8560d656f60c200e3f2d82970bcd"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398503.654599,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:59694",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "6e0dc33e6deef5d7ef413495",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "0113005c2112a4426e0dc33e6deef5d7ef4134950009001000000401556e617574686f72697a6564001500106361396638663435616237643061303900140009616e6b65722e636f6d00000080220018436f7475726e2d342e352e32202764616e20456964657227802800040159710a",
+        "credentials": {
+          "realm": "anker.com",
+          "nonce": "63613966386634356162376430613039"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398503.65707,
+        "src": "192.168.100.133:59694",
+        "dst": "3.123.109.172:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "6e0dc33e6deef5d7ef413495",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300882112a4426e0dc33e6deef5d7ef413495000d00040000025800190004110000008022000a6c6962636f7265696365000000060020663266663835363064363536663630633230306533663264383239373062636400140009616e6b65722e636f6d00000000150010636139663866343561623764306130390008001468493a618e879e77e5ffab0bcbe899a301757088802800045df0e3a7",
+        "credentials": {
+          "username": "f2ff8560d656f60c200e3f2d82970bcd",
+          "realm": "anker.com",
+          "nonce": "63613966386634356162376430613039"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398503.677407,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:59694",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "6e0dc33e6deef5d7ef413495",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "0103005c2112a4426e0dc33e6deef5d7ef413495001600080001e0cb2269c9ee002000080001c83c7651e69e000d00040000025880220018436f7475726e2d342e352e32202764616e2045696465722700080014cbc5445ae4cf7f6380e363dfb1f2e3350e497cd080280004a00fbaf8",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "4057aa29149ce9765d5fa30f": [
+      {
+        "timestamp": 1698398503.965191,
+        "src": "192.168.100.133:59694",
+        "dst": "3.123.109.172:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "4057aa29149ce9765d5fa30f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800842112a4424057aa29149ce9765d5fa30f001200080001fdf37651e69e8022000a6c6962636f7265696365000000060020663266663835363064363536663630633230306533663264383239373062636400140009616e6b65722e636f6d000000001500106361396638663435616237643061303900080014c950164a783276b682af889f78ac9ac339bc2d8f80280004e6cacbce",
+        "credentials": {
+          "username": "f2ff8560d656f60c200e3f2d82970bcd",
+          "realm": "anker.com",
+          "nonce": "63613966386634356162376430613039"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398503.983272,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:59694",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "4057aa29149ce9765d5fa30f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "0108003c2112a4424057aa29149ce9765d5fa30f80220018436f7475726e2d342e352e32202764616e20456964657227000800147ba2552658a8f5348114c4f298caa356ca4b19f98028000402abb351",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "0a27cbdda24daf1a53bb300d": [
+      {
+        "timestamp": 1698398507.327425,
+        "src": "192.168.100.133:37388",
+        "dst": "3.123.109.172:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "0a27cbdda24daf1a53bb300d",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0003004c2112a4420a27cbdda24daf1a53bb300d000d00040000025800190004110000008022000a6c6962636f7265696365000000060020646461636465376138396433336230363764303731633530343665633935626680280004b54d0147",
+        "credentials": {
+          "username": "ddacde7a89d33b067d071c5046ec95bf"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398507.346494,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:37388",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "0a27cbdda24daf1a53bb300d",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "0113005c2112a4420a27cbdda24daf1a53bb300d0009001000000401556e617574686f72697a6564001500106531646337323566316566373261396600140009616e6b65722e636f6d00000080220018436f7475726e2d342e352e32202764616e2045696465722780280004c29d39c8",
+        "credentials": {
+          "realm": "anker.com",
+          "nonce": "65316463373235663165663732613966"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398507.349304,
+        "src": "192.168.100.133:37388",
+        "dst": "3.123.109.172:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "0a27cbdda24daf1a53bb300d",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300882112a4420a27cbdda24daf1a53bb300d000d00040000025800190004110000008022000a6c6962636f7265696365000000060020646461636465376138396433336230363764303731633530343665633935626600140009616e6b65722e636f6d000000001500106531646337323566316566373261396600080014ff2bf4b23b52b47b32fa2592ca2d6f675cd74f63802800046215a1b8",
+        "credentials": {
+          "username": "ddacde7a89d33b067d071c5046ec95bf",
+          "realm": "anker.com",
+          "nonce": "65316463373235663165663732613966"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398507.369434,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:37388",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "0a27cbdda24daf1a53bb300d",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "0103005c2112a4420a27cbdda24daf1a53bb300d001600080001eca02269c9ee002000080001b31e7651e69e000d00040000025880220018436f7475726e2d342e352e32202764616e20456964657227000800141b4d7020d8e0f9d7a3d76299a72d9395004f4b45802800046443de18",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "041f31352dc4f250e88066cd": [
+      {
+        "timestamp": 1698398514.150604,
+        "src": "192.168.100.133:59694",
+        "dst": "3.123.109.172:3478",
+        "message_type": "ChannelBind Request",
+        "transaction_id": "041f31352dc4f250e88066cd",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0009008c2112a442041f31352dc4f250e88066cd000c000446cb0000001200080001fdf37651e69e8022000a6c6962636f7265696365000000060020663266663835363064363536663630633230306533663264383239373062636400140009616e6b65722e636f6d000000001500106361396638663435616237643061303900080014114540bdee88f716f73f1a190f07001ac93be71d802800048dd4c90e",
+        "credentials": {
+          "username": "f2ff8560d656f60c200e3f2d82970bcd",
+          "realm": "anker.com",
+          "nonce": "63613966386634356162376430613039"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398514.169031,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:59694",
+        "message_type": "ChannelBind Success Response",
+        "transaction_id": "041f31352dc4f250e88066cd",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "0109003c2112a442041f31352dc4f250e88066cd80220018436f7475726e2d342e352e32202764616e20456964657227000800149634be7b2eea72ea816e3e2c95a50890d3e19617802800041c6c01a3",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "92bd23238d15e58eb770e9ea": [
+      {
+        "timestamp": 1698398522.374176,
+        "src": "192.168.100.133:37388",
+        "dst": "3.123.109.172:3478",
+        "message_type": "Refresh Request",
+        "transaction_id": "92bd23238d15e58eb770e9ea",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000400802112a44292bd23238d15e58eb770e9ea000d0004000002588022000a6c6962636f7265696365000000060020646461636465376138396433336230363764303731633530343665633935626600140009616e6b65722e636f6d0000000015001065316463373235663165663732613966000800143e2d6c70de2ff45f58aa99aaa3bacf8c6610068b80280004479dea64",
+        "credentials": {
+          "username": "ddacde7a89d33b067d071c5046ec95bf",
+          "realm": "anker.com",
+          "nonce": "65316463373235663165663732613966"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398522.392679,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:37388",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "92bd23238d15e58eb770e9ea",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "010400442112a44292bd23238d15e58eb770e9ea000d00040000025880220018436f7475726e2d342e352e32202764616e20456964657227000800140937748b37630f1aed15df4a520ace30c48b3d10802800045d51a437",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "0f1d3ef808b2c88e6fa6ae23": [
+      {
+        "timestamp": 1698398537.401588,
+        "src": "192.168.100.133:37388",
+        "dst": "3.123.109.172:3478",
+        "message_type": "Refresh Request",
+        "transaction_id": "0f1d3ef808b2c88e6fa6ae23",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000400802112a4420f1d3ef808b2c88e6fa6ae23000d0004000002588022000a6c6962636f7265696365000000060020646461636465376138396433336230363764303731633530343665633935626600140009616e6b65722e636f6d00000000150010653164633732356631656637326139660008001491efdb4a7c5a60f512ef549ee3a8753a105d529e80280004c79d19a3",
+        "credentials": {
+          "username": "ddacde7a89d33b067d071c5046ec95bf",
+          "realm": "anker.com",
+          "nonce": "65316463373235663165663732613966"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1698398537.420119,
+        "src": "3.123.109.172:3478",
+        "dst": "192.168.100.133:37388",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "0f1d3ef808b2c88e6fa6ae23",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.2",
+        "raw_payload_hex": "010400442112a4420f1d3ef808b2c88e6fa6ae23000d00040000025880220018436f7475726e2d342e352e32202764616e204569646572270008001456e7f27a1eb8eedbb78f8e8bf3cf5880fce670bd8028000402d7a8bc",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ]
+  }
+}

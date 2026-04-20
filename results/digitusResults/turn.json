@@ -1,0 +1,560 @@
+{
+  "geoip_summary": {
+    "35.207.88.129": {
+      "ip": "35.207.88.129",
+      "hostname": "129.88.207.35.bc.googleusercontent.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS15169 Google LLC",
+      "timezone": "Europe/Berlin"
+    }
+  },
+  "turn_transactions": {
+    "41595554ceb39279534a0008": [
+      {
+        "timestamp": 1675166364.1635213,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "41595554ceb39279534a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300282112a44241595554ceb39279534a0008001900041100000080220014696d6d5f7032705f73646b5f76332e352e30000080280004bc331504",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166364.1670094,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "41595554ceb39279534a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300282112a44241595554ceb39279534a0008001900041100000080220014696d6d5f7032705f73646b5f76332e352e30000080280004bc331504",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166364.1768742,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "41595554ceb39279534a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "0113005c2112a44241595554ceb39279534a00080009001000000401556e617574686f72697a6564001500106439326535643362343762643733623500140008747579612e636f6d8022001a436f7475726e2d342e352e312e33202764616e204569646572270000802800040ba41d63",
+        "credentials": {
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166364.1801322,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "41595554ceb39279534a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "0113005c2112a44241595554ceb39279534a00080009001000000401556e617574686f72697a6564001500106439326535643362343762643733623500140008747579612e636f6d8022001a436f7475726e2d342e352e312e33202764616e204569646572270000802800040ba41d63",
+        "credentials": {
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "4159555473b8806b544a0008": [
+      {
+        "timestamp": 1675166364.1909392,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "4159555473b8806b544a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300882112a4424159555473b8806b544a0008001900041100000080220014696d6d5f7032705f73646b5f76332e352e30000000060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d00150010643932653564336234376264373362350008001411c0183758377c65a53cbd4cff8435aff1fdb6e580280004aadf58a9",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166364.2042391,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "4159555473b8806b544a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010300602112a4424159555473b8806b544a0008001600080001db3702ddfcc3002000080001990be0ac45b7000d0004000002588022001a436f7475726e2d342e352e312e33202764616e2045696465722700000008001437ed9bb43fdd80f62a29904c24c14c8d123447298028000415d329c0",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166364.213855,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "4159555473b8806b544a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300882112a4424159555473b8806b544a0008001900041100000080220014696d6d5f7032705f73646b5f76332e352e30000000060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d00150010643932653564336234376264373362350008001411c0183758377c65a53cbd4cff8435aff1fdb6e580280004aadf58a9",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166364.2270484,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "4159555473b8806b544a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010300602112a4424159555473b8806b544a0008001600080001db3702ddfcc3002000080001990be0ac45b7000d0004000002588022001a436f7475726e2d342e352e312e33202764616e2045696465722700000008001437ed9bb43fdd80f62a29904c24c14c8d123447298028000415d329c0",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "41595554e19df1293b7f2f6e": [
+      {
+        "timestamp": 1675166366.4080718,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "41595554e19df1293b7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300282112a44241595554e19df1293b7f2f6e001900041100000080220014747579615f7032705f73646b5f76332e322e3134802800048707ef12",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.424373,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "41595554e19df1293b7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "0113005c2112a44241595554e19df1293b7f2f6e0009001000000401556e617574686f72697a6564001500106464343737653662336337353430323300140008747579612e636f6d8022001a436f7475726e2d342e352e312e33202764616e20456964657227000080280004081b9683",
+        "credentials": {
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.4405155,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "41595554e19df1293b7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300282112a44241595554e19df1293b7f2f6e001900041100000080220014747579615f7032705f73646b5f76332e322e3134802800048707ef12",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.4542053,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "41595554e19df1293b7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "0113005c2112a44241595554e19df1293b7f2f6e0009001000000401556e617574686f72697a6564001500106464343737653662336337353430323300140008747579612e636f6d8022001a436f7475726e2d342e352e312e33202764616e20456964657227000080280004081b9683",
+        "credentials": {
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "415955546c4f9f553e7f2f6e": [
+      {
+        "timestamp": 1675166366.4430025,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "415955546c4f9f553e7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300882112a442415955546c4f9f553e7f2f6e001900041100000080220014747579615f7032705f73646b5f76332e322e313400060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d00150010646434373765366233633735343032330008001470ee379c343e1fe3a1fb09bea89cff73d6b9ce398028000435d41359",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.4570572,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "415955546c4f9f553e7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010300602112a442415955546c4f9f553e7f2f6e001600080001ccdd02ddfcc3002000080001ccefe0ac45b7000d0004000002588022001a436f7475726e2d342e352e312e33202764616e20456964657227000000080014af081b4bffe076de6e077fa0705e9ef2cebe50f980280004632be053",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.4670508,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "415955546c4f9f553e7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300882112a442415955546c4f9f553e7f2f6e001900041100000080220014747579615f7032705f73646b5f76332e322e313400060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d00150010646434373765366233633735343032330008001470ee379c343e1fe3a1fb09bea89cff73d6b9ce398028000435d41359",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.4809105,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "415955546c4f9f553e7f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010300602112a442415955546c4f9f553e7f2f6e001600080001ccdd02ddfcc3002000080001ccefe0ac45b7000d0004000002588022001a436f7475726e2d342e352e312e33202764616e20456964657227000000080014af081b4bffe076de6e077fa0705e9ef2cebe50f980280004632be053",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "41595554d04ada22407f2f6e": [
+      {
+        "timestamp": 1675166366.4915843,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "41595554d04ada22407f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0008008c2112a44241595554d04ada22407f2f6e0012000800019e822112a44280220014747579615f7032705f73646b5f76332e322e313400060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d001500106464343737653662336337353430323300080014710f72c3769454645f4f448262944ed26f0046258028000482367ca0",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.5054018,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "41595554d04ada22407f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a44241595554d04ada22407f2f6e8022001a436f7475726e2d342e352e312e33202764616e20456964657227000000080014925f694beb8f4bca40bde3c87577919786762ae0802800043f8d3c04",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "41595554f899ac01437f2f6e": [
+      {
+        "timestamp": 1675166366.4937453,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "41595554f899ac01437f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800982112a44241595554f899ac01437f2f6e0012000800019e822112a4420012000800019e82e0ac45b780220014747579615f7032705f73646b5f76332e322e313400060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d001500106464343737653662336337353430323300080014c3b42476dccd980bcd2cf794501d4e38bf49c1e9802800041e363406",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.5076406,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "41595554f899ac01437f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a44241595554f899ac01437f2f6e8022001a436f7475726e2d342e352e312e33202764616e204569646572270000000800143d2684e624550733e7b6230c34921c67866f5ca08028000414749809",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "4159555418b25775467f2f6e": [
+      {
+        "timestamp": 1675166366.4967618,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "4159555418b25775467f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800a42112a4424159555418b25775467f2f6e0012000800019e822112a4420012000800019e82e0ac45b7001200080001db3702ddfcc380220014747579615f7032705f73646b5f76332e322e313400060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d001500106464343737653662336337353430323300080014652030d68c43da3281dcc0420ea6132842b1801d802800046d1be23e",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.510526,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "4159555418b25775467f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a4424159555418b25775467f2f6e8022001a436f7475726e2d342e352e312e33202764616e2045696465722700000008001418e7bff4f9da11aa85415abd77d2e7dbebda905e8028000450d5890e",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.5179937,
+        "src": "192.168.1.56:60925",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "4159555418b25775467f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800a42112a4424159555418b25775467f2f6e0012000800019e822112a4420012000800019e82e0ac45b7001200080001db3702ddfcc380220014747579615f7032705f73646b5f76332e322e313400060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d001500106464343737653662336337353430323300080014652030d68c43da3281dcc0420ea6132842b1801d802800046d1be23e",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64643437376536623363373534303233"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.5314372,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.56:60925",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "4159555418b25775467f2f6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a4424159555418b25775467f2f6e8022001a436f7475726e2d342e352e312e33202764616e2045696465722700000008001418e7bff4f9da11aa85415abd77d2e7dbebda905e8028000450d5890e",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "41595554f969f13c564a0008": [
+      {
+        "timestamp": 1675166366.5759957,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "41595554f969f13c564a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0008008c2112a44241595554f969f13c564a0008001200080001cceee1baa57a80220014696d6d5f7032705f73646b5f76332e352e30000000060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d0015001064393265356433623437626437336235000800144315d2c255f6a63cc8360f624454b182da8f72728028000483c36d7a",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.589052,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "41595554f969f13c564a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a44241595554f969f13c564a00088022001a436f7475726e2d342e352e312e33202764616e204569646572270000000800144fa277c274e4c0f686e7079fd0737f75f0e0d1f380280004749bd04a",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "415955542a4ed7735a4a0008": [
+      {
+        "timestamp": 1675166366.5765224,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "415955542a4ed7735a4a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800982112a442415955542a4ed7735a4a0008001200080001cceee1baa57a001200080001ccdd02ddfcc380220014696d6d5f7032705f73646b5f76332e352e30000000060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d0015001064393265356433623437626437336235000800142411e992ccca8f49b1a16b6b517ddde9b408ed178028000429dddf39",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.5894673,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "415955542a4ed7735a4a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a442415955542a4ed7735a4a00088022001a436f7475726e2d342e352e312e33202764616e20456964657227000000080014f68372e26625db13d755c8d0b0c565f03449bcd38028000459aefa96",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.5919905,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "415955542a4ed7735a4a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800982112a442415955542a4ed7735a4a0008001200080001cceee1baa57a001200080001ccdd02ddfcc380220014696d6d5f7032705f73646b5f76332e352e30000000060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d0015001064393265356433623437626437336235000800142411e992ccca8f49b1a16b6b517ddde9b408ed178028000429dddf39",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.6050417,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "415955542a4ed7735a4a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010800402112a442415955542a4ed7735a4a00088022001a436f7475726e2d342e352e312e33202764616e20456964657227000000080014f68372e26625db13d755c8d0b0c565f03449bcd38028000459aefa96",
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "415955540ecb537b644a0008": [
+      {
+        "timestamp": 1675166366.7288184,
+        "src": "192.168.1.218:47129",
+        "dst": "35.207.88.129:3478",
+        "message_type": "Refresh Request",
+        "transaction_id": "415955540ecb537b644a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000400882112a442415955540ecb537b644a0008000d00040000000080220014696d6d5f7032705f73646b5f76332e352e30000000060021313637353136393936333a6266666539343538646561333366343337317064677a00000000140008747579612e636f6d001500106439326535643362343762643733623500080014996d8827afb069c4a116778b9fb60a4b13aa65de80280004e865fbdb",
+        "credentials": {
+          "username": "1675169963:bffe9458dea33f4371pdgz",
+          "realm": "tuya.com",
+          "nonce": "64393265356433623437626437336235"
+        },
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1675166366.7418563,
+        "src": "35.207.88.129:3478",
+        "dst": "192.168.1.218:47129",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "415955540ecb537b644a0008",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.5.1.3",
+        "raw_payload_hex": "010400482112a442415955540ecb537b644a0008000d0004000000008022001a436f7475726e2d342e352e312e33202764616e204569646572270000000800149c17ab74ac19db683ef354324732513e5ada1da68028000474fb681b",
+        "transaction_authentication_type": "None"
+      }
+    ]
+  }
+}

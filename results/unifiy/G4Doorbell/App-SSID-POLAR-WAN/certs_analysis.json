@@ -1,0 +1,69 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2023-03-14T00:00:00+00:00",
+    "valid_until": "2024-04-11T23:59:59+00:00",
+    "issuer_cn": "Amazon RSA 2048 M01",
+    "subject_cn": "trace.svc.ui.com",
+    "subject_alternative_names": [
+      "<DNSName(value='trace.svc.ui.com')>",
+      "<DNSName(value='*.trace.svc.ui.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "26:A5:4F:2F:87:3C:81:47:3D:EF:F9:AB:83:53:60:FF:4A:C0:7C:BF:B1:24:7F:A6:06:CE:88:E6:E4:75:D8:06",
+    "found_in_packet_number": "771",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "44.241.181.146",
+      "type": "Public",
+      "hostname": "ec2-44-241-181-146.us-west-2.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "10.129.179.30",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2023-03-08T11:30:23+00:00",
+    "valid_until": "2024-03-02T11:30:23+00:00",
+    "issuer_cn": "Microsoft Azure TLS Issuing CA 01",
+    "subject_cn": "*.events.data.microsoft.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.events.data.microsoft.com')>",
+      "<DNSName(value='events.data.microsoft.com')>",
+      "<DNSName(value='*.pipe.aria.microsoft.com')>",
+      "<DNSName(value='pipe.skype.com')>",
+      "<DNSName(value='*.pipe.skype.com')>",
+      "<DNSName(value='*.mobile.events.data.microsoft.com')>",
+      "<DNSName(value='mobile.events.data.microsoft.com')>",
+      "<DNSName(value='*.events.data.msn.com')>",
+      "<DNSName(value='events.data.msn.com')>",
+      "<DNSName(value='*.events.data.msn.cn')>",
+      "<DNSName(value='events.data.msn.cn')>",
+      "<DNSName(value='oca.microsoft.com')>",
+      "<DNSName(value='watson.microsoft.com')>",
+      "<DNSName(value='*.vortex.data.microsoft.com')>",
+      "<DNSName(value='vortex.data.microsoft.com')>"
+    ],
+    "signature_algorithm": "sha384WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "01:6F:B8:47:05:68:F7:4E:E0:0A:52:38:66:75:AC:5C:65:0C:AC:5C:53:74:B1:59:0D:D4:53:D0:CB:E9:30:56",
+    "found_in_packet_number": "1160",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.178.17.2",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "10.129.179.30",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

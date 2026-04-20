@@ -1,0 +1,74 @@
+[
+  {
+    "conversation_id": "TCP:192.168.200.1:554-192.168.200.100:54900",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.200.100",
+    "src_port": "54900",
+    "dst_ip": "192.168.200.1",
+    "dst_port": "554",
+    "total_packets": 2368,
+    "total_bytes": 1882472,
+    "start_time": "2024-09-06T11:34:59+00:00",
+    "end_time": "2024-09-06T11:35:19+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 1.8
+  },
+  {
+    "conversation_id": "UDP:0.0.0.0:68-255.255.255.255:67",
+    "transport_protocol": "UDP",
+    "src_ip": "0.0.0.0",
+    "src_port": "68",
+    "dst_ip": "255.255.255.255",
+    "dst_port": "67",
+    "total_packets": 16,
+    "total_bytes": 9440,
+    "start_time": "2024-09-06T11:34:52+00:00",
+    "end_time": "2024-09-06T11:35:23+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "UDP:fe80::d319:23ec:301c:6722:5353-ff02::fb:5353",
+    "transport_protocol": "UDP",
+    "src_ip": "fe80::d319:23ec:301c:6722",
+    "src_port": "5353",
+    "dst_ip": "ff02::fb",
+    "dst_port": "5353",
+    "total_packets": 6,
+    "total_bytes": 1167,
+    "start_time": "2024-09-06T11:35:08+00:00",
+    "end_time": "2024-09-06T11:35:09+00:00",
+    "application_protocols": [
+      "DNS"
+    ],
+    "notes": [
+      "Client (fe80::d319:23ec:301c:6722) to Server (ff02::fb) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.200.100:5353-224.0.0.251:5353",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.200.100",
+    "src_port": "5353",
+    "dst_ip": "224.0.0.251",
+    "dst_port": "5353",
+    "total_packets": 6,
+    "total_bytes": 1047,
+    "start_time": "2024-09-06T11:35:08+00:00",
+    "end_time": "2024-09-06T11:35:09+00:00",
+    "application_protocols": [
+      "DNS"
+    ],
+    "notes": [
+      "Client (192.168.200.100) to Server (224.0.0.251) conversation."
+    ],
+    "total_data_mb": 0.0
+  }
+]

@@ -1,0 +1,1276 @@
+{
+  "geoip_summary": {
+    "193.190.225.245": {
+      "ip": "193.190.225.245",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "18.158.56.88": {
+      "ip": "18.158.56.88",
+      "hostname": "ec2-18-158-56-88.eu-central-1.compute.amazonaws.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS16509 Amazon.com, Inc.",
+      "timezone": "Europe/Berlin"
+    },
+    "0.0.0.0": {
+      "ip": "0.0.0.0",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "35.207.114.84": {
+      "ip": "35.207.114.84",
+      "hostname": "84.114.207.35.bc.googleusercontent.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS15169 Google LLC",
+      "timezone": "Europe/Berlin"
+    },
+    "192.168.1.56": {
+      "ip": "192.168.1.56",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.1.218": {
+      "ip": "192.168.1.218",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "stun_transactions": {
+    "2a207be88e4a8c3bd40b1183": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "18.158.56.88",
+      "exposed_ip_address": "193.190.225.245:37790",
+      "library_info": "Coturn-4.5.1.3 'dan Eider'",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.61367,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "FINGERPRINT": "f5b0fbb1"
+          }
+        },
+        {
+          "timestamp": 1675155637.618274,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "FINGERPRINT": "f5b0fbb1"
+          }
+        },
+        {
+          "timestamp": 1675155637.6295543,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:37790",
+            "MAPPED-ADDRESS": "0001939ec1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "5541be9d"
+          }
+        },
+        {
+          "timestamp": 1675155637.6343408,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:37790",
+            "MAPPED-ADDRESS": "0001939ec1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "5541be9d"
+          }
+        }
+      ]
+    },
+    "3a712f281e0194a9fffcfc32": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.56",
+      "stun_server_ip": "18.158.56.88",
+      "exposed_ip_address": "193.190.225.245:60351",
+      "library_info": "Coturn-4.5.1.3 'dan Eider'",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.700555,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155637.7155695,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155637.7281508,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155637.7427638,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155637.769771,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155637.7845397,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155637.85001,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155637.8646586,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155638.0222197,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155638.0369487,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155638.3373954,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155638.3521042,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155638.9809904,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155638.995665,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155640.2626467,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155640.2773566,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155642.8330257,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155642.8475895,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155647.833477,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155647.848073,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155652.8363876,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155652.8511825,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        },
+        {
+          "timestamp": 1675155657.8375096,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "18.158.56.88",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "(null)",
+            "MESSAGE-INTEGRITY": "d3b56a3099082eaa49dbd337a848d364c497213e",
+            "FINGERPRINT": "96470324"
+          }
+        },
+        {
+          "timestamp": 1675155657.8520718,
+          "src_ip": "18.158.56.88",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.56",
+          "dst_port": 60351,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:60351",
+            "MAPPED-ADDRESS": "0001ebbfc1bee1f5",
+            "Unknown(0x802b)": "00010d96129e3858",
+            "Unknown(0x802c)": "00010d97129dd216",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "995342bd"
+          }
+        }
+      ]
+    },
+    "41595554b8cdf4546cde0a6b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.56",
+      "stun_server_ip": "0.0.0.0",
+      "exposed_ip_address": "Not detected",
+      "library_info": "tuya_p2p_sdk_v3.2.14",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.7375133,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155637.7592819,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155637.8158062,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155637.900637,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155638.0549538,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155638.3759954,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155639.0207784,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155640.305633,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155642.8679333,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155647.86803,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155652.8699832,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        },
+        {
+          "timestamp": 1675155657.8730254,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "0.0.0.0",
+          "dst_port": 0,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "85fba4ea968c81d7936aebf977c0b5141dc24570",
+            "FINGERPRINT": "73d77000"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955543e9e60256dde0a6b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.56",
+      "stun_server_ip": "193.190.225.245",
+      "exposed_ip_address": "Not detected",
+      "library_info": "tuya_p2p_sdk_v3.2.14",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.738158,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155637.7596529,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155637.8158724,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155637.9007645,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155638.0556483,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155638.3764212,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155639.021132,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155640.3053617,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155642.8675885,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155647.8676727,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155652.8697283,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        },
+        {
+          "timestamp": 1675155657.8728895,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "c6ac9b74988ee40f651b16f017e00b5b64d9e944",
+            "FINGERPRINT": "069a2a90"
+          }
+        }
+      ]
+    },
+    "41595554e321863c6ede0a6b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.56",
+      "stun_server_ip": "35.207.114.84",
+      "exposed_ip_address": "Not detected",
+      "library_info": "tuya_p2p_sdk_v3.2.14",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.738704,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155637.7666218,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155637.8156703,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155637.9006028,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155638.0556486,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155638.379747,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155639.0211315,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155640.3063037,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155642.867744,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155647.8678584,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155652.8697288,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        },
+        {
+          "timestamp": 1675155657.87289,
+          "src_ip": "192.168.1.56",
+          "src_port": 60351,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 58409,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "ad4b4642f8c6d6692e3412a9c9bd3b541ba3d7cf",
+            "FINGERPRINT": "6804530a"
+          }
+        }
+      ]
+    },
+    "415955541e5d8751424f211d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "35.207.114.84",
+      "exposed_ip_address": "193.190.225.245:37790",
+      "library_info": "tuya_p2p_sdk_v3.2.14",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.8237276,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 52130,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff6c84809a",
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "USERNAME": "kAOz:cEcT",
+            "MESSAGE-INTEGRITY": "4fe9bcd0c4b969c4b3d188188eca14644bf1d67b",
+            "FINGERPRINT": "be34fef5"
+          }
+        },
+        {
+          "timestamp": 1675155637.8371289,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 52130,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff6c84809a",
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "USERNAME": "kAOz:cEcT",
+            "MESSAGE-INTEGRITY": "4fe9bcd0c4b969c4b3d188188eca14644bf1d67b",
+            "FINGERPRINT": "be34fef5"
+          }
+        },
+        {
+          "timestamp": 1675155637.8830702,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 52130,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff6c84809a",
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "USERNAME": "kAOz:cEcT",
+            "MESSAGE-INTEGRITY": "4fe9bcd0c4b969c4b3d188188eca14644bf1d67b",
+            "FINGERPRINT": "be34fef5"
+          }
+        },
+        {
+          "timestamp": 1675155637.8862848,
+          "src_ip": "35.207.114.84",
+          "src_port": 52130,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:37790",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "MESSAGE-INTEGRITY": "5c5f48148f1701952e9ce3cde304c0c4b08bb9ad",
+            "FINGERPRINT": "f9b3a1d4"
+          }
+        },
+        {
+          "timestamp": 1675155637.9146943,
+          "src_ip": "35.207.114.84",
+          "src_port": 52130,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:37790",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "MESSAGE-INTEGRITY": "5c5f48148f1701952e9ce3cde304c0c4b08bb9ad",
+            "FINGERPRINT": "f9b3a1d4"
+          }
+        },
+        {
+          "timestamp": 1675155638.0350697,
+          "src_ip": "35.207.114.84",
+          "src_port": 52130,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:37790",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "MESSAGE-INTEGRITY": "5c5f48148f1701952e9ce3cde304c0c4b08bb9ad",
+            "FINGERPRINT": "f9b3a1d4"
+          }
+        }
+      ]
+    },
+    "415955541923840478de0a6b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "35.207.114.84",
+      "exposed_ip_address": "35.207.114.84:52130",
+      "library_info": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1675155637.8369577,
+          "src_ip": "35.207.114.84",
+          "src_port": 52130,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "2a44406b88af9966b820dfa23c52c6878f676efd",
+            "FINGERPRINT": "3e51c392"
+          }
+        },
+        {
+          "timestamp": 1675155637.841948,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 52130,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.114.84:52130",
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "MESSAGE-INTEGRITY": "4e6aaa8d96e99138204ab8bfd9fcadd58c5eea97",
+            "FINGERPRINT": "c0890ef3"
+          }
+        },
+        {
+          "timestamp": 1675155637.8826413,
+          "src_ip": "35.207.114.84",
+          "src_port": 52130,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 37790,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff248148af",
+            "SOFTWARE": "tuya_p2p_sdk_v3.2.14",
+            "USERNAME": "cEcT:kAOz",
+            "MESSAGE-INTEGRITY": "2a44406b88af9966b820dfa23c52c6878f676efd",
+            "FINGERPRINT": "3e51c392"
+          }
+        },
+        {
+          "timestamp": 1675155637.9002757,
+          "src_ip": "192.168.1.218",
+          "src_port": 37790,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 52130,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.114.84:52130",
+            "SOFTWARE": "imm_p2p_sdk_v3.5.0\u0000\u0000",
+            "MESSAGE-INTEGRITY": "4e6aaa8d96e99138204ab8bfd9fcadd58c5eea97",
+            "FINGERPRINT": "c0890ef3"
+          }
+        }
+      ]
+    }
+  }
+}

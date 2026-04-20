@@ -1,0 +1,4109 @@
+{
+  "geoip_summary": {
+    "23.89.83.61": {
+      "ip": "23.89.83.61",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "35.207.88.129": {
+      "ip": "35.207.88.129",
+      "hostname": "129.88.207.35.bc.googleusercontent.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS15169 Google LLC",
+      "timezone": "Europe/Berlin"
+    },
+    "192.168.1.218": {
+      "ip": "192.168.1.218",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "170.72.134.229": {
+      "ip": "170.72.134.229",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "3.126.77.24": {
+      "ip": "3.126.77.24",
+      "hostname": "ec2-3-126-77-24.eu-central-1.compute.amazonaws.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS16509 Amazon.com, Inc.",
+      "timezone": "Europe/Berlin"
+    },
+    "170.72.23.215": {
+      "ip": "170.72.23.215",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "69.26.167.124": {
+      "ip": "69.26.167.124",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "193.190.225.245": {
+      "ip": "193.190.225.245",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "170.72.133.48": {
+      "ip": "170.72.133.48",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "150.253.159.96": {
+      "ip": "150.253.159.96",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.1.194": {
+      "ip": "192.168.1.194",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "170.72.148.55": {
+      "ip": "170.72.148.55",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "170.72.75.200": {
+      "ip": "170.72.75.200",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "stun_transactions": {
+    "945f964a0c3e78ee1951160a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "3.126.77.24",
+      "exposed_ip_address": "193.190.225.245:47376",
+      "library_info": "Coturn-4.5.1.3 'dan Eider'",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.5592005,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "3.126.77.24",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "FINGERPRINT": "f7e92daf"
+          }
+        },
+        {
+          "timestamp": 1674045563.5750177,
+          "src_ip": "3.126.77.24",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "MAPPED-ADDRESS": "0001b910c1bee1f5",
+            "Unknown(0x802b)": "00010d96037e4d18",
+            "Unknown(0x802c)": "00010d9712c4e1ae",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "3c18d5ab"
+          }
+        },
+        {
+          "timestamp": 1674045563.579597,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "3.126.77.24",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "FINGERPRINT": "f7e92daf"
+          }
+        },
+        {
+          "timestamp": 1674045563.5952284,
+          "src_ip": "3.126.77.24",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "MAPPED-ADDRESS": "0001b910c1bee1f5",
+            "Unknown(0x802b)": "00010d96037e4d18",
+            "Unknown(0x802c)": "00010d9712c4e1ae",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "3c18d5ab"
+          }
+        }
+      ]
+    },
+    "e2d3d5dbe20430a9d37f30f5": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.194",
+      "stun_server_ip": "3.126.77.24",
+      "exposed_ip_address": "193.190.225.245:24128",
+      "library_info": "Coturn-4.5.1.3 'dan Eider'",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.6194775,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "3.126.77.24",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "FINGERPRINT": "b51ca300"
+          }
+        },
+        {
+          "timestamp": 1674045563.633977,
+          "src_ip": "3.126.77.24",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.194",
+          "dst_port": 53340,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:24128",
+            "MAPPED-ADDRESS": "00015e40c1bee1f5",
+            "Unknown(0x802b)": "00010d96037e4d18",
+            "Unknown(0x802c)": "00010d9712c4e1ae",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "b9fb8af9"
+          }
+        }
+      ]
+    },
+    "415955545254706af73ac575": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.194",
+      "stun_server_ip": "193.190.225.245",
+      "exposed_ip_address": "Not detected",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.7095137,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045563.7786617,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045563.8381734,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045563.9163218,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045564.1372614,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045564.4573545,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045565.0975087,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045566.387321,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045568.9440923,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045573.9375086,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045578.9374905,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        },
+        {
+          "timestamp": 1674045583.9384525,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b873b45a14887540a2902a3e0bf0a253d6590036",
+            "FINGERPRINT": "c3388681"
+          }
+        }
+      ]
+    },
+    "415955548346236ff83ac575": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.194",
+      "stun_server_ip": "35.207.88.129",
+      "exposed_ip_address": "193.190.225.245:24128",
+      "library_info": "tuya_p2p_sdk_v3.4.21",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.7220066,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 61967,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b23811a2e5aed8a305ee88836db6ceb2937dde90",
+            "FINGERPRINT": "7e198ed7"
+          }
+        },
+        {
+          "timestamp": 1674045563.77909,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 61967,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "b23811a2e5aed8a305ee88836db6ceb2937dde90",
+            "FINGERPRINT": "7e198ed7"
+          }
+        },
+        {
+          "timestamp": 1674045563.8093605,
+          "src_ip": "35.207.88.129",
+          "src_port": 61967,
+          "dst_ip": "192.168.1.194",
+          "dst_port": 53340,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:24128",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "MESSAGE-INTEGRITY": "6e13017eef2b5d01cab9c07bab117e4bfa9474d7",
+            "FINGERPRINT": "0f3dbe81"
+          }
+        }
+      ]
+    },
+    "41595554361af473e680b36c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "193.190.225.245",
+      "exposed_ip_address": "Not detected",
+      "library_info": "tuya_p2p_sdk_v3.4.21",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.726702,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045563.7456486,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045563.7855883,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045563.8674536,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045564.029315,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045564.3459432,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045564.9908643,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045566.2665484,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045568.8268204,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045573.8274903,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045578.8269732,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        },
+        {
+          "timestamp": 1674045583.8274539,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "193.190.225.245",
+          "dst_port": 24128,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "60bf880684469b198fc8e450c4c2376c8f154c00",
+            "FINGERPRINT": "c23bd85a"
+          }
+        }
+      ]
+    },
+    "41595554ea673d18ea80b36c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "35.207.88.129",
+      "exposed_ip_address": "193.190.225.245:47376",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.7270336,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "d155f24dc44e5530cafc8044f72a76b333ab337e",
+            "FINGERPRINT": "74309a2c"
+          }
+        },
+        {
+          "timestamp": 1674045563.746376,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "d155f24dc44e5530cafc8044f72a76b333ab337e",
+            "FINGERPRINT": "74309a2c"
+          }
+        },
+        {
+          "timestamp": 1674045563.7859514,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "d155f24dc44e5530cafc8044f72a76b333ab337e",
+            "FINGERPRINT": "74309a2c"
+          }
+        },
+        {
+          "timestamp": 1674045563.8103888,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "d3e5b1ee6ca1f859e3ee0edaafb71800b295ccee",
+            "FINGERPRINT": "5a64ef66"
+          }
+        },
+        {
+          "timestamp": 1674045563.8136246,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "d3e5b1ee6ca1f859e3ee0edaafb71800b295ccee",
+            "FINGERPRINT": "5a64ef66"
+          }
+        },
+        {
+          "timestamp": 1674045563.8229473,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "d3e5b1ee6ca1f859e3ee0edaafb71800b295ccee",
+            "FINGERPRINT": "5a64ef66"
+          }
+        }
+      ]
+    },
+    "41595554cb90ce2dfd3ac575": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "35.207.88.129",
+      "exposed_ip_address": "35.207.88.129:53032",
+      "library_info": "tuya_p2p_sdk_v3.4.21",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.7367156,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "2d86269e3a9f6c6ca0dcea68bf949078115eec80",
+            "FINGERPRINT": "df7d596b"
+          }
+        },
+        {
+          "timestamp": 1674045563.7455049,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.88.129:53032",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "MESSAGE-INTEGRITY": "11efb184150a0110b5cc167b8705337b7311fd8b",
+            "FINGERPRINT": "5a02d7d7"
+          }
+        },
+        {
+          "timestamp": 1674045563.7982407,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff4119f0cb",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "1HWc:lHry",
+            "MESSAGE-INTEGRITY": "2d86269e3a9f6c6ca0dcea68bf949078115eec80",
+            "FINGERPRINT": "df7d596b"
+          }
+        },
+        {
+          "timestamp": 1674045563.802521,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.88.129:53032",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "MESSAGE-INTEGRITY": "11efb184150a0110b5cc167b8705337b7311fd8b",
+            "FINGERPRINT": "5a02d7d7"
+          }
+        }
+      ]
+    },
+    "41595554590f7759ec80b36c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.194",
+      "stun_server_ip": "35.207.88.129",
+      "exposed_ip_address": "35.207.88.129:61967",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.740914,
+          "src_ip": "35.207.88.129",
+          "src_port": 61967,
+          "dst_ip": "192.168.1.194",
+          "dst_port": 53340,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "59b574a35d403afa6ee4ab19929f8f4e3d8ee91e",
+            "FINGERPRINT": "e51dddb8"
+          }
+        },
+        {
+          "timestamp": 1674045563.7600927,
+          "src_ip": "35.207.88.129",
+          "src_port": 61967,
+          "dst_ip": "192.168.1.194",
+          "dst_port": 53340,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "59b574a35d403afa6ee4ab19929f8f4e3d8ee91e",
+            "FINGERPRINT": "e51dddb8"
+          }
+        },
+        {
+          "timestamp": 1674045563.7995803,
+          "src_ip": "35.207.88.129",
+          "src_port": 61967,
+          "dst_ip": "192.168.1.194",
+          "dst_port": 53340,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "59b574a35d403afa6ee4ab19929f8f4e3d8ee91e",
+            "FINGERPRINT": "e51dddb8"
+          }
+        },
+        {
+          "timestamp": 1674045563.8245134,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 61967,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.88.129:61967",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "77175a2df09e1fb14dd933eeeb4e57a093e3a7bf",
+            "FINGERPRINT": "ac9c1c5c"
+          }
+        },
+        {
+          "timestamp": 1674045563.824933,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 61967,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.88.129:61967",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "77175a2df09e1fb14dd933eeeb4e57a093e3a7bf",
+            "FINGERPRINT": "ac9c1c5c"
+          }
+        },
+        {
+          "timestamp": 1674045563.8255475,
+          "src_ip": "192.168.1.194",
+          "src_port": 53340,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 61967,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.88.129:61967",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "77175a2df09e1fb14dd933eeeb4e57a093e3a7bf",
+            "FINGERPRINT": "ac9c1c5c"
+          }
+        }
+      ]
+    },
+    "4159555403055a50f480b36c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "35.207.88.129",
+      "exposed_ip_address": "193.190.225.245:47376",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045563.7465584,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "45f577c91eee9f566593d6dd0f44e67036d2f7d4",
+            "FINGERPRINT": "9afd20e6"
+          }
+        },
+        {
+          "timestamp": 1674045563.7661536,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "45f577c91eee9f566593d6dd0f44e67036d2f7d4",
+            "FINGERPRINT": "9afd20e6"
+          }
+        },
+        {
+          "timestamp": 1674045563.8052492,
+          "src_ip": "192.168.1.218",
+          "src_port": 47376,
+          "dst_ip": "35.207.88.129",
+          "dst_port": 53032,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff46f1c73e",
+            "SOFTWARE": "tuya_p2p_sdk_v3.4.21",
+            "USERNAME": "lHry:1HWc",
+            "MESSAGE-INTEGRITY": "45f577c91eee9f566593d6dd0f44e67036d2f7d4",
+            "FINGERPRINT": "9afd20e6"
+          }
+        },
+        {
+          "timestamp": 1674045563.8152347,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "52f9738710247235b4a70af91d913eb8c8b2348f",
+            "FINGERPRINT": "0bf35d45"
+          }
+        },
+        {
+          "timestamp": 1674045563.8180106,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "52f9738710247235b4a70af91d913eb8c8b2348f",
+            "FINGERPRINT": "0bf35d45"
+          }
+        },
+        {
+          "timestamp": 1674045563.857426,
+          "src_ip": "35.207.88.129",
+          "src_port": 53032,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 47376,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:47376",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "52f9738710247235b4a70af91d913eb8c8b2348f",
+            "FINGERPRINT": "0bf35d45"
+          }
+        }
+      ]
+    },
+    "190f5249731e8017100f9a87": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.133.48",
+      "exposed_ip_address": "193.190.225.245:43500",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045615.7917213,
+          "src_ip": "192.168.1.218",
+          "src_port": 43500,
+          "dst_ip": "170.72.133.48",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9a1f30ed"
+          }
+        },
+        {
+          "timestamp": 1674045615.909317,
+          "src_ip": "170.72.133.48",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 43500,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:43500",
+            "MESSAGE-INTEGRITY": "9e742619ccdcc6d093eaa2402fbda46ec1f960a5",
+            "FINGERPRINT": "5e263151"
+          }
+        }
+      ]
+    },
+    "7bcbfe2d0c8754d80a57d728": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:40054",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045615.8211324,
+          "src_ip": "192.168.1.218",
+          "src_port": 40054,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "a3273da2"
+          }
+        },
+        {
+          "timestamp": 1674045615.828494,
+          "src_ip": "69.26.167.124",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40054,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40054",
+            "MESSAGE-INTEGRITY": "0ad3b83ac491a5b19b8d19792aef2d6808240abb",
+            "FINGERPRINT": "3a51f0b2"
+          }
+        }
+      ]
+    },
+    "ed115283b383548e092ba39a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:40054",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045615.899339,
+          "src_ip": "192.168.1.218",
+          "src_port": 40054,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "201d0166"
+          }
+        },
+        {
+          "timestamp": 1674045615.9065137,
+          "src_ip": "69.26.167.124",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40054,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40054",
+            "MESSAGE-INTEGRITY": "98ed2f1069fa46d5b95ba426c728572d4a6f0d18",
+            "FINGERPRINT": "99f06fcf"
+          }
+        }
+      ]
+    },
+    "db6cca7008db2f81cffc1039": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:40054",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045615.927923,
+          "src_ip": "192.168.1.218",
+          "src_port": 40054,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "3417da09"
+          }
+        },
+        {
+          "timestamp": 1674045615.9350743,
+          "src_ip": "69.26.167.124",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40054,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40054",
+            "MESSAGE-INTEGRITY": "bc1f2ec78044bbea540599f9e074f7d2116313fb",
+            "FINGERPRINT": "5760f433"
+          }
+        }
+      ]
+    },
+    "033bfe4f150e7e3df57afdf6": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:40054",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045615.986459,
+          "src_ip": "192.168.1.218",
+          "src_port": 40054,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "47ac7567"
+          }
+        },
+        {
+          "timestamp": 1674045615.9935353,
+          "src_ip": "69.26.167.124",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40054,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40054",
+            "MESSAGE-INTEGRITY": "4a8e5e1f8ddf9d64315021de2672897396f2bcfe",
+            "FINGERPRINT": "8800ee8f"
+          }
+        }
+      ]
+    },
+    "9540f4b72e6ca07824e8fe7a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:45837",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.010708,
+          "src_ip": "192.168.1.218",
+          "src_port": 45837,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9e333bcf"
+          }
+        },
+        {
+          "timestamp": 1674045616.0182903,
+          "src_ip": "69.26.167.124",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 45837,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:45837",
+            "MESSAGE-INTEGRITY": "e28acd06ed23ec055590646b43ea5437a3fe8092",
+            "FINGERPRINT": "8a037ab9"
+          }
+        }
+      ]
+    },
+    "359e5e7d03320f54470b814d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:40054",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0110996,
+          "src_ip": "192.168.1.218",
+          "src_port": 40054,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "8bc975ba"
+          }
+        },
+        {
+          "timestamp": 1674045616.0181727,
+          "src_ip": "69.26.167.124",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40054,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40054",
+            "MESSAGE-INTEGRITY": "30203e9d2d6711233531f7d5d2e43fe5ce71c221",
+            "FINGERPRINT": "65868190"
+          }
+        }
+      ]
+    },
+    "1d8e02f27cea6ddef8fa8be5": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:45837",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0119534,
+          "src_ip": "192.168.1.218",
+          "src_port": 45837,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "038a2873"
+          }
+        },
+        {
+          "timestamp": 1674045616.0192142,
+          "src_ip": "69.26.167.124",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 45837,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:45837",
+            "MESSAGE-INTEGRITY": "8113580a9ab7e3146e7a67a39ea837848d42eab5",
+            "FINGERPRINT": "4954a150"
+          }
+        }
+      ]
+    },
+    "19d596de38103ebe989cc03e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:42469",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0309758,
+          "src_ip": "192.168.1.218",
+          "src_port": 42469,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "f2af11d6"
+          }
+        },
+        {
+          "timestamp": 1674045616.1484995,
+          "src_ip": "170.72.134.229",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 42469,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:42469",
+            "MESSAGE-INTEGRITY": "b92ccf4d65e9ab1f87d138b179e0552352f3b9ae",
+            "FINGERPRINT": "3555e0d8"
+          }
+        }
+      ]
+    },
+    "979f5e9e2f4fea65a3bd6c0e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:45837",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0591447,
+          "src_ip": "192.168.1.218",
+          "src_port": 45837,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "6c0f189a"
+          }
+        },
+        {
+          "timestamp": 1674045616.0663855,
+          "src_ip": "69.26.167.124",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 45837,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:45837",
+            "MESSAGE-INTEGRITY": "dad9edd4992776080b6bdd3e11148acb9881e0f8",
+            "FINGERPRINT": "646b2182"
+          }
+        }
+      ]
+    },
+    "e6f8a183ae9b5b3b19887671": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:42469",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0593505,
+          "src_ip": "192.168.1.218",
+          "src_port": 42469,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "35843eb6"
+          }
+        },
+        {
+          "timestamp": 1674045616.1764405,
+          "src_ip": "170.72.134.229",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 42469,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:42469",
+            "MESSAGE-INTEGRITY": "1e831d6056fdfcfb3db92e93b24ff0678fa9a8cb",
+            "FINGERPRINT": "33ac5a38"
+          }
+        }
+      ]
+    },
+    "c9b7961ce7e2fce8de8a3099": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:42469",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0721958,
+          "src_ip": "192.168.1.218",
+          "src_port": 42469,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9aa864ae"
+          }
+        },
+        {
+          "timestamp": 1674045616.1893048,
+          "src_ip": "170.72.134.229",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 42469,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:42469",
+            "MESSAGE-INTEGRITY": "39bbf9ec7cbf276f73ca80e28570b555c930328a",
+            "FINGERPRINT": "9a2cd281"
+          }
+        }
+      ]
+    },
+    "d77ea3959b0095e1a2a8d20a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:45837",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.072196,
+          "src_ip": "192.168.1.218",
+          "src_port": 45837,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "08de1d43"
+          }
+        },
+        {
+          "timestamp": 1674045616.0793622,
+          "src_ip": "69.26.167.124",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 45837,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:45837",
+            "MESSAGE-INTEGRITY": "a9dfb484663c0cf7260b2e74761ac1b141f80565",
+            "FINGERPRINT": "2cb83cc9"
+          }
+        }
+      ]
+    },
+    "841c4731eb611e37636e2e5c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:44721",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.0957103,
+          "src_ip": "192.168.1.218",
+          "src_port": 44721,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "e2858cfe"
+          }
+        },
+        {
+          "timestamp": 1674045616.2129438,
+          "src_ip": "170.72.134.229",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 44721,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:44721",
+            "MESSAGE-INTEGRITY": "bee693730e522b290524ea5b4fba2ec593757e56",
+            "FINGERPRINT": "39c8807e"
+          }
+        }
+      ]
+    },
+    "c18751b3f37ecbfbce3d3436": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "69.26.167.124",
+      "exposed_ip_address": "193.190.225.245:45837",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.1120765,
+          "src_ip": "192.168.1.218",
+          "src_port": 45837,
+          "dst_ip": "69.26.167.124",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "8159720f"
+          }
+        },
+        {
+          "timestamp": 1674045616.119386,
+          "src_ip": "69.26.167.124",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 45837,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:45837",
+            "MESSAGE-INTEGRITY": "1399f9777bf9f68ab472573f70227b9f45d56698",
+            "FINGERPRINT": "577cf83e"
+          }
+        }
+      ]
+    },
+    "2d2123781ca293b889f5b323": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:42469",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.1131253,
+          "src_ip": "192.168.1.218",
+          "src_port": 42469,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "502d7eef"
+          }
+        },
+        {
+          "timestamp": 1674045616.2302642,
+          "src_ip": "170.72.134.229",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 42469,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:42469",
+            "MESSAGE-INTEGRITY": "7aa07bb800825e4b91330f7dfbe6d262648b0cb6",
+            "FINGERPRINT": "634fc7ec"
+          }
+        }
+      ]
+    },
+    "8cce19c22e0337a0d0964c4d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:44721",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.1171913,
+          "src_ip": "192.168.1.218",
+          "src_port": 44721,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "5eb55273"
+          }
+        },
+        {
+          "timestamp": 1674045616.2338417,
+          "src_ip": "170.72.134.229",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 44721,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:44721",
+            "MESSAGE-INTEGRITY": "be37053910cb06b6d60e3991ca7266fc9b9720ff",
+            "FINGERPRINT": "cc074ec4"
+          }
+        }
+      ]
+    },
+    "e46115af1da532e172fdd292": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:42469",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.1311622,
+          "src_ip": "192.168.1.218",
+          "src_port": 42469,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "bf7b1141"
+          }
+        },
+        {
+          "timestamp": 1674045616.2482507,
+          "src_ip": "170.72.134.229",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 42469,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:42469",
+            "MESSAGE-INTEGRITY": "d9cf4d390ca7c8ec551a368082ccdcd9c4ceab8a",
+            "FINGERPRINT": "3b08e44f"
+          }
+        }
+      ]
+    },
+    "79ffc36bfd04b1fc029951b1": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:44721",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.1314483,
+          "src_ip": "192.168.1.218",
+          "src_port": 44721,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "521e9eba"
+          }
+        },
+        {
+          "timestamp": 1674045616.2480977,
+          "src_ip": "170.72.134.229",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 44721,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:44721",
+            "MESSAGE-INTEGRITY": "89bec71f530ba8c329f0a39bbdb73d9c37f2d863",
+            "FINGERPRINT": "e91a3364"
+          }
+        }
+      ]
+    },
+    "721cbe22224190464424622b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:42469",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.1917696,
+          "src_ip": "192.168.1.218",
+          "src_port": 42469,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "bda62bf2"
+          }
+        },
+        {
+          "timestamp": 1674045616.3089256,
+          "src_ip": "170.72.134.229",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 42469,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:42469",
+            "MESSAGE-INTEGRITY": "0f3a7e11394b42e1d93af70a3d6f0f77f154587f",
+            "FINGERPRINT": "78b4edfd"
+          }
+        }
+      ]
+    },
+    "d2d6404dc83ed1cf7880d042": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:44721",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.192875,
+          "src_ip": "192.168.1.218",
+          "src_port": 44721,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "51009613"
+          }
+        },
+        {
+          "timestamp": 1674045616.3095913,
+          "src_ip": "170.72.134.229",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 44721,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:44721",
+            "MESSAGE-INTEGRITY": "4078d67698ca810e2815fc5002d00fa6180789ef",
+            "FINGERPRINT": "5315b0d7"
+          }
+        }
+      ]
+    },
+    "14a48454a4501c1df81c912b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:44721",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.2255323,
+          "src_ip": "192.168.1.218",
+          "src_port": 44721,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "cf49b0b8"
+          }
+        },
+        {
+          "timestamp": 1674045616.34237,
+          "src_ip": "170.72.134.229",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 44721,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:44721",
+            "MESSAGE-INTEGRITY": "84d1149716d5b79dc1ee12fcb1e7ca6602b5b53d",
+            "FINGERPRINT": "dbaa6857"
+          }
+        }
+      ]
+    },
+    "53dfab0bf321fd6d386714b8": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:46123",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.2381537,
+          "src_ip": "192.168.1.218",
+          "src_port": 46123,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "52d51d68"
+          }
+        },
+        {
+          "timestamp": 1674045616.3820424,
+          "src_ip": "170.72.75.200",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46123,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46123",
+            "MESSAGE-INTEGRITY": "a2506a18f5e25bad760599606b7390df0416bd87",
+            "FINGERPRINT": "ed0ebd61"
+          }
+        }
+      ]
+    },
+    "2d335ae7dc702c2255e1b04a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.134.229",
+      "exposed_ip_address": "193.190.225.245:44721",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.2587273,
+          "src_ip": "192.168.1.218",
+          "src_port": 44721,
+          "dst_ip": "170.72.134.229",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9ebfa903"
+          }
+        },
+        {
+          "timestamp": 1674045616.3755364,
+          "src_ip": "170.72.134.229",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 44721,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:44721",
+            "MESSAGE-INTEGRITY": "b369e9092d451793bdd67f0c58fc2627b9b1df3c",
+            "FINGERPRINT": "f8546658"
+          }
+        }
+      ]
+    },
+    "71bd49442ce7c5fa55d6a230": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:46123",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.2591188,
+          "src_ip": "192.168.1.218",
+          "src_port": 46123,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "44a921a1"
+          }
+        },
+        {
+          "timestamp": 1674045616.4016588,
+          "src_ip": "170.72.75.200",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46123,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46123",
+            "MESSAGE-INTEGRITY": "c65f4723d89da316ea1e52e9867227c1e5ad68f0",
+            "FINGERPRINT": "6e0196e9"
+          }
+        }
+      ]
+    },
+    "9e806be4b458d025a3968c97": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:46123",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.3124332,
+          "src_ip": "192.168.1.218",
+          "src_port": 46123,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "dd37b4a6"
+          }
+        },
+        {
+          "timestamp": 1674045616.4546657,
+          "src_ip": "170.72.75.200",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46123,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46123",
+            "MESSAGE-INTEGRITY": "3ddb5e34bf1d750ff20117f8df30013f556679c9",
+            "FINGERPRINT": "0621b7a3"
+          }
+        }
+      ]
+    },
+    "7ccb0468ceecb5cb50e4aafa": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:46123",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.3128796,
+          "src_ip": "192.168.1.218",
+          "src_port": 46123,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "543e750c"
+          }
+        },
+        {
+          "timestamp": 1674045616.4552095,
+          "src_ip": "170.72.75.200",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46123,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46123",
+            "MESSAGE-INTEGRITY": "dfacf3efb9d57a71e2f4125652b8e5d7523f7646",
+            "FINGERPRINT": "264b968f"
+          }
+        }
+      ]
+    },
+    "49c72b47cf1a956183670c0f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:40576",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.313302,
+          "src_ip": "192.168.1.218",
+          "src_port": 40576,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "004e2717"
+          }
+        },
+        {
+          "timestamp": 1674045616.448668,
+          "src_ip": "170.72.75.200",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40576,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40576",
+            "MESSAGE-INTEGRITY": "737be83711cd9a31dd118cd256436e375a2661a5",
+            "FINGERPRINT": "851121ae"
+          }
+        }
+      ]
+    },
+    "5c4c4066d43341b2b7e7b2ba": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:46123",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.3575053,
+          "src_ip": "192.168.1.218",
+          "src_port": 46123,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "aa05a187"
+          }
+        },
+        {
+          "timestamp": 1674045616.4996371,
+          "src_ip": "170.72.75.200",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46123,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46123",
+            "MESSAGE-INTEGRITY": "07fa5456be8a680b35f66a7205c38c9e3fde3f88",
+            "FINGERPRINT": "0bf169dd"
+          }
+        }
+      ]
+    },
+    "30a6132eb1648f30c29d94a7": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:40576",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.3576992,
+          "src_ip": "192.168.1.218",
+          "src_port": 40576,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "d222afbc"
+          }
+        },
+        {
+          "timestamp": 1674045616.4927428,
+          "src_ip": "170.72.75.200",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40576,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40576",
+            "MESSAGE-INTEGRITY": "d4906886e7e3955dca192bc3272c2f372ecf0059",
+            "FINGERPRINT": "0e0f0313"
+          }
+        }
+      ]
+    },
+    "10fca0ee9e4386cd00c1ee0f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:46123",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.3923779,
+          "src_ip": "192.168.1.218",
+          "src_port": 46123,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "25907ed1"
+          }
+        },
+        {
+          "timestamp": 1674045616.5347652,
+          "src_ip": "170.72.75.200",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46123,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46123",
+            "MESSAGE-INTEGRITY": "bcbacbbec674d619f5f78acc1593415b3c0c0f0f",
+            "FINGERPRINT": "040419c9"
+          }
+        }
+      ]
+    },
+    "894b8be4d7d789e021aaeb69": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:40576",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.3926413,
+          "src_ip": "192.168.1.218",
+          "src_port": 40576,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9b776848"
+          }
+        },
+        {
+          "timestamp": 1674045616.52772,
+          "src_ip": "170.72.75.200",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40576,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40576",
+            "MESSAGE-INTEGRITY": "86dc2e151178342db97ed8969e53a08d8bac7675",
+            "FINGERPRINT": "f2ab5f8d"
+          }
+        }
+      ]
+    },
+    "c9116ece61d63be572c5a26e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:40576",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.4058466,
+          "src_ip": "192.168.1.218",
+          "src_port": 40576,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "cf3260be"
+          }
+        },
+        {
+          "timestamp": 1674045616.5407202,
+          "src_ip": "170.72.75.200",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40576,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40576",
+            "MESSAGE-INTEGRITY": "be51c16cf7edd6719d6f0dc61a963b2692de8d76",
+            "FINGERPRINT": "14775839"
+          }
+        }
+      ]
+    },
+    "d48ec14fbc4aa8d467bea43e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:40576",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.446846,
+          "src_ip": "192.168.1.218",
+          "src_port": 40576,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "4090383d"
+          }
+        },
+        {
+          "timestamp": 1674045616.5817363,
+          "src_ip": "170.72.75.200",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40576,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40576",
+            "MESSAGE-INTEGRITY": "6c3ead5899bf0fbbb3036f898f3ff3f75880cc98",
+            "FINGERPRINT": "3f4db500"
+          }
+        }
+      ]
+    },
+    "e5891c4e5a3a0f58813c96fe": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:38857",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.4474509,
+          "src_ip": "192.168.1.218",
+          "src_port": 38857,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "75093942"
+          }
+        },
+        {
+          "timestamp": 1674045616.5342605,
+          "src_ip": "150.253.159.96",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38857,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38857",
+            "MESSAGE-INTEGRITY": "4e8241f63f46bb3bd06b421e8d183543ffcdccd0",
+            "FINGERPRINT": "f513f4db"
+          }
+        }
+      ]
+    },
+    "bec3a2199116de77dae3dc62": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.75.200",
+      "exposed_ip_address": "193.190.225.245:40576",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.4600866,
+          "src_ip": "192.168.1.218",
+          "src_port": 40576,
+          "dst_ip": "170.72.75.200",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "b1d0dfbc"
+          }
+        },
+        {
+          "timestamp": 1674045616.5950735,
+          "src_ip": "170.72.75.200",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40576,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40576",
+            "MESSAGE-INTEGRITY": "924b1242a85b3ac65ee9c6c94f6aa6f4a43cdb63",
+            "FINGERPRINT": "9fedcb87"
+          }
+        }
+      ]
+    },
+    "8993f0a3fa5fb463e2972d2f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:38857",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.4604793,
+          "src_ip": "192.168.1.218",
+          "src_port": 38857,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "783e74f0"
+          }
+        },
+        {
+          "timestamp": 1674045616.546711,
+          "src_ip": "150.253.159.96",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38857,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38857",
+            "MESSAGE-INTEGRITY": "f5c738681f128aa6a57748d23c8a06abd1d481c6",
+            "FINGERPRINT": "a277a28d"
+          }
+        }
+      ]
+    },
+    "a544a5f914b012ea711ac3e7": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:38857",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.494526,
+          "src_ip": "192.168.1.218",
+          "src_port": 38857,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "795be1c9"
+          }
+        },
+        {
+          "timestamp": 1674045616.5807872,
+          "src_ip": "150.253.159.96",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38857,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38857",
+            "MESSAGE-INTEGRITY": "113665b0f8eb4cbb3290c3776da37ae28d6ba214",
+            "FINGERPRINT": "83d514fe"
+          }
+        }
+      ]
+    },
+    "c0fadb3699d4d9f783d97389": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:48102",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.4959648,
+          "src_ip": "192.168.1.218",
+          "src_port": 48102,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "f8c1a619"
+          }
+        },
+        {
+          "timestamp": 1674045616.5829146,
+          "src_ip": "150.253.159.96",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 48102,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:48102",
+            "MESSAGE-INTEGRITY": "5d4ab56d4f42447c895c76a12df8c8c472dd4cc3",
+            "FINGERPRINT": "f8aa43b3"
+          }
+        }
+      ]
+    },
+    "f419874b9fc60378b2c6e358": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:38857",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.5314524,
+          "src_ip": "192.168.1.218",
+          "src_port": 38857,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "0555484c"
+          }
+        },
+        {
+          "timestamp": 1674045616.6178474,
+          "src_ip": "150.253.159.96",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38857,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38857",
+            "MESSAGE-INTEGRITY": "c2ade2a9dadd23780f2f7a6c3107ec43d557a1a0",
+            "FINGERPRINT": "86394d8b"
+          }
+        }
+      ]
+    },
+    "38c268f5816680d9b1c2131a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:48102",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.5319126,
+          "src_ip": "192.168.1.218",
+          "src_port": 48102,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "450b92bb"
+          }
+        },
+        {
+          "timestamp": 1674045616.6184862,
+          "src_ip": "150.253.159.96",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 48102,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:48102",
+            "MESSAGE-INTEGRITY": "ecf40a63ad2e46fb89906d86a08f160c11490b08",
+            "FINGERPRINT": "5b72148b"
+          }
+        }
+      ]
+    },
+    "b5f4118778983bc562dfe538": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:38857",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.5608256,
+          "src_ip": "192.168.1.218",
+          "src_port": 38857,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9a4416f1"
+          }
+        },
+        {
+          "timestamp": 1674045616.6471746,
+          "src_ip": "150.253.159.96",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38857,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38857",
+            "MESSAGE-INTEGRITY": "dec84329329a3a6736cd51c08ec3db0e48fcbcde",
+            "FINGERPRINT": "d13c1745"
+          }
+        }
+      ]
+    },
+    "9ea531fac88add634b57370e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:48102",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.5608258,
+          "src_ip": "192.168.1.218",
+          "src_port": 48102,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "52f3afe8"
+          }
+        },
+        {
+          "timestamp": 1674045616.6471753,
+          "src_ip": "150.253.159.96",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 48102,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:48102",
+            "MESSAGE-INTEGRITY": "0c6144dee061eb35e928a9dc752e99f69256963e",
+            "FINGERPRINT": "6104da33"
+          }
+        }
+      ]
+    },
+    "ff79b0f0792f392a398edaff": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:48102",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.598996,
+          "src_ip": "192.168.1.218",
+          "src_port": 48102,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "045b12f3"
+          }
+        },
+        {
+          "timestamp": 1674045616.6854734,
+          "src_ip": "150.253.159.96",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 48102,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:48102",
+            "MESSAGE-INTEGRITY": "2d2bcb89e4b0a4776ed730fd5e9bf67991f19a4a",
+            "FINGERPRINT": "a5952f4e"
+          }
+        }
+      ]
+    },
+    "1a95e2bdaddc6902a2bc7a78": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:38857",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.5989962,
+          "src_ip": "192.168.1.218",
+          "src_port": 38857,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9e54ec80"
+          }
+        },
+        {
+          "timestamp": 1674045616.6852257,
+          "src_ip": "150.253.159.96",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38857,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38857",
+            "MESSAGE-INTEGRITY": "19eae43fb9e5156a05fcba413cfd6f620218412d",
+            "FINGERPRINT": "3128e3ce"
+          }
+        }
+      ]
+    },
+    "281b6ff111aad1ccf45a8fbe": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:48102",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.6144526,
+          "src_ip": "192.168.1.218",
+          "src_port": 48102,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "70103da5"
+          }
+        },
+        {
+          "timestamp": 1674045616.7007177,
+          "src_ip": "150.253.159.96",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 48102,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:48102",
+            "MESSAGE-INTEGRITY": "573f382578f2375641fc78b45174460a95d12d53",
+            "FINGERPRINT": "eecd1630"
+          }
+        }
+      ]
+    },
+    "4f5eaea42a78aabfed059d18": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:40407",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.632299,
+          "src_ip": "192.168.1.218",
+          "src_port": 40407,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "091cc78f"
+          }
+        },
+        {
+          "timestamp": 1674045616.7865446,
+          "src_ip": "170.72.148.55",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40407,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40407",
+            "MESSAGE-INTEGRITY": "b13ea921474919417b342bdf5c75adf2060d194d",
+            "FINGERPRINT": "0ae55b0f"
+          }
+        }
+      ]
+    },
+    "05387d7e006c4f82b2fe970a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "150.253.159.96",
+      "exposed_ip_address": "193.190.225.245:48102",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.6409998,
+          "src_ip": "192.168.1.218",
+          "src_port": 48102,
+          "dst_ip": "150.253.159.96",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "709a8e26"
+          }
+        },
+        {
+          "timestamp": 1674045616.7274005,
+          "src_ip": "150.253.159.96",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 48102,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:48102",
+            "MESSAGE-INTEGRITY": "c2427f088b65d01b3404c3d96f63edf9f8c4fd63",
+            "FINGERPRINT": "1003c0c1"
+          }
+        }
+      ]
+    },
+    "b9f861dece1ce998e230bece": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:40407",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.6411653,
+          "src_ip": "192.168.1.218",
+          "src_port": 40407,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "188c989e"
+          }
+        },
+        {
+          "timestamp": 1674045616.7949615,
+          "src_ip": "170.72.148.55",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40407,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40407",
+            "MESSAGE-INTEGRITY": "c5dc57c3ec53876f60498e8c636d7af1f5217a45",
+            "FINGERPRINT": "6fa60022"
+          }
+        }
+      ]
+    },
+    "d2238e8ae0a0a40e173e08ef": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:40407",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.673144,
+          "src_ip": "192.168.1.218",
+          "src_port": 40407,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "ea5440a0"
+          }
+        },
+        {
+          "timestamp": 1674045616.8270094,
+          "src_ip": "170.72.148.55",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40407,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40407",
+            "MESSAGE-INTEGRITY": "48599b4695afa1bca7f0c9dfd275cb463e5aad83",
+            "FINGERPRINT": "b6639ba9"
+          }
+        }
+      ]
+    },
+    "d2735a7b0a41d792a66e292e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:46741",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.6957946,
+          "src_ip": "192.168.1.218",
+          "src_port": 46741,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "2807889b"
+          }
+        },
+        {
+          "timestamp": 1674045616.850647,
+          "src_ip": "170.72.148.55",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46741,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46741",
+            "MESSAGE-INTEGRITY": "119e126cc150fff1903b3161b6972091cb5ae9d0",
+            "FINGERPRINT": "3b87eb8f"
+          }
+        }
+      ]
+    },
+    "a018c1a71f18826c95baa53e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:40407",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.7036822,
+          "src_ip": "192.168.1.218",
+          "src_port": 40407,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "d00cc6d1"
+          }
+        },
+        {
+          "timestamp": 1674045616.8575773,
+          "src_ip": "170.72.148.55",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40407,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40407",
+            "MESSAGE-INTEGRITY": "4a0b2b635e66c8ce2f0f11e75aae5f2f38a94753",
+            "FINGERPRINT": "5ae42f7e"
+          }
+        }
+      ]
+    },
+    "00820689302bfd4784fa2846": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:46741",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.7037733,
+          "src_ip": "192.168.1.218",
+          "src_port": 46741,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "22d0857d"
+          }
+        },
+        {
+          "timestamp": 1674045616.858146,
+          "src_ip": "170.72.148.55",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46741,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46741",
+            "MESSAGE-INTEGRITY": "260250e94bcd575be0861782e1ea0b19d286dc7c",
+            "FINGERPRINT": "9fc4c799"
+          }
+        }
+      ]
+    },
+    "f7afaf964ce813e111f7f065": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:40407",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.7343512,
+          "src_ip": "192.168.1.218",
+          "src_port": 40407,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "a0bef327"
+          }
+        },
+        {
+          "timestamp": 1674045616.8882477,
+          "src_ip": "170.72.148.55",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40407,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40407",
+            "MESSAGE-INTEGRITY": "4eb9141291b65453dcbfb8cbfee10cd9b9e5de3f",
+            "FINGERPRINT": "e77d7445"
+          }
+        }
+      ]
+    },
+    "8d4e61635840effe3bbf1d1d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:46741",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.7346804,
+          "src_ip": "192.168.1.218",
+          "src_port": 46741,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "4d0650b7"
+          }
+        },
+        {
+          "timestamp": 1674045616.8891683,
+          "src_ip": "170.72.148.55",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46741,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46741",
+            "MESSAGE-INTEGRITY": "e64c9e696e06d575f8790b13e5c5876cb249f11c",
+            "FINGERPRINT": "efbc27d6"
+          }
+        }
+      ]
+    },
+    "4829d0f69ead2e2ae1b2162b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:40407",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.767999,
+          "src_ip": "192.168.1.218",
+          "src_port": 40407,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "2209a74c"
+          }
+        },
+        {
+          "timestamp": 1674045616.9219732,
+          "src_ip": "170.72.148.55",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 40407,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:40407",
+            "MESSAGE-INTEGRITY": "1f1eec3cf8aa5643b697dad8d512e5f3ce8a3f2f",
+            "FINGERPRINT": "9f2c912e"
+          }
+        }
+      ]
+    },
+    "9133f5289b342222bf60e9bd": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:46741",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.7680955,
+          "src_ip": "192.168.1.218",
+          "src_port": 46741,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "992d8423"
+          }
+        },
+        {
+          "timestamp": 1674045616.9226472,
+          "src_ip": "170.72.148.55",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46741,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46741",
+            "MESSAGE-INTEGRITY": "cc3a7bdcbd4ddd22f20257d8ba82a162b84c6562",
+            "FINGERPRINT": "b6461f14"
+          }
+        }
+      ]
+    },
+    "1f94060d750900d0d87b75d9": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:46741",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.793335,
+          "src_ip": "192.168.1.218",
+          "src_port": 46741,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "1c12d276"
+          }
+        },
+        {
+          "timestamp": 1674045616.947934,
+          "src_ip": "170.72.148.55",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46741,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46741",
+            "MESSAGE-INTEGRITY": "de4b913310cf8838f675c14cbfa65e5c8f07c426",
+            "FINGERPRINT": "25db9db1"
+          }
+        }
+      ]
+    },
+    "21b8085581037aeb08e3444a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.148.55",
+      "exposed_ip_address": "193.190.225.245:46741",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.8217432,
+          "src_ip": "192.168.1.218",
+          "src_port": 46741,
+          "dst_ip": "170.72.148.55",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "a2323058"
+          }
+        },
+        {
+          "timestamp": 1674045616.9763086,
+          "src_ip": "170.72.148.55",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 46741,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:46741",
+            "MESSAGE-INTEGRITY": "81026ee6fd63c24322330b93291394634ae051bb",
+            "FINGERPRINT": "c1fc2a11"
+          }
+        }
+      ]
+    },
+    "3e4c890e356be31a5dec3a4d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:43740",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.8382719,
+          "src_ip": "192.168.1.218",
+          "src_port": 43740,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "aca43800"
+          }
+        },
+        {
+          "timestamp": 1674045616.851598,
+          "src_ip": "170.72.23.215",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 43740,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:43740",
+            "MESSAGE-INTEGRITY": "b78d74f3e7a089c4229d991bea2919f479eb8351",
+            "FINGERPRINT": "bc1b76c6"
+          }
+        }
+      ]
+    },
+    "1bdf856564ca1d918cc9aa90": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:43740",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.854696,
+          "src_ip": "192.168.1.218",
+          "src_port": 43740,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "3ef0d2f6"
+          }
+        },
+        {
+          "timestamp": 1674045616.8676448,
+          "src_ip": "170.72.23.215",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 43740,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:43740",
+            "MESSAGE-INTEGRITY": "9cc43ee38174ed2cb0ff3860dda625a13bb4a18e",
+            "FINGERPRINT": "c92a7ee7"
+          }
+        }
+      ]
+    },
+    "d957441588aadc2f074ba928": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:43740",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.9008427,
+          "src_ip": "192.168.1.218",
+          "src_port": 43740,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "99320a9f"
+          }
+        },
+        {
+          "timestamp": 1674045616.913734,
+          "src_ip": "170.72.23.215",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 43740,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:43740",
+            "MESSAGE-INTEGRITY": "304f97f168cf61f775665c9f2c5c175dd9663c2a",
+            "FINGERPRINT": "58586a27"
+          }
+        }
+      ]
+    },
+    "df226578e10ac47698fcd2ef": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:38502",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.904607,
+          "src_ip": "192.168.1.218",
+          "src_port": 38502,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "719e7994"
+          }
+        },
+        {
+          "timestamp": 1674045616.91782,
+          "src_ip": "170.72.23.215",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38502,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38502",
+            "MESSAGE-INTEGRITY": "29a0059ae0931e6d3664e3e1cc05445b65be5c57",
+            "FINGERPRINT": "11aebebf"
+          }
+        }
+      ]
+    },
+    "61a28344e33d187dae68df3b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:43740",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.9160757,
+          "src_ip": "192.168.1.218",
+          "src_port": 43740,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "9a67f88e"
+          }
+        },
+        {
+          "timestamp": 1674045616.9290018,
+          "src_ip": "170.72.23.215",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 43740,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:43740",
+            "MESSAGE-INTEGRITY": "c56b1ddfad9160d6540e93af0581dcb537df2442",
+            "FINGERPRINT": "a2718011"
+          }
+        }
+      ]
+    },
+    "bfbd989b9581e777dbca7fda": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:38502",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.9162602,
+          "src_ip": "192.168.1.218",
+          "src_port": 38502,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "2208dda6"
+          }
+        },
+        {
+          "timestamp": 1674045616.929157,
+          "src_ip": "170.72.23.215",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38502,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38502",
+            "MESSAGE-INTEGRITY": "66fa8c3dcb9bd0fb70321cf02d1a23bf758931ad",
+            "FINGERPRINT": "584ab3ea"
+          }
+        }
+      ]
+    },
+    "2c6f980d1aedd0bc7dcfc40d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:43740",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.9800932,
+          "src_ip": "192.168.1.218",
+          "src_port": 43740,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "e16e21da"
+          }
+        },
+        {
+          "timestamp": 1674045616.9929855,
+          "src_ip": "170.72.23.215",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 43740,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:43740",
+            "MESSAGE-INTEGRITY": "3ab544ed2af3cac9e0bb4126bf9ec97607a3936c",
+            "FINGERPRINT": "aa54ac75"
+          }
+        }
+      ]
+    },
+    "98571c10eba76e7d9d9ba5a1": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:38502",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045616.980173,
+          "src_ip": "192.168.1.218",
+          "src_port": 38502,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "1b98b63f"
+          }
+        },
+        {
+          "timestamp": 1674045616.993996,
+          "src_ip": "170.72.23.215",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38502,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38502",
+            "MESSAGE-INTEGRITY": "088d82eb6342e93775bcaca046b27afb2f0c74ec",
+            "FINGERPRINT": "7f0fdfce"
+          }
+        }
+      ]
+    },
+    "0701222ab84b193de2d0e5ad": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:38502",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.0077562,
+          "src_ip": "192.168.1.218",
+          "src_port": 38502,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "54aee91a"
+          }
+        },
+        {
+          "timestamp": 1674045617.0208046,
+          "src_ip": "170.72.23.215",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38502,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38502",
+            "MESSAGE-INTEGRITY": "9c1734c439bd923449e95ddc6704283fd3ed1fd3",
+            "FINGERPRINT": "4cc248d5"
+          }
+        }
+      ]
+    },
+    "91852473354e9fde75216e74": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:38502",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.0444863,
+          "src_ip": "192.168.1.218",
+          "src_port": 38502,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "27a66da7"
+          }
+        },
+        {
+          "timestamp": 1674045617.0574684,
+          "src_ip": "170.72.23.215",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38502,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38502",
+            "MESSAGE-INTEGRITY": "fd31092a1277a631fb7f5e44d9ddc18660e4057b",
+            "FINGERPRINT": "29ca9f37"
+          }
+        }
+      ]
+    },
+    "0724c8ae3138232ba143feb6": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39433",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.0447843,
+          "src_ip": "192.168.1.218",
+          "src_port": 39433,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "88bbf47e"
+          }
+        },
+        {
+          "timestamp": 1674045617.0583882,
+          "src_ip": "23.89.83.61",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39433,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39433",
+            "MESSAGE-INTEGRITY": "c9e6052bd7bd7f70550445c0944b966919327448",
+            "FINGERPRINT": "63871499"
+          }
+        }
+      ]
+    },
+    "670efa3e4bc3193422077e0a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "170.72.23.215",
+      "exposed_ip_address": "193.190.225.245:38502",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.0617623,
+          "src_ip": "192.168.1.218",
+          "src_port": 38502,
+          "dst_ip": "170.72.23.215",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "2230b9d1"
+          }
+        },
+        {
+          "timestamp": 1674045617.0747888,
+          "src_ip": "170.72.23.215",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 38502,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:38502",
+            "MESSAGE-INTEGRITY": "e23a7581116f57df070b90062826b650e0cc2acd",
+            "FINGERPRINT": "dfa650f6"
+          }
+        }
+      ]
+    },
+    "a722f05b3482af7eba87c3b6": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39433",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.061891,
+          "src_ip": "192.168.1.218",
+          "src_port": 39433,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "82db0d17"
+          }
+        },
+        {
+          "timestamp": 1674045617.0751858,
+          "src_ip": "23.89.83.61",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39433,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39433",
+            "MESSAGE-INTEGRITY": "5a19aa4e65044f8e5dbdd6d1714c262ffe8acd0a",
+            "FINGERPRINT": "320c3133"
+          }
+        }
+      ]
+    },
+    "c353479cb5625188c8879d36": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39213",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.0826092,
+          "src_ip": "192.168.1.218",
+          "src_port": 39213,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "e605d915"
+          }
+        },
+        {
+          "timestamp": 1674045617.0963585,
+          "src_ip": "23.89.83.61",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39213,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39213",
+            "MESSAGE-INTEGRITY": "28e470d78c8b263b2bf7959c6273bfdc30c734e7",
+            "FINGERPRINT": "7045291e"
+          }
+        }
+      ]
+    },
+    "cb56e6f1088663180a047c97": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39433",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.0940738,
+          "src_ip": "192.168.1.218",
+          "src_port": 39433,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "a6fc4230"
+          }
+        },
+        {
+          "timestamp": 1674045617.107489,
+          "src_ip": "23.89.83.61",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39433,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39433",
+            "MESSAGE-INTEGRITY": "3ac3497b418f04afb5dd065a412415181ed337af",
+            "FINGERPRINT": "d98160de"
+          }
+        }
+      ]
+    },
+    "76c91ea8ff36e8b1d4add7e0": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39213",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.094372,
+          "src_ip": "192.168.1.218",
+          "src_port": 39213,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "baaecb93"
+          }
+        },
+        {
+          "timestamp": 1674045617.1076643,
+          "src_ip": "23.89.83.61",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39213,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39213",
+            "MESSAGE-INTEGRITY": "d1f6922c06536ec721e553e5c3059694a3c5632e",
+            "FINGERPRINT": "c8803879"
+          }
+        }
+      ]
+    },
+    "efde7e13ec40b1b29f40bbde": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39433",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.1375313,
+          "src_ip": "192.168.1.218",
+          "src_port": 39433,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "145250ea"
+          }
+        },
+        {
+          "timestamp": 1674045617.1508694,
+          "src_ip": "23.89.83.61",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39433,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39433",
+            "MESSAGE-INTEGRITY": "26c830d08e64d46f697ab996959aec6f9068322c",
+            "FINGERPRINT": "d4731b2d"
+          }
+        }
+      ]
+    },
+    "d6c62b1b71a9e739d63ed78f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39213",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.1381407,
+          "src_ip": "192.168.1.218",
+          "src_port": 39213,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "273c6d79"
+          }
+        },
+        {
+          "timestamp": 1674045617.1512117,
+          "src_ip": "23.89.83.61",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39213,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39213",
+            "MESSAGE-INTEGRITY": "4574ee17b94bf1ae671af3c85dff7138ebcacc1f",
+            "FINGERPRINT": "3d9ff26d"
+          }
+        }
+      ]
+    },
+    "e8e6117749212bfbe317d4cc": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39433",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.1535878,
+          "src_ip": "192.168.1.218",
+          "src_port": 39433,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 5004,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "e2658c6d"
+          }
+        },
+        {
+          "timestamp": 1674045617.1667943,
+          "src_ip": "23.89.83.61",
+          "src_port": 5004,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39433,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39433",
+            "MESSAGE-INTEGRITY": "478e8ce30ee3d338415c1c5be72943ed917016bb",
+            "FINGERPRINT": "396d806a"
+          }
+        }
+      ]
+    },
+    "bb9936b2e9d3cae035c080c3": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39213",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.1536582,
+          "src_ip": "192.168.1.218",
+          "src_port": 39213,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "5314afe6"
+          }
+        },
+        {
+          "timestamp": 1674045617.1667588,
+          "src_ip": "23.89.83.61",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39213,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39213",
+            "MESSAGE-INTEGRITY": "bdb5882425d7053e6ca05abf280b8968a96dfaf0",
+            "FINGERPRINT": "64684724"
+          }
+        }
+      ]
+    },
+    "204db5952edd1902e2351064": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39213",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.2009084,
+          "src_ip": "192.168.1.218",
+          "src_port": 39213,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "131e4a6f"
+          }
+        },
+        {
+          "timestamp": 1674045617.2139049,
+          "src_ip": "23.89.83.61",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39213,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39213",
+            "MESSAGE-INTEGRITY": "e14348ab818ee9a1d2d2f0cc895bd26798d22236",
+            "FINGERPRINT": "bebfeaee"
+          }
+        }
+      ]
+    },
+    "448bac9cff0e2e63af17e73a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.218",
+      "stun_server_ip": "23.89.83.61",
+      "exposed_ip_address": "193.190.225.245:39213",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1674045617.219228,
+          "src_ip": "192.168.1.218",
+          "src_port": 39213,
+          "dst_ip": "23.89.83.61",
+          "dst_port": 9000,
+          "message_type": "Binding Request",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "0.0.0.0:0",
+            "FINGERPRINT": "ded57635"
+          }
+        },
+        {
+          "timestamp": 1674045617.2323363,
+          "src_ip": "23.89.83.61",
+          "src_port": 9000,
+          "dst_ip": "192.168.1.218",
+          "dst_port": 39213,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.245:39213",
+            "MESSAGE-INTEGRITY": "e37c1c05ceef47bb6700b7d9e822f8599e0885f3",
+            "FINGERPRINT": "712d98fc"
+          }
+        }
+      ]
+    }
+  }
+}

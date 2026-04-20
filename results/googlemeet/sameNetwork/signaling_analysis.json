@@ -1,0 +1,164 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.125:55586-51.124.78.146:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:55586-51.124.78.146:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 627 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.74)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00bf\u009e\u00ea\u00e2N\u001e\u00a1\u000f\u0012\u00c1\u00adh\u0013\u001a\u00a1a\u00aa\t\u00c4a\u00b4\u00b0\u0004\u0016f\u00a5\u00ab\u00ee\u00ee\u00f6*(4\u00cd\u00d0\u00db\u00fc\u00e8\u008d\u0002HtY\u00cbJD\u00fe\u00ca\u00db\u00018~w\u0086U\u0088xyI\u0089\u00fe2=m\u0006\u00c5\u00d1\u00bd=\u00d9x^\u00c4\u001e\u00fd|\u00d6\u0088x\u00c7\u00a36\u00e59\u00f8b\u0096<0\u00a3\u0087--N<\u00d6\u00ce\u00c0YX\u00f9h\u00f4e\u00f4Y\u00c0c\u0094\u008e\u0092\u00e0_x;7\u00bdv\u00db\\\u00bc\u00f5\u008dif\u00b4\u00ffn\u001b\u00e08K\u00fc\u0010S&\u00d4\u00cb\u00f1\"\u0019e\u0015\u001a\u00d6\u008cY {\u00b4U\u00fa%H\u009f\u00db\u00e1C\u00db\u0088\u00f3\u0003QOcq3\u00b5_%\u00cfd\u00aa6\u00aa\u0012\u00e8,\u0016\u009a/\u009c%\u00e1t/D\u0095\u0000\u00d5\u00e7\u00e6\u0098\u0091\u008b\u00f1\"\u00f3V\u00eb",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:55587-51.124.78.146:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:55587-51.124.78.146:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 627 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.74)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00bf\u009e\u00ea\u00e2N\u001e\u00a1\u000f\u0012\u00c1\u00adh\u0013\u001a\u00a1a\u00aa\t\u00c4a\u00b4\u00b0\u0004\u0016f\u00a5\u00ab\u00ee\u00ee\u00f6*(4\u00cd\u00d0\u00db\u00fc\u00e8\u008d\u0002HtY\u00cbJD\u00fe\u00ca\u00db\u00018~w\u0086U\u0088xyI\u0089\u00fe2=m\u0006\u00c5\u00d1\u00bd=\u00d9x^\u00c4\u001e\u00fd|\u00d6\u0088x\u00c7\u00a36\u00e59\u00f8b\u0096<0\u00a3\u0087--N<\u00d6\u00ce\u00c0YX\u00f9h\u00f4e\u00f4Y\u00c0c\u0094\u008e\u0092\u00e0_x;7\u00bdv\u00db\\\u00bc\u00f5\u008dif\u00b4\u00ffn\u001b\u00e08K\u00fc\u0010S&\u00d4\u00cb\u00f1\"\u0019e\u0015\u001a\u00d6\u008cY {\u00b4U\u00fa%H\u009f\u00db\u00e1C\u00db\u0088\u00f3\u0003QOcq3\u00b5_%\u00cfd\u00aa6\u00aa\u0012\u00e8,\u0016\u009a/\u009c%\u00e1t/D\u0095\u0000\u00d5\u00e7\u00e6\u0098\u0091\u008b\u00f1\"\u00f3V\u00eb",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:55593-20.42.73.24:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:55593-20.42.73.24:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 597 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.71)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/MicSecSerCA20",
+          "com/pkiops/certs/MicSecSerCA2011",
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/<\u00acB\u0016PM\u0091\u00b93\u00d7\u00910S\u0006\u0003U\u001d\u001f\u0004L0J0H\u00a0F\u00a0D\u0086Bhttp://www.microsoft.com/pkiops/crl/MicSecSerCA2011_2011-10-18.crl0`\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004T0R0P\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002\u0086Dhttp://www.microsoft.com/pkiops/certs/MicSecSerCA2011_2011-10-18.crt0\r\u0006\t*",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:150.171.28.11:443-192.168.1.125:55591",
+      "protocol": "TCP",
+      "endpoints": "150.171.28.11:443-192.168.1.125:55591",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 682 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014E0\u00e3qU\u00ce\u0081\u00a7\u000fV\u00be\u00b1h\u0097\u00e0\u0098\u00fa\u000f\u009a\u00e80\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d\u0011\u0004\u00160\u0014\u0082\u0012edge.microsoft.com0\f\u0006\u0003U\u001d\u0013\u0001\u0001\u00ff\u0004\u00020\u00000j\u0006\u0003U\u001d\u001f\u0004c0a0_\u00a0]\u00a0[\u0086Yhttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2008.crl0",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:55592-20.42.73.24:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:55592-20.42.73.24:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 862 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/MicSecSerCA20",
+          "com/pkiops/certs/MicSecSerCA2011",
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/<\u00acB\u0016PM\u0091\u00b93\u00d7\u00910S\u0006\u0003U\u001d\u001f\u0004L0J0H\u00a0F\u00a0D\u0086Bhttp://www.microsoft.com/pkiops/crl/MicSecSerCA2011_2011-10-18.crl0`\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004T0R0P\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002\u0086Dhttp://www.microsoft.com/pkiops/certs/MicSecSerCA2011_2011-10-18.crt0\r\u0006\t*",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:13.107.253.254:443-192.168.1.125:55561",
+      "protocol": "TCP",
+      "endpoints": "13.107.253.254:443-192.168.1.125:55561",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.58)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00c9]\u001e\u00bf\u00fbg\u00f0Xbi\u00e3\u00c7h\u0080\u00f9=\u0014U\u00fd\u001c[\u0005\u00fe\u00d9",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:13.107.253.67:443-192.168.1.125:55569",
+      "protocol": "TCP",
+      "endpoints": "13.107.253.67:443-192.168.1.125:55569",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.33)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "lrJ}\u0006\u008d\u00da\rr\u008dV\u0002#'(\u00bc\u001cY\u000b\u00bd\u00fdV~\u00ff",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:142.250.110.94:443-192.168.1.125:55602",
+      "protocol": "TCP",
+      "endpoints": "142.250.110.94:443-192.168.1.125:55602",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 35 bytes)",
+        "Medium entropy (6.53)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u0093l\u00ae\u00feR\u009c\u0002\u001b\u001bF]\u00c8\u0097\u00e2l\u0093\u0001\u00fb\u0094\u00b9\u00f4\"\u00b7\u00c0\u00fc\u009f\u00bf\u00b2\u0085\u00ea\u00d7c\u00a0\u001b\u0003\u0017{\u00d1\u00d9\u00f7\u00c9(\u000e}:\u0010S\u00fc\u00c2\u0084\u00fdB\u0000\u00c3\u001c\u00ec\u00c8\r\u0083\u0002p\u00028`\u001a\u001d\u0015\u008c\u008c\u00b1r3\u00a2+\u00f9\u0007\u001c\u00bd\u001f\u0088\u00b8\u00afZ\u00b59\u001bD:\u0084\u00c9\u00b6\u00db\u008a\u008fh\u008a{\u00cd\u00cdS\u0017\u00fd\u0090\u00c7,\u0088\u00ec\u009f\u0011wh\u00d4\u001c\u0080Y\u00c8\u00d9\u0097\u00a8\u0004\u00c5\u00d5Y\u0003\u00eb\u001a\u00b5\u0093\u001f\u0011s\u00d5\u00e3\u0016\u00fb\u00067\u00a5\u0000\u0000",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    }
+  ]
+}

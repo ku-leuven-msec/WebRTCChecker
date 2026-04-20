@@ -1,0 +1,163 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.8:40034-52.29.0.171:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:40034-52.29.0.171:443",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 742 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "payload_snippet": "\u0014\u00c5\u0015P\u0092\u0088\u00bf]\u0098nP\u00bd\u00d6\u00b4\u0000\u00bef0\u00f0s5`\u00b4\u0089\u00d0\u0015SNt\u00ddU\u00c76\u00e0F\u00cf\u00f1\u00b5\u00ed\u00f5i\u008a\tvM3\u0005\u000f\u00a1\u00ca\u00efE\u0097\u00f8\u00b9\u0006\u0086Y\u0014O:\"\u00d3YpZ7\u00e2\u00ff\u0097\u00dd`~$\u0011~1\u0090F\u001ab\u0088\u00ab\u00f2\u00e5\u0003F\u0003\u00d9r\u0099x\u00a2\u00012\u00ae'~\u0080'\u00e2%\u00ee\u00fe\u001a\u00a0em\u00e9\u00bb\u0085c)\u00f2\u00c9z\u0010\u00c6\u00d2s\u009e&\u0086Z\u00e6\u00d4e\u0089\u0002s\u0088g\u00f7\u00ab\u00a5\u00b9\u00a4(\u008c \u0093\u001d\u008e\u009e\u00cf\u00ed\u001cU\u00e0\u0003\u00bcb\u0083f\u00c2\u00a1\u0004\u0004s&:\u0087\u00d6\b\u0015\u00de\u00ee?W\u0089\u00f0\\c\u009a\t\u00bc\u00d73\u0086#\u00ae\u00e0\u00a7b}\u001a\u0082\u00cb\u00e9=7\u00aa\u00e1\u00bfe\u0085p{\u00e0\u00d9",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:104.117.77.129:80-192.168.1.8:49444",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.129:80-192.168.1.8:49444",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:38259-3.78.237.40:1443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:38259-3.78.237.40:1443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (4.07)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww",
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww",
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww",
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww"
+        ]
+      },
+      "payload_snippet": "\u00f4\u0000\u00018\u0000\u0001\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0010\u0090\u00a8\u00bd\u0016\u008e\u00c6\u0086\u00ca,\u0087!b\u00e3\u0005\u0013\u0011\u0000\u0003\u0000(bf903baa61ad46f6ebwwhq1726150860Plon28NY\u0000\u0004\u0000!1726185515:bf903baa61ad46f6ebwwhq\u0000\u0000\u0000\u0000\u0007\u0000\u00a0\u00ee\u00c3\u0013&\u008d\u0007\u00ec\u00cc\b\u00ca\u0086\u007f\u0089\u00af\u00d6\u00da\u0017\u00c9\u00b0\u00b991K\u00fczYJ\u0007!R\u00886=\u00ef\u00d1U\u0083\u0017m\u00c43\u00b6.\u0089\\\u001dXM'\u0084]\u0091\u00a9>\u00e3\u00fb`\u007f\u00c9\u000f\u00c0\u00bf\u00e1\u00a5\\\u0013)\u001c\u008f<\u00ff\u009c\u00a6j\u0015+\u00a8\u00ac\u00a2d",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.39:41350-3.78.237.40:1443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.39:41350-3.78.237.40:1443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (4.08)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww",
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww",
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww",
+          "bf903baa61ad46f6ebwwhq1726150860Plon28NY",
+          "bf903baa61ad46f6ebww"
+        ]
+      },
+      "payload_snippet": "\u00f4\u0000\u00018\u0000\u0001\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0010rO\u000b\u00a1\u00fbS\u00b2%\u0006XJ\u0091\u00f8Y\u00c4Q\u0000\u0003\u0000(bf903baa61ad46f6ebwwhq1726150860Plon28NY\u0000\u0004\u0000!1726185515:bf903baa61ad46f6ebwwhq\u0000\u0000\u0000\u0000\u0007\u0000\u00a0\u00c8\u00f6b\u00c2('\u00d3R\u008d<[\u00b7\u00df\u00cb\u0098\u00bf8f\u0003,\u000e\u00a3~G\u0004R\u00c7-\u008a\u00df\u00bd\u0007\u0016\u0016\u0016\u009f[i\u001ct\u0000V\u00eb;F\u00c8\u00d1\u00f7\u00ec|\u00b4\u00db3\u00f1\u008e@\u00baZ\u00a0\n\u00e9i]\r\u009d\u00b2I\u0098\u00a8\u00ecIe\u0016\u00dc\u00f9\u009c\u009b\u00fc\u00a2\u00a6",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:104.117.77.129:80-192.168.1.8:49480",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.129:80-192.168.1.8:49480",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:13.107.42.14:443-192.168.1.8:43386",
+      "protocol": "TCP",
+      "endpoints": "13.107.42.14:443-192.168.1.8:43386",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 598 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigicertSHA2SecureServer",
+          "com/DigicertSHA2SecureServer",
+          "com/DigiCertSHA2SecureServer",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20240911000000Z0s0q0"
+        ]
+      },
+      "payload_snippet": "us.linkedin.com\u0082\u0018payment.www.linkedin.com\u0082\u0018afd-wcs.www.linkedin.com\u0082\u0014shm.www.linkedin.com0>\u0006\u0003U\u001d \u000470503\u0006\u0006g\u0081\f\u0001\u0002\u00020)0'\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0002\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0002",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:39900-66.102.1.97:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:39900-66.102.1.97:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.02)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u0002\u001f\u00c8W\u0010\u0015\u0090_m\u009f\u009a\u00d0F\u0081]][2\u00be",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    }
+  ]
+}

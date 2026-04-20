@@ -1,0 +1,4207 @@
+{
+  "geoip_summary": {
+    "192.168.100.76": {
+      "ip": "192.168.100.76",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "157.48.221.143": {
+      "ip": "157.48.221.143",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.0.104": {
+      "ip": "192.168.0.104",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "100.74.187.187": {
+      "ip": "100.74.187.187",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "223.177.222.83": {
+      "ip": "223.177.222.83",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "152.58.179.162": {
+      "ip": "152.58.179.162",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "152.59.191.198": {
+      "ip": "152.59.191.198",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "143.110.233.174": {
+      "ip": "143.110.233.174",
+      "hostname": "turn.omegle.onl",
+      "city": "Santa Clara",
+      "region": "California",
+      "country": "US",
+      "location": "37.3924,-121.9623",
+      "organization": "AS14061 DigitalOcean, LLC",
+      "timezone": "America/Los_Angeles"
+    },
+    "189.226.217.156": {
+      "ip": "189.226.217.156",
+      "hostname": "dsl-189-226-217-156-dyn.prod-infinitum.com.mx",
+      "city": "San Salvador Atenco",
+      "region": "M\u00e9xico",
+      "country": "MX",
+      "location": "19.5517,-98.9187",
+      "organization": "AS8151 UNINET",
+      "timezone": "America/Mexico_City"
+    },
+    "176.45.5.159": {
+      "ip": "176.45.5.159",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "106.220.183.92": {
+      "ip": "106.220.183.92",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.0.0.4": {
+      "ip": "192.0.0.4",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.1.32": {
+      "ip": "192.168.1.32",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "100.94.233.160": {
+      "ip": "100.94.233.160",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "152.56.147.85": {
+      "ip": "152.56.147.85",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.1.126": {
+      "ip": "192.168.1.126",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.175.241": {
+      "ip": "192.168.175.241",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "stun_transactions": {
+    "3265624b414e4f4f45645741": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478863.841234,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478863.993849,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MAPPED-ADDRESS": "0001f6b34e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "f35a6635"
+          }
+        }
+      ]
+    },
+    "4863367a4630543356763659": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478863.841413,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478863.999433,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MAPPED-ADDRESS": "0001f6b34e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "ad989059"
+          }
+        }
+      ]
+    },
+    "6a6e462b6e73675a356b7741": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63164",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478863.84253,
+          "src_ip": "192.168.0.104",
+          "src_port": 63164,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478863.998532,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63164,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63164",
+            "MAPPED-ADDRESS": "0001f6bc4e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "2a1290d9"
+          }
+        }
+      ]
+    },
+    "465a6a684a773437686b794a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63164",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478863.842651,
+          "src_ip": "192.168.0.104",
+          "src_port": 63164,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478863.998793,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63164,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63164",
+            "MAPPED-ADDRESS": "0001f6bc4e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "44bacee5"
+          }
+        }
+      ]
+    },
+    "6e38526c55504159756e444b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63173",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478863.842863,
+          "src_ip": "192.168.0.104",
+          "src_port": 63173,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478863.999188,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63173,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63173",
+            "MAPPED-ADDRESS": "0001f6c54e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "a9309522"
+          }
+        }
+      ]
+    },
+    "4459653066636c33504e5042": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63173",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478863.84289,
+          "src_ip": "192.168.0.104",
+          "src_port": 63173,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478863.998814,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63173,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63173",
+            "MAPPED-ADDRESS": "0001f6c54e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "af0b66f7"
+          }
+        }
+      ]
+    },
+    "656f43414d46335a35767266": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.0.0.4",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478864.789673,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "192.0.0.4",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "3ef58ed7d8000bbea86fa43ebf5de4d6aa104a9d",
+            "FINGERPRINT": "448c9897"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "746557486a74505142336b44": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478865.195962,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "5b7543c26febd772bec94c69b26b718d69ccc83f",
+            "FINGERPRINT": "1103ef24"
+          }
+        },
+        {
+          "timestamp": 1752478865.408314,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MESSAGE-INTEGRITY": "b8f0138b3b32595541712f71949d9f2efbe7f1a2",
+            "FINGERPRINT": "44e91f8c"
+          }
+        }
+      ]
+    },
+    "746d58514d507155716b3033": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "152.58.179.162:51657",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478865.417533,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "asLJ:V/U8",
+            "Unknown(0xc057)": "00040032",
+            "Unknown(0x8029)": "afbb054712afa641",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "ab2191c1029a15ad4058359deb986b6a41acc6d3",
+            "FINGERPRINT": "f2e60334"
+          }
+        },
+        {
+          "timestamp": 1752478865.417763,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "152.58.179.162:51657",
+            "MESSAGE-INTEGRITY": "5d9119804c71bee13014e2a7dd59edef7dafa3b9",
+            "FINGERPRINT": "1391de8e"
+          }
+        }
+      ]
+    },
+    "536630623036484462746a63": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478865.444671,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "c837909f2860571c002485ecdaae06844bf97aa1",
+            "FINGERPRINT": "71bdddce"
+          }
+        },
+        {
+          "timestamp": 1752478865.632509,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MESSAGE-INTEGRITY": "73dc316be96d16a5d8c4c4be9936cf26f6d7ba48",
+            "FINGERPRINT": "20a817f5"
+          }
+        }
+      ]
+    },
+    "5568434a5146354444794e37": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478865.507843,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "0188f8f732badcd5ba2178dfcfdec0c120a3dad6",
+            "FINGERPRINT": "8a78e67d"
+          }
+        },
+        {
+          "timestamp": 1752478865.697739,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MESSAGE-INTEGRITY": "a9bbfb74427ec576b973a43fb0c6762e9906dca4",
+            "FINGERPRINT": "03388dbb"
+          }
+        }
+      ]
+    },
+    "585350396e764f6d51673943": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "152.58.179.162:51657",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478865.66253,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "asLJ:V/U8",
+            "Unknown(0xc057)": "00040032",
+            "Unknown(0x8029)": "afbb054712afa641",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "8642415a0d9dddca5a179ee6951bebf018002902",
+            "FINGERPRINT": "053d3b11"
+          }
+        },
+        {
+          "timestamp": 1752478865.662842,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "152.58.179.162:51657",
+            "MESSAGE-INTEGRITY": "96186271de558e1972dff5abca52ed69d9a40cb6",
+            "FINGERPRINT": "5d970ea2"
+          }
+        }
+      ]
+    },
+    "7759522b4e3964746d647771": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478866.429123,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "a2398cfebe3e6cd4b0dc47e2b42aa8a2a6ceb4c9",
+            "FINGERPRINT": "d60e91e0"
+          }
+        },
+        {
+          "timestamp": 1752478866.622469,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MESSAGE-INTEGRITY": "c6c6c324544363970366b430975c80b55eb2abbd",
+            "FINGERPRINT": "c8065f76"
+          }
+        }
+      ]
+    },
+    "70423057526e467943716e67": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.0.0.4",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478866.569796,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "192.0.0.4",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "ee1ef1ed590678a89b63cc2f25ea7865b1d0f913",
+            "FINGERPRINT": "c3430297"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "316e68436c4855327069556e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "152.58.179.162:51657",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478866.597647,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "asLJ:V/U8",
+            "Unknown(0xc057)": "00040032",
+            "Unknown(0x8029)": "afbb054712afa641",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "0fa5dbbe376e6be23599621995cff3b8eadc337b",
+            "FINGERPRINT": "9610e91e"
+          }
+        },
+        {
+          "timestamp": 1752478866.597834,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "152.58.179.162:51657",
+            "MESSAGE-INTEGRITY": "99a974909f9c06cc693ea1e990d30754fd08f9c6",
+            "FINGERPRINT": "55e837c5"
+          }
+        }
+      ]
+    },
+    "6f37332b2f592f467a647365": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "78.22.232.243:63155",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478867.350676,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "V/U8:asLJ",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "3a295c0b5ce600ef",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "5923057293610ef8689c9901ba4603ae1e955dcc",
+            "FINGERPRINT": "92919cab"
+          }
+        },
+        {
+          "timestamp": 1752478867.542945,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63155",
+            "MESSAGE-INTEGRITY": "4e2a1a4caabdc385a93d8cf72f53280d6924dbc4",
+            "FINGERPRINT": "33e52cce"
+          }
+        }
+      ]
+    },
+    "73426b4c6b376b366a4b3145": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.58.179.162",
+      "exposed_ip_address": "152.58.179.162:51657",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478867.687734,
+          "src_ip": "152.58.179.162",
+          "src_port": 51657,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63155,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "asLJ:V/U8",
+            "Unknown(0xc057)": "00040032",
+            "Unknown(0x8029)": "afbb054712afa641",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "00eb1b6bc04026d38e895d736b9825e92ffc5cab",
+            "FINGERPRINT": "b49ff891"
+          }
+        },
+        {
+          "timestamp": 1752478867.687996,
+          "src_ip": "192.168.0.104",
+          "src_port": 63155,
+          "dst_ip": "152.58.179.162",
+          "dst_port": 51657,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "152.58.179.162:51657",
+            "MESSAGE-INTEGRITY": "6f6810d393f28b91801e35f495a52ff1dd229f9f",
+            "FINGERPRINT": "418ac793"
+          }
+        }
+      ]
+    },
+    "5946696d794c4b4465507634": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:49683",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478868.702718,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478868.860316,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:49683",
+            "MAPPED-ADDRESS": "0001c2134e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "1c3a1a2b"
+          }
+        }
+      ]
+    },
+    "493454646f6a492f6e4d6c4b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:49683",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478868.702824,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478868.860388,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:49683",
+            "MAPPED-ADDRESS": "0001c2134e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "f7e0b228"
+          }
+        }
+      ]
+    },
+    "474969494f57775841544d4f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.126",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478869.523394,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "192.168.1.126",
+          "dst_port": 39916,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "BxEl:gz8p",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "e59a36e727d058ec",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "add5992b19f358648b9875c174d18c519a1ca249",
+            "FINGERPRINT": "7278b889"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "617a417a53525835304b704a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "189.226.217.156",
+      "exposed_ip_address": "78.22.232.243:49683",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478869.960991,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "189.226.217.156",
+          "dst_port": 39916,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "BxEl:gz8p",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "e59a36e727d058ec",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "b07854a9047951732b33ca5c72318e83d433d5e6",
+            "FINGERPRINT": "cec5562f"
+          }
+        },
+        {
+          "timestamp": 1752478870.186301,
+          "src_ip": "189.226.217.156",
+          "src_port": 39916,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:49683",
+            "MESSAGE-INTEGRITY": "67cfc1d5f1282dd1934d276eb9b20744ed5c3155",
+            "FINGERPRINT": "212ba96c"
+          }
+        }
+      ]
+    },
+    "647278734f444a6c55784a4f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "189.226.217.156",
+      "exposed_ip_address": "189.226.217.156:39916",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478870.239765,
+          "src_ip": "189.226.217.156",
+          "src_port": 39916,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "gz8p:BxEl",
+            "Unknown(0xc057)": "0002000a",
+            "Unknown(0x802a)": "402da5a495fe0b02",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "d73c39838770735b47bf7184d01e583ba45f7de1",
+            "FINGERPRINT": "7cf256ff"
+          }
+        },
+        {
+          "timestamp": 1752478870.240173,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "189.226.217.156",
+          "dst_port": 39916,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "189.226.217.156:39916",
+            "MESSAGE-INTEGRITY": "1db355361ccd6487ebcd1cfb42e80665e3659dbf",
+            "FINGERPRINT": "428ae89d"
+          }
+        }
+      ]
+    },
+    "323642423464564566314b53": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.126",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478870.600663,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "192.168.1.126",
+          "dst_port": 39916,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "BxEl:gz8p",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "e59a36e727d058ec",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "11eb51505026bd4112ede492e83554aceca7c656",
+            "FINGERPRINT": "6dfc5d99"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "77495a342f356f79676a6d77": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "189.226.217.156",
+      "exposed_ip_address": "189.226.217.156:39916",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478870.928834,
+          "src_ip": "189.226.217.156",
+          "src_port": 39916,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "gz8p:BxEl",
+            "Unknown(0xc057)": "0002000a",
+            "Unknown(0x802a)": "402da5a495fe0b02",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "a6dab6fb69faa9ee1f0cf56ff46551af079e9d70",
+            "FINGERPRINT": "fcbed505"
+          }
+        },
+        {
+          "timestamp": 1752478870.929265,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "189.226.217.156",
+          "dst_port": 39916,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "189.226.217.156:39916",
+            "MESSAGE-INTEGRITY": "56d73d07971d478730d866eb6c31491daa03462d",
+            "FINGERPRINT": "d2a6bcee"
+          }
+        }
+      ]
+    },
+    "565a3059653153354c527733": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "189.226.217.156",
+      "exposed_ip_address": "78.22.232.243:49683",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478871.022892,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "189.226.217.156",
+          "dst_port": 39916,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "BxEl:gz8p",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "e59a36e727d058ec",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "5683bed758b762a615ab1232c7a40a7f429c5f29",
+            "FINGERPRINT": "ed45cee3"
+          }
+        },
+        {
+          "timestamp": 1752478871.250847,
+          "src_ip": "189.226.217.156",
+          "src_port": 39916,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:49683",
+            "MESSAGE-INTEGRITY": "1515ff8d9b8234f9a443f4729d5a74246afeb17d",
+            "FINGERPRINT": "06ffc88c"
+          }
+        }
+      ]
+    },
+    "683569752b4b77717a543277": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.126",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478871.679011,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "192.168.1.126",
+          "dst_port": 39916,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "BxEl:gz8p",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "e59a36e727d058ec",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "0a844b6e70c600433ff90f6cf8febb2a47720f87",
+            "FINGERPRINT": "a3e06512"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "582f6d4a567178464f475967": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "189.226.217.156",
+      "exposed_ip_address": "78.22.232.243:49683",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478872.180604,
+          "src_ip": "192.168.0.104",
+          "src_port": 49683,
+          "dst_ip": "189.226.217.156",
+          "dst_port": 39916,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "BxEl:gz8p",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "e59a36e727d058ec",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "918de035b5257884743ff670728b109741a15081",
+            "FINGERPRINT": "1ca587e4"
+          }
+        },
+        {
+          "timestamp": 1752478872.41389,
+          "src_ip": "189.226.217.156",
+          "src_port": 39916,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 49683,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:49683",
+            "MESSAGE-INTEGRITY": "80bd915ff3ed54d18f0419519212c3b5a3c65202",
+            "FINGERPRINT": "c6ca9ce1"
+          }
+        }
+      ]
+    },
+    "6b4478594332674364587656": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:54527",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478874.608157,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478874.763857,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 54527,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:54527",
+            "MAPPED-ADDRESS": "0001d4ff4e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "4ee8b055"
+          }
+        }
+      ]
+    },
+    "7a6666534c703854726c6b71": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:54527",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478874.608293,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478874.765753,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 54527,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:54527",
+            "MAPPED-ADDRESS": "0001d4ff4e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "cd189002"
+          }
+        }
+      ]
+    },
+    "2f386f44646a4c524a387343": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478875.491868,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "4b29221692c21ad0ccf6bc3a723652a114ada659",
+            "FINGERPRINT": "72f07d5f"
+          }
+        }
+      ]
+    },
+    "63393575714b30572f4e5044": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478875.882566,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "4be8bcd45e29026ded8276e4be6db4b2d3ff2902",
+            "FINGERPRINT": "9fa0c2b2"
+          }
+        }
+      ]
+    },
+    "6d494b33456163504a386d64": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478876.366918,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "2ec7146d8becbf934fceb40e9bbe3812e12372ed",
+            "FINGERPRINT": "55bbf6e9"
+          }
+        }
+      ]
+    },
+    "3646593569473670354a6550": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478876.757175,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "47767b8740917a87f254a03b8d38900c93045c46",
+            "FINGERPRINT": "756bcd8a"
+          }
+        }
+      ]
+    },
+    "494d77674d6c4f6f42705457": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478877.195054,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "e5203f5c6349d83e465ad6c07191420ddb4b2822",
+            "FINGERPRINT": "090f4509"
+          }
+        }
+      ]
+    },
+    "5543644e78426d7670744c4a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478877.569973,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "6ff0a337975ee47181f4b4b39dd82ae399b59a38",
+            "FINGERPRINT": "32bfb7b4"
+          }
+        }
+      ]
+    },
+    "46596f745769685a65426569": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478878.007006,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "43847ad6f425da7ce4e4599ac19dce056384ce44",
+            "FINGERPRINT": "6a923648"
+          }
+        }
+      ]
+    },
+    "535a36515371584a37583630": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478878.445143,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "0e2efce50817dfd144065e30e38777a4e309c0e2",
+            "FINGERPRINT": "f78a001f"
+          }
+        }
+      ]
+    },
+    "43526e6f525a42654b43654d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478878.820214,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "f767d25cc8dc2a38e55383cd8b430ea89408dc8c",
+            "FINGERPRINT": "a7f2c030"
+          }
+        }
+      ]
+    },
+    "6855782f7070786d6b424a70": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478879.226165,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "cd84717acbec03381c8282f7a355cf2dbc71ec69",
+            "FINGERPRINT": "f92a4b05"
+          }
+        }
+      ]
+    },
+    "646d52586b77415751356664": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.74.187.187",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478879.725975,
+          "src_ip": "192.168.0.104",
+          "src_port": 54527,
+          "dst_ip": "100.74.187.187",
+          "dst_port": 34170,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ap/G:AHGx",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "335d0586af955bc4",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "a370e9154041f5de2b370ecb6371b9e9a5b12f96",
+            "FINGERPRINT": "90c9c570"
+          }
+        }
+      ]
+    },
+    "57632b644f656d4d39706a7a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:57727",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478881.151752,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478881.308086,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 57727,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:57727",
+            "MAPPED-ADDRESS": "0001e17f4e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "50217a5f"
+          }
+        }
+      ]
+    },
+    "6e2f64716a42355948507158": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:57727",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478881.151875,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478881.306364,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 57727,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:57727",
+            "MAPPED-ADDRESS": "0001e17f4e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "af0732c7"
+          }
+        }
+      ]
+    },
+    "30432f626556344f676a7972": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.175.241",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478881.789419,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "192.168.175.241",
+          "dst_port": 37353,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "8PAa:q/cu",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "556eb934f73d5184",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "c892f30c1979ff535657bc62d081e5cae56151ae",
+            "FINGERPRINT": "f8b523e1"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41374468707867414c4c3331": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.59.191.198",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478882.210111,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "152.59.191.198",
+          "dst_port": 42976,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "8PAa:q/cu",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "556eb934f73d5184",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "b0d0be5c2ba8f7d316aeba57051bca68b6c90361",
+            "FINGERPRINT": "b1ca4a7c"
+          }
+        }
+      ]
+    },
+    "486d724158487a6641555355": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.56.147.85",
+      "exposed_ip_address": "78.22.232.243:57727",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478883.05478,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "152.56.147.85",
+          "dst_port": 39438,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "8PAa:q/cu",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "556eb934f73d5184",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "07367edef9352fbb60f51e4abb243b5124ebdd1c",
+            "FINGERPRINT": "790864a0"
+          }
+        },
+        {
+          "timestamp": 1752478883.247419,
+          "src_ip": "152.56.147.85",
+          "src_port": 39438,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 57727,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:57727",
+            "MESSAGE-INTEGRITY": "d92c26ac08b49c2f6ba205ba8622d131e2d3d677",
+            "FINGERPRINT": "81f04f8f"
+          }
+        }
+      ]
+    },
+    "75786e3652374c2b3275316b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.56.147.85",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478883.117481,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "152.56.147.85",
+          "dst_port": 37353,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "8PAa:q/cu",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "556eb934f73d5184",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "fd1fc612234beb3a7bc2f2d6d5cf226724db29a1",
+            "FINGERPRINT": "33bdf511"
+          }
+        }
+      ]
+    },
+    "573148614478447244424f71": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.56.147.85",
+      "exposed_ip_address": "152.56.147.85:39438",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478883.273052,
+          "src_ip": "152.56.147.85",
+          "src_port": 39438,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 57727,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "q/cu:8PAa",
+            "Unknown(0xc057)": "0004000a",
+            "Unknown(0x802a)": "2010690a44335057",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "21267fc445ef4ed8e00c0af7c4e2290cd8cec079",
+            "FINGERPRINT": "014df58c"
+          }
+        },
+        {
+          "timestamp": 1752478883.273312,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "152.56.147.85",
+          "dst_port": 39438,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "152.56.147.85:39438",
+            "MESSAGE-INTEGRITY": "86fa1556e451aec1fea01928f757bc73ca4583ba",
+            "FINGERPRINT": "ab399637"
+          }
+        }
+      ]
+    },
+    "4847735568594c632f596944": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "152.56.147.85",
+      "exposed_ip_address": "152.56.147.85:39438",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478884.577408,
+          "src_ip": "152.56.147.85",
+          "src_port": 39438,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 57727,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "q/cu:8PAa",
+            "Unknown(0xc057)": "0004000a",
+            "Unknown(0x802a)": "2010690a44335057",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "55ce81e23fcb6864b481bc8231a4daa1ed2b7f66",
+            "FINGERPRINT": "eea80bdf"
+          }
+        },
+        {
+          "timestamp": 1752478884.57774,
+          "src_ip": "192.168.0.104",
+          "src_port": 57727,
+          "dst_ip": "152.56.147.85",
+          "dst_port": 39438,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "152.56.147.85:39438",
+            "MESSAGE-INTEGRITY": "3343b722cc4c601897e557dab09b715acc22b30d",
+            "FINGERPRINT": "dbeb07a3"
+          }
+        }
+      ]
+    },
+    "353253496839375942496b73": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:64983",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478886.02742,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478886.180338,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 64983,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:64983",
+            "MAPPED-ADDRESS": "0001fdd74e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "2b9a4f5a"
+          }
+        }
+      ]
+    },
+    "6a4d544578376b6f76575067": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:64983",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478886.027572,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478886.180286,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 64983,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:64983",
+            "MAPPED-ADDRESS": "0001fdd74e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "99da6e16"
+          }
+        }
+      ]
+    },
+    "74524b344a7462476738592b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:64992",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478886.02918,
+          "src_ip": "192.168.0.104",
+          "src_port": 64992,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478886.180733,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 64992,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:64992",
+            "MAPPED-ADDRESS": "0001fde04e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "a9dcc2f4"
+          }
+        }
+      ]
+    },
+    "43436e4350367635557a4962": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:64992",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478886.029397,
+          "src_ip": "192.168.0.104",
+          "src_port": 64992,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478886.179575,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 64992,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:64992",
+            "MAPPED-ADDRESS": "0001fde04e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "49687814"
+          }
+        }
+      ]
+    },
+    "4f556c564e6e385745586559": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:65001",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478886.029656,
+          "src_ip": "192.168.0.104",
+          "src_port": 65001,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478886.180043,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 65001,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:65001",
+            "MAPPED-ADDRESS": "0001fde94e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "913cddc2"
+          }
+        }
+      ]
+    },
+    "496b64583759316d5a6d4e68": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:65001",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478886.029689,
+          "src_ip": "192.168.0.104",
+          "src_port": 65001,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478886.179388,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 65001,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:65001",
+            "MAPPED-ADDRESS": "0001fde94e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "0faa5094"
+          }
+        }
+      ]
+    },
+    "75417543784d452b7a684656": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.100.76",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478887.382292,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "192.168.100.76",
+          "dst_port": 58950,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "pXH4:02BG",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "e16fd59e550c0a69",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "1995a6f6be443ce25e38b518bd052c12204eeb96",
+            "FINGERPRINT": "8b3dc12a"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "526d754a6157673278525342": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "176.45.5.159",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478887.788598,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "176.45.5.159",
+          "dst_port": 58950,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "pXH4:02BG",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "e16fd59e550c0a69",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "35c1f8114174a2626020337e10a54172099e9a8d",
+            "FINGERPRINT": "f30bfca1"
+          }
+        }
+      ]
+    },
+    "6b704354473878536a354538": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.100.76",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478888.413292,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "192.168.100.76",
+          "dst_port": 58950,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "pXH4:02BG",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "e16fd59e550c0a69",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "a6f5250f02f3fdb48ff9ac47202d6391923bfe9e",
+            "FINGERPRINT": "c032f082"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "6446736434414a4d6c644d78": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "176.45.5.159",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478888.913074,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "176.45.5.159",
+          "dst_port": 58950,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "pXH4:02BG",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "e16fd59e550c0a69",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "6530e9b4e6b253e735b38a47f93e929e5afd1a55",
+            "FINGERPRINT": "423ee543"
+          }
+        }
+      ]
+    },
+    "4f79474877377756666d646c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.100.76",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478889.444382,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "192.168.100.76",
+          "dst_port": 58950,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "pXH4:02BG",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "e16fd59e550c0a69",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "8670bb29138be1cdd030113d1562867d5ede9bbe",
+            "FINGERPRINT": "e8556af0"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "3767743636456f4f54385039": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "176.45.5.159",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478889.835738,
+          "src_ip": "192.168.0.104",
+          "src_port": 64983,
+          "dst_ip": "176.45.5.159",
+          "dst_port": 58950,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "pXH4:02BG",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "e16fd59e550c0a69",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "6c1438a79e1697ecc80b400d9c75569e4971b143",
+            "FINGERPRINT": "6608f54f"
+          }
+        }
+      ]
+    },
+    "5156642b444e557142453972": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63388",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478893.317821,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478893.4755,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63388",
+            "MAPPED-ADDRESS": "0001f79c4e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "37cf5013"
+          }
+        }
+      ]
+    },
+    "424b4d76793350794f6a6465": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:63388",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478893.31792,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478893.47615,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63388",
+            "MAPPED-ADDRESS": "0001f79c4e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "f2102cb8"
+          }
+        }
+      ]
+    },
+    "376f7433386b533475304c37": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.94.233.160",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478894.210148,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "100.94.233.160",
+          "dst_port": 46284,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xokG:05Kj",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "df17cd1d11f3f2e9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "da41ab6c757bde83355ce8555c033b537623a23a",
+            "FINGERPRINT": "afaaa300"
+          }
+        }
+      ]
+    },
+    "7a674f425179393765745973": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "106.220.183.92",
+      "exposed_ip_address": "78.22.232.243:63388",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478894.679655,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "106.220.183.92",
+          "dst_port": 3468,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xokG:05Kj",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "df17cd1d11f3f2e9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "594ceffad193c480d469cf477917d7d5235c0baf",
+            "FINGERPRINT": "68c159b9"
+          }
+        },
+        {
+          "timestamp": 1752478894.835521,
+          "src_ip": "106.220.183.92",
+          "src_port": 3468,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63388",
+            "MESSAGE-INTEGRITY": "2eeede366ae088a2eb92edc32cf0b85f2bab7ec3",
+            "FINGERPRINT": "a0d6e3e2"
+          }
+        }
+      ]
+    },
+    "62763365754339755867794f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "106.220.183.92",
+      "exposed_ip_address": "106.220.183.92:3468",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478894.869904,
+          "src_ip": "106.220.183.92",
+          "src_port": 3468,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "05Kj:xokG",
+            "Unknown(0xc057)": "00010384",
+            "Unknown(0x802a)": "b3401b34550f6c1d",
+            "Unknown(0x0024)": "6e7d1eff",
+            "MESSAGE-INTEGRITY": "7c69aec1b0427a0a0f8a274c9e96cbf5c6e7da66",
+            "FINGERPRINT": "3b03d7e4"
+          }
+        },
+        {
+          "timestamp": 1752478894.870195,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "106.220.183.92",
+          "dst_port": 3468,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "106.220.183.92:3468",
+            "MESSAGE-INTEGRITY": "75743f77fe07c80eb2d0f57c2eebad8e5d588f08",
+            "FINGERPRINT": "847ec404"
+          }
+        }
+      ]
+    },
+    "7961595a774b745648542f68": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.94.233.160",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478895.256725,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "100.94.233.160",
+          "dst_port": 46284,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xokG:05Kj",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "df17cd1d11f3f2e9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "2351af5870b4d8e027f5528096bc8c1fae576f1a",
+            "FINGERPRINT": "0637dd80"
+          }
+        }
+      ]
+    },
+    "77452f736963756146477049": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "106.220.183.92",
+      "exposed_ip_address": "106.220.183.92:3468",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478895.509908,
+          "src_ip": "106.220.183.92",
+          "src_port": 3468,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "05Kj:xokG",
+            "Unknown(0xc057)": "00010384",
+            "Unknown(0x802a)": "b3401b34550f6c1d",
+            "Unknown(0x0024)": "6e7d1eff",
+            "MESSAGE-INTEGRITY": "b3bb25026b284ee8c122b4f84759a46b1ea7c385",
+            "FINGERPRINT": "ba8370a3"
+          }
+        },
+        {
+          "timestamp": 1752478895.510263,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "106.220.183.92",
+          "dst_port": 3468,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "106.220.183.92:3468",
+            "MESSAGE-INTEGRITY": "ec0e105e1d22eccf7019f174dbf1cc7c84d5128b",
+            "FINGERPRINT": "d3d04a1e"
+          }
+        }
+      ]
+    },
+    "5a787835542f46726575446f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "106.220.183.92",
+      "exposed_ip_address": "78.22.232.243:63388",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478895.757026,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "106.220.183.92",
+          "dst_port": 3468,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xokG:05Kj",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "df17cd1d11f3f2e9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "98117dacca6b12f7e9c8fa6cc3b17ea388d8d2b8",
+            "FINGERPRINT": "37b97bfe"
+          }
+        },
+        {
+          "timestamp": 1752478895.909889,
+          "src_ip": "106.220.183.92",
+          "src_port": 3468,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63388",
+            "MESSAGE-INTEGRITY": "8edb0a58c01ed89194ad3563fbc8e45a8c40d0de",
+            "FINGERPRINT": "670d887c"
+          }
+        }
+      ]
+    },
+    "4441484f66742b7878744974": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "100.94.233.160",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478896.320631,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "100.94.233.160",
+          "dst_port": 46284,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xokG:05Kj",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "df17cd1d11f3f2e9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "b1b468a189f6bd8995d9b2deb7a5908da34b6a5e",
+            "FINGERPRINT": "34fe3bc3"
+          }
+        }
+      ]
+    },
+    "7866624b77546c31744e4c51": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "106.220.183.92",
+      "exposed_ip_address": "78.22.232.243:63388",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478896.756777,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "106.220.183.92",
+          "dst_port": 3468,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xokG:05Kj",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "df17cd1d11f3f2e9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "d6f20e81184221d33d86dc4ac99db70e99df8e8f",
+            "FINGERPRINT": "5b0fc524"
+          }
+        },
+        {
+          "timestamp": 1752478896.940219,
+          "src_ip": "106.220.183.92",
+          "src_port": 3468,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:63388",
+            "MESSAGE-INTEGRITY": "ac96814b8ecda6dbed9e1528180e21e6b22f51a3",
+            "FINGERPRINT": "f7b978e9"
+          }
+        }
+      ]
+    },
+    "326845684f596b3032416752": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "106.220.183.92",
+      "exposed_ip_address": "106.220.183.92:3468",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478899.140503,
+          "src_ip": "106.220.183.92",
+          "src_port": 3468,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 63388,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "05Kj:xokG",
+            "Unknown(0xc057)": "00010384",
+            "Unknown(0x802a)": "b3401b34550f6c1d",
+            "Unknown(0x0024)": "6e7d1eff",
+            "MESSAGE-INTEGRITY": "f61e2fbb8f58770e7356ff8f2afdfb7480c72050",
+            "FINGERPRINT": "0151bb7b"
+          }
+        },
+        {
+          "timestamp": 1752478899.140707,
+          "src_ip": "192.168.0.104",
+          "src_port": 63388,
+          "dst_ip": "106.220.183.92",
+          "dst_port": 3468,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "106.220.183.92:3468",
+            "MESSAGE-INTEGRITY": "5314fec842074685d342a4e75eb86a7fbcea9705",
+            "FINGERPRINT": "14b451e5"
+          }
+        }
+      ]
+    },
+    "676f512b774b613242335a43": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478901.319771,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478901.47683,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MAPPED-ADDRESS": "0001de6d4e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "7d047b5f"
+          }
+        }
+      ]
+    },
+    "39694166714e6c3479374264": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478901.319898,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478901.476753,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MAPPED-ADDRESS": "0001de6d4e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "0f15f77b"
+          }
+        }
+      ]
+    },
+    "39545a466c63766c39504e37": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.0.0.4",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478901.679589,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "192.0.0.4",
+          "dst_port": 44275,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "ab9b776da72ea4d000fa7243f34dabc554ce5bac",
+            "FINGERPRINT": "df08b270"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "7230486e69486e7269717378": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478902.413936,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "028e376af2e4dd44225f58a19eb050c2972fb329",
+            "FINGERPRINT": "57c6bbb7"
+          }
+        },
+        {
+          "timestamp": 1752478902.587634,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MESSAGE-INTEGRITY": "1b4d8c9560d89bccc74571e611021404e2f33c69",
+            "FINGERPRINT": "8d2f55df"
+          }
+        }
+      ]
+    },
+    "65546f474759586537722f37": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478902.476525,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 44275,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "60a7e513741d34f2f961393ff9dfaa5ea37780a1",
+            "FINGERPRINT": "e7c74529"
+          }
+        }
+      ]
+    },
+    "31644b426b77454a48303857": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "157.48.221.143:55750",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478902.597399,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "G+mg:xkfO",
+            "Unknown(0xc057)": "00030032",
+            "Unknown(0x802a)": "81b8be7a8f2d6cc2",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "1ccaf870c320985d299a83493ad6797af430326f",
+            "FINGERPRINT": "17f7937a"
+          }
+        },
+        {
+          "timestamp": 1752478902.597719,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "157.48.221.143:55750",
+            "MESSAGE-INTEGRITY": "8507280940adcb1b451a061959ed809b0a98bf7a",
+            "FINGERPRINT": "2807cb26"
+          }
+        }
+      ]
+    },
+    "73734c50794636744a6f7879": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478902.60091,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "f250740fcde3e6dab0e5fbddbb07fa86c9ec6901",
+            "FINGERPRINT": "5a3f4cf8"
+          }
+        },
+        {
+          "timestamp": 1752478902.807774,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MESSAGE-INTEGRITY": "ae4cdfcf162eb805ed72468cbe094ea4acb691bb",
+            "FINGERPRINT": "ea202f85"
+          }
+        }
+      ]
+    },
+    "594f6c412f39723969635670": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478902.679696,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "1234f0440fb8c94be47083977cef880a063fde06",
+            "FINGERPRINT": "8cbb7588"
+          }
+        },
+        {
+          "timestamp": 1752478902.857418,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MESSAGE-INTEGRITY": "4f53ac9890ed9b423390cc4caff73ae323013474",
+            "FINGERPRINT": "186d5f03"
+          }
+        }
+      ]
+    },
+    "63396d77375646726c576267": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "157.48.221.143:55750",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478902.817437,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "G+mg:xkfO",
+            "Unknown(0xc057)": "00030032",
+            "Unknown(0x802a)": "81b8be7a8f2d6cc2",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "1484ca891df9c197d03ea3b39adf48972adfa36a",
+            "FINGERPRINT": "0a215556"
+          }
+        },
+        {
+          "timestamp": 1752478902.817635,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "157.48.221.143:55750",
+            "MESSAGE-INTEGRITY": "7666d920c9a56c1dc3065f92be5e74362a6f3839",
+            "FINGERPRINT": "eca4aa51"
+          }
+        }
+      ]
+    },
+    "477a68616c4e30586a706162": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478903.602236,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "466410eb624cc7536b002ae1a67a3dcc4cfa13e1",
+            "FINGERPRINT": "971c8fed"
+          }
+        },
+        {
+          "timestamp": 1752478903.786933,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MESSAGE-INTEGRITY": "5c38edef0ebf741e7016ef7b99d1a910add11f2a",
+            "FINGERPRINT": "7096d4cf"
+          }
+        }
+      ]
+    },
+    "77512f6d41334f4d4179594c": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "157.48.221.143:55750",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478903.721893,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "G+mg:xkfO",
+            "Unknown(0xc057)": "00030032",
+            "Unknown(0x802a)": "81b8be7a8f2d6cc2",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "3a30dcda0cfe83b480f01b1a5e1a85208319452c",
+            "FINGERPRINT": "d62951a7"
+          }
+        },
+        {
+          "timestamp": 1752478903.722218,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "157.48.221.143:55750",
+            "MESSAGE-INTEGRITY": "b672b8b66650081a858f9b1c542fc45aa257cf73",
+            "FINGERPRINT": "2ec78234"
+          }
+        }
+      ]
+    },
+    "6b4a4f2b3965424f4831334e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.0.0.4",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478904.16381,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "192.0.0.4",
+          "dst_port": 44275,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "b73010efcbf18adb65f8da27acb8f1fdf4594579",
+            "FINGERPRINT": "fa5e6d56"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "527a3441626570666e784668": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478904.538493,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "e0afd05e9157d3cf79b9a7f282c670cf91cb96db",
+            "FINGERPRINT": "46bd19b6"
+          }
+        },
+        {
+          "timestamp": 1752478904.72695,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MESSAGE-INTEGRITY": "b68d633a9a335d024b40085556f119488c8b51bb",
+            "FINGERPRINT": "72aee08d"
+          }
+        }
+      ]
+    },
+    "377a516f78326e4744447957": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "157.48.221.143:55750",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478904.621983,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "G+mg:xkfO",
+            "Unknown(0xc057)": "00030032",
+            "Unknown(0x802a)": "81b8be7a8f2d6cc2",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "a345f02287cd5ad76194fd8716be96a5a1d5f937",
+            "FINGERPRINT": "550f357a"
+          }
+        },
+        {
+          "timestamp": 1752478904.622415,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "157.48.221.143:55750",
+            "MESSAGE-INTEGRITY": "ce5e8160c57c06680e27bfb71e09374bf29d4722",
+            "FINGERPRINT": "e229da08"
+          }
+        }
+      ]
+    },
+    "36775a5436332b4b487a654a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478904.960515,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 44275,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "13a246265cd1860d8e8c2ef645698215e7e461c9",
+            "FINGERPRINT": "f7ea2ca0"
+          }
+        }
+      ]
+    },
+    "653770324d6a594d6e6b7a64": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "157.48.221.143:55750",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478905.682042,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "G+mg:xkfO",
+            "Unknown(0xc057)": "00030032",
+            "Unknown(0x802a)": "81b8be7a8f2d6cc2",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "1778375fa09b093fe92460cb7c909c1940157604",
+            "FINGERPRINT": "9ece4bfe"
+          }
+        },
+        {
+          "timestamp": 1752478905.68286,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "157.48.221.143:55750",
+            "MESSAGE-INTEGRITY": "d177ed1a8f1d7baaf1704e2a001da158d8a537fc",
+            "FINGERPRINT": "e41c0ec2"
+          }
+        }
+      ]
+    },
+    "556b6437784c49324b487266": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.0.0.4",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478906.305137,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "192.0.0.4",
+          "dst_port": 44275,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "61b2792905b14803762fa64137221badc0d39d15",
+            "FINGERPRINT": "2738dd73"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "3655655144624f706e693749": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "78.22.232.243:56941",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478907.038211,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "2128021574b1283c98971ac2252e87aaf51d8cd6",
+            "FINGERPRINT": "f42e34b9"
+          }
+        },
+        {
+          "timestamp": 1752478907.227025,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:56941",
+            "MESSAGE-INTEGRITY": "e83ae0c96dff5b928c065f5964538132f641b71a",
+            "FINGERPRINT": "d1fa41f5"
+          }
+        }
+      ]
+    },
+    "4f68392f476431577a704935": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478907.17924,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 44275,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "xkfO:G+mg",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x8029)": "21dac1d6c6f7dfc9",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "897232eb64c2db38f710deb2c43d2eb76d796262",
+            "FINGERPRINT": "00cf12f9"
+          }
+        }
+      ]
+    },
+    "5062744b4342397a7461616a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "157.48.221.143",
+      "exposed_ip_address": "157.48.221.143:55750",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478908.341934,
+          "src_ip": "157.48.221.143",
+          "src_port": 55750,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 56941,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "G+mg:xkfO",
+            "Unknown(0xc057)": "00030032",
+            "Unknown(0x802a)": "81b8be7a8f2d6cc2",
+            "Unknown(0x0025)": "",
+            "Unknown(0x0024)": "6e7f1eff",
+            "MESSAGE-INTEGRITY": "4254a74408eae6188b434868b7f0f088dd87f232",
+            "FINGERPRINT": "94d07357"
+          }
+        },
+        {
+          "timestamp": 1752478908.342301,
+          "src_ip": "192.168.0.104",
+          "src_port": 56941,
+          "dst_ip": "157.48.221.143",
+          "dst_port": 55750,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "157.48.221.143:55750",
+            "MESSAGE-INTEGRITY": "b35c4c9ab749294ed851caacfd6a14023596a746",
+            "FINGERPRINT": "9d54e156"
+          }
+        }
+      ]
+    },
+    "4e6e6a553372365a764a4b53": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478909.116258,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478909.271667,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MAPPED-ADDRESS": "0001ca254e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "8d8e4e59"
+          }
+        }
+      ]
+    },
+    "6330523070334e694248794a": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478909.116396,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478909.271007,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MAPPED-ADDRESS": "0001ca254e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "b8ccc09e"
+          }
+        }
+      ]
+    },
+    "2b66656c54397a42386a5a49": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51758",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478909.117603,
+          "src_ip": "192.168.0.104",
+          "src_port": 51758,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478909.271051,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51758,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51758",
+            "MAPPED-ADDRESS": "0001ca2e4e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "18020111"
+          }
+        }
+      ]
+    },
+    "376235546d4f4f527078642b": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51758",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478909.117719,
+          "src_ip": "192.168.0.104",
+          "src_port": 51758,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478909.270966,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51758,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51758",
+            "MAPPED-ADDRESS": "0001ca2e4e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "a0d3c42f"
+          }
+        }
+      ]
+    },
+    "4f532f68707234674c484b51": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51767",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478909.117919,
+          "src_ip": "192.168.0.104",
+          "src_port": 51767,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478909.272652,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51767,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51767",
+            "MAPPED-ADDRESS": "0001ca374e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "052c5cde"
+          }
+        }
+      ]
+    },
+    "344841786749517442794262": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51767",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478909.117956,
+          "src_ip": "192.168.0.104",
+          "src_port": 51767,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478909.2705,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51767,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51767",
+            "MAPPED-ADDRESS": "0001ca374e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "a6c28553"
+          }
+        }
+      ]
+    },
+    "474a51502b59684231385048": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.32",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478910.414008,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "192.168.1.32",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "dc1d5babf30ed17a6ffbe138893900f5e31df3b3",
+            "FINGERPRINT": "f781afc9"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "47514f684176367474797154": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478910.804084,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "4ab21e0a1b15d4b71f093e68326b515352d60b40",
+            "FINGERPRINT": "cfd5a7e5"
+          }
+        },
+        {
+          "timestamp": 1752478911.087227,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MESSAGE-INTEGRITY": "062f3b53c7c42aa7f26e750f88f41d9ad074576d",
+            "FINGERPRINT": "175f992f"
+          }
+        }
+      ]
+    },
+    "6232464c47794737634a3746": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "223.177.222.83:53609",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478911.102945,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ncfs:nfwZ",
+            "Unknown(0xc057)": "0003000a",
+            "Unknown(0x8029)": "18991aed6580fb44",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "9762c31b2cccb10b941d1491777d64c69272d781",
+            "FINGERPRINT": "c994ad3f"
+          }
+        },
+        {
+          "timestamp": 1752478911.103268,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "223.177.222.83:53609",
+            "MESSAGE-INTEGRITY": "f1d27a4107d30c21154a6759ac7c4120ab0d8cb3",
+            "FINGERPRINT": "e1239255"
+          }
+        }
+      ]
+    },
+    "53634f72635031417567754d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.32",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478911.397379,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "192.168.1.32",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "d6a7078a4f8ce4b89f0769cfda69989d17f22605",
+            "FINGERPRINT": "ddd8030c"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "536a534161524677526b394f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478911.819696,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "d563cf17a8095f25460ae102576338014f676947",
+            "FINGERPRINT": "28b8e05e"
+          }
+        },
+        {
+          "timestamp": 1752478912.101246,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MESSAGE-INTEGRITY": "c4514a82e21f106c4c8f7d4e4a84dc650b206027",
+            "FINGERPRINT": "0e1e3a59"
+          }
+        }
+      ]
+    },
+    "7a6b446b4d37337a6d426954": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "223.177.222.83:53609",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478911.971051,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ncfs:nfwZ",
+            "Unknown(0xc057)": "0003000a",
+            "Unknown(0x8029)": "18991aed6580fb44",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "0e714e7b536ea30a7fce9a08db8cdad98251ec53",
+            "FINGERPRINT": "0dd41a78"
+          }
+        },
+        {
+          "timestamp": 1752478911.971389,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "223.177.222.83:53609",
+            "MESSAGE-INTEGRITY": "a8b782d2d5b06710ce5df3b242b4847f9bc67985",
+            "FINGERPRINT": "af8d7e6b"
+          }
+        }
+      ]
+    },
+    "4a696d6c684b4f3262304a51": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.32",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478912.476821,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "192.168.1.32",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "7dec786c4795ebc1110499f1d751f6efd8f3ef98",
+            "FINGERPRINT": "f4a04eff"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "474941775a58574f62356b43": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478912.913944,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "4ffd7adb22c1e372ac9fd156eff3cddedd2ccf1b",
+            "FINGERPRINT": "f2eaa0bd"
+          }
+        },
+        {
+          "timestamp": 1752478913.19024,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MESSAGE-INTEGRITY": "8bbc0aa5333ad621e6741e1cd14a7cd80e4edf08",
+            "FINGERPRINT": "46fd7cbe"
+          }
+        }
+      ]
+    },
+    "556c4f785832564264583158": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "223.177.222.83:53609",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478916.318243,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ncfs:nfwZ",
+            "Unknown(0xc057)": "0003000a",
+            "Unknown(0x8029)": "18991aed6580fb44",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "16a36da93779386dc6e78eaf38f5c80be7f23337",
+            "FINGERPRINT": "543913c1"
+          }
+        },
+        {
+          "timestamp": 1752478916.318452,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "223.177.222.83:53609",
+            "MESSAGE-INTEGRITY": "4f587e5bc06694edbdcec205af65b1e96e8fd2d7",
+            "FINGERPRINT": "9da518bc"
+          }
+        }
+      ]
+    },
+    "3271522b4364337566635a4d": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "192.168.1.32",
+      "exposed_ip_address": "Not detected",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478918.413034,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "192.168.1.32",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "2f52f0240e6f6a63bd3fc379c08d228838e1fbcc",
+            "FINGERPRINT": "fe5bd4ca"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "4b38702b6c4167555131686e": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478919.274378,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478919.426018,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MAPPED-ADDRESS": "0001ca254e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "e0ea8ea0"
+          }
+        }
+      ]
+    },
+    "36456f503979506f72374964": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478919.274424,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478919.432769,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MAPPED-ADDRESS": "0001ca254e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "3ce02211"
+          }
+        }
+      ]
+    },
+    "71384e372f75565151796e4f": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478922.272684,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "nfwZ:Ncfs",
+            "Unknown(0xc057)": "00060000",
+            "Unknown(0x802a)": "cc6a4e0e5310e61b",
+            "Unknown(0x0024)": "6e771eff",
+            "MESSAGE-INTEGRITY": "5cb702545000b7947dce33e6d16789ec5d57fcd9",
+            "FINGERPRINT": "ceacc7fa"
+          }
+        },
+        {
+          "timestamp": 1752478922.549061,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MESSAGE-INTEGRITY": "a7b7b2543445ca0c28b86a4cfc877937215204ab",
+            "FINGERPRINT": "d8752b37"
+          }
+        }
+      ]
+    },
+    "684e4a63365a79584e4f6c43": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "223.177.222.83",
+      "exposed_ip_address": "223.177.222.83:53609",
+      "library_info": "Not detected",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478924.818815,
+          "src_ip": "223.177.222.83",
+          "src_port": 53609,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Request",
+          "attributes": {
+            "USERNAME": "Ncfs:nfwZ",
+            "Unknown(0xc057)": "0003000a",
+            "Unknown(0x8029)": "18991aed6580fb44",
+            "Unknown(0x0024)": "6e7e1eff",
+            "MESSAGE-INTEGRITY": "384143939da18eac096c2642ec1a440c1bce108f",
+            "FINGERPRINT": "bb968ef8"
+          }
+        },
+        {
+          "timestamp": 1752478924.819064,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "223.177.222.83",
+          "dst_port": 53609,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "223.177.222.83:53609",
+            "MESSAGE-INTEGRITY": "0a79c5904cd3321a9e1056066cc74dfcf079d5dd",
+            "FINGERPRINT": "0c042c69"
+          }
+        }
+      ]
+    },
+    "6c71316f2b39304b37547175": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478929.429088,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478929.581067,
+          "src_ip": "143.110.233.174",
+          "src_port": 3478,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MAPPED-ADDRESS": "0001ca254e16e8f3",
+            "Unknown(0x802b)": "00010d9689b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "324a0f6c"
+          }
+        }
+      ]
+    },
+    "54304c433168482f52787850": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.0.104",
+      "stun_server_ip": "143.110.233.174",
+      "exposed_ip_address": "78.22.232.243:51749",
+      "library_info": "None",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1752478929.460458,
+          "src_ip": "192.168.0.104",
+          "src_port": 51749,
+          "dst_ip": "143.110.233.174",
+          "dst_port": 443,
+          "message_type": "Binding Request",
+          "attributes": {}
+        },
+        {
+          "timestamp": 1752478929.61691,
+          "src_ip": "143.110.233.174",
+          "src_port": 443,
+          "dst_ip": "192.168.0.104",
+          "dst_port": 51749,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "78.22.232.243:51749",
+            "MAPPED-ADDRESS": "0001ca254e16e8f3",
+            "Unknown(0x802b)": "000101bb89b8b5c7",
+            "SOFTWARE": "None",
+            "FINGERPRINT": "8a693dc5"
+          }
+        }
+      ]
+    }
+  }
+}

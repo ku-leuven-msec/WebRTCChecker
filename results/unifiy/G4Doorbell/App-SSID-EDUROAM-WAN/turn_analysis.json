@@ -1,0 +1,225 @@
+{
+  "geoip_summary": {
+    "18.156.18.134": {
+      "ip": "18.156.18.134",
+      "hostname": "ec2-18-156-18-134.eu-central-1.compute.amazonaws.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS16509 Amazon.com, Inc.",
+      "timezone": "Europe/Berlin"
+    }
+  },
+  "turn_transactions": {
+    "aed0f6cf29d1c37f0e7c6385": [
+      {
+        "timestamp": 1686298072.368519,
+        "src": "10.129.179.30:38187",
+        "dst": "18.156.18.134:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "aed0f6cf29d1c37f0e7c6385",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300202112a442aed0f6cf29d1c37f0e7c63850019000411000000001a0000000d000400000e108022000876322e31322e3237",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1686298072.3831794,
+        "src": "18.156.18.134:3478",
+        "dst": "10.129.179.30:38187",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "aed0f6cf29d1c37f0e7c6385",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.6.1",
+        "raw_payload_hex": "011300502112a442aed0f6cf29d1c37f0e7c63850009001000000401556e617574686f72697a656400150010653539336566316466613731366535660014000a7477696c696f2e636f6d000080220014436f7475726e2d342e362e312027476f72737427",
+        "credentials": {
+          "realm": "twilio.com",
+          "nonce": "65353933656631646661373136653566"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "69e7d7df278de2162dc09501": [
+      {
+        "timestamp": 1686298072.4636672,
+        "src": "10.129.179.30:38187",
+        "dst": "18.156.18.134:3478",
+        "message_type": "Allocate Request",
+        "transaction_id": "69e7d7df278de2162dc09501",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300a82112a44269e7d7df278de2162dc095010019000411000000001a0000000d000400000e100014000a7477696c696f2e636f6d0000000600403333633034323135396165313030633362636134313666353963653065306264336239383661336165646166366263613036373133343831373632316161636300150010653539336566316466613731366535668022000876322e31322e3237000800149158a429d6ffa6e0dcf7de328a56340dab5779c0802800042692d325",
+        "credentials": {
+          "username": "33c042159ae100c3bca416f59ce0e0bd3b986a3aedaf6bca067134817621aacc",
+          "realm": "twilio.com",
+          "nonce": "65353933656631646661373136653566"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686298072.5716796,
+        "src": "18.156.18.134:3478",
+        "dst": "10.129.179.30:38187",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "69e7d7df278de2162dc09501",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Coturn",
+        "library_version": "4.6.1",
+        "raw_payload_hex": "010300582112a44269e7d7df278de2162dc09501001600080001c1bc338eb6c4002000080001b439e0ac45b6000d000400000e1080220014436f7475726e2d342e362e312027476f7273742700080014b265aecac78eb2338a9531553c796334fb76e2e980280004740066e9",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "336f92ec693428159bb14001": [
+      {
+        "timestamp": 1686298072.6654105,
+        "src": "10.129.179.30:38187",
+        "dst": "18.156.18.134:3478",
+        "message_type": "ChannelBind Request",
+        "transaction_id": "336f92ec693428159bb14001",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000900a82112a442336f92ec693428159bb14001000c000440010000001200080001908de0ac45b08022000876322e31322e32370014000a7477696c696f2e636f6d0000000600403333633034323135396165313030633362636134313666353963653065306264336239383661336165646166366263613036373133343831373632316161636300150010653539336566316466613731366535660008001431eb7a9295a765fcdd3fa4bd31830cfde02bc7c080280004ea2378c7",
+        "credentials": {
+          "username": "33c042159ae100c3bca416f59ce0e0bd3b986a3aedaf6bca067134817621aacc",
+          "realm": "twilio.com",
+          "nonce": "65353933656631646661373136653566"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686298072.679596,
+        "src": "18.156.18.134:3478",
+        "dst": "10.129.179.30:38187",
+        "message_type": "ChannelBind Success Response",
+        "transaction_id": "336f92ec693428159bb14001",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.6.1",
+        "raw_payload_hex": "010900382112a442336f92ec693428159bb1400180220014436f7475726e2d342e362e312027476f727374270008001462b32e882354dc612e43043b371f1cebf26b6dab8028000482c52364",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "4503ae15a1ef2d128ce34000": [
+      {
+        "timestamp": 1686298072.6654108,
+        "src": "10.129.179.30:38187",
+        "dst": "18.156.18.134:3478",
+        "message_type": "ChannelBind Request",
+        "transaction_id": "4503ae15a1ef2d128ce34000",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000900a82112a4424503ae15a1ef2d128ce34000000c000440000000001200080001908d2b7c05b18022000876322e31322e32370014000a7477696c696f2e636f6d00000006004033336330343231353961653130306333626361343136663539636530653062643362393836613361656461663662636130363731333438313736323161616363001500106535393365663164666137313665356600080014d5b76f5ecfb56efa4b949310f59c8bf3b2ce9aff802800046e3ddecc",
+        "credentials": {
+          "username": "33c042159ae100c3bca416f59ce0e0bd3b986a3aedaf6bca067134817621aacc",
+          "realm": "twilio.com",
+          "nonce": "65353933656631646661373136653566"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686298072.679666,
+        "src": "18.156.18.134:3478",
+        "dst": "10.129.179.30:38187",
+        "message_type": "ChannelBind Error Response",
+        "transaction_id": "4503ae15a1ef2d128ce34000",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.6.1",
+        "raw_payload_hex": "0119004c2112a4424503ae15a1ef2d128ce340000009001000000403466f7262696464656e20495080220014436f7475726e2d342e362e312027476f727374270008001495bab2ca071950432a5c579a45645a0c125b6cf0802800047c1e1406",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "517644c47a94d2e175ca4002": [
+      {
+        "timestamp": 1686298072.6654108,
+        "src": "10.129.179.30:38187",
+        "dst": "18.156.18.134:3478",
+        "message_type": "ChannelBind Request",
+        "transaction_id": "517644c47a94d2e175ca4002",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000900a82112a442517644c47a94d2e175ca4002000c0004400200000012000800018cc3e0ac45b08022000876322e31322e32370014000a7477696c696f2e636f6d000000060040333363303432313539616531303063336263613431366635396365306530626433623938366133616564616636626361303637313334383137363231616163630015001065353933656631646661373136653566000800147e5da63c68715b35d0b5e7569f0c2bc2ced6bec980280004b327438f",
+        "credentials": {
+          "username": "33c042159ae100c3bca416f59ce0e0bd3b986a3aedaf6bca067134817621aacc",
+          "realm": "twilio.com",
+          "nonce": "65353933656631646661373136653566"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686298072.6796663,
+        "src": "18.156.18.134:3478",
+        "dst": "10.129.179.30:38187",
+        "message_type": "ChannelBind Success Response",
+        "transaction_id": "517644c47a94d2e175ca4002",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.6.1",
+        "raw_payload_hex": "010900382112a442517644c47a94d2e175ca400280220014436f7475726e2d342e362e312027476f7273742700080014460b4dd2c504dc2ec719d1133fc530582dab75fc80280004df596a48",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "935f0ba9b5ad7a2c8d202f48": [
+      {
+        "timestamp": 1686298073.3008466,
+        "src": "10.129.179.30:38187",
+        "dst": "18.156.18.134:3478",
+        "message_type": "Refresh Request",
+        "transaction_id": "935f0ba9b5ad7a2c8d202f48",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0004009c2112a442935f0ba9b5ad7a2c8d202f48000d0004000000000014000a7477696c696f2e636f6d0000000600403333633034323135396165313030633362636134313666353963653065306264336239383661336165646166366263613036373133343831373632316161636300150010653539336566316466613731366535668022000876322e31322e323700080014c019f7fe348aaf4470a01632982b5ae643b030de8028000486ce4b94",
+        "credentials": {
+          "username": "33c042159ae100c3bca416f59ce0e0bd3b986a3aedaf6bca067134817621aacc",
+          "realm": "twilio.com",
+          "nonce": "65353933656631646661373136653566"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686298073.3151977,
+        "src": "18.156.18.134:3478",
+        "dst": "10.129.179.30:38187",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "935f0ba9b5ad7a2c8d202f48",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Coturn",
+        "library_version": "4.6.1",
+        "raw_payload_hex": "010400402112a442935f0ba9b5ad7a2c8d202f48000d00040000000080220014436f7475726e2d342e362e312027476f72737427000800142693522b23aaed7b7913c59d2d4a39a3d97f283f80280004ad3d4a06",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ]
+  }
+}

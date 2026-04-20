@@ -1,0 +1,116 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.139:46804-192.168.1.69:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:46804-192.168.1.69:80",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 423 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.59)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "org/TR/xhtml1/DTD/xhtml1"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "GET /assets/img/unifi-video-logo.png HTTP/1.1\r\nHost: 192.168.1.69\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: image/webp,*/*\r\nAccept-Language: en-US,en;q",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.139:53554-192.168.1.69:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:53554-192.168.1.69:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "GET /snap.jpeg?cb=1666338713 HTTP/1.1\r\nHost: 192.168.1.69\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: image/webp,*/*\r\nAccept-Language: en-US,en;q=0.5\r\nAc",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.139:43388-192.168.1.69:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:43388-192.168.1.69:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "/assets/img/devices/prot",
+          "externalIRAutodetect",
+          "squareEventThumbnail"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "GET /assets/img/devices/protect-camera.png?cb=1666338771 HTTP/1.1\r\nHost: 192.168.1.69\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: image/webp,*/*\r\nAccept-",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.139:43400-192.168.1.69:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:43400-192.168.1.69:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "GET /snap.jpeg?cb=1666338772 HTTP/1.1\r\nHost: 192.168.1.69\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: image/webp,*/*\r\nAccept-Language: en-US,en;q=0.5\r\nAc",
+      "geoip_info": "Not available"
+    }
+  ]
+}

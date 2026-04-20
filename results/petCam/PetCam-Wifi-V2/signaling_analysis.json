@@ -1,0 +1,19 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.200.1:554-192.168.200.100:56536",
+      "protocol": "TCP",
+      "endpoints": "192.168.200.1:554-192.168.200.100:56536",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 165 bytes)",
+        "Contains likely Unix timestamps",
+        "Medium entropy (5.46)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "OPTIONS rtsp://192.168.200.1:554 RTSP/1.0\r\nCSeq: 2\r\nUser-Agent: LibVLC/3.0.19 (LIVE555 Streaming Media v2016.11.28)\r\n\r\nRTSP/1.0 200 OK\r\nCSeq: 2\r\nServer: TAS-Tech Streaming Server V100R001\r\nPublic: DES",
+      "geoip_info": "Not available"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{# --- MACRO DEFINITION --- #}
+{# This is a reusable template function to render a single connection item. #}
+{# This avoids duplicating the code for both TLS and DTLS sections. #}
+{% macro render_connection_item(connection, loop, parent_id) %}
+<div class="accordion-item">
+    <h2 class="accordion-header" id="heading-webrtc-{{ parent_id }}-{{ loop.index }}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webrtc-{{ parent_id }}-{{ loop.index }}">
+            {# Use endpoints for the title if they exist #}
+            {% if connection.get('client_endpoint') and connection.get('server_endpoint') %}
+                <code>{{ connection.client_endpoint }}</code>
+                 <i class="bi bi-arrow-right-short"></i> 
+                <code>{{ connection.server_endpoint }}</code>
+            {% else %}
+                Connection #{{ loop.index }}
+            {% endif %}
+        </button>
+    </h2>
+    <div id="collapse-webrtc-{{ parent_id }}-{{ loop.index }}" class="accordion-collapse collapse" data-bs-parent="#{{ parent_id }}">
+        <div class="accordion-body">
+            
+            {% if connection.client_endpoint and connection.server_endpoint %}
+            <div class="mb-4">
+                <h6><i class="bi bi-diagram-3"></i> Connection Details</h6>
+                <dl class="row">
+                    <dt class="col-sm-3 text-muted">Client Endpoint</dt><dd class="col-sm-9"><code>{{ connection.client_endpoint }}</code></dd>
+                    <dt class="col-sm-3 text-muted">Server Endpoint</dt><dd class="col-sm-9"><code>{{ connection.server_endpoint }}</code></dd>
+                    {% if connection.get('total_bytes') is not none %}
+                    <dt class="col-sm-3 text-muted">Total Traffic</dt>
+                    <dd class="col-sm-9">
+                        {% set bytes = connection.total_bytes %}{% if bytes > 1048576 %}{{ "%.2f"|format(bytes / 1048576) }} MB{% elif bytes > 1024 %}{{ "%.2f"|format(bytes / 1024) }} KB{% else %}{{ bytes }} Bytes{% endif %}
+                    </dd>
+                    {% endif %}
+                </dl>
+            </div>
+            <hr>
+            {% endif %}
+
+            {% if connection.server_hello %}
+            <div class="mb-4">
+                <h6><i class="bi bi-hdd-stack"></i> Server Response (Server Hello)</h6>
+                <table class="table table-sm table-bordered"><tbody><tr><th style="width: 30%;">Chosen Cipher Suite</th><td><code>{{ connection.server_hello.chosen_crypto_suite }}</code>{% if connection.server_hello.is_encryption_strong %}<span class="badge text-bg-success float-end">Strong</span>{% else %}<span class="badge text-bg-danger float-end">Weak</span>{% endif %}</td></tr></tbody></table>
+            </div>
+            {% endif %}
+
+            <div class="mb-4">
+                <h6><i class="bi bi-display"></i> Client Analysis (Client Hello)</h6>
+                {% if connection.client_hello and connection.client_hello.get('offered_cipher_suites') %}
+                    {% set weak_ciphers = connection.client_hello.security_summary.get('weak_ciphers_list', []) %}{% if connection.client_hello.security_summary.get('offers_weak_ciphers') %}<div class="alert alert-warning p-2"><i class="bi bi-exclamation-triangle"></i> Client offered weak cipher suites.</div>{% endif %}<div class="accordion" id="accordion-ciphers-{{ parent_id }}-{{ loop.index }}"><div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-ciphers-{{ parent_id }}-{{ loop.index }}">Show all {{ connection.client_hello.offered_cipher_suites|length }} Offered Cipher Suites</button></h2><div id="collapse-ciphers-{{ parent_id }}-{{ loop.index }}" class="accordion-collapse collapse"><div class="accordion-body p-0"><ul class="list-group list-group-flush">{% for cipher in connection.client_hello.offered_cipher_suites %}{% if cipher in weak_ciphers %}<li class="list-group-item list-group-item-warning"><code>{{ cipher }}</code> <span class="badge text-bg-danger">Weak</span></li>{% else %}<li class="list-group-item"><code>{{ cipher }}</code></li>{% endif %}{% endfor %}</ul></div></div></div></div>
+                {% else %}
+                    <div class="alert alert-secondary">Client Hello information was not available or was empty in this capture.</div>
+                {% endif %}
+            </div>
+
+        {% set cert = connection.certificate_details %}
+        {% if cert %}
+            <div>
+                <h6><i class="bi bi-file-earmark-lock"></i> Certificate Details</h6>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    {% if cert.self_signed %}
+                        <span class="badge text-bg-danger fs-6">
+                            <i class="bi bi-exclamation-triangle-fill"></i> Self-Signed
+                        </span>
+                    {% else %}
+                        <span class="badge text-bg-success fs-6">
+                            <i class="bi bi-check-circle-fill"></i> Not Self-Signed
+                        </span>
+                    {% endif %}
+                    
+                    {% if not cert.validity_period_ok %}
+                        <span class="badge text-bg-warning fs-6">
+                            <i class="bi bi-calendar-x-fill"></i> Invalid Validity Period
+                        </span>
+                    {% else %}
+                        <span class="badge text-bg-success fs-6">
+                            <i class="bi bi-check-circle-fill"></i> Validity Period OK
+                        </span>
+                    {% endif %}
+                </div>
+
+                <dl class="row">
+                    <dt class="col-sm-3">Subject CN</dt><dd class="col-sm-9">{{ cert.subject_cn }}</dd>
+                    <dt class="col-sm-3">Issuer CN</dt><dd class="col-sm-9">{{ cert.issuer_cn }}</dd>
+                    <dt class="col-sm-3">Valid From</dt><dd class="col-sm-9">{{ cert.valid_from }}</dd>
+                    <dt class="col-sm-3">Valid Until</dt><dd class="col-sm-9">{{ cert.valid_until }}</dd>
+                    <dt class="col-sm-3">Fingerprint (SHA256)</dt><dd class="col-sm-9"><code>{{ cert.fingerprint }}</code></dd>
+                </dl>
+            </div>
+            {% else %}
+            <div>
+                <h6><i class="bi bi-file-earmark-lock"></i> Certificate Details</h6>
+                <div class="alert alert-secondary">No certificate available</div>
+            </div>
+        {% endif %}
+
+
+        </div>
+    </div>
+</div>
+{% endmacro %}
+
+
+<!-- SECTION 1: DTLS CONNECTIONS -->
+<h4 class="mt-4">DTLS Connections (Media)</h4>
+<div class="accordion" id="dtlsConnectionAccordion">
+    {# Pre-filter the list to get only DTLS connections #}
+    {% set dtls_connections = report_content | selectattr('protocol', 'equalto', 'DTLS') | list %}
+    {% if dtls_connections %}
+        {% for connection in dtls_connections %}
+            {{ render_connection_item(connection, loop, 'dtlsConnectionAccordion') }}
+        {% endfor %}
+    {% else %}
+        <div class="alert alert-secondary">No DTLS connections found.</div>
+    {% endif %}
+</div>
+
+
+<!-- SECTION 2: TLS CONNECTIONS -->
+<h4 class="mt-4">TLS Connections (Signaling/Other)</h4>
+<div class="accordion" id="tlsConnectionAccordion">
+    {# Pre-filter the list to get only TLS connections #}
+    {% set tls_connections = report_content | selectattr('protocol', 'equalto', 'TLS') | list %}
+    {% if tls_connections %}
+        {% for connection in tls_connections %}
+            {{ render_connection_item(connection, loop, 'tlsConnectionAccordion') }}
+        {% endfor %}
+    {% else %}
+        <div class="alert alert-secondary">No TLS connections found.</div>
+    {% endif %}
+</div>

@@ -1,0 +1,98 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "UDP:192.168.1.1:10001-192.168.1.218:46707",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.1:10001-192.168.1.218:46707",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 280 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.45)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238"
+        ],
+        "base64_strings": [
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523"
+        ]
+      },
+      "payload_snippet": "\u0001\u0000\u0001\u0014\u0002\u0000\np\u00a7Ah\u00ed\u0012\n\u0081\u00b3\u001e\u0002\u0000\nr\u00a7Ah\u00ed\u000b\u00c0\u00a8\u0001\u0001\u0002\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u00ac\u0010\u00c2\u0016/\u0000\np\u00a7Ah\u00ed\n\n\u0081\u00b3\u001e\u0001\u0000\u0006p\u00a7Ah\u00ed\n0\u0000270a74168ed0a066f146406bc17d20628d5238.id.ui.direct\u000b\u0000\u0014Smart-Home-KU-Leuven\f\u0000\bUDMPROSE\u000e\u0000\u0001\u0001\r\u0000\u0000\u0003\u0000\u00063.0.18 \u0000F70A74168ED0A00000000066F14640",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:39968-34.98.74.57:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:39968-34.98.74.57:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 73 bytes)",
+        "Medium entropy (5.85)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000D&5\u0013f\u00d2\u0085d\u00a8\u00efV\u00b8\u00af\u0001\u001c\u00ba9\u00fc\u00f0]1\u0018\u0086s-\u00e3:/\u0081\u0094\u00d5\u0000K\u00d1\u00ef\u00a6\u0005]K\u00cd\u00eb1\u00ba\u00f1P\u00a1\u001f6\u00b4\u00f0\u00fad`\u00cd-NY\u0015\u0014b\u0010\u0016\u0012\u008ce\u00f2{\u00f0u",
+      "geoip_info": "US, Kansas City, Missouri, AS396982 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:38808-34.158.0.131:4070",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:38808-34.158.0.131:4070",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 223 bytes)",
+        "Medium entropy (6.76)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0004\u0000\u0000\u0000\u00dfR\u000fP\u0002\u00a0\u0001\u0000\u00f0\u0001\u0006\u00c0\u0002\u00ed\u00bd\u009e\u00a5\u0003\u00a0\u0001\u0000\u00f0\u0001\u0000\u00c0\u0002\u0000\u0092\u0003gReR`\u00cc,\u000e\u00c4\u000b\u00a7\u0019\u00d5r\u00df\u009eA\u00b3\u000e\u008e\u00a0\u0004\u001d \u00a3\u0007\u00e5n\u00abD\u00a5[;\u00cd\n@\u00eb\u000f\u0090\u00e3$\u0090\u009b\u00a3\u00fc\u000e*8\u0080\u00a5}\u0006}hT\u00b3G\u00f1\u00e6\u00ea\u008e\u0006\u00a5,\u0019\u0088N\u00b0\u00e8\u00fd\u00ee\u008cT\u00ee\u008cf\u00eb\u0014\u0084\u0016\u00b8\u00ff\u00ea\u008d\u00b3\u00c6kr\u008b\u009f\u00e4\u0012\u00ad7m\u00da\u0011W\u00dbm\u0016\u00a0\u0001\u0001\u00e2\u0003\u0010\u008cZ=\u00aa\u00c9\u00df\u00fbq\u00cf\u00b8\u0003\u000e\u00a6_T\u00cd\u00b2\u00044\u0007\u00e1\u009bR\u00eb%\u0084Cgr\u0090\u00d0\u00a3i\u0007\u00c9S9d\fYA:\u008fT\u00b4u|#\u001f\u00db\u00ceMp\u00f21gC\u0006\u00aa",
+      "geoip_info": "NL, Groningen, Groningen, AS396982 Google LLC"
+    },
+    {
+      "session_id": "TCP:18.157.66.40:8789-192.168.1.218:48174",
+      "protocol": "TCP",
+      "endpoints": "18.157.66.40:8789-192.168.1.218:48174",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 31 bytes)",
+        "Medium entropy (5.27)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006T\u00f6hfN\rJ$S\u008d\u00b5\u00e2 l\u000eQ\\\u00cc\u0017\u0003\u0003\u0000\u001a\u00d2S[8\u009e\u001e\u0092\u00ad\u009b\u0011\"\u00c7\u00042{\u00a9\u00b4\u00d5=u\u00b6\u00b1\u00a7k\u00c9\u0007",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:13.227.219.61:443-192.168.1.218:40670",
+      "protocol": "TCP",
+      "endpoints": "13.227.219.61:443-192.168.1.218:40670",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 157 bytes)",
+        "Medium entropy (6.71)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00f7\u00bbp\u00e1\u001a\u00b3\u00c9\u00fa\u00c5\u00a62r\u0006\u00dcg\u00f1gst\u008a\u001e<\u00ddS\u00f9l]&;\u0086\u00c7\u009b\u0012\u00dd\u00d9\u0017I\u00c0\u00c1\u00cc\u0011k.k\u009e\u00b8\u00e1s\u0092\u00b25y\u00fe\u00af\u00dc\u00b3=\u0098\u007f#\u00e9\u00d85\u00a3\u00a9\u007f8\r\u001d\u0018\u008bl\u00fd\u00d5x\u00ef\u0011\u00a1_x3\u0018<\u0017\u00d2\u000e#\u00e2\u00f8C\u00b5\u0005\u001bx\u00e0\u00eb\u00daz\u0098\u0099N\u00cc\u00e6\u00f85\u00d6Uy\u0002=\u001d5V\u00e7_\u00ee\u00bd\u008f\u00c6\u0087\u00a1\u00a3t\u00aa\u00ce\u0016\u00a2^$\u0098\u0089\b\u00037\u0090\u009e3\u00b0\u0098o\u00c4\u001f\u001e\u009d\u00022\u0006\u0085\u00cb3\u00a2\u0096y\u009f\u00e9\u00f3y",
+      "geoip_info": "NL, Amsterdam, North Holland, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

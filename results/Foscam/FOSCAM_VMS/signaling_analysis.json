@@ -1,0 +1,1589 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.155:35680-54.89.236.61:8884",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:35680-54.89.236.61:8884",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 31 bytes)",
+        "Medium entropy (6.80)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u0017\u0003\u0003\u0000\u001a\u00b1\u00c6\u00f2[\u00da\u001f/9jJ\u00ad\u00d8\u00df\u009b\u00c2\u00a5\u00f9\u00bboR(}\u00d0\u0081`\u001a\u0017\u0003\u0003\u0000\u001a\u0094g1\u00a9\u008e\u001d\u00c2\u00ac\b\u00dc\u00c7\u008a\u0093\u00f24\u007f\u0019yl\u00d4\u00ea\u0085\u00d0:\u0098\n\u0017\u0003\u0003\u0000\u001a\u00b1\u00c6\u00f2[\u00da\u001f/:X\u00f3\u00c8\u00c7\u00fd}\u0015\u00f7~>\u00da\u00c2\f\u0015$TeL\u0017\u0003\u0003\u0000\u001a\u0094g1\u00a9\u008e\u001d\u00c2\u00ad\u0092\u00d1\u00e3\u00b8\u00beq\u00be\u00b2T\u00f3\u0003}\u000f\u00f6,\u00da`\u0089\u0017\u0003\u0003\u0000\u001a\u00b1\u00c6\u00f2[\u00da\u001f/;\u0090k\u0004\u00d0\u00c6\u00c9;\u00b8\u00cb\u00a2\u0019\u009e\u00f16\u00db\u00f6\u00e6\u00d1\u0017\u0003\u0003\u0000\u001a\u0094g1\u00a9\u008e\u001d\u00c2\u00ae\u00fd\u00f0\u000e\u0085Z\u0098\u008d\u00ca2\u0007\u00cd\u0017\u001e\u00d3k#P\u00c8\u0017\u0003\u0003\u0000\u001a\u00b1\u00c6\u00f2[\u00da\u001f/<?",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:10000",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:10000",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56026",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56026",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56028",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56028",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.155:88-192.168.1.16:53270",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:88-192.168.1.16:53270",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 535 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "ERPUSH / HTTP/1.1\r\nHost: 127.0.0.1:88\r\nAccept:*/*\r\nConnection: Close\r\n\r\nFOSCV\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0000\u0000\u0000\u0003\u0000U\u00aa0H\u0002A\u0000\u00a4tBWP\u0017*\u009co~U`\u00b5\u0081\u00f6^\u00a7\u0097\u000b\u00b6\u00a9\u00c1\u00cb)\u0091\u00a3\u001e\u0011\n\u00f2k\u00f1\u00d2\u0089\u00aa\f\u0088\u00ee\u00c6\u0098\u008a\u00a5\u00d7\u0084\u00ee\u00ca\u0013\u0082T\u0090\u00d7F\u008e\u00b8Fyww\u00dc\u008d\u00ad\u00da\u0098\u00a3\u0002\u0003\u0001\u0000\u0001FOSC@\u0000\u0000\u0000HgXQ\u0087\u00b4\u00b0+\u009e\u00b0\u0094\u00ea\u0015\u0001Lv\u0017\u00af\u00c5\u00b8\u00df\u00daZ\u0000\u0096\u0014",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63613",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63613",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63614",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63614",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63615",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63615",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63616",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63616",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63617",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63617",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63618",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63618",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63619",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63619",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63620",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63620",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63621",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63621",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63622",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63622",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63623",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63623",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:63624",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:63624",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56587",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56587",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56588",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56588",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56589",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56589",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56590",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56590",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56591",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56591",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56592",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56592",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56593",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56593",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56594",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56594",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61377",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61377",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61378",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61378",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61379",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61379",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61380",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61380",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61381",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61381",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61382",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61382",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61383",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61383",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61384",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61384",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61385",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61385",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61386",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61386",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61387",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61387",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:61388",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:61388",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:53295",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:53295",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:53296",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:53296",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:54862",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:54862",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:54863",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:54863",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:54864",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:54864",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:54865",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:54865",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:54866",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:54866",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49752",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49752",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49753",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49753",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49754",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49754",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49755",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49755",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49756",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49756",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49757",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49757",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49758",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49758",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49759",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49759",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49760",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49760",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49761",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49761",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49762",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49762",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49763",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49763",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49764",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49764",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:57458",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:57458",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:57459",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:57459",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:57460",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:57460",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:57461",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:57461",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:57462",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:57462",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56202",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56202",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56203",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56203",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56204",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56204",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56205",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56205",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56206",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56206",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56207",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56207",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56208",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56208",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56209",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56209",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56210",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56210",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:56211",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:56211",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49665",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49665",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49666",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49666",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49667",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49667",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49668",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49668",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49669",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49669",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49670",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49670",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49671",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49671",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49672",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49672",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49673",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49673",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49674",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49674",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.16:49675",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.16:49675",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000Voordeur\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000",
+      "geoip_info": "Not available"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "geoip_summary": {
+    "130.61.132.30": {
+      "ip": "130.61.132.30",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "turn_transactions": {
+    "49496a4d55526853442b5033": [
+      {
+        "timestamp": 1752140735.260048,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "Allocate Request",
+        "transaction_id": "49496a4d55526853442b5033",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300082112a44249496a4d55526853442b50330019000411000000",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1752140735.270419,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "49496a4d55526853442b5033",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0113003c2112a44249496a4d55526853442b50330009001000000401556e617574686f72697a6564001500103137366264653636363764643662666200140010636f7475726e2e6a697473692e6e6574",
+        "credentials": {
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "515642686372487256426b45": [
+      {
+        "timestamp": 1752140735.270736,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "Allocate Request",
+        "transaction_id": "515642686372487256426b45",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300582112a442515642686372487256426b4500190004110000000006000a31373532323237313330000000140010636f7475726e2e6a697473692e6e6574001500103137366264653636363764643662666200080014e467ce8ad0b67c064a1a0a172dc977b1770ef5d8",
+        "credentials": {
+          "username": "1752227130",
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752140735.281424,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "515642686372487256426b45",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010300382112a442515642686372487256426b45001600080001dc71a32f205c002000080001e94be0ac45b5000d00040000025800080014521957d1bcd2b154f9207037614da9a92e573bc9",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "6e4439695a4f736834675669": [
+      {
+        "timestamp": 1752140735.402395,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "6e4439695a4f736834675669",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0008005c2112a4426e4439695a4f736834675669001200080001be0de1baa4250006000a31373532323237313330000000140010636f7475726e2e6a697473692e6e65740015001031373662646536363637646436626662000800147a70a26dad0116a0d6f7660c7d627f7f6e1e84a1",
+        "credentials": {
+          "username": "1752227130",
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752140735.413406,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "CreatePermission Error Response",
+        "transaction_id": "6e4439695a4f736834675669",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0118002c2112a4426e4439695a4f7368346756690009001000000403466f7262696464656e204950000800146353db8b7acdeff46e0b4156bfd85d2cd55e78cc",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "5350484a79706c346830314f": [
+      {
+        "timestamp": 1752140735.402554,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "5350484a79706c346830314f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0008005c2112a4425350484a79706c346830314f001200080001be0de0ac45b40006000a31373532323237313330000000140010636f7475726e2e6a697473692e6e657400150010313736626465363636376464366266620008001485d58d5787f2c4969cc300457b2dbefbdeff091a",
+        "credentials": {
+          "username": "1752227130",
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752140735.413406,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "5350484a79706c346830314f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010800182112a4425350484a79706c346830314f00080014a8af30affec3dc82253b6603546553ffd56adfe2",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "31484c466d356c582f774e30": [
+      {
+        "timestamp": 1752140735.402984,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "31484c466d356c582f774e30",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0008005c2112a44231484c466d356c582f774e30001200080001d659e068a0f60006000a31373532323237313330000000140010636f7475726e2e6a697473692e6e65740015001031373662646536363637646436626662000800147c8b92f390d74ce3b32d93bbd33c31fce7273f23",
+        "credentials": {
+          "username": "1752227130",
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752140735.413406,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "31484c466d356c582f774e30",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010800182112a44231484c466d356c582f774e30000800146e9d44622baf3f5892b6c4e58c22ece697207c09",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "58454951634b724773706e6e": [
+      {
+        "timestamp": 1752140735.403077,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "58454951634b724773706e6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0008005c2112a44258454951634b724773706e6e001200080001e418e068a0f60006000a31373532323237313330000000140010636f7475726e2e6a697473692e6e6574001500103137366264653636363764643662666200080014038ac4a368455aa568890046e42a117ffeeb7dfd",
+        "credentials": {
+          "username": "1752227130",
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752140735.413406,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "58454951634b724773706e6e",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010800182112a44258454951634b724773706e6e00080014d265655ecbb63dea300f6a09626428545b076315",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "334f504f6b4268684e46504c": [
+      {
+        "timestamp": 1752140829.164785,
+        "src": "192.168.1.125:51289",
+        "dst": "130.61.132.30:443",
+        "message_type": "Refresh Request",
+        "transaction_id": "334f504f6b4268684e46504c",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000400582112a442334f504f6b4268684e46504c000d0004000000000006000a31373532323237313330000000140010636f7475726e2e6a697473692e6e6574001500103137366264653636363764643662666200080014509516aaa9ccb73b0e3cc54e38eb77fc0bc1cd33",
+        "credentials": {
+          "username": "1752227130",
+          "realm": "coturn.jitsi.net",
+          "nonce": "31373662646536363637646436626662"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752140829.175962,
+        "src": "130.61.132.30:443",
+        "dst": "192.168.1.125:51289",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "334f504f6b4268684e46504c",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010400202112a442334f504f6b4268684e46504c000d000400000000000800145517f856e25626af7e559e3110b899a4c991e8b8",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ]
+  }
+}

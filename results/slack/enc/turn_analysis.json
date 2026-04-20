@@ -1,0 +1,358 @@
+{
+  "geoip_summary": {
+    "99.77.135.82": {
+      "ip": "99.77.135.82",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "turn_transactions": {
+    "324361452b2b637835387432": [
+      {
+        "timestamp": 1752058978.776719,
+        "src": "192.168.1.125:62484",
+        "dst": "99.77.135.82:22466",
+        "message_type": "Allocate Request",
+        "transaction_id": "324361452b2b637835387432",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300082112a442324361452b2b6378353874320019000411000000",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1752058978.785042,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:62484",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "324361452b2b637835387432",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "011300502112a442324361452b2b6378353874320009001000000401556e617574686f72697a65640015001035393961386434323565353362666332001400146d322e6577332e6170702e6368696d652e617773802200044e6f6e658028000477d7de65",
+        "credentials": {
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "35393961386434323565353362666332"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "5a7435737979394c57374949": [
+      {
+        "timestamp": 1752058978.785541,
+        "src": "192.168.1.125:62484",
+        "dst": "99.77.135.82:22466",
+        "message_type": "Allocate Request",
+        "transaction_id": "5a7435737979394c57374949",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300802112a4425a7435737979394c5737494900190004110000000006002f313735323035393237373a34353231623435312d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e6177730015001035393961386434323565353362666332000800149eb18bc1ae6b0632684b2b06021b7a48818ec4c3",
+        "credentials": {
+          "username": "1752059277:4521b451-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "35393961386434323565353362666332"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058978.793985,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:62484",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "5a7435737979394c57374949",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010300502112a4425a7435737979394c57374949001600080001f1a12b1091af002000080001d506e0ac45b5000d0004000002588010000400008583802200044e6f6e65000800143f7b35d304589956fea65a3ded4226dff3189c8780280004470fd0c1",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "576139543962517049416772": [
+      {
+        "timestamp": 1752058978.830297,
+        "src": "192.168.1.125:62484",
+        "dst": "99.77.135.82:22466",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "576139543962517049416772",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800842112a44257613954396251704941677200120008000163542b10e8070006002f313735323035393237373a34353231623435312d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e617773001500103539396138643432356535336266633200080014b23eb48b620ee156d0ae727c584ceb383df5049b",
+        "credentials": {
+          "username": "1752059277:4521b451-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "35393961386434323565353362666332"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058978.838471,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:62484",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "576139543962517049416772",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010800282112a442576139543962517049416772802200044e6f6e6500080014d6ff1eb1a4e1ecc38fd5beca6175751bcb21bcf780280004eefb369e",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "3663636f774950686772674a": [
+      {
+        "timestamp": 1752058978.839218,
+        "src": "192.168.1.125:62484",
+        "dst": "99.77.135.82:22466",
+        "message_type": "ChannelBind Request",
+        "transaction_id": "3663636f774950686772674a",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0009008c2112a4423663636f774950686772674a000c00044000000000120008000163542b10e8070006002f313735323035393237373a34353231623435312d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e617773001500103539396138643432356535336266633200080014a40cbc4089c795850139efa617a7bcbb0f9b332e",
+        "credentials": {
+          "username": "1752059277:4521b451-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "35393961386434323565353362666332"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058978.847467,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:62484",
+        "message_type": "ChannelBind Success Response",
+        "transaction_id": "3663636f774950686772674a",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010900282112a4423663636f774950686772674a802200044e6f6e6500080014b48f691f98758a192c0e7484ef3ab6fc623c076480280004ebe34629",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "686357556145726f57726e5a": [
+      {
+        "timestamp": 1752058979.156783,
+        "src": "192.168.1.125:62484",
+        "dst": "99.77.135.82:22466",
+        "message_type": "Refresh Request",
+        "transaction_id": "686357556145726f57726e5a",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000400802112a442686357556145726f57726e5a000d0004000000000006002f313735323035393237373a34353231623435312d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e61777300150010353939613864343235653533626663320008001484c7e71e91313ea65e22ad068c098eeb1b7fd290",
+        "credentials": {
+          "username": "1752059277:4521b451-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "35393961386434323565353362666332"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058979.165265,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:62484",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "686357556145726f57726e5a",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010400302112a442686357556145726f57726e5a000d000400000000802200044e6f6e6500080014b9a2887d7c76e7ffb95ae4f4045dfbe04322d86780280004cb9536fb",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "394a59564172795850663350": [
+      {
+        "timestamp": 1752058985.095062,
+        "src": "192.168.1.125:60239",
+        "dst": "99.77.135.82:22466",
+        "message_type": "Allocate Request",
+        "transaction_id": "394a59564172795850663350",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300082112a442394a595641727958506633500019000411000000",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1752058985.102869,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:60239",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "394a59564172795850663350",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "011300502112a442394a595641727958506633500009001000000401556e617574686f72697a65640015001036373230353235336362373033376164001400146d322e6577332e6170702e6368696d652e617773802200044e6f6e65802800043e0cee47",
+        "credentials": {
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "36373230353235336362373033376164"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "77455074537468437a4d4162": [
+      {
+        "timestamp": 1752058985.103298,
+        "src": "192.168.1.125:60239",
+        "dst": "99.77.135.82:22466",
+        "message_type": "Allocate Request",
+        "transaction_id": "77455074537468437a4d4162",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000300802112a44277455074537468437a4d416200190004110000000006002f313735323035393238333a34386536336464372d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e617773001500103637323035323533636237303337616400080014f8ec89afd825f6bec8145975f97ada5c81ac4940",
+        "credentials": {
+          "username": "1752059283:48e63dd7-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "36373230353235336362373033376164"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058985.111421,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:60239",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "77455074537468437a4d4162",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010300502112a44277455074537468437a4d4162001600080001f2fe2b109944002000080001ca5de0ac45b5000d0004000002588010000400008583802200044e6f6e6500080014c3c85c080677efbb1a1be8a8eb97e9480579837080280004d67b4310",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "455750756e53476f35684d31": [
+      {
+        "timestamp": 1752058985.135674,
+        "src": "192.168.1.125:60239",
+        "dst": "99.77.135.82:22466",
+        "message_type": "CreatePermission Request",
+        "transaction_id": "455750756e53476f35684d31",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000800842112a442455750756e53476f35684d3100120008000162ad2b10e8070006002f313735323035393238333a34386536336464372d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e617773001500103637323035323533636237303337616400080014655118f1dcc3c03ef03b8ce7b60a0c44f7dd45bb",
+        "credentials": {
+          "username": "1752059283:48e63dd7-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "36373230353235336362373033376164"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058985.143848,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:60239",
+        "message_type": "CreatePermission Success Response",
+        "transaction_id": "455750756e53476f35684d31",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010800282112a442455750756e53476f35684d31802200044e6f6e6500080014a567576ff8a34942e69e7f3fea972c94662c0b0c802800042b7dc99f",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "5832355a6850574e41365933": [
+      {
+        "timestamp": 1752058985.144677,
+        "src": "192.168.1.125:60239",
+        "dst": "99.77.135.82:22466",
+        "message_type": "ChannelBind Request",
+        "transaction_id": "5832355a6850574e41365933",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "0009008c2112a4425832355a6850574e41365933000c00044000000000120008000162ad2b10e8070006002f313735323035393238333a34386536336464372d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e61777300150010363732303532353363623730333761640008001461015b0905d455beb7d3abad54f0fd4c89e79238",
+        "credentials": {
+          "username": "1752059283:48e63dd7-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "36373230353235336362373033376164"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752058985.152387,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:60239",
+        "message_type": "ChannelBind Success Response",
+        "transaction_id": "5832355a6850574e41365933",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010900282112a4425832355a6850574e41365933802200044e6f6e6500080014f16068c2b4835667f912f15c5103421d4ce0d3d680280004e501fcb0",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "367479557532364334346756": [
+      {
+        "timestamp": 1752059018.734893,
+        "src": "192.168.1.125:60239",
+        "dst": "99.77.135.82:22466",
+        "message_type": "Refresh Request",
+        "transaction_id": "367479557532364334346756",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "000400802112a442367479557532364334346756000d0004000000000006002f313735323035393238333a34386536336464372d356362342d313166302d383463652d30613039366239383230613300001400146d322e6577332e6170702e6368696d652e617773001500103637323035323533636237303337616400080014dfd4de31f4bacb01d0d58dbbfa7967f6cb62c59d",
+        "credentials": {
+          "username": "1752059283:48e63dd7-5cb4-11f0-84ce-0a096b9820a3",
+          "realm": "m2.ew3.app.chime.aws",
+          "nonce": "36373230353235336362373033376164"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1752059018.742978,
+        "src": "99.77.135.82:22466",
+        "dst": "192.168.1.125:60239",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "367479557532364334346756",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Unknown",
+        "library_version": "Unknown",
+        "raw_payload_hex": "010400302112a442367479557532364334346756000d000400000000802200044e6f6e6500080014e6fa56f64867c26cca3db14ac618ff0abef21070802800043f88ff6e",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ]
+  }
+}

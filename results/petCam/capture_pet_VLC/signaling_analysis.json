@@ -1,0 +1,19 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "UDP:192.168.200.104:56835-40.99.213.82:443",
+      "protocol": "UDP",
+      "endpoints": "192.168.200.104:56835-40.99.213.82:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 43 bytes)",
+        "Medium entropy (5.80)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "N\u00a6(c\u00d5R\u00e0^\u00fd\u00c6\u0004X\u00e0NZp\u009a\u00b0\u0090\u00cb=\u008d\u00ee\u00f3\u0006\u0092\u00c9\u009f\u00004\u00ac\u00f5\u000e$\u00ed]\u00a6(c\u00d5R\u00e0^\u00fd\u00c6\u0004X\u00e0NZ\u0091z!\u00baM\u00d4*\u000b/R\u00db\u00aa\u00d0\u009f\u000eMy\n%\u00d2\u00db\u0004\u00d9\u00fa\u00f7]L\u00a1\u00f3\u00e1\u00f4\"\u00ce\u00f4p>\u0005",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    }
+  ]
+}

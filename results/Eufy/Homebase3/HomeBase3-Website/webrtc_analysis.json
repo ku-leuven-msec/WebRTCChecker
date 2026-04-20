@@ -1,0 +1,51 @@
+[
+  {
+    "protocol": "DTLS",
+    "client_endpoint": "192.168.1.16:49665",
+    "server_endpoint": "192.168.1.72:40059",
+    "total_bytes": 4150,
+    "client_hello": {
+      "version": "DTLS 1.2 (0xfefd)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": false,
+      "valid_from": "2021-07-13T07:29:27+00:00",
+      "valid_until": "2022-07-13T07:29:27+00:00",
+      "issuer_cn": "AK",
+      "subject_cn": "AK",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "A9:07:34:CA:F8:6F:12:21:98:12:C9:D1:90:49:90:93:54:E6:6F:08:01:73:2C:81:F8:43:4B:75:BC:89:8D:3C"
+    }
+  }
+]

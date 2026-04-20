@@ -1,0 +1,91 @@
+[
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2018-10-31T05:30:48+00:00",
+    "valid_until": "2118-10-07T05:30:48+00:00",
+    "issuer_cn": "*.tuyacn.com",
+    "subject_cn": "*.tuyacn.com",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3",
+    "found_in_packet_number": "512",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "3.125.199.146",
+      "type": "Public",
+      "hostname": "ec2-3-125-199-146.eu-central-1.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.147",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-09-21T00:00:00+00:00",
+    "valid_until": "2023-09-09T23:59:59+00:00",
+    "issuer_cn": "Amazon",
+    "subject_cn": "*.s3.eu-central-1.amazonaws.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.s3.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='*.s3-eu-central-1.amazonaws.com')>",
+      "<DNSName(value='s3-eu-central-1.amazonaws.com')>",
+      "<DNSName(value='s3.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='s3.dualstack.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='*.s3.dualstack.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='*.s3.amazonaws.com')>",
+      "<DNSName(value='*.s3-control.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='s3-control.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='*.s3-control.dualstack.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='s3-control.dualstack.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='*.s3-accesspoint.eu-central-1.amazonaws.com')>",
+      "<DNSName(value='*.s3-accesspoint.dualstack.eu-central-1.amazonaws.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "09:BD:0B:14:CE:A6:2A:C4:5A:DA:89:87:92:69:0B:D3:EC:F0:5D:C8:4C:81:A9:13:B7:70:16:37:77:DD:4D:7D",
+    "found_in_packet_number": "1309",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.219.72.77",
+      "type": "Public",
+      "hostname": "s3-r-w.eu-central-1.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.147",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2023-03-14T00:00:00+00:00",
+    "valid_until": "2024-04-11T23:59:59+00:00",
+    "issuer_cn": "Amazon RSA 2048 M01",
+    "subject_cn": "trace.svc.ui.com",
+    "subject_alternative_names": [
+      "<DNSName(value='trace.svc.ui.com')>",
+      "<DNSName(value='*.trace.svc.ui.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "26:A5:4F:2F:87:3C:81:47:3D:EF:F9:AB:83:53:60:FF:4A:C0:7C:BF:B1:24:7F:A6:06:CE:88:E6:E4:75:D8:06",
+    "found_in_packet_number": "1635",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.43.181.78",
+      "type": "Public",
+      "hostname": "ec2-52-43-181-78.us-west-2.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.164",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

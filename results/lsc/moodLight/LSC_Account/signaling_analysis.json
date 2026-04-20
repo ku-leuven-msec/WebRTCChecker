@@ -1,0 +1,461 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.218:49034-52.29.0.171:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49034-52.29.0.171:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 545 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.60)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/AAACertificateServic",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "payload_snippet": "\u00ae\u0083\u0016\u00f5]H\u000e\u00e7\u000e\u009bYr\u00baH9O7|!\u00dap\u0017rs\u008a8\u00b3o\u00aa\u00aa;\u00e92\u00df%\u008f\u0019\u00e5\u0087\u00cb`(\u00ca_\u0017\b8/\u009e\u0000\u0098:\u00a9\u008c\u008e\u0091\u00f0\u00fe!\u00ff\u008f\u00eb\u00b8\u00d7\t\u00b4\u0006\u00fb\u008d@\u00ad\u0011&dM\u0014\u00a7\u00859\u00cf\u00e8\u00cdY$\u00a7\u0089rR\u00d9&\u00ba\u00fdR\u00eb\u00c8\u00e8\u00823\u000bmL\u0012\u00a1\u00f5pQ\u0019Y\u00ee\u00d4q\u001f,\u00b2V\u00af\u00d4\u0017\u00ca_\u007f\u0085*U\u00b5@\u007fR\u00f6\u00d2\u00aa~\u00b0p\u0016#\u009d^\u00e3n\u00ae\u009d\u00a9p^\u0015$\u0096M\u00aeF@Ndz\u0001\u0095\u00d4o\u00bc}%~\u00c2\u0013\u00ba\u00ca\u0000\u00f6\u00c9\u00f7\u00e1\u0088\u009b\u00a5M\u0084\u00b9\u00be\u00a2R@(\u00f2+\u00d5\u00b1\u00c9Dq\u0004\u00bfP\bsZ\u00ba\u00fdy\t",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "UDP:192.168.1.1:10001-192.168.1.218:46585",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.1:10001-192.168.1.218:46585",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 279 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.48)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238",
+          "270a74168ed0a066f146406bc17d20628d5238"
+        ],
+        "base64_strings": [
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523",
+          "270a74168ed0a066f146406bc17d20628d52",
+          "F70A74168ED0A00000000066F14640000000006BC17D200000000628D523"
+        ]
+      },
+      "payload_snippet": "\u0001\u0000\u0001\u0013\u0002\u0000\np\u00a7Ah\u00ed\u0012\n\u0081\u00b3\u001e\u0002\u0000\nr\u00a7Ah\u00ed\u000b\u00c0\u00a8\u0001\u0001\u0002\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u00ac\u0010\u00c2\u00d2/\u0000\np\u00a7Ah\u00ed\n\n\u0081\u00b3\u001e\u0001\u0000\u0006p\u00a7Ah\u00ed\n0\u0000270a74168ed0a066f146406bc17d20628d5238.id.ui.direct\u000b\u0000\u0014Smart-Home-KU-Leuven\f\u0000\bUDMPROSE\u000e\u0000\u0001\u0001\r\u0000\u0000\u0003\u0000\u00063.0.13 \u0000F70A74168ED0A00000000066F14640",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:142.251.36.46:443-192.168.1.218:44520",
+      "protocol": "TCP",
+      "endpoints": "142.251.36.46:443-192.168.1.218:44520",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 104 bytes)",
+        "Medium entropy (6.98)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000;\u0091:\u001a\u00e0\u009e\u00d3\u00adZ\u00dc%O\u009c\u00cc\u00ed\u00dd\u00b6b(G\u00bd\u00dfS:\u00c45\u00c8\u0092d\u0018K|\u00e4w\u00f6gy\u00895\u00f9B\u0011/\u00e1\u008e\u00e2\u00ac\u0090\\\u00cbU\u00e7\u00c7\u000f\u00f6\u0091,%\u00a7|2\u00e6MsG\u0095\u00d1z\u001e\u00af\u0012\u00abO\u00a70\u00cc\u00b6\u00f0\u0014\u00bf|\u0012q\u009c\u0091\u00dc*S\u00c85\u0002f?3\u00c7\u00fa\u00a2\u008a\u00f9\u00c0\u0016\u0094\u00a6\u0002`n\u0080\u00c8w\u0097\u00d4\u00cb\u0099h\u008cJYOng\u0092U\u00d4|\u00a1M\nl\u0085\rM\u00841\u0080\u00a1\u008a.\u0086!\u00c4\u00cb\u00e7\u00e5I\u00b8j\u00b69\u008b\u00c14VP\u00fbM6\u00dc\t\u00a6`#\u00fef\u00af\u00e1/\u00a7\t\u0083m^\u00f8{\u009544\u00023|\u00b1e\u00ebu\u0011\u009b#\u00e3\u00eb\u00d788F\u00d4\u00b5,\u00ce",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:48384-52.58.78.100:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:48384-52.58.78.100:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 811 bytes)",
+        "Medium entropy (7.51)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "O\u00ac\u0000u\u0000z2\u008cT\u00d8\u00b7-\u00b6 \u00ea8\u00e0R\u001e\u00e9\u0084\u0016p2\u0013\u0085M;\u00d2+\u00c1:W\u00a3R\u00ebR\u0000\u0000\u0001\u0082\u00c3\u008f\u00f8\u0094\u0000\u0000\u0004\u0003\u0000F0D\u0002 \bO4\u0017\u00037!\u00e8\u001d\u00e3\u00dc\u0018u{\u00ca\u00cf\u0000t\u0000K\u00c0\u00d2\u00e1L?\u009aDU\u00f4\u00a4a\u00be\u0002 G\u0099\u00ed\u00d7w\u00f3\u00dc\u00c3q\n\u00aa\u00e8\u00d7\u009f\u00c4\u00b8\u00aah~\u00d0\"\u00dd\u00a9t\u00cdz\u009be\u0015\u00b01\u00f50\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000e\u00ad#\u008c\u00b1!%j|3\u00e3\u00b2\u00a2\u001e\u00a8<2\u00fa\u0085\u00e4\u00186\u00d6o\u00c1\u00b9azd\u0090\u00e2\u00ce\u00174X\u007f\u008a\u00de\u00d8*\u00b7\u008d\u00d0%\u00be\u00c5\u00c6l\u00830(J\u0011\u00f9\u00db\u0012\u00e5G\u00eb",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:48380-52.58.78.100:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:48380-52.58.78.100:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 811 bytes)",
+        "Medium entropy (7.52)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "O\u00ac\u0000u\u0000z2\u008cT\u00d8\u00b7-\u00b6 \u00ea8\u00e0R\u001e\u00e9\u0084\u0016p2\u0013\u0085M;\u00d2+\u00c1:W\u00a3R\u00ebR\u0000\u0000\u0001\u0082\u00c3\u008f\u00f8\u0094\u0000\u0000\u0004\u0003\u0000F0D\u0002 \bO4\u0017\u00037!\u00e8\u001d\u00e3\u00dc\u0018u{\u00ca\u00cf\u0000t\u0000K\u00c0\u00d2\u00e1L?\u009aDU\u00f4\u00a4a\u00be\u0002 G\u0099\u00ed\u00d7w\u00f3\u00dc\u00c3q\n\u00aa\u00e8\u00d7\u009f\u00c4\u00b8\u00aah~\u00d0\"\u00dd\u00a9t\u00cdz\u009be\u0015\u00b01\u00f50\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000e\u00ad#\u008c\u00b1!%j|3\u00e3\u00b2\u00a2\u001e\u00a8<2\u00fa\u0085\u00e4\u00186\u00d6o\u00c1\u00b9azd\u0090\u00e2\u00ce\u00174X\u007f\u008a\u00de\u00d8*\u00b7\u008d\u00d0%\u00be\u00c5\u00c6l\u00830(J\u0011\u00f9\u00db\u0012\u00e5G\u00eb",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:48442-52.219.170.166:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:48442-52.219.170.166:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 704 bytes)",
+        "Medium entropy (7.48)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "y\u0002\u0004\u0002\u0004\u0082\u0001n\u0004\u0082\u0001j\u0001h\u0000v\u0000\u00e8>\u00d0\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0083a\u00bd\u00d2L\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u0086\u00cb\u00c5\u00e4\u0000u\u0097<\u0005\u00c3\u00e8h\u00e1{\u0013\u00c1\u0010m\n\u00c1\u00c3\u00c1\u00bf\u0011\u009f\u00fb\u00d6\u000b\t\u00ac5s\u0002 Y\u009b\u00c6\u00b8`H\u0014\u00fc\u00e7*\u0086\u0011\u0019]>\fI\u000f\u00f7\u00c3{<M\u00b1\u00cfx\u00f9\u00fc\u00c6\"U\u00f6\u0000w\u00005\u00cf\u0019\u001b\u00bf\u00b1lW\u00bf\u000f\u00adLmB\u00cb\u00bb\u00b6' &Q\u00ea?\u00e1*\u00ef\u00a8\u0003\u00c3;\u00d6L\u0000\u0000\u0001\u0083a\u00bd\u00d2\u008d\u0000\u0000\u0004\u0003\u0000H0F\u0002!\u0000\u00f4\u00a9\u00f28\u0000iS\u00d7\u008d\u00ca\u00e4\u0095",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49276-216.58.214.10:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49276-216.58.214.10:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 55 bytes)",
+        "Medium entropy (6.31)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000;\f.#\u008e\u00fd=V\u00f3\u0016\u00a3\u00886\u0013}\u0088\u00bf=\u00922UU\u00c2\u0094\u00db\r8\u0004\u0014\u00c1\u0089\u0084\u0003= \u009f9\u00c6M \u00c4\u00ad\u00ba'\u00b0\u0018E\u009dc\u00e4\u00aa\u00fec\u00c6\u00a0\u0012\u00e2\u0088\u00de\u00d0\u00d1\u00ef\u00e8\u00f2\u00a9/by=\u00a7\u00fe,\u009dj\u001c\u00d6\u00c0;\u00de\u00a3\u00ba\u00cdF\u0019\u0012\u0086RJ\u0095\u0004\u00d9_\u0004\u00af\u001e\u00ec \u009bA\u00b86\u008dc\u0005\u001d\u00d8\u008d",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49284-216.58.214.10:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49284-216.58.214.10:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 64 bytes)",
+        "Medium entropy (5.71)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000;\u009f\u007f_\u009e\u00a1\u00fa>\u00ca\u0089\u00d6\u0006\u00f8\u0017\u00fd\u001c9)\u0098\\[\t\u00ca\u00cd\u00f4\u001a&\u00dd\u00af\u00f4\u00a8\u0090UJf\u00b9\u00df\u009fy\u00b9\u008d$%,\u0089\u00f7!\u009b?\u00b3\u0017\u00d2\u0081\u0007\u009e\u00cf\u0016\u00a9\u000e\u0019",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49278-216.58.214.10:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49278-216.58.214.10:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 30 bytes)",
+        "Medium entropy (6.28)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000;9\u0013\u0091C\u00c8g\u0003(!\u0089\u00cd*V\u00a5\u00ce{Y\u009f\u00ec!>,^GL$fj\u00ff\u00b3\u001e\u0015[\u00b7\u00c0\u00f9\u00de\u00cc%]\u00afc(\u00c2s\u00f4\u00bc.\u0084-\u00e0\u00864\u009bB\u00b6oB\u00dc\u00ba\u00f4-`a\u00ffUZK\u00f2Sh3|\u00f3q\u008eX\u001b\u00b3\u00d2\u009e\u00de\u00ab0\n\u00d1",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49282-216.58.214.10:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49282-216.58.214.10:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 42 bytes)",
+        "Medium entropy (5.93)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000;\u00037\u0083[r\u00c4-\u007f\u00e97\t\u00a05\u00a9\u00c4\u00a7\u00d0^&->w\u0002\u00cb\n\u0081\u00d6?\u008e,\u000fw\u00d4\u00f6\u00b7\u00d1\th\u00f6\u00da\u0095\u007f\u00b1\u00de\u0007\u00006\u0006\u0082\u000f\u00fdkL\u00c4\u0097\u008e\u0089\u000e\u00f9Y\u0004\u008d\t.'\u00c6'\u00d4\u00f1B\u00ee\u009e\u00d8A\u0017y\u00a6'_",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49280-216.58.214.10:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49280-216.58.214.10:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 28 bytes)",
+        "Medium entropy (6.15)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000;\u00f1O\u00c9\u0097H/\u00b0\u00a3\u0097\u0089|\u00b6\u00d8\u00c6F\u00be\u0095\u00a1\u00f2y\u00da\u00a4iUT\u00c7\u00f4\u001b9\u00fa\u001c\u00b35\u00da]\u0096l\u00de\u00e0\u000bd\t\u0010\u00bcqe!\u0003\u009f\u00c5\u00e04\u00ea\u001e\u008cPh\u008dgy\u001b\u00c5\u00d4\u00e0\u0091\u001d\r\u00b5\u00e5\u0005n\u00d3^\u00bev\u00c9\u00e6\u00ae\u00e3`\u00b4",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:46890-52.177.138.113:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:46890-52.177.138.113:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.02)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u0002\u009d\u00bd|n\u009b\u00b4q6\u0013\u00bf\u008f\u000e\u00b0\u00b4\u008c\u00c9\u0083.",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:142.251.36.10:443-192.168.1.218:43042",
+      "protocol": "TCP",
+      "endpoints": "142.251.36.10:443-192.168.1.218:43042",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 930 bytes)",
+        "Medium entropy (7.80)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "V\u00e5/\u001b\u0002\u00efD\u00d6<\u00f4\u00f4Gl\u0098\u00cb\u00de\u00d1\u0000K\u00fe\u009c\u0089\u0000\u00fc\r\u0014\u008d\u0011\u00f3\u0002\u0000\u00d3EB\u00bd\u009c\u0088(I1\u00d1\u00dcfP\u00d1\u00fc'\u001as\u00fe\u0090\u008d\u008c\u0086\u00fe\u0092\u00b6\u001aI\u00c2\u009cZ\u0010\u00bfK\u00d8\u0089A\u000e\u00e0\u00d7\u00dd\u008e \u000f\u009bz4$b\u007f\u00a2\u0016\u00fe^\u0090ny\u0088\u00ef\u00f8H\u00a5~\u00fcoA\u00dc\u00e1\u0005KT$\u00a4z\u00b5\u00d48\t)\u00dbL.n\u0082\u00ae\u00de\u009e\u00cd\u009aw\u00ab\u009e\u0002\u0004x\u00c2\u001d\u00a5\u001c&\u00e88\u00f6,:5ut6\u009d\u0016%\u0010\u0098\u00b5<\u00ce\u00f6\u00a1zN \u0085\u00b3\u0012\u0081\u0088\u009f\u008a\u00faG\u008f\u0095^\u00f1\u00ce\u009f\u00e2G\u00a5u\u00f3k\u008e\u00ce\u0015\u008f\u0016\u00d8\u00f8\r\u00a6\u0018\u00bb\u00f6\u00e44\u0013\u00cd\u0097\u00b8\u0017P}F\u00ceO\u00cb\u001b",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:142.250.27.188:5228-192.168.1.218:47000",
+      "protocol": "TCP",
+      "endpoints": "142.250.27.188:5228-192.168.1.218:47000",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 25 bytes)",
+        "Medium entropy (5.32)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000\u0013L^\u008f\u0095\u00f6\t\u00d9\u0099_\u00c2\u009d\u00eb\u00e2&G\u008b\u00ed\u00968\u0017\u0003\u0003\u0000\u0015\u00bfO\u0080p\u0090\u00ef\u0093?u\u00b0\u0094A\u00d5;\u0080y\u00ca\u00ee\u008c\u001a\u00d5",
+      "geoip_info": "NL, Lelystad, Flevoland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49072-52.29.0.171:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49072-52.29.0.171:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 29 bytes)",
+        "Medium entropy (6.05)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00a1\u00a8\u0089\u00b90J\u00af\u00f1\r\u009b\u0015\u00b3\u001f\u00c1;\u00afJ\u00de\u00cf}\u0019\u00c2\u0010\u0093G\u00a7\u00f6N4\u00b7q&:\"\u00a5\u001a\u00a9\u00c1`\u00e1\u009f\u00cb\u00c4\td\u00d4\u00b1\u00ec{\u00bbU\u0006 uG=\u00b5\u00c4\u008e\u00bd\u008a\tF\u009b\u0000\u0000\u0000\u0000\u0000\u0003\u00f6\u0010\u00f7n\u00f0\u008e+X,\u00af\u001c\u00bb\u00ca\u00b4g\u00ad\u00ac\u00bc",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:40458-35.156.160.91:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:40458-35.156.160.91:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/AAACertificateServic",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "payload_snippet": "\u00ae\u0083\u0016\u00f5]H\u000e\u00e7\u000e\u009bYr\u00baH9O7|!\u00dap\u0017rs\u008a8\u00b3o\u00aa\u00aa;\u00e92\u00df%\u008f\u0019\u00e5\u0087\u00cb`(\u00ca_\u0017\b8/\u009e\u0000\u0098:\u00a9\u008c\u008e\u0091\u00f0\u00fe!\u00ff\u008f\u00eb\u00b8\u00d7\t\u00b4\u0006\u00fb\u008d@\u00ad\u0011&dM\u0014\u00a7\u00859\u00cf\u00e8\u00cdY$\u00a7\u0089rR\u00d9&\u00ba\u00fdR\u00eb\u00c8\u00e8\u00823\u000bmL\u0012\u00a1\u00f5pQ\u0019Y\u00ee\u00d4q\u001f,\u00b2V\u00af\u00d4\u0017\u00ca_\u007f\u0085*U\u00b5@\u007fR\u00f6\u00d2\u00aa~\u00b0p\u0016#\u009d^\u00e3n\u00ae\u009d\u00a9p^\u0015$\u0096M\u00aeF@Ndz\u0001\u0095\u00d4o\u00bc}%~\u00c2\u0013\u00ba\u00ca\u0000\u00f6\u00c9\u00f7\u00e1\u0088\u009b\u00a5M\u0084\u00b9\u00be\u00a2R@(\u00f2+\u00d5\u00b1\u00c9Dq\u0004\u00bfP\bsZ\u00ba\u00fdy\t",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:40460-35.156.160.91:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:40460-35.156.160.91:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "payload_snippet": "\u0001\u0001\u0000\u0018\u0087Q\u00dct!=\u009c\u008a\u00e0'\u00b73\u00d0.\u00cc\u00ec\u00f0\u00e6\u00cb^\u0011\u00de\"o\u009bu\u008e\u009er\u00fe\u00e4\u00d6\u00fe\u00aa\u001f\u009c\u0096-\u00ef\u0003J~\u00ae\u00f4\u008dor<C;\u00c0?\u00eb\u00b8\u00df\\\u00aa\u00a9\u00c6\u00ae\u00f2\u00fc\u00d8\u00ee\u00a3{C\u00f6\u00866|\u0014\u00e0\u00cd\u00f4\u00f7?\u00fe\u00de\u00b8\u00b4\u008a\u00f0\u0091\u0096\u00fe\u00fdCd~\u00fd\u00cc\u00d2\u0001\u00a1}}\u00f8\u0019\u0019\u00c9B+\u0013\u00bfX\u008b\u00ba\u00a4\u00a2f\u0004v\u0088\u0091N\f\u0089\u0014\u00ce\u00a2M\u00c92\u00b3\u00ba\u00e8\u0014\u001a\u00bcq\u00f1[\u00f0A\u000b\u0098\u0000\n\"\u0003\u0010\u00e5\f\u00b1\u00f9\u00cd\u00927\u0019\u00ed;\u00f1\u00e4:\u00b6\u00f9E\u0013&u\u00af\u00bb\u00aa\u00ef?{w;\u00d2\u00c4\u0002\u0091=\u0019\u0000\u00d3\u0017\\9\u00db?{\u0018\rE\u00cd\u0093\u0085\u0096/]\u00dfY\u0016O",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:49080-52.29.0.171:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:49080-52.29.0.171:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/AAACertificateServic",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "payload_snippet": "\u00ae\u0083\u0016\u00f5]H\u000e\u00e7\u000e\u009bYr\u00baH9O7|!\u00dap\u0017rs\u008a8\u00b3o\u00aa\u00aa;\u00e92\u00df%\u008f\u0019\u00e5\u0087\u00cb`(\u00ca_\u0017\b8/\u009e\u0000\u0098:\u00a9\u008c\u008e\u0091\u00f0\u00fe!\u00ff\u008f\u00eb\u00b8\u00d7\t\u00b4\u0006\u00fb\u008d@\u00ad\u0011&dM\u0014\u00a7\u00859\u00cf\u00e8\u00cdY$\u00a7\u0089rR\u00d9&\u00ba\u00fdR\u00eb\u00c8\u00e8\u00823\u000bmL\u0012\u00a1\u00f5pQ\u0019Y\u00ee\u00d4q\u001f,\u00b2V\u00af\u00d4\u0017\u00ca_\u007f\u0085*U\u00b5@\u007fR\u00f6\u00d2\u00aa~\u00b0p\u0016#\u009d^\u00e3n\u00ae\u009d\u00a9p^\u0015$\u0096M\u00aeF@Ndz\u0001\u0095\u00d4o\u00bc}%~\u00c2\u0013\u00ba\u00ca\u0000\u00f6\u00c9\u00f7\u00e1\u0088\u009b\u00a5M\u0084\u00b9\u00be\u00a2R@(\u00f2+\u00d5\u00b1\u00c9Dq\u0004\u00bfP\bsZ\u00ba\u00fdy\t",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:42432-54.93.136.139:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:42432-54.93.136.139:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 530 bytes)",
+        "Medium entropy (7.61)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "O\u00ac\u0000u\u0000z2\u008cT\u00d8\u00b7-\u00b6 \u00ea8\u00e0R\u001e\u00e9\u0084\u0016p2\u0013\u0085M;\u00d2+\u00c1:W\u00a3R\u00ebR\u0000\u0000\u0001\u0082\u00c3\u008f\u00f8\u0094\u0000\u0000\u0004\u0003\u0000F0D\u0002 \bO4\u0017\u00037!\u00e8\u001d\u00e3\u00dc\u0018u{\u00ca\u00cf\u0000t\u0000K\u00c0\u00d2\u00e1L?\u009aDU\u00f4\u00a4a\u00be\u0002 G\u0099\u00ed\u00d7w\u00f3\u00dc\u00c3q\n\u00aa\u00e8\u00d7\u009f\u00c4\u00b8\u00aah~\u00d0\"\u00dd\u00a9t\u00cdz\u009be\u0015\u00b01\u00f50\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000e\u00ad#\u008c\u00b1!%j|3\u00e3\u00b2\u00a2\u001e\u00a8<2\u00fa\u0085\u00e4\u00186\u00d6o\u00c1\u00b9azd\u0090\u00e2\u00ce\u00174X\u007f\u008a\u00de\u00d8*\u00b7\u008d\u00d0%\u00be\u00c5\u00c6l\u00830(J\u0011\u00f9\u00db\u0012\u00e5G\u00eb",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:42434-54.93.136.139:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:42434-54.93.136.139:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 653 bytes)",
+        "Medium entropy (7.52)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "O\u00ac\u0000u\u0000z2\u008cT\u00d8\u00b7-\u00b6 \u00ea8\u00e0R\u001e\u00e9\u0084\u0016p2\u0013\u0085M;\u00d2+\u00c1:W\u00a3R\u00ebR\u0000\u0000\u0001\u0082\u00c3\u008f\u00f8\u0094\u0000\u0000\u0004\u0003\u0000F0D\u0002 \bO4\u0017\u00037!\u00e8\u001d\u00e3\u00dc\u0018u{\u00ca\u00cf\u0000t\u0000K\u00c0\u00d2\u00e1L?\u009aDU\u00f4\u00a4a\u00be\u0002 G\u0099\u00ed\u00d7w\u00f3\u00dc\u00c3q\n\u00aa\u00e8\u00d7\u009f\u00c4\u00b8\u00aah~\u00d0\"\u00dd\u00a9t\u00cdz\u009be\u0015\u00b01\u00f50\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000e\u00ad#\u008c\u00b1!%j|3\u00e3\u00b2\u00a2\u001e\u00a8<2\u00fa\u0085\u00e4\u00186\u00d6o\u00c1\u00b9azd\u0090\u00e2\u00ce\u00174X\u007f\u008a\u00de\u00d8*\u00b7\u008d\u00d0%\u00be\u00c5\u00c6l\u00830(J\u0011\u00f9\u00db\u0012\u00e5G\u00eb",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.218:48504-52.219.170.166:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.218:48504-52.219.170.166:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 699 bytes)",
+        "Medium entropy (7.59)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "y\u0002\u0004\u0002\u0004\u0082\u0001n\u0004\u0082\u0001j\u0001h\u0000v\u0000\u00e8>\u00d0\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0083a\u00bd\u00d2L\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u0086\u00cb\u00c5\u00e4\u0000u\u0097<\u0005\u00c3\u00e8h\u00e1{\u0013\u00c1\u0010m\n\u00c1\u00c3\u00c1\u00bf\u0011\u009f\u00fb\u00d6\u000b\t\u00ac5s\u0002 Y\u009b\u00c6\u00b8`H\u0014\u00fc\u00e7*\u0086\u0011\u0019]>\fI\u000f\u00f7\u00c3{<M\u00b1\u00cfx\u00f9\u00fc\u00c6\"U\u00f6\u0000w\u00005\u00cf\u0019\u001b\u00bf\u00b1lW\u00bf\u000f\u00adLmB\u00cb\u00bb\u00b6' &Q\u00ea?\u00e1*\u00ef\u00a8\u0003\u00c3;\u00d6L\u0000\u0000\u0001\u0083a\u00bd\u00d2\u008d\u0000\u0000\u0004\u0003\u0000H0F\u0002!\u0000\u00f4\u00a9\u00f28\u0000iS\u00d7\u008d\u00ca\u00e4\u0095",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

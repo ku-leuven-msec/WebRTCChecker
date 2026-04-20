@@ -1,0 +1,87 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.225:36718-216.239.32.29:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.225:36718-216.239.32.29:80",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 790 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.11)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr",
+          "goog/repo/certs/gtsr"
+        ]
+      },
+      "payload_snippet": "GET /repo/certs/gts1c3.der HTTP/1.1\r\nHost: pki.goog\r\n\r\nHTTP/1.1 200 OK\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nContent-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri",
+      "geoip_info": "US, Mountain View, California, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:172.64.149.82:80-192.168.1.225:60936",
+      "protocol": "TCP",
+      "endpoints": "172.64.149.82:80-192.168.1.225:60936",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 676 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.10)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "/DigiCertSHA2HighAssuranceServer",
+          "com/DigiCertHighAssuranceEVRootC",
+          "/DigiCertSHA2HighAssuranceServer",
+          "com/DigiCertHighAssuranceEVRootC",
+          "/DigiCertSHA2HighAssuranceServer",
+          "com/DigiCertHighAssuranceEVRootC",
+          "/DigiCertSHA2HighAssuranceServer",
+          "com/DigiCertHighAssuranceEVRootC",
+          "/DigiCertTLSRSASHA2562020CA1",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "/DigiCertSHA2HighAssuranceServer",
+          "com/DigiCertHighAssuranceEVRootC",
+          "/DigiCertSHA2HighAssuranceServer",
+          "com/DigiCertHighAssuranceEVRootC"
+        ]
+      },
+      "payload_snippet": "GET /DigiCertSHA2HighAssuranceServerCA.crt HTTP/1.1\r\nHost: cacerts.digicert.com\r\n\r\nHTTP/1.1 200 OK\r\nDate: Tue, 22 Nov 2022 12:31:16 GMT\r\nContent-Type: application/pkix-cert\r\nContent-Length: 1205\r\nConn",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.225:60640-54.171.77.215:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.225:60640-54.171.77.215:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 567 bytes)",
+        "Medium entropy (7.67)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0001\u0002\u0002\u0013t\u0000\u0000\u0000\u0007Y\u00ae7\u00bb\u0092\u00d1`p\u0000\u0000\u0000\u0000\u0000\u00070\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000\u00151\u00130\u0011\u0006\u0003U\u0004\u0003\u0013\ntp-link-CA0 \u0017\r200519092102Z\u0018\u000f20680119083752Z0Z1\u00120\u0010\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0002cn1\u00130\u0011\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0003com1\u00170\u0015\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0007tp-link1\u00160\u0014\u0006\u0003U\u0004\u0003\u0013\rTP-LINK CA P10\u0082\u0001\"0\r\u0006\t*\u0086H\u0086\u00f7",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

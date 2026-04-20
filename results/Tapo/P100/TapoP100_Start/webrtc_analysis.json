@@ -1,0 +1,90 @@
+[
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.205:52432",
+    "server_endpoint": "54.74.50.251:443",
+    "total_bytes": 6177,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2021-10-22T01:40:18+00:00",
+      "valid_until": "2023-10-22T01:40:18+00:00",
+      "issuer_cn": "TP-LINK CA P1",
+      "subject_cn": "*.tplinknbu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinknbu.com')>",
+        "<DNSName(value='*.i.tplinknbu.com')>",
+        "<DNSName(value='*.iot.i.tplinknbu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "56:3C:B5:3E:2C:93:14:C0:A0:CB:9B:13:C9:B4:71:56:75:04:5E:D7:2C:81:E7:CC:94:9C:85:E0:F1:84:08:EA"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.205:52433",
+    "server_endpoint": "54.155.191.75:443",
+    "total_bytes": 12306,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2021-10-22T01:40:18+00:00",
+      "valid_until": "2023-10-22T01:40:18+00:00",
+      "issuer_cn": "TP-LINK CA P1",
+      "subject_cn": "*.tplinknbu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinknbu.com')>",
+        "<DNSName(value='*.i.tplinknbu.com')>",
+        "<DNSName(value='*.iot.i.tplinknbu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "56:3C:B5:3E:2C:93:14:C0:A0:CB:9B:13:C9:B4:71:56:75:04:5E:D7:2C:81:E7:CC:94:9C:85:E0:F1:84:08:EA"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "self_signed": true,
+    "validity_period_ok": false,
+    "valid_from": "2021-07-13T07:29:27+00:00",
+    "valid_until": "2022-07-13T07:29:27+00:00",
+    "issuer_cn": "AK",
+    "subject_cn": "AK",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "A9:07:34:CA:F8:6F:12:21:98:12:C9:D1:90:49:90:93:54:E6:6F:08:01:73:2C:81:F8:43:4B:75:BC:89:8D:3C",
+    "found_in_packet_number": "20",
+    "found_in_packet_summary": "DTLS Packet",
+    "sender_info": {
+      "ip": "192.168.1.72",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.16",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2025-06-01T08:09:38+00:00",
+    "valid_until": "2025-07-02T08:09:38+00:00",
+    "issuer_cn": "WebRTC",
+    "subject_cn": "WebRTC",
+    "subject_alternative_names": [],
+    "signature_algorithm": "ecdsa-with-SHA256",
+    "public_key_algorithm": "ECPublicKey",
+    "fingerprint": "0A:07:59:62:2A:A8:5B:FD:28:55:40:38:74:DF:6B:9B:FA:84:0A:49:5E:C2:B0:34:9F:E4:3A:E7:27:B8:1E:3C",
+    "found_in_packet_number": "25",
+    "found_in_packet_summary": "DTLS Packet",
+    "sender_info": {
+      "ip": "192.168.1.16",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.72",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

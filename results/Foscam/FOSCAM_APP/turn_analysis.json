@@ -1,0 +1,995 @@
+{
+  "geoip_summary": {
+    "91.109.23.140": {
+      "ip": "91.109.23.140",
+      "hostname": "bladelaid.me",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS28753 Leaseweb Deutschland GmbH",
+      "timezone": "Europe/Berlin"
+    }
+  },
+  "turn_transactions": {
+    "e1030000ee120602eba9204f": [
+      {
+        "timestamp": 1686914306.2860515,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Allocate Request",
+        "transaction_id": "e1030000ee120602eba9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000300202112a442e1030000ee120602eba9204f001900041100000000310004000000018022000c706a6e6174682d322e332e34",
+        "transaction_authentication_type": "None"
+      },
+      {
+        "timestamp": 1686914306.307551,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Allocate Error Response",
+        "transaction_id": "e1030000ee120602eba9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "011300602112a442e1030000ee120602eba9204f0009001000000401556e617574686f726973656400150010366639383830363364663865356166320014000d6d79636f6d70616e792e6f72676172738022001d4369747269782d332e322e352e3220274d61727368616c2057657374276a6e61",
+        "credentials": {
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "None"
+      }
+    ],
+    "e1030000f10e5020eca9204f": [
+      {
+        "timestamp": 1686914306.3081174,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Allocate Request",
+        "transaction_id": "e1030000f10e5020eca9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000300782112a442e1030000f10e5020eca9204f001900041100000000310004000000018022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014cb670dc1fd576d753c72619276f706dbf2a38537",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914306.3290827,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Allocate Success Response",
+        "transaction_id": "e1030000f10e5020eca9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Short-Term",
+        "internal_ip_exposure_via_mapped_address": true,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0103005c2112a442e1030000f10e5020eca9204f001600080001826f7a7fb3ce002000080001f253e0ac45b6000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742769747200080014ebb6722f60849d301f601a748d56a66011d1c1f7",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e10300008c43e27deda9204f": [
+      {
+        "timestamp": 1686914331.3290348,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e10300008c43e27deda9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e10300008c43e27deda9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014f7bcfc29d249e8130bb3970ef7146e98d7bb3a70",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914331.350091,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e10300008c43e27deda9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e10300008c43e27deda9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427697472",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e103000014c56332eea9204f": [
+      {
+        "timestamp": 1686914356.3507533,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e103000014c56332eea9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e103000014c56332eea9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014cdd196cd4e0e4c060789e294876724fb5c2fb8bd",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914356.3718123,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e103000014c56332eea9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e103000014c56332eea9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427697472",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000d08bb84aefa9204f": [
+      {
+        "timestamp": 1686914381.3722055,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000d08bb84aefa9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000d08bb84aefa9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800148651e3919e2a36655a2a3964abd5b80c6c2dfb8a",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914381.3931878,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000d08bb84aefa9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000d08bb84aefa9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427ffffff",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000cd00d278f0a9204f": [
+      {
+        "timestamp": 1686914406.3967502,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000cd00d278f0a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000cd00d278f0a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800147243212d21a55922b72bcf78973295fac25f03bb",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914406.4176102,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000cd00d278f0a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000cd00d278f0a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742714000d",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e10300000af54126f1a9204f": [
+      {
+        "timestamp": 1686914431.420731,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e10300000af54126f1a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e10300000af54126f1a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800143df97354e20970e500ea1597c47b40e5350c304f",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914431.4416904,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e10300000af54126f1a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e10300000af54126f1a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427782d33",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e103000001fa345ff2a9204f": [
+      {
+        "timestamp": 1686914456.4512014,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e103000001fa345ff2a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e103000001fa345ff2a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014164492723d06ffb91e7fc488cd234d0e5931d7f0",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914456.4720442,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e103000001fa345ff2a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e103000001fa345ff2a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427697472",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000466d8504f3a9204f": [
+      {
+        "timestamp": 1686914481.4723396,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000466d8504f3a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000466d8504f3a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014ce5ccfc008f75591027eccbc32ea8d1b4641aadd",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914481.4934342,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000466d8504f3a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000466d8504f3a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c2057657374278580c9",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000fdd6440ef4a9204f": [
+      {
+        "timestamp": 1686914506.493404,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000fdd6440ef4a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000fdd6440ef4a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014ea17075d6b2e146286bc7084fb2d80bfcc1e8ddf",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914506.514324,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000fdd6440ef4a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000fdd6440ef4a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427697472",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000c38aae72f5a9204f": [
+      {
+        "timestamp": 1686914531.5147521,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000c38aae72f5a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000c38aae72f5a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800147dce905448d3cb4b24bb7f79527b13838fc26b1a",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914531.5357134,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000c38aae72f5a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000c38aae72f5a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427782d33",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000787efc5bf6a9204f": [
+      {
+        "timestamp": 1686914556.5360885,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000787efc5bf6a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000787efc5bf6a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800147680ceeb2c7e576099a55ac0a7d08d5294bac6c5",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914556.5571103,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000787efc5bf6a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000787efc5bf6a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427697472",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000119b7e78f7a9204f": [
+      {
+        "timestamp": 1686914581.5591102,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000119b7e78f7a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000119b7e78f7a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014f5529bd3973088e1d2af0a0305ed0925df9e6af1",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914581.579971,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000119b7e78f7a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000119b7e78f7a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427782d33",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e10300005c4bdf58f8a9204f": [
+      {
+        "timestamp": 1686914606.581846,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e10300005c4bdf58f8a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e10300005c4bdf58f8a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014ea3c39366fffe2a09d2d2c5246d947678b18dd6d",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914606.6027374,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e10300005c4bdf58f8a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e10300005c4bdf58f8a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427322e35",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e103000000bdf340f9a9204f": [
+      {
+        "timestamp": 1686914631.602244,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e103000000bdf340f9a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e103000000bdf340f9a9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014c50810de29f75e70e3f17533812c0ab3f38e78c4",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914631.6231503,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e103000000bdf340f9a9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e103000000bdf340f9a9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c2057657374276c6f63",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e103000070e1e90ffaa9204f": [
+      {
+        "timestamp": 1686914656.622582,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e103000070e1e90ffaa9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e103000070e1e90ffaa9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014c3e88c22c6282c06885fa5044154b491df5d1cee",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914656.643556,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e103000070e1e90ffaa9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e103000070e1e90ffaa9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742714000d",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000a7923f1bfba9204f": [
+      {
+        "timestamp": 1686914681.6454592,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000a7923f1bfba9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000a7923f1bfba9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f726700000000150010366639383830363364663865356166320008001472a96ea5d7be297ea8d72e4f1b922535b636fc3a",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914681.6667247,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000a7923f1bfba9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000a7923f1bfba9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742714000d",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000c5c7330ffca9204f": [
+      {
+        "timestamp": 1686914706.6694818,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000c5c7330ffca9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000c5c7330ffca9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014d970f2b56836f7347f35a5c043e81f9e038d8403",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914706.6903996,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000c5c7330ffca9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000c5c7330ffca9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742714000d",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e10300007ba77d1cfda9204f": [
+      {
+        "timestamp": 1686914731.690616,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e10300007ba77d1cfda9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e10300007ba77d1cfda9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014041e3aec53216a2f5fc91d994bf045b52c1254b4",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914731.711631,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e10300007ba77d1cfda9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e10300007ba77d1cfda9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742714000d",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e10300005be4675ffea9204f": [
+      {
+        "timestamp": 1686914756.7117128,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e10300005be4675ffea9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e10300005be4675ffea9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800144e765f8a00469feafb9e7244d32e3f2f741f2b6f",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914756.732685,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e10300005be4675ffea9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e10300005be4675ffea9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742750ba74",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e103000095cb973fffa9204f": [
+      {
+        "timestamp": 1686914781.7347193,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e103000095cb973fffa9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e103000095cb973fffa9204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014cbb14febc6182990a983c5952aed33a52554b6db",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914781.7556355,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e103000095cb973fffa9204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e103000095cb973fffa9204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427ffffff",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000e0a9664c00aa204f": [
+      {
+        "timestamp": 1686914806.7609007,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000e0a9664c00aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000e0a9664c00aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800149900ace4890c721a9b748e58a4dca632881fcbf6",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914806.7818484,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000e0a9664c00aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000e0a9664c00aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427984e5b",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000a25d563801aa204f": [
+      {
+        "timestamp": 1686914831.7824984,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000a25d563801aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000a25d563801aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014b2e7f9b3522379ffa3f9435d9177e5ad13ed73c4",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914831.8034172,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000a25d563801aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000a25d563801aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427782d33",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000e0e1665f02aa204f": [
+      {
+        "timestamp": 1686914856.8058884,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000e0e1665f02aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000e0e1665f02aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f7267000000001500103666393838303633646638653561663200080014c160f4175cef640e24ec0774697fbff95d2f09bc",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914856.826839,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000e0e1665f02aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000e0e1665f02aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427697472",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000c487907203aa204f": [
+      {
+        "timestamp": 1686914881.8269103,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000c487907203aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000c487907203aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f726700000000150010366639383830363364663865356166320008001433580f3fc07e107ea57c145b968e0cb2b58dd107",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914881.847703,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000c487907203aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000c487907203aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427782d33",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000bd9df04704aa204f": [
+      {
+        "timestamp": 1686914906.8491228,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000bd9df04704aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000bd9df04704aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800145fb2e66bfcc46055920702e8ee6e6dce406d7a40",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914906.8700817,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000bd9df04704aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000bd9df04704aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c20576573742714000d",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e103000095d6391a05aa204f": [
+      {
+        "timestamp": 1686914931.870538,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e103000095d6391a05aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e103000095d6391a05aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f72670000000015001036663938383036336466386535616632000800141242419d2fd276ccb7e5878069b68496a0a786b3",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914931.891391,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e103000095d6391a05aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e103000095d6391a05aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427322e35",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ],
+    "e1030000a2cee62506aa204f": [
+      {
+        "timestamp": 1686914956.8925369,
+        "src": "192.168.1.155:54081",
+        "dst": "91.109.23.140:34781",
+        "message_type": "Refresh Request",
+        "transaction_id": "e1030000a2cee62506aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "Long-Term",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "pjnath",
+        "library_version": "2.3.4",
+        "raw_payload_hex": "000400682112a442e1030000a2cee62506aa204f8022000c706a6e6174682d322e332e34000600144214443e2c3c411f382330153b3e1835413643260014000d6d79636f6d70616e792e6f726700000000150010366639383830363364663865356166320008001466ef2ae0f6f1af1a7f384d81ee508ee8a6269977",
+        "credentials": {
+          "username": "B\u0014D>,<A\u001f8#0\u0015;>\u00185A6C&",
+          "realm": "mycompany.org",
+          "nonce": "36663938383036336466386535616632"
+        },
+        "transaction_authentication_type": "Long-Term"
+      },
+      {
+        "timestamp": 1686914956.9134264,
+        "src": "91.109.23.140:34781",
+        "dst": "192.168.1.155:54081",
+        "message_type": "Refresh Success Response",
+        "transaction_id": "e1030000a2cee62506aa204f",
+        "turn_version_standard": "RFC 5766 / 8656",
+        "message_authentication_type": "None",
+        "internal_ip_exposure_via_mapped_address": false,
+        "library_name": "Citrix",
+        "library_version": "3.2.5.2",
+        "raw_payload_hex": "0104002c2112a442e1030000a2cee62506aa204f000d0004000002588022001d4369747269782d332e322e352e3220274d61727368616c205765737427782d33",
+        "transaction_authentication_type": "Long-Term"
+      }
+    ]
+  }
+}

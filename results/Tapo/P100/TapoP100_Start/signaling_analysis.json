@@ -1,0 +1,75 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.205:52432-54.74.50.251:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.205:52432-54.74.50.251:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 153 bytes)",
+        "Medium entropy (7.69)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00e9\u0099\u0099:%\u0002\u0003\u0001\u0000\u0001\u00a3Q0O0\u000b\u0006\u0003U\u001d\u000f\u0004\u0004\u0003\u0002\u0001\u00860\u000f\u0006\u0003U\u001d\u0013\u0001\u0001\u00ff\u0004\u00050\u0003\u0001\u0001\u00ff0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00c6\u00ed\u00a2\u0005\u0014\u00ecy\u00feb6{\u0000\rXL$4\u0016\u008b\u00a90\u0010\u0006\t+\u0006\u0001\u0004\u0001\u00827\u0015\u0001\u0004\u0003\u0002\u0001\u00000\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000\u001ev1\u00a8\u00dd\u00fb\n7q\u00beA\u00b1::\u00df=\u008f\u00b1\u00b6\u00f2\u0097\u0080\u00021F\u00b0\u00eb\u00c3qP\u00cc\u00ba\u00d4\u00e8\u00a1\u00c7y\u009c/2\u00c9\u00aa\"\u0019p\u00a7\u008f\u0088{$.\u00a2\u00c9\u0017\u00b4\u001fO\u00d4\u00ea\u008e\u00f8\u00b321IV\u000b\u000b\u00b9[\u009bP\u0015\u00ca\u0007:\u00b27\u00ed\u00ca*T\u001c\u008bC\u00ce\u00de",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.205:52433-54.155.191.75:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.205:52433-54.155.191.75:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 199 bytes)",
+        "Medium entropy (7.63)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00e9\u0099\u0099:%\u0002\u0003\u0001\u0000\u0001\u00a3Q0O0\u000b\u0006\u0003U\u001d\u000f\u0004\u0004\u0003\u0002\u0001\u00860\u000f\u0006\u0003U\u001d\u0013\u0001\u0001\u00ff\u0004\u00050\u0003\u0001\u0001\u00ff0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00c6\u00ed\u00a2\u0005\u0014\u00ecy\u00feb6{\u0000\rXL$4\u0016\u008b\u00a90\u0010\u0006\t+\u0006\u0001\u0004\u0001\u00827\u0015\u0001\u0004\u0003\u0002\u0001\u00000\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000\u001ev1\u00a8\u00dd\u00fb\n7q\u00beA\u00b1::\u00df=\u008f\u00b1\u00b6\u00f2\u0097\u0080\u00021F\u00b0\u00eb\u00c3qP\u00cc\u00ba\u00d4\u00e8\u00a1\u00c7y\u009c/2\u00c9\u00aa\"\u0019p\u00a7\u008f\u0088{$.\u00a2\u00c9\u0017\u00b4\u001fO\u00d4\u00ea\u008e\u00f8\u00b321IV\u000b\u000b\u00b9[\u009bP\u0015\u00ca\u0007:\u00b27\u00ed\u00ca*T\u001c\u008bC\u00ce\u00de",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.205:52433-54.229.135.124:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.205:52433-54.229.135.124:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 62 bytes)",
+        "Medium entropy (5.73)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "L\u008e\u0003\u00f1\u00f7\u00ea\u0091\u0003\u00ebg\u00ac=\u009b\u0098\u00f5\u00dd\u00c4>\u00bf\u008eY\u0093\u00ffv{\u00c2\u0080\u0099>S\u0099\u0019$\u00a0B\u000e\u0013@\u008b(TO\u00d4\u0012\u00a7\u00a4j\u00da\u0000`R!\u00ab\u00cb\u000e\u008f\u00f5\u00a1[ \u0098\u0001",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:13.228.131.166:443-192.168.1.218:38990",
+      "protocol": "TCP",
+      "endpoints": "13.228.131.166:443-192.168.1.218:38990",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.42)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a\u0014\u0088d\u0092\u00bc\u0088\u00c2\u00f7\u00cd+$\u00be3\b!\u00a8\u00e6lT$\u00f6V\u00f9a",
+      "geoip_info": "SG, Singapore, Singapore, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:13.228.131.166:443-192.168.1.218:38992",
+      "protocol": "TCP",
+      "endpoints": "13.228.131.166:443-192.168.1.218:38992",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.39)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": ")>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d)>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d)>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d)>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d)>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d)>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d)>\u00021\u00e7\u008c\t\u00f1\u0013\u001eW\u00056\u0018F3\u0018p\u00a4\u00edu\u0018v\u009d",
+      "geoip_info": "SG, Singapore, Singapore, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2026-02-10T03:42:59+00:00",
+    "valid_until": "2027-02-05T03:42:59+00:00",
+    "issuer_cn": "Microsoft TLS G2 ECC CA OCSP 06",
+    "subject_cn": "*.msn.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.msn.ca')>",
+      "<DNSName(value='*.microsoftstart.com')>",
+      "<DNSName(value='wildcard.msn.com')>",
+      "<DNSName(value='start.com')>",
+      "<DNSName(value='msn.com')>",
+      "<DNSName(value='microsoftstart.com')>",
+      "<DNSName(value='microsoftnews.com')>",
+      "<DNSName(value='*.start.com')>",
+      "<DNSName(value='*.msn.nl')>",
+      "<DNSName(value='*.msn.net')>",
+      "<DNSName(value='*.msn.it')>",
+      "<DNSName(value='*.msn.com.tw')>",
+      "<DNSName(value='*.msn.com.hk')>",
+      "<DNSName(value='*.msn.com.br')>",
+      "<DNSName(value='*.msn.com')>",
+      "<DNSName(value='*.msn.co.uk')>",
+      "<DNSName(value='*.msn.co.nz')>"
+    ],
+    "signature_algorithm": "ecdsa-with-SHA384",
+    "public_key_algorithm": "ECPublicKey",
+    "fingerprint": "08:86:55:F4:4E:A3:FD:43:3A:32:33:44:52:73:4B:FF:6B:53:B9:07:99:BB:0B:88:CF:AE:24:9D:97:A9:96:A4",
+    "found_in_packet_number": "636",
+    "found_in_packet_summary": "TLS Packet"
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2025-12-22T00:00:00+00:00",
+    "valid_until": "2026-06-22T23:59:59+00:00",
+    "issuer_cn": "GeoTrust TLS RSA CA G1",
+    "subject_cn": "aps.prod.windows.com",
+    "subject_alternative_names": [
+      "<DNSName(value='aps.prod.windows.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "4F:C9:0F:31:13:FD:23:C5:9D:78:05:EF:5E:59:FA:28:7D:06:FD:AA:C6:8F:35:54:ED:9D:53:EE:C6:63:D6:DE",
+    "found_in_packet_number": "669",
+    "found_in_packet_summary": "TLS Packet"
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2025-12-29T21:26:21+00:00",
+    "valid_until": "2026-06-27T21:26:21+00:00",
+    "issuer_cn": "Microsoft Azure RSA TLS Issuing CA 04",
+    "subject_cn": "*.events.data.microsoft.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.events.data.microsoft.com')>",
+      "<DNSName(value='events.data.microsoft.com')>",
+      "<DNSName(value='*.pipe.aria.microsoft.com')>",
+      "<DNSName(value='pipe.skype.com')>",
+      "<DNSName(value='*.pipe.skype.com')>",
+      "<DNSName(value='*.mobile.events.data.microsoft.com')>",
+      "<DNSName(value='mobile.events.data.microsoft.com')>",
+      "<DNSName(value='*.events.data.msn.com')>",
+      "<DNSName(value='events.data.msn.com')>",
+      "<DNSName(value='*.events.data.msn.cn')>",
+      "<DNSName(value='events.data.msn.cn')>",
+      "<DNSName(value='*.vortex.data.microsoft.com')>",
+      "<DNSName(value='vortex.data.microsoft.com')>"
+    ],
+    "signature_algorithm": "sha384WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "DD:29:E8:AA:B8:D5:3F:72:CA:40:65:32:C7:0C:14:69:DE:FE:A1:7E:24:0B:44:DC:69:C7:57:B9:9A:DB:76:84",
+    "found_in_packet_number": "887",
+    "found_in_packet_summary": "TLS Packet"
+  },
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2000-01-01T00:00:00+00:00",
+    "valid_until": "2110-12-31T23:59:59+00:00",
+    "issuer_cn": "BRW7497793436B6.local",
+    "subject_cn": "BRW7497793436B6.local",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "27:57:4C:94:BA:4A:90:A0:C6:A0:64:3B:3F:D4:C3:DB:61:CF:FE:A4:BA:36:50:2F:4B:BE:A3:58:6C:35:90:42",
+    "found_in_packet_number": "950",
+    "found_in_packet_summary": "TLS Packet"
+  }
+]

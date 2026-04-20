@@ -1,0 +1,836 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.155:47016-54.175.197.69:1883",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:47016-54.175.197.69:1883",
+      "likelihood_score": 10,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 52 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (5.41)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "73e0e0fb7f2649d1ba912245374",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc"
+        ],
+        "base64_strings": [
+          "28cd41221d72433b89fc",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/server/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "73e0e0fb7f2649d1ba912245",
+          "U2CZGVZ7O9O3XZ3OZZZZ7Y8M",
+          "21688FAE79113C5FE1FC6571617F1F14",
+          "ivy/server/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "21688FAE79113C5FE1FC6571617F1F14",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "21688FAE79113C5FE1FC6571617F1F14",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "71992BF49FBB94E4E1FC6571617F1F14",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/server/28cd41221d72433b8",
+          "aHR0cHM6Ly91bmJpbmQtaW1hZ2UuczMuYW1hem9uYXdzLmNvbS9pb3RGaXJtd2FyZVVwZ3JhZGUvMjAyMS8xMi84L0Zvc0lQQ19OX3N5c192ZXIxLjE3LjIuOV8xNjM4OTI2NjUwMzc2LmJp",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0010z\u0000\u0006MQIsdp\u0003\u00f6\u0000\u001e\u0000\u001428cd41221d72433b89fc\u0000\u001fivy/camera/28cd41221d72433b89fc\u0000\r54.175.197.69\u0000$8b5ebb27-4e83-3145-8774-d2357abd23a8\u0000\u0000 \u0002\u0000\u0000\u0082$\u0000\u0002\u0000\u001fivy/server/28cd41221d72433b89fc\u0000\u0090\u0003\u0000\u0002\u00004\u009d\u0001\u0000\u001fivy/camera/28cd41221d724",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:59126-52.2.247.232:1883",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:59126-52.2.247.232:1883",
+      "likelihood_score": 10,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 50 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (5.37)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc",
+          "28cd41221d72433b89fc"
+        ],
+        "base64_strings": [
+          "28cd41221d72433b89fc",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/server/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "71992BF49FBB94E4E1FC6571617F1F14",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/server/28cd41221d72433b8",
+          "aHR0cHM6Ly91bmJpbmQtaW1hZ2UuczMuYW1hem9uYXdzLmNvbS9pb3RGaXJtd2FyZVVwZ3JhZGUvMjAyMi8yLzE3L0Zvc0lQQ19OX2FwcF92ZXIyLnguMi4zMV8yMDIyMDExMl8xNjQ1MDY5NTIwMjM4LmJp",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8",
+          "ivy/camera/28cd41221d72433b8"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0010y\u0000\u0006MQIsdp\u0003\u00f6\u0000\u001e\u0000\u001428cd41221d72433b89fc\u0000\u001fivy/camera/28cd41221d72433b89fc\u0000\f52.2.247.232\u0000$8b5ebb27-4e83-3145-8774-d2357abd23a8\u0000\u0000 \u0002\u0000\u0000\u0082$\u0000\u0002\u0000\u001fivy/server/28cd41221d72433b89fc\u0000\u0090\u0003\u0000\u0002\u00004\u00ae\u0003\u0000\u001fivy/camera/28cd41221d7243",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:42490-52.3.84.22:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:42490-52.3.84.22:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.66)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:33448-3.214.189.252:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:33448-3.214.189.252:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:33862",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:33862",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:54854-54.174.38.205:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:54854-54.174.38.205:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.67)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:33866",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:33866",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.66)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:54900-54.174.38.205:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:54900-54.174.38.205:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:33940",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:33940",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:55026-54.174.38.205:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:55026-54.174.38.205:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:34064",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:34064",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:34112",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:34112",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:49426",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:49426",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:49808-54.174.38.205:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:49808-54.174.38.205:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:42698-52.21.187.214:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:42698-52.21.187.214:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 663 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.60)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "n\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003 \u0000\u00b5\u009e|\u00ba\u00dc\u0089\u00d50g\u00efv'\u00b1\u0081\u00be\u0080\u00e3\u00f3\nu\u00ccv_>d9",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.208.31.239:443-192.168.1.155:54976",
+      "protocol": "TCP",
+      "endpoints": "18.208.31.239:443-192.168.1.155:54976",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:34156-52.3.84.22:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:34156-52.3.84.22:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 551 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "UDP:192.168.1.155:10001-192.168.1.218:10000",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:10001-192.168.1.218:10000",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 129 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ",
+          "U2CZGVZ7O9O3XZ3OZZZZ"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000DoorBell\u0000mera\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8\u0001\u0001\u0002\u0000X\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000X\u0001U2CZGVZ7O9O3XZ3OZZZZ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00007Y8M\u0000\u0000\u0000\u0000MO_I\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000j\u0000\u0000\u0000\u0000\u0000\u0000\u000000626EFEBDDE\u0000DoorBell\u0000mera\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00c0\u00a8\u0001\u009b\u00ff\u00ff\u00ff\u0000\u00c0\u00a8\u0001\u0001\u00c0\u00a8",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.155:88-192.168.1.218:43874",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:88-192.168.1.218:43874",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 672 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz",
+          "CDEFGHIJSTUVWXYZcdefghijstuvwxyz"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "ERPUSH / HTTP/1.1\r\nHost: 127.0.0.1:88\r\nAccept:*/*\r\nConnection: Close\r\n\r\nFOSCV\u0000\u0000\u0000\u0000\u0000\u0000\u0000J\u0000\u0000\u0000\u0003\u0000U\u00aa0H\u0002A\u0000\u00e0\u001c$\n\u00d9\u00cc\u0005$dR\u00f5z\u00ec\u0082F\u0086\u000b\b\u0099\u00fb\u00ef8n*\u00ee\u00b8u\u001d\u008ez\u009d\u001d\u00e2\\+\u00afC=\u00ea\u00f6\b\u00df\u00a97\u0082C\u0007\u001f\u00c0\"K\u000fG/\u00d6\u0006)\\\u001bB\u00a8\u00a8\u00a5\u0081\u0002\u0003\u0001\u0000\u0001FOSC@\u0000\u0000\u0000%\t\u00b2\u00c1\u0010\u00e3\"\u00cc#Gn\u0089\u0093\u0096\u00a5\u0099\u00a1\u00a3\u0092\u00a9\u00c2[\u00dd\u00113(",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.155:60236-3.214.189.252:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:60236-3.214.189.252:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "m/USERTrustRSAAAACA.crt0%\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086\u0019http://ocsp.usertrust.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\f\u0005\u0000\u0003\u0082\u0002\u0001\u0000\u000eF\u00edp>|\u00d2\u00b2\u008f\u00b1r\u00ba\u008bh \u008d\u00fc\u00ff}\u009eg\u0085+\u000b[\u00c6\u0014\u00f1-\u000f't\u00cb3\u00ab\u00af\u00b4\u00afAJ\u000e\u00d8b\u00f1\u00172\u0010\u00d1+ 0\u00d5\u00c9\u00e1@!2D\u00c3\u00cb=N\u0003Kq\u00d2\r\u0006\u008c\u00e4\u0017\u0004`?\u00c9\u00f4Q\u00ed(\"\u00b5\u0012@u\u00ba\u00a4=\u00fai2\u007f\u009d\u00b4\u00a5\u00c2\u001c|w\u00e6\u0088S/C\u00e4\u0095\u0017[\u0099v\u009c\u00bd\u001e\u00eb]B\"$\u00c7",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:59910-54.175.100.95:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:59910-54.175.100.95:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "m/USERTrustRSAAAACA.crt0%\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086\u0019http://ocsp.usertrust.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\f\u0005\u0000\u0003\u0082\u0002\u0001\u0000\u000eF\u00edp>|\u00d2\u00b2\u008f\u00b1r\u00ba\u008bh \u008d\u00fc\u00ff}\u009eg\u0085+\u000b[\u00c6\u0014\u00f1-\u000f't\u00cb3\u00ab\u00af\u00b4\u00afAJ\u000e\u00d8b\u00f1\u00172\u0010\u00d1+ 0\u00d5\u00c9\u00e1@!2D\u00c3\u00cb=N\u0003Kq\u00d2\r\u0006\u008c\u00e4\u0017\u0004`?\u00c9\u00f4Q\u00ed(\"\u00b5\u0012@u\u00ba\u00a4=\u00fai2\u007f\u009d\u00b4\u00a5\u00c2\u001c|w\u00e6\u0088S/C\u00e4\u0095\u0017[\u0099v\u009c\u00bd\u001e\u00eb]B\"$\u00c7",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.155:47848-34.197.170.64:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:47848-34.197.170.64:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAAAC",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00da>\u00f5\u000652\u00e7W(\u00bc\u0089k\u00c9\u0003\u00d3\u00cb\u00d1\u0011k\u00ec\u00ebi\u00e1w}m\u0006\u00bdn\u0000\u0000\u0001\u0080\u00b9\u00b2\u00b0;\u0000\u0000\u0004\u0003\u0000F0D\u0002 !|z\u00cc\u00ef\u00d4[\u0013\u00eb\u00ec\u00a0\u0006\u00a3\u00fa~\u00a9\u0098\u00dc\u00d4e\u009dx\u008d\u00b2g\u00c8F\u00b0*/3\u00a2\u0002 \u0002\u00a3\u00d0\u00bc\u0098R\u00151\u00d7\u0007x|\u00c3\u00cd\u008a4#\u00d4\u00e8\u00ea\u0016\u00c5\u00af\u001fG\u007f)\u00e5\u00d8q\u00c9\u00b00'\u0006\u0003U\u001d\u0011\u0004 0\u001e\u0082\u000e*.myfoscam.com\u0082\fmyfoscam.com0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000PP\u00ad0\u00c1sqk\u00deD\u00a7\u00c0 \u0003\u0093\u00efL\u00d5z\u0012\u0000R\u00cb\u00f6\u0084\u0003",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    }
+  ]
+}

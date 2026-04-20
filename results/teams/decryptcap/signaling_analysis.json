@@ -1,0 +1,583 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.125:50261-20.190.181.2:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50261-20.190.181.2:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 717 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.77)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250708093808Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "D\u0002 f/[\u009d\u0007\u00e7\u00c1\u00b3\u00aej\u0010\u0093\u00d4\u00fe\u00a0\u0012\u00a1\u00dfV,\u00ee\u00c1\u00d1\u0019Q_~R\u00d0Ms]\u0002 \u0011\u00cd`\u00f4\u00e5\u00d9\u00d5},h\u00b3\u00fa\u00e0T\u00a1\u00c8\bO\u00d9\u0080\u00d8R\u009c\u009d\\\u00b4\u0085g\ry\u00f2.\u0000u\u0000\u00a4B\u00c5\u0006I`aT\u008f\u000f\u00d4\u00ea\u009c\u00fbz-&EM\u0087\u00a9\u007f/\u00dfEY\u00f6'O:\u0084T\u0000\u0000\u0001\u0097\u000f\u00da\u00d3\u00ba\u0000\u0000\u0004\u0003\u0000F0D\u0002 i-2\u00c9\u0095E\u0003\"a\u0093/aU\u0082X\"W\u00db\u00f9\u00e3.\u00b1!\u00d5\u0016]S\u00fc\u00d84\u00a9\u001a\u0002 e\u00c9\u00a9\u0096\u00be\u00c3\u00ca\u0087\u00b7/\u0018cQv\u00f6n\u0017:&\u00cd\u0007\u0081\u00ed\u00cf\u00c7\u00d3\t\u00bb\u00f2\u0013\u0094\u00f00\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50265-20.190.181.1:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50265-20.190.181.1:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 543 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.63)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250708093808Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "D\u0002 f/[\u009d\u0007\u00e7\u00c1\u00b3\u00aej\u0010\u0093\u00d4\u00fe\u00a0\u0012\u00a1\u00dfV,\u00ee\u00c1\u00d1\u0019Q_~R\u00d0Ms]\u0002 \u0011\u00cd`\u00f4\u00e5\u00d9\u00d5},h\u00b3\u00fa\u00e0T\u00a1\u00c8\bO\u00d9\u0080\u00d8R\u009c\u009d\\\u00b4\u0085g\ry\u00f2.\u0000u\u0000\u00a4B\u00c5\u0006I`aT\u008f\u000f\u00d4\u00ea\u009c\u00fbz-&EM\u0087\u00a9\u007f/\u00dfEY\u00f6'O:\u0084T\u0000\u0000\u0001\u0097\u000f\u00da\u00d3\u00ba\u0000\u0000\u0004\u0003\u0000F0D\u0002 i-2\u00c9\u0095E\u0003\"a\u0093/aU\u0082X\"W\u00db\u00f9\u00e3.\u00b1!\u00d5\u0016]S\u00fc\u00d84\u00a9\u001a\u0002 e\u00c9\u00a9\u0096\u00be\u00c3\u00ca\u0087\u00b7/\u0018cQv\u00f6n\u0017:&\u00cd\u0007\u0081\u00ed\u00cf\u00c7\u00d3\t\u00bb\u00f2\u0013\u0094\u00f00\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:13.107.3.128:443-192.168.1.125:50300",
+      "protocol": "TCP",
+      "endpoints": "13.107.3.128:443-192.168.1.125:50300",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 782 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.53)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0004\u0016\u0004\u0014\u00a8\u00b3\u009c\u0093u\u0015\u0099b\u0081It\u0092\u00c3\u00ad\u00ed\u00d7\u0093A@\u00c10\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0003\t\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00000\u0082\u0002\u00fc\u0082\u0012a.config.skype.com\u0082\u0012a.config.skype.net\u0082\u0012b.config.skype.com\u0082\u0012b.config.skype.net\u0082\u000eedge.skype.com\u0082\u000eedge.skype.net\u0082\u0013int.edge.trouter.io\u0082\u0014prod.edg",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50330-20.202.1.45:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50330-20.202.1.45:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 546 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.64)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "Vf\u000f\u00c5\u0016/\u009b0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0081\u00eb\u0006\u0003U\u001d\u0011\u0004\u0081\u00e30\u0081\u00e0\u0082\ftr.skype.com\u0082\u000e*.tr.skype.com\u0082\u000eturn.skype.com\u0082\u0010*.turn.skype.com\u0082\u0011*.relay.skype.com\u0082\u000eturn.azure.com\u0082\u000estun.azure.com\u0082\u0010msturn.azure.com\u0082\u0011*.relay.azure.com\u0082!relay.com",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50337-4.231.128.59:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50337-4.231.128.59:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 627 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.74)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0017\u00c8\u0010\u00bc\u00b4\u00a5\u00c8\u00c6\u0002H\u00a0\u00e9#\u0004\u00a8/\u00b5I\b\u00da\u0087\u0007\n\u00b5n@\u008b\u00d2\u00fbZ\u00cb\u0082@\u00ed\u000e%Z\u00acd\u001cw\u00acd\u000f\u00df\u0012\u009a\u0087\u0094\u00d29\u00ecB\u00db\u001c\u00f5\u0094\u00c6\u0080i\u00ef\u00c4\u0084y\u00fd\u0090\u0010G\u00e9\u00f0\b\u00b6v\u00d4\u00ba\u00b8\u0084\u00d4F\u00ae\u00a1\u00c0\u0099\u00b9Yq\u00af\u007f\u00f7R\u00ce\u00e9\u00b6\u009f\u00c71\u00e5\u00ff&\u00e8\u008dy%\u0011o\u00e5\u001e\u00fc\u00c1`\u009d\u00b0\u00f3\u00f1\u0083c\u00d6\u00b1G\u00ff\u00bc+X\u0007\u008e\u00ee\u00a25\u00c7RQs\u00e9\u00cf\u00ae\u0088\u0004f\u00c1@\u00bb\u001e\u00c6\u00e8!|b\u008f\u00d1\u00a7\u001dc\u00f1dm\u00c7[\u00cc\u00d8}\u00d6U\u009e\u00c5\u001b\"\u0000\u00b2g\u00aa:+GU=\u00833!E\n~\u0000\u009b\u00cd\u00d1\u00a1\u0089\u00e6\u0010\u00a4\u00b0p\u00e6\u0004x\u00a7\u001c\u001a\u00b3E",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50338-51.104.136.2:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50338-51.104.136.2:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 627 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.73)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0017\u00c8\u0010\u00bc\u00b4\u00a5\u00c8\u00c6\u0002H\u00a0\u00e9#\u0004\u00a8/\u00b5I\b\u00da\u0087\u0007\n\u00b5n@\u008b\u00d2\u00fbZ\u00cb\u0082@\u00ed\u000e%Z\u00acd\u001cw\u00acd\u000f\u00df\u0012\u009a\u0087\u0094\u00d29\u00ecB\u00db\u001c\u00f5\u0094\u00c6\u0080i\u00ef\u00c4\u0084y\u00fd\u0090\u0010G\u00e9\u00f0\b\u00b6v\u00d4\u00ba\u00b8\u0084\u00d4F\u00ae\u00a1\u00c0\u0099\u00b9Yq\u00af\u007f\u00f7R\u00ce\u00e9\u00b6\u009f\u00c71\u00e5\u00ff&\u00e8\u008dy%\u0011o\u00e5\u001e\u00fc\u00c1`\u009d\u00b0\u00f3\u00f1\u0083c\u00d6\u00b1G\u00ff\u00bc+X\u0007\u008e\u00ee\u00a25\u00c7RQs\u00e9\u00cf\u00ae\u0088\u0004f\u00c1@\u00bb\u001e\u00c6\u00e8!|b\u008f\u00d1\u00a7\u001dc\u00f1dm\u00c7[\u00cc\u00d8}\u00d6U\u009e\u00c5\u001b\"\u0000\u00b2g\u00aa:+GU=\u00833!E\n~\u0000\u009b\u00cd\u00d1\u00a1\u0089\u00e6\u0010\u00a4\u00b0p\u00e6\u0004x\u00a7\u001c\u001a\u00b3E",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50226-23.219.232.22:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50226-23.219.232.22:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 949 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "unistoreshellservice",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "}\u0003\u0091#\u009e\u008f\u0099\u00acg\u001c\u00cf]]\u00b5\u00e50\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001Z\u0006\u0003U\u001d\u0011\u0004\u0082\u0001Q0\u0082\u0001M\u0082\"*.store-services-int.microsoft.com\u0082\u001e*.store-services.microsoft.com\u0082 mediastore-ppe.www.microsoft.com\u0082\u001cmediastore.www.microsoft.com\u0082\u0013share.microsoft.co",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS16625 Akamai Technologies, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50244-20.190.181.2:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50244-20.190.181.2:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 632 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250708093808Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "D\u0002 f/[\u009d\u0007\u00e7\u00c1\u00b3\u00aej\u0010\u0093\u00d4\u00fe\u00a0\u0012\u00a1\u00dfV,\u00ee\u00c1\u00d1\u0019Q_~R\u00d0Ms]\u0002 \u0011\u00cd`\u00f4\u00e5\u00d9\u00d5},h\u00b3\u00fa\u00e0T\u00a1\u00c8\bO\u00d9\u0080\u00d8R\u009c\u009d\\\u00b4\u0085g\ry\u00f2.\u0000u\u0000\u00a4B\u00c5\u0006I`aT\u008f\u000f\u00d4\u00ea\u009c\u00fbz-&EM\u0087\u00a9\u007f/\u00dfEY\u00f6'O:\u0084T\u0000\u0000\u0001\u0097\u000f\u00da\u00d3\u00ba\u0000\u0000\u0004\u0003\u0000F0D\u0002 i-2\u00c9\u0095E\u0003\"a\u0093/aU\u0082X\"W\u00db\u00f9\u00e3.\u00b1!\u00d5\u0016]S\u00fc\u00d84\u00a9\u001a\u0002 e\u00c9\u00a9\u0096\u00be\u00c3\u00ca\u0087\u00b7/\u0018cQv\u00f6n\u0017:&\u00cd\u0007\u0081\u00ed\u00cf\u00c7\u00d3\t\u00bb\u00f2\u0013\u0094\u00f00\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50288-34.104.35.123:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50288-34.104.35.123:80",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "/edgedl/release2/chr",
+          "component/acpeapixpwuzscfa5h5j5m7c4x",
+          "0/niikhdgajlphfehepabhhblakbdgee",
+          "acgsomx5qtwgffxcrxwhoksfom7q",
+          "/edgedl/release2/chr",
+          "component/acpeapixpwuzscfa5h5j5m7c4x",
+          "0/niikhdgajlphfehepabhhblakbdgee",
+          "acgsomx5qtwgffxcrxwhoksfom7q",
+          "/edgedl/release2/chr",
+          "component/acpeapixpwuzscfa5h5j5m7c4x",
+          "0/niikhdgajlphfehepabhhblakbdgee",
+          "acgsomx5qtwgffxcrxwhoksfom7q",
+          "/edgedl/release2/chr",
+          "component/acpeapixpwuzscfa5h5j5m7c4x",
+          "0/niikhdgajlphfehepabhhblakbdgee",
+          "acgsomx5qtwgffxcrxwhoksfom7q",
+          "/edgedl/release2/chr",
+          "component/acpeapixpwuzscfa5h5j5m7c4x",
+          "0/niikhdgajlphfehepabhhblakbdgee",
+          "acgsomx5qtwgffxcrxwhoksfom7q",
+          "//wepowerconnections",
+          "//smadexprivacysandb",
+          "/edgedl/release2/chr",
+          "component/acpeapixpwuzscfa5h5j5m7c4x",
+          "0/niikhdgajlphfehepabhhblakbdgee",
+          "acgsomx5qtwgffxcrxwhoksfom7q",
+          "eyJjb250ZW50X2hhc2hlcyI6W3siYmxvY2tfc2l6ZSI6NDA5NiwiZGlnZXN0Ijoic2hhMjU2IiwiZmlsZXMiOlt7InBhdGgiOiJtYW5pZmVzdC5qc29uIiwicm9vdF9oYXNoIjoiTTFzVlp2S2ptUGRrdnBYbURxRmpVdUNISmkzXy1pWVdWMnV5S1VmWDVMdyJ9LHsicGF0aCI6InByaXZhY3ktc2FuZGJveC1hdHRlc3RhdGlvbnMuZGF0Iiwicm9vdF9oYXNoIjoic0FzWnhIemtubE1MQUFGV0ZuMUhuelpaaEYzeGh6YVktZ2tjRWFmZWFoVSJ9XSwiZm9ybWF0IjoidHJlZWhhc2giLCJoYXNoX2Jsb2NrX3NpemUiOjQwOTZ9XSwiaXRlbV9pZCI6Im5paWtoZGdhamxwaGZlaGVwYWJoaGJsYWtiZGdlZWZqIiwiaXRlbV92ZXJzaW9uIjoiMjAyNS42LjE2LjAiLCJwcm90b2NvbF92ZXJzaW9uIjox",
+          "eyJhbGciOiJSUzI1NiJ9",
+          "85g7yJteM96RGQaoIwb2eoYRHPnjfJA6pBwPJtLNVQtskfoHHbNaTGPM7axTjQ5bcWL2",
+          "C7OQio5z7sWyJjEsAQF26VaiiHShBGeRjv0M0pyx",
+          "osjryK7LnFhYa0wiGKOi",
+          "jM1yKtnOiyFoKG42cSwyduAPtY0cshpiiWyI2hda4ZgE",
+          "9xubmPvz12MYlsn5Gdj6XjwKjrLyHEgA4Vh31M8iXfuIuTrR",
+          "HO5wKNz3xGQkX3f6NkSIGw6zpzBEFh5F",
+          "2We07GhoEXmfvhRaM04bJmmUN4L9GVhL",
+          "8BV9GPEhRJlGe2TqOZseS1ME",
+          "uIoqfiqhEravMwVVKApEczyENH1IAbiRGmHSKgvbMMm3mxlD",
+          "HLz3XMna1q2YxAWcQMeydJLQNZvyu7AQWo9pdQHbYtYa4EV5bM6Q6PXR2N1lkwIo2MmX5E0VRlOs",
+          "sgHVP3diFmtrbejvANlnXS0Yq3c8",
+          "3yUzXuo3cYPsVFCbAAD9FxTeoOJszOigyXQs",
+          "1jP82gmR60IGPvjdS9Nf",
+          "CS9xXPhO4U2SDer3zGtsAHJ5a12umE1d",
+          "MJyuNIKI4Mz17LaV1Pr2VWFY",
+          "eyJhbGciOiJSUzI1NiJ9",
+          "W4EKQua7Ma6wEnkvqBm7w1YDhL9IOwne12dAN9B8cEpSvfcARCm3rksXx2w1x6dGHaPNJ6qd2qIFrLejagF1mDkzbOCgqnmLGLPpMLslHUa4foAKdiuIDR5ZHoi9TE7LSZKyvHiooyexkogjmwBJnkwbfYGJzNb4JgDc8F3q03NumyyesPHZPEG5IEwQGybk",
+          "dM9nQYA19usYjajRFNHZ",
+          "K0NUfax6tBsqmvHg28x17C37JWTU",
+          "h8TdwacvOOZg1xqgWumYdzKGIBVr",
+          "1zSm28ZvxAvcVqz5z1Fs97Mv8e1JVpKw",
+          "/edgedl/release2/chr",
+          "component/aevtvjsxpcrwhjvp5w32fej6zq",
+          "0/gcmjkmgdlgnkkcocmoeiminaijmmjn",
+          "acq3rupi4ymeq53so4pzqroatfea",
+          "/edgedl/release2/chr",
+          "component/aevtvjsxpcrwhjvp5w32fej6zq",
+          "0/gcmjkmgdlgnkkcocmoeiminaijmmjn",
+          "acq3rupi4ymeq53so4pzqroatfea",
+          "/edgedl/release2/chr",
+          "component/e4lafrviptncvvm5b7wnliveiy",
+          "522/lmelglejhemejginpboagddgdfbepgmp",
+          "e2ok7726aicymwa44rw255zh",
+          "/edgedl/release2/chr",
+          "component/e4lafrviptncvvm5b7wnliveiy",
+          "522/lmelglejhemejginpboagddgdfbepgmp",
+          "e2ok7726aicymwa44rw255zh",
+          "/edgedl/release2/chr",
+          "component/e4lafrviptncvvm5b7wnliveiy",
+          "522/lmelglejhemejginpboagddgdfbepgmp",
+          "e2ok7726aicymwa44rw255zh",
+          "/edgedl/release2/chr",
+          "component/e4lafrviptncvvm5b7wnliveiy",
+          "522/lmelglejhemejginpboagddgdfbepgmp",
+          "e2ok7726aicymwa44rw255zh",
+          "br/gp/buy/thankyou/handlers/disp",
+          "br/checkout/confirmation",
+          "br/checkout/confirmation",
+          "v2/pagamento/confirmacao",
+          "br/checkouts/confirmacao",
+          "br/checkout/confirmacao/",
+          "br/checkout/confirmation",
+          "br/pedidos/aguardand",
+          "com/br/pay/checkout/",
+          "com/v2/busca/confirmacao",
+          "br/carrinho/finaliza",
+          "br/checkout/success/",
+          "eyJjb250ZW50X2hhc2hlcyI6W3siYmxvY2tfc2l6ZSI6NDA5NiwiZGlnZXN0Ijoic2hhMjU2IiwiZmlsZXMiOlt7InBhdGgiOiJtYW5pZmVzdC5qc29uIiwicm9vdF9oYXNoIjoiTnFMeEJvdUQ3OXdMZ0xSNVA0UkhFeHVRYWttdmt1czFmeVZnRE44SjFOQSJ9LHsicGF0aCI6Im9wdGltaXphdGlvbi1oaW50cy5wYiIsInJvb3RfaGFzaCI6ImJnSHl5aFRnOGxQdEd5X2pWYTZaZzc1VFJ1TEVQY3BDY3RKTm5OZUxYUEUifV0sImZvcm1hdCI6InRyZWVoYXNoIiwiaGFzaF9ibG9ja19zaXplIjo0MDk2fV0sIml0ZW1faWQiOiJsbWVsZ2xlamhlbWVqZ2lucGJvYWdkZGdkZmJlcGdtcCIsIml0ZW1fdmVyc2lvbiI6IjUyMiIsInByb3RvY29sX3ZlcnNpb24iOjF9",
+          "eyJhbGciOiJSUzI1NiJ9",
+          "oCVMCORmNLEeXWDTyF4EuiKMFbugPyhY6JR0yefbZHhglaGZ3YmXsBMPyTA2tbj3xuMoVhXIrRy8",
+          "q6VsdwucPkVo2licF5LaiORU4pvxIx4xzMeOc42iFeYm",
+          "Um53G6o4BJJxHUopTqMoSRK6",
+          "ANe4e8d6ziU5VYDcgtRtQTeiM85rghKxJv731nBu",
+          "fuXJmbwJRwDuEkHNnEyk",
+          "gP1Ma5oObnrMcrUskV0w5XSxxwzmAWJABhOBhaWWuiLlb9fM8JhK7l2dYP0M",
+          "9juzZxi2QViO60cHhY884CYeZ2uUwSJUeI2AuEuqzAdgzrEfLoDxYeLDXF9g",
+          "C9wJJrGeOCzzski7Dv5ho8yHx2qi4kjblbqFbGyAdUJAov6Sj2GJH44MwZ3lwUPnmoKnjncl8J7BpNaKVOmM3DpAzM6BeHwq8s3pjoBLVf5VoIKThzBVIIFDoZstpe9oXzVOJxidtRSXokP5zM4wj3lA8Bl0arqi0fh9lRrh7hrycznhT1hQ0MSZmg3GdPvnDE7ltoJzOehUHXbi5MX89KEY",
+          "Wqan75pN6ihqBVseCi1M",
+          "9pnTWzhXsxb4IHnwYxVMHYFg",
+          "eyJhbGciOiJSUzI1NiJ9",
+          "31SFQgpVdy3Y7IzxRqmPo6T1TwiOYzI0",
+          "HR9A2VtCPKvdoZuuHxZCEPgd22fDZ9ojSLbnZN4Znce8zNOeqdGgxTPF",
+          "sPEZVZeahUqDCsqSOfedP905jtbKlxtH3qTyLdJDxVJzBaPdfqZX9mbpYcN5UPMV",
+          "0qnhPtbJVRZ0DeaxNqhK",
+          "2nmmW5OwvZs69o4ePEXCS9rClBlAFtBagngNS5WoL2JM3O3vMFLjskBO9c9AdoWD2Boz1uLaisb1",
+          "/edgedl/release2/chr",
+          "component/acdvcifl2ztime6bsz3eijtcfe",
+          "1/kiabhabjdbkjdpjbpigfodbdjmbglc",
+          "ehum5zzx5qnqq3vyyhyi6ytr",
+          "/edgedl/release2/chr",
+          "component/acdvcifl2ztime6bsz3eijtcfe",
+          "1/kiabhabjdbkjdpjbpigfodbdjmbglc",
+          "ehum5zzx5qnqq3vyyhyi6ytr",
+          "/edgedl/release2/chr",
+          "component/V3P1l2hLvL",
+          "/edgedl/release2/chr",
+          "component/V3P1l2hLvL",
+          "/edgedl/release2/chr",
+          "component/imoffpf67hel7kbknqflao2oo4",
+          "0/neifaoindggfcjicffkgpmnlppeffa",
+          "kj4dp5kifwxbdodqls7e5nzh",
+          "/edgedl/release2/chr",
+          "component/imoffpf67hel7kbknqflao2oo4",
+          "0/neifaoindggfcjicffkgpmnlppeffa",
+          "kj4dp5kifwxbdodqls7e5nzh",
+          "/edgedl/release2/chr",
+          "component/jlwvttxsvdik3cc26yotrjqqwu",
+          "9909/hfnkpimlhhgieaddgfemjhofmfblmni",
+          "dklsxmcphrpxn5hpuxm2hizb",
+          "/edgedl/release2/chr",
+          "component/jlwvttxsvdik3cc26yotrjqqwu",
+          "9909/hfnkpimlhhgieaddgfemjhofmfblmni",
+          "dklsxmcphrpxn5hpuxm2hizb",
+          "Jdoa1Yu/z7In2HI7GFfUwY57qnQXtPnv+TZrXoafizk=",
+          "li5LVLuYp+5dX+uWM/mR08MwDpUU2t57DU+CjHlPjoc=",
+          "yP3cdcsb27WMB7TqhHKH9iZlndZrwQomrdm1dbOgo40=",
+          "BN3pqpp59hSYaCMl+ghwJ2cH+5ypU4QSC0aJMmhJT8k=",
+          "6of0Yt7v/713daoqS34Py5HCLu5t9p7ZAQDMxzsxFHY=",
+          "xj1oxkihi3dkHEJ6Zp1hyXaKVfT80DIurJbFdwApnPE=",
+          "ev5LBxovH0b4upRKJtWE1ZYLkvtIw7obfKuEkF8yqs0=",
+          "tbqN1/iVZMKInT1kU8hJmMd4JJGbZOoINapimGWRvlA=",
+          "wO0gU0a7veButWD1zuAqNjTiR0p+ds+PvvVjuxF90OM=",
+          "eBpM8ukkUvPuAdDDgaQhTzkEFlw5CtvWH80RJE4Jstw=",
+          "/NdsyiNH5c1bOTR/Uc9DZUtpor/JBzZwpr5H2HAebg4=",
+          "lo26afv/Fb83YgiUMa3lp+rUt+rxvnACaBC8V9HGT24=",
+          "fNKVt1VEgIq9lAlGbwg3xarcAuM7YVDGZE3goJZZ8jw=",
+          "9Sk9R+041MMbLULe47WzrOl8omyirANl42Iu6AITH7s=",
+          "nFmjzK6kaZhCsGjPxSz5RdtRmGlXyDLNsYynOEn7ue4=",
+          "OUz/WJ5okxLPwHHuC8Gf5MYGIWzlQ0Kd5tti5C27O8E=",
+          "NuqWEoyJg5+2IfitDh7gucIgb2Kre02ixnZYk8m3ztI=",
+          "pqyh7JgJzFtIIf+dKcXr5lGWC5Gx8ZzIm1Xvh4GKlQk=",
+          "MO/kE4JHbDOA8C9+I+ZrovhnsFnuHqaHlrRBuFtdElY=",
+          "r1kVGOLmxg67/AkHr6pJvEBR1F5/IUq/7nUS7gD2Ye0=",
+          "6EnHF2yT32X2S2FpgjZuVmMReBK2+ivAyPqK6u5Bgcw=",
+          "0x7DkoW3pTGdAVfbQg7YfHQ+Mzu8d/h3H3BGT0NqYEk=",
+          "h7/Yr6OvW0KdCamqVO5hNk9a4REx5Dj8QQlTQ80WsTU=",
+          "OD4OE3w3v7nbKfmo5F6f+N1MMORA/sKs09untscguZM=",
+          "TNsGDzz+TD0/XjHDAP1oqR4NHl9Gtk5IlfIOG1z4Jp8=",
+          "qbVam1Uxu/fHGh5JIO/nlsK2eWj1Wmzly2IXLtmUW8o=",
+          "2x0T7EKiy6NnO6Z68t74EunDVWZhdXbZW01vrOPvCug=",
+          "oM9T9CJlHjkxeuMa9kV3vkUPo3biie2DQrf8EzxpdBk=",
+          "j1kfeqTcPv6UkMOKRpLJAR7RKPHeWVVpQG13tvofa0w=",
+          "DEPqi83p/DvKFlZkrIIVVn40idU5OgyB4aeRQZkuGVM=",
+          "LcTLWR9+8GY0QWRrz1wOnbze13ygKUUZPO/G7bF0BhQ=",
+          "FeeuQMxLP3Iipab+Pn3Ef25G7poiUYOdspbWKtoqDfc=",
+          "r6wXAuzfFNfVdsPpZY0BzXLa09wiy0mPLLez/eZcVMU=",
+          "KnownInterceptionSPK",
+          "BlockedInterceptionSPKIs",
+          "jhLQyzt98+oiV1eUif2GWMlWA+ps9LcxY6Qet7fpP+4=",
+          "sT+i5hMaiIoB89YgVvsO++mZ62tuFJJ2E+ArqLj7BG4=",
+          "xWIXt6goxzQcCuelkNh5DU3vU2ZS5grluL36JpeP4Jw=",
+          "5Hxc0tyLq7TlP4pJg5ICde9v+qywieh6LB++WlhfBe0=",
+          "OXNliLlKTOdn9zHK1T9MvkQTfjIercrvjOeaIpu8qYk=",
+          "6hJwXefEj2/M4suNvFQuD8OKw44IiA3QSgLvZ8k64TU=",
+          "AqlfQ0MQGencIl8F9BkzAZDetKPxhpyqyYQrQD3L7nc=",
+          "iSjFk5iw8XHA+W/a5quN0PSO4G0XTaEMQErAAUPHp0k=",
+          "NHLk8WxXDg3TiKqqSmSjSkuTnxyncJlrW+ADfBre2cE=",
+          "eyJjb250ZW50X2hhc2hlcyI6W3siYmxvY2tfc2l6ZSI6NDA5NiwiZGlnZXN0Ijoic2hhMjU2IiwiZmlsZXMiOlt7InBhdGgiOiJMSUNFTlNFIiwicm9vdF9oYXNoIjoiUGIwc2tBVUxaUzFqWldTQnctV0hIRkltRlhVcExiZDlUcVkwR2ZHSHBWcyJ9LHsicGF0aCI6ImNybC1zZXQiLCJyb290X2hhc2giOiJJOUFxMm1FenpMZ3FPU25sclNxdmFlNDYyTjVIdl9DdVpNVjV1S0c3cTA4In0seyJwYXRoIjoibWFuaWZlc3QuanNvbiIsInJvb3RfaGFzaCI6Ikw4OFhFS2VVQTRwV2s2Zmx6VVB0X0dvMW5wbGdUeG1RWnRZWjdNRHh1eGMifV0sImZvcm1hdCI6InRyZWVoYXNoIiwiaGFzaF9ibG9ja19zaXplIjo0MDk2fV0sIml0ZW1faWQiOiJoZm5rcGltbGhoZ2llYWRkZ2ZlbWpob2ZtZmJsbW5pYiIsIml0ZW1fdmVyc2lvbiI6Ijk5MDkiLCJwcm90b2NvbF92ZXJzaW9uIjox",
+          "eyJhbGciOiJSUzI1NiJ9",
+          "8rUD335dztSUMlAuFgnSpJpHlCVG4CN4kDXv9cYvOHo1sSEKBnOK1J2BzPuSekb6EoIAOGWL8GYyFMlqj9sGqHUlrx9M2gM3i0GbhXwJuQFqWvnJQpRi2GR2MIoWNVyn",
+          "y05ZC6Z1bTzpakeGt2qp6fCjXlKOcQidfb7Q2t7ZzssVBEVnIeMI9biWtECKm9nb",
+          "IUByvnskE19OFX1884TUA0kodZpqEnlav8qtShCB4YC28sLyaeoEWuyc",
+          "hAnpddWEwJtlgtdx4IdK8uHygDQKKuNINtfaxrtZ",
+          "eyJhbGciOiJSUzI1NiJ9",
+          "DHHR4PP8E4q3TmFEz3UaXhlmEgVNUdAahI9taFliF2qdefUw7rCdueqS6xt0",
+          "SeM79CSkYK6RI9tw24B3p24qzAlCwY1HbQohXDClu7mpkomkq55vANGJWdsiEMj3vrngxA8WsKg75tBC",
+          "Y0EuFbMLnnYt0SXQfF5sb9nYcjZ1dtjAXDTPMJVL96VUkgTGRy8AfI6p1CDZDVEKa424WWzaLeLMwsQwkcGdbL5rlrDcngqx8sK8rQhsoFSfaIF1dnT9Z9sM7fMPBxBspP3QitLp412vutBNEDPu",
+          "oKLBEXecKZXdV2Brrywv",
+          "/edgedl/release2/chr",
+          "component/ac6mhlwypzipnufijdvfyhdgvt",
+          "67/khaoiebndkojlmppeemjhbpbandil",
+          "kfegpqlp6gezs4ree2ol2br2",
+          "/edgedl/release2/chr",
+          "component/ac6mhlwypzipnufijdvfyhdgvt",
+          "67/khaoiebndkojlmppeemjhbpbandil",
+          "kfegpqlp6gezs4ree2ol2br2",
+          "/edgedl/release2/chr",
+          "/edgedl/release2/chr",
+          "/edgedl/release2/chr",
+          "component/lnu3li27zsanbe2hcsfjuvm5fq",
+          "1744928549/laoigpblnllgcgjnjnllmfolckpjl",
+          "ady56p6vtubsna6mhkx6lu2qml3a",
+          "/edgedl/release2/chr",
+          "component/lnu3li27zsanbe2hcsfjuvm5fq",
+          "1744928549/laoigpblnllgcgjnjnllmfolckpjl",
+          "ady56p6vtubsna6mhkx6lu2qml3a"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "HEAD /edgedl/release2/chrome_component/acpeapixpwuzscfa5h5j5m7c4xaa_2025.6.16.0/niikhdgajlphfehepabhhblakbdgeefj_2025.06.16.00_all_acgsomx5qtwgffxcrxwhoksfom7q.crx3 HTTP/1.1\r\nConnection: Keep-Alive\r\nA",
+      "geoip_info": "US, Mountain View, California, AS396982 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50224-23.12.150.96:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50224-23.12.150.96:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 94 bytes)",
+        "Medium entropy (7.34)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00f5\u0017A\b\u0089\u00cd\u00d2\u00b7\u0011\u00edU\u009a\u00a5\u001c \u0011\u0085t\u008d\u00ce\u00f9\u00a3\u001c\u00c650\u00df\u00d1K\u0017\u0003\u0003\u0001\u001ad\u00f5L0d\u0011XJ5\u00ac\u00fb\u00e1f\u0087N\u00d0|'\u00ac\u00f3\u008cd\u00d3\u00a3j\u00bf\u001d\u0007\u0003~\u00c0v\\\u00c8\u0006\u00cd\u009aI\u001aO\u00eb,`=XH\u00cb\u0091q\u0081\u0013\u008dq~~\u00b1'\u00c5\u000e\"\u00c5\u00a4[+\u00de\u0084\u00a6\u0096\u00a3\u00cd\u00f2R\u00d5]\u00c8\u00c1\u00bf\u00d3\u00e3\u00e5%;\u001a\u00c9\u00a85\u00af\u00aey\u0094vk!O\u00a2\u0002\u00a3\u00be\u0003qB\u00e6\u0098\u0087k(w\u00a9\u00fbK?B\u00fa\u008a!\u00c9\u00fc\u0093*\u00daw\u00f9\u0011P\u001c.\u00b2}L%'\u00ce\u0094\u00a7\u009c6\u00a6\n\u0094\u0014\u0013\u00e0\u00f8~\u0083\u00a4p\u0007H\u0012\u00b4-#\u008a\u0094\u000b\u0012\u00f7\u00c1\u00c1\u00e7\u0007\u001f\u00a4\u00e85",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS16625 Akamai Technologies, Inc."
+    },
+    {
+      "session_id": "TCP:151.101.205.181:443-192.168.1.125:50228",
+      "protocol": "TCP",
+      "endpoints": "151.101.205.181:443-192.168.1.125:50228",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "20250709024200Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0000\u0004\u0003\u0000F0D\u0002 \u001d\u00eb\u00c1o\u00d4\u00d1\u00ea\u00e6\u0015\"u\u00c2\u00faXQ\u00d3 \u00a3d[Zd\u00e4\u00dc\u00f0\r\u00ea\u008a\t\u00cc\u00df9\u0002 \u0011I\r\u0092\u00ed\u00f9\u000eA*\u00a4e\u00f2E\u00f4s7*\u00e9\u00ca\u00b8D\u00be\u00d4\u00bd\u0011D&\u008e\u00ba\u0087\u0015\u00110\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000(w@/\u00cb\u00e6yp\b\u00a1\u00f6\u00c8\u0018\u00ae\u00e0-9]\u0093CP\u00b9\u0019\u00bf\u00e4\u008c\tUz.\u00f56\u00c0\u0094{\u00ae\u00f1\u00ba\u00b5\u0004\u00af\u00d4&Gp|\u00af{\u00ca\u00c6\u0094\u007f^\u00fc*\u0002B\u008e\u00df\u00b0\u00f3Scv<l\u0082\u00f7/\u00bb\u001a\u00dd\u001a\u00c7\u00e8qV\u00e3@\u0005\u00e9\u00cbY1.s\u00c3\u0092\u00f2r\u00fe\u00e9bW\u00dc\u00a4\u00d05XT\u0001a\u009c\u001e\u0096",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50247-23.12.149.254:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50247-23.12.149.254:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 115 bytes)",
+        "Medium entropy (7.32)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "JmC:\u00fdf$nz\u00b2\u0004\u00b9\u00c5\u00ae=\u009b\u0014B\"\u00a9\u00de\u00a0\u00cd\u0084>I}\u0015\n\u001fr>$x \u0017\u0003\u0003\u0001\u001a<:\u0011\u0088D;g\u008c\u00ab)\u00eb\b\u00cd\u009av\u00ea\u00b4\r'\u0087\u00dc\u00ad\u0088\u008dO_\u00c6_\u00bbrC7\u00b5\u00b2\u00f1h\u001cUF\u00a0\u00e6zLN*P\u00c1\u0013\u0004U\u001b\u00e9`\u00ee\u009fIJ=K\u00f7\u008c\u00a6v\u0007\u00957\u00f8\u0093\u001cd)\u00a7\u00d0Y\u00c7H\u0010\u0013\u0007\u0081-\u00a4\u00ff\f\u008f\u00a1\u00b9,?%\u0000S\u00f0\u00e4Pn\u00fe\u00dd\u00fc\u00e8D\u00d9\u00beyf\u00d8k\u001a$ K45\u00aeHr_\u00fak\f\u0088\u0000V\u0081M\u00063;\u00c9)\tC)F\u00f3\u00d7\u00bf\u00be\u0005\u00f8\u008ac\u00e3\u00b6\u0013s\u00eeq\u0097\u0014\u00c6T\u0091\u00b6\u0012\u0012\u00c3\r8\u00ee",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS16625 Akamai Technologies, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50266-20.190.181.1:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50266-20.190.181.1:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250708093808Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "D\u0002 f/[\u009d\u0007\u00e7\u00c1\u00b3\u00aej\u0010\u0093\u00d4\u00fe\u00a0\u0012\u00a1\u00dfV,\u00ee\u00c1\u00d1\u0019Q_~R\u00d0Ms]\u0002 \u0011\u00cd`\u00f4\u00e5\u00d9\u00d5},h\u00b3\u00fa\u00e0T\u00a1\u00c8\bO\u00d9\u0080\u00d8R\u009c\u009d\\\u00b4\u0085g\ry\u00f2.\u0000u\u0000\u00a4B\u00c5\u0006I`aT\u008f\u000f\u00d4\u00ea\u009c\u00fbz-&EM\u0087\u00a9\u007f/\u00dfEY\u00f6'O:\u0084T\u0000\u0000\u0001\u0097\u000f\u00da\u00d3\u00ba\u0000\u0000\u0004\u0003\u0000F0D\u0002 i-2\u00c9\u0095E\u0003\"a\u0093/aU\u0082X\"W\u00db\u00f9\u00e3.\u00b1!\u00d5\u0016]S\u00fc\u00d84\u00a9\u001a\u0002 e\u00c9\u00a9\u0096\u00be\u00c3\u00ca\u0087\u00b7/\u0018cQv\u00f6n\u0017:&\u00cd\u0007\u0081\u00ed\u00cf\u00c7\u00d3\t\u00bb\u00f2\u0013\u0094\u00f00\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50290-2.17.198.218:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50290-2.17.198.218:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 94 bytes)",
+        "Medium entropy (7.44)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u0098(\u00f1\u00f0\u00c7\u00960\u00d4\u00ad\u001e+\u00c1\u001c\u007f_\u00da\u0097\u001f\u0018\u00ad\u00b7\u00c1\u00a9\u0086'\u0093\u00f2\u0015'\u0017\u0003\u0003\u0001\u001a`\u00f4\u00ea\u00d4H\u00a1\n\u00b5\u00de\u008e\u00e1\u00d1{\u009f\u00e6\u0014\u00d9\u00f55\u0000\u00c6\u00a4,\u00aa`\u007f\u00b7\u0082\u00d4\u00a1\u000b\u00e3;\u00c6~l\u00d0\u001e\u0002\u00adV\u00b6\u0099\u00ad\u00a84\u00cf\u00db\u00ca\u0094w\u0088=\u00e8\u00d8n\u0086\u00a9e\u008d\u00ac\u00a4?[\u00bc\u0002\u00ca\u00e95K\u00d7\u00c9eQ\u00cd!&j\u00cd/3^si\u00e0\u00e6\u009a\u00d4,\u00ed>\\N\u0093\u00989a\u0007\\\u00c0\u00f7\u00a6d\u00bb\u00be\u009f?\u00a2\u001f\u00e0\u00fd\u00ce\u0081\u00cbU\u0014\u00db\u00b3\u00e5k\u00f1WJ!\u001c\u0096\u001c\u00b7\u00e4\u00de\u0013\u00e2R\u00a5\u00c8t\u00bbh\u00eeT\u0017V\u0085O\u008a\u0004\u0083\u00f9\u00ac\u00ba\u0080\u00c5\u008e\u0097\u008a~\u00e5\u0084\u00d8\u00a6\u00e8)\u00ed5Hj",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50321-2.17.198.147:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50321-2.17.198.147:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 104 bytes)",
+        "Medium entropy (7.75)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u0005k\u00b0f\u00a4\n\u0089\u00c49\u00a7Y [4\u0004\u00a9\u00ef\u00af\u00e4R%\u00db\u00ef\u0096\u0003\u00b1\u00dd\u008e\u00b2\u0017\u0003\u0003\u0001\u001a;I+\u00964\u00ea\fK\u008c\u001dE\u0098\u00e0(\u00b7\u00f1\u007fyC\u00d9@\u0099\u00fd\u00d4\u009d\u00be\u00f2Z\u00ea6\u0084{\u00a3\u008d\u00ec\u0095\u00c0\u0080[\u00bb9l!*\u00cep+l^N\u00c5\u0094\u0083\u009fHy'\u00ecD\u00124\u00b3zdO\u0014\u0085\u00e2\u00c7J\r\u0086z\u009e\u00ac\u009bjag\u00cbV\u00c3\u0099\u00146\u00b7n\u00ba\u008eq\t\u0093\u0002fEF\u00105\u0095\u00f2\u00e5\u0002\u0099\u0010&\u00a7LF \u00b9>\u00b61{\u00828\u00c8]\u00f7d\u00adCc\u0096s\u00fe\u00d9\u00ef\u00e2|\u009aq\u0018\u00da'x\u00f9\u00a1\rn\u001b\u00c9\u00ea|\u0019?t\u00d5$\u00cc,s~h\u0098\u00b1\u00dd\u00fb\u009fI\u0098\u0086\u000e\u00e3\u00f7U",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50322-74.125.133.19:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50322-74.125.133.19:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 94 bytes)",
+        "Medium entropy (7.63)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00a8\u00a8\u0093\u00a1\u00d5\u00da\u00ed11\u00eaN\u008a\u0081{\u0087\u009f|{t\u00122\u00c7CtT\u0086\u00c4\u00ce\u0001\u007f3\u00d4\u00ce9i\u0019<\u00ad\u00f7\u0097jct\u00e0Ze\u00f9\u00faT=n\u0087Q\u001eOo\u0085\u00f7\u00e8\u00bd@t\u00eaL\u0086o\u00b6\u00e1\u00ffM\u0007\u00ce%\u00d5\u009d\u00aa\u0006\u00eck\n\u0014g\u0095\u00d0\u0014\u0004\u00c4\u0086d\f/\u008e\u00fdCH\u0094\u0015\u00c17\u00c8\u0013\u00a6\u00bc\u00d516-n\u0005\u00eb(F\u00df\u0082\u00da\u00f8(\u0005\u0015r\u00ad9\n\u0004\u0017\u0003\u0003\u0000\u001a\u00a4\u0088y\u00b1\u0089\u000eG\u00d2\u00c1\r\u00bcq\r\u00e8\u00db\u0016+\u008b\u0085\u00baU\u00fa\u00a2P-\u001e\u0017\u0003\u0003\u0000\u00fa<\u00ea\u00dc\u00cd\u000e\u00b4e\u00e1W\u00eb\u00c0r\u0094\u00ea$\u00dfsPb\u00f6\u0007\u00b9\u00d9$u\u00917\u00ff\u00adT\u00e02\u00a1i\u00ccW\u00f9\u000f\u00eb\u00ff",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50327-4.210.36.153:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50327-4.210.36.153:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "&X\u00d4\rr\u00af$\u00f5\u00a4u\u00cb0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\"\u0006\u0003U\u001d\u0011\u0004\u001b0\u0019\u0082\u0017*.flightproxy.skype.com0\f\u0006\u0003U\u001d\u0013\u0001\u0001\u00ff\u0004\u00020\u00000j\u0006\u0003U\u001d\u001f\u0004c0a0_\u00a0]\u00a0[\u0086Yhttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2008.crl0f\u0006\u0003U\u001d \u0004_0]0Q\u0006\f",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:13.107.246.67:443-192.168.1.125:50328",
+      "protocol": "TCP",
+      "endpoints": "13.107.246.67:443-192.168.1.125:50328",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 72 bytes)",
+        "Medium entropy (7.36)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "gXA\u00117\u00d4\\P\u00deP\u00dbb\u00b6\u0088Kq\u008fI-\u0017\u0003\u0003\u0000B\u00e5/t\u001aP\u00de\u00fc\u00ffx)\u00df\u00b3;\u00aa\u0084\u0084\u0086'c\u00aa\u00c2\u0087\u00e1\u00b7\u0098%\u0014t\u00afz\u000e\u00d8\u0080\u00e8\u00c4c\u000e\u00d5\u00c6~\u00ac\u00c1\u00ae\t[?g\u0010\u00c4\u00c7\u00c9\u008a\u0007!\u00c4\u00ff\u00ae\u0095>\u00f4\u0084\u00cbs\u009f7\u00f3\u0017\u0003\u0003\u0000\u00e9\u00c5\u001d9\u00a2\u00f5\u00c9\u00c8(2#\u00c1\u00b5R\u008d \u00edg\u0080\u00ef\u0082x/\u00105l\u0017\u0095\u007f\u0096\u00c1\u0087\u008d\u00cf\u0018\u0097l\u00ae\u0004)\u009e\u00bb\f\u00d0\u0086\t\u00a2\u0099%z\u00a6\u00ab\u0088\u00bf\u0087\u00c7z\u0081G\u00b9;\u00bd\u00eb/}S\u00b8\u0007\u00fcm\u008a\u00edG\u00ad\u00a7{4s\u00f2\u00b9\u00dc\u009c\u00dfl6/Ez\u00ef\u00eb\u00e0+fOUO\u00f0g\u0007\u00e1\u00b4s\u0082(B\u008b",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50336-66.102.1.94:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50336-66.102.1.94:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 62 bytes)",
+        "Medium entropy (6.51)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "+Vk\u00ca\u00b6@\u00057\u0010\t(\u009d\u00fc\u00d9\u00d0\u00ec\u008f\u00d7\u0092\u0084\u00e2n\u00d07@\u00e1\u00d0\u00a8\u0099\u00aaS\u00d4.\u00a9poj\u0097\u00ec\u008eX\u0011\u0002\u0089\u00f7\u00f9\u00f6>t\u00dek\u009e*\u0018\u0010\u00b4\u00e3\u0003O[\u00c5\u00b28\u008d7\u00cew\u00e0k\u009ch\u000b\u0019H\u00c8\u00d12\u0007<@Ub\u00de\u00d9\u00c6\u0005\u0010\u00bd$\u00ea\u00d0\u0090\u00ee\u00d6pr\u0096\u00cb*\u0002X\u00cb\u00ce4l\u008c\u008fd\u0087z\u00bd\u0089\u00c1\u00f3\u00945g\u0015\u00c2F\u00fa\u001a\u0084\u00f8",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    }
+  ]
+}

@@ -1,0 +1,3942 @@
+[
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:48512",
+    "server_endpoint": "3.123.190.130:443",
+    "total_bytes": 21713,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0xbaba)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:40924",
+    "server_endpoint": "216.137.44.28:443",
+    "total_bytes": 105289,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0x0a0a)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:40922",
+    "server_endpoint": "216.137.44.28:443",
+    "total_bytes": 4409,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0x8a8a)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:40926",
+    "server_endpoint": "216.137.44.28:443",
+    "total_bytes": 3939,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0xdada)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:40928",
+    "server_endpoint": "216.137.44.28:443",
+    "total_bytes": 3041,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0xbaba)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:40930",
+    "server_endpoint": "216.137.44.28:443",
+    "total_bytes": 3041,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0x6a6a)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:40932",
+    "server_endpoint": "216.137.44.28:443",
+    "total_bytes": 2571,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0xfafa)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:43538",
+    "server_endpoint": "108.138.233.113:443",
+    "total_bytes": 15526,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0x7a7a)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:44428",
+    "server_endpoint": "18.185.162.232:443",
+    "total_bytes": 9891,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0x7a7a)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:44430",
+    "server_endpoint": "18.185.162.232:443",
+    "total_bytes": 4509,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0xeaea)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:44232",
+    "server_endpoint": "52.219.168.69:443",
+    "total_bytes": 23056,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "Unknown (0x3a3a)",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-09-21T00:00:00+00:00",
+      "valid_until": "2023-09-09T23:59:59+00:00",
+      "issuer_cn": "Amazon",
+      "subject_cn": "*.s3.eu-central-1.amazonaws.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.s3.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='*.s3-eu-central-1.amazonaws.com')>",
+        "<DNSName(value='s3-eu-central-1.amazonaws.com')>",
+        "<DNSName(value='s3.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='s3.dualstack.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='*.s3.dualstack.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='*.s3.amazonaws.com')>",
+        "<DNSName(value='*.s3-control.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='s3-control.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='*.s3-control.dualstack.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='s3-control.dualstack.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='*.s3-accesspoint.eu-central-1.amazonaws.com')>",
+        "<DNSName(value='*.s3-accesspoint.dualstack.eu-central-1.amazonaws.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "09:BD:0B:14:CE:A6:2A:C4:5A:DA:89:87:92:69:0B:D3:EC:F0:5D:C8:4C:81:A9:13:B7:70:16:37:77:DD:4D:7D"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:38136",
+    "server_endpoint": "108.138.217.16:443",
+    "total_bytes": 2030685,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:55096",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 6571,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41490",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 4776,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41488",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 6144,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41480",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 6623,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41482",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 6144,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41486",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 6144,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41478",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 4776,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41518",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 7512,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41484",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 6144,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42560",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8697,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42556",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8707,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42570",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7317,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42568",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7471,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42554",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7329,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42550",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8774,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42558",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7405,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42566",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5960,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42564",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 6027,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42562",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8839,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42572",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8620,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42552",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7251,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42578",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8497,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42580",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 26771,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42574",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5961,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42582",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5961,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42584",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 6037,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42586",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7251,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42590",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7251,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42594",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7329,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42592",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5883,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42588",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 6037,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42596",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7329,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42598",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5883,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42600",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 6037,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42602",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5892,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42604",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5892,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42606",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 8628,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42608",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7260,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42612",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5892,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42614",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 5892,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42610",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7260,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:42616",
+    "server_endpoint": "44.199.80.129:443",
+    "total_bytes": 7260,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-04-06T06:16:51+00:00",
+      "valid_until": "2023-05-08T06:16:51+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tplinkra.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tplinkra.com')>",
+        "<DNSName(value='tplinkra.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "21:40:CC:E3:3E:41:1E:75:91:2A:B9:FD:B9:19:FF:1B:57:9C:EB:6F:02:65:1F:4C:68:C6:0C:7B:C6:64:73:BB"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:41560",
+    "server_endpoint": "52.222.139.108:443",
+    "total_bytes": 8208,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:44318",
+    "server_endpoint": "192.168.1.1:443",
+    "total_bytes": 4148,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:55098",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 6473,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.164:35636",
+    "server_endpoint": "44.224.142.195:443",
+    "total_bytes": 7694,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-07-05T00:00:00+00:00",
+      "valid_until": "2023-08-03T23:59:59+00:00",
+      "issuer_cn": "Amazon",
+      "subject_cn": "trace.svc.ui.com",
+      "subject_alternative_names": [
+        "<DNSName(value='trace.svc.ui.com')>",
+        "<DNSName(value='*.trace.svc.ui.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "AE:4E:8C:10:CC:B9:5D:63:DE:AE:69:67:22:0C:B7:57:26:B1:8F:E6:B0:03:9E:B1:70:7E:2E:DE:F0:9E:9B:47"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45392",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 29382,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:37664",
+    "server_endpoint": "18.244.117.67:443",
+    "total_bytes": 7665,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:44336",
+    "server_endpoint": "192.168.1.1:443",
+    "total_bytes": 4974,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:44138",
+    "server_endpoint": "142.251.39.106:443",
+    "total_bytes": 8990,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:48190",
+    "server_endpoint": "108.138.217.63:443",
+    "total_bytes": 6191,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:46302",
+    "server_endpoint": "13.224.245.72:443",
+    "total_bytes": 17990,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:37036",
+    "server_endpoint": "10.129.179.30:443",
+    "total_bytes": 1757,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {}
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45416",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 26658,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:46496",
+    "server_endpoint": "35.156.160.91:443",
+    "total_bytes": 6980,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-07-27T00:00:00+00:00",
+      "valid_until": "2023-08-22T23:59:59+00:00",
+      "issuer_cn": "GoGetSSL RSA DV CA",
+      "subject_cn": "*.iot-dns.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.iot-dns.com')>",
+        "<DNSName(value='iot-dns.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:4B:CC:C9:36:92:A6:E7:41:B9:60:14:88:33:88:3E:B8:29:03:D8:18:27:59:C7:CD:0F:BE:EF:F3:ED:09:DE"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45414",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 6175,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45410",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 6175,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45418",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 6175,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45420",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 4807,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45422",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 6175,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45430",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 8865,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.218:45428",
+    "server_endpoint": "35.157.120.117:443",
+    "total_bytes": 6175,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_RSA_WITH_AES_256_CBC_SHA"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-08-22T03:19:27+00:00",
+      "valid_until": "2023-09-23T03:19:27+00:00",
+      "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+      "subject_cn": "*.tuyaeu.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.tuyaeu.com')>",
+        "<DNSName(value='tuyaeu.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "42:7B:AC:3E:C2:20:4E:2E:37:85:FB:F3:6A:64:9F:FA:8B:0A:4D:A7:A4:7F:18:DF:DE:34:9F:E3:D9:E7:E8:ED"
+    }
+  }
+]

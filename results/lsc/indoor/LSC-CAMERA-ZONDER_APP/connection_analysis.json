@@ -1,0 +1,4737 @@
+[
+  {
+    "conversation_id": "TCP:18.184.31.90:8883-192.168.1.194:45826",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "45826",
+    "dst_ip": "18.184.31.90",
+    "dst_port": "8883",
+    "total_packets": 145,
+    "total_bytes": 21170,
+    "start_time": "2023-01-18T09:05:11+00:00",
+    "end_time": "2023-01-18T09:10:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.194) to Server (18.184.31.90) conversation."
+    ],
+    "total_data_mb": 0.02
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:5514-192.168.1.164:38110",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "38110",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "5514",
+    "total_packets": 59,
+    "total_bytes": 16815,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:10:23+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.02
+  },
+  {
+    "conversation_id": "UDP:192.168.1.194:38401-255.255.255.255:6667",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.194",
+    "src_port": "38401",
+    "dst_ip": "255.255.255.255",
+    "dst_port": "6667",
+    "total_packets": 69,
+    "total_bytes": 15870,
+    "start_time": "2023-01-18T09:05:14+00:00",
+    "end_time": "2023-01-18T09:10:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.02
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:42285-192.168.1.164:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "10001",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "42285",
+    "total_packets": 74,
+    "total_bytes": 15244,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:10:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:45318-192.168.1.164:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "10001",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "45318",
+    "total_packets": 70,
+    "total_bytes": 14420,
+    "start_time": "2023-01-18T09:04:53+00:00",
+    "end_time": "2023-01-18T09:10:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:7442-192.168.1.164:44766",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.1",
+    "src_port": "7442",
+    "dst_ip": "192.168.1.164",
+    "dst_port": "44766",
+    "total_packets": 97,
+    "total_bytes": 12090,
+    "start_time": "2023-01-18T09:04:59+00:00",
+    "end_time": "2023-01-18T09:10:43+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35206-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35206",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 6163,
+    "start_time": "2023-01-18T09:05:17+00:00",
+    "end_time": "2023-01-18T09:05:18+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35198-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35198",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5587,
+    "start_time": "2023-01-18T09:05:15+00:00",
+    "end_time": "2023-01-18T09:05:16+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35214-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35214",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5571,
+    "start_time": "2023-01-18T09:05:27+00:00",
+    "end_time": "2023-01-18T09:05:27+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35196-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35196",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5539,
+    "start_time": "2023-01-18T09:05:13+00:00",
+    "end_time": "2023-01-18T09:05:13+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35202-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35202",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5507,
+    "start_time": "2023-01-18T09:05:16+00:00",
+    "end_time": "2023-01-18T09:05:17+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57188",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57188",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5501,
+    "start_time": "2023-01-18T09:10:19+00:00",
+    "end_time": "2023-01-18T09:10:19+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57178",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57178",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5499,
+    "start_time": "2023-01-18T09:10:13+00:00",
+    "end_time": "2023-01-18T09:10:13+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57194",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57194",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5499,
+    "start_time": "2023-01-18T09:10:22+00:00",
+    "end_time": "2023-01-18T09:10:22+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57196",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57196",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5499,
+    "start_time": "2023-01-18T09:10:24+00:00",
+    "end_time": "2023-01-18T09:10:24+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57180",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57180",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5497,
+    "start_time": "2023-01-18T09:10:14+00:00",
+    "end_time": "2023-01-18T09:10:14+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57186",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57186",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5496,
+    "start_time": "2023-01-18T09:10:17+00:00",
+    "end_time": "2023-01-18T09:10:17+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57174",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57174",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5491,
+    "start_time": "2023-01-18T09:10:10+00:00",
+    "end_time": "2023-01-18T09:10:10+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57202",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57202",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5491,
+    "start_time": "2023-01-18T09:10:27+00:00",
+    "end_time": "2023-01-18T09:10:27+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56844",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56844",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5490,
+    "start_time": "2023-01-18T09:05:43+00:00",
+    "end_time": "2023-01-18T09:05:43+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57176",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57176",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5489,
+    "start_time": "2023-01-18T09:10:11+00:00",
+    "end_time": "2023-01-18T09:10:11+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57162",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57162",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5483,
+    "start_time": "2023-01-18T09:10:03+00:00",
+    "end_time": "2023-01-18T09:10:03+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56856",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56856",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5481,
+    "start_time": "2023-01-18T09:05:50+00:00",
+    "end_time": "2023-01-18T09:05:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56864",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56864",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5481,
+    "start_time": "2023-01-18T09:05:55+00:00",
+    "end_time": "2023-01-18T09:05:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57158",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57158",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5480,
+    "start_time": "2023-01-18T09:10:00+00:00",
+    "end_time": "2023-01-18T09:10:00+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57190",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57190",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5480,
+    "start_time": "2023-01-18T09:10:20+00:00",
+    "end_time": "2023-01-18T09:10:20+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56840",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56840",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5477,
+    "start_time": "2023-01-18T09:05:40+00:00",
+    "end_time": "2023-01-18T09:05:40+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56888",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56888",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5476,
+    "start_time": "2023-01-18T09:06:10+00:00",
+    "end_time": "2023-01-18T09:06:10+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57160",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57160",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5476,
+    "start_time": "2023-01-18T09:10:01+00:00",
+    "end_time": "2023-01-18T09:10:01+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57204",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57204",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5476,
+    "start_time": "2023-01-18T09:10:29+00:00",
+    "end_time": "2023-01-18T09:10:29+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35200-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35200",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5475,
+    "start_time": "2023-01-18T09:05:15+00:00",
+    "end_time": "2023-01-18T09:05:16+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56842",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56842",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5474,
+    "start_time": "2023-01-18T09:05:41+00:00",
+    "end_time": "2023-01-18T09:05:41+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57206",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57206",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5474,
+    "start_time": "2023-01-18T09:10:30+00:00",
+    "end_time": "2023-01-18T09:10:30+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57172",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57172",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5473,
+    "start_time": "2023-01-18T09:10:09+00:00",
+    "end_time": "2023-01-18T09:10:09+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57210",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57210",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5470,
+    "start_time": "2023-01-18T09:10:32+00:00",
+    "end_time": "2023-01-18T09:10:32+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57170",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57170",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5468,
+    "start_time": "2023-01-18T09:10:08+00:00",
+    "end_time": "2023-01-18T09:10:08+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57166",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57166",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5467,
+    "start_time": "2023-01-18T09:10:05+00:00",
+    "end_time": "2023-01-18T09:10:05+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56920",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56920",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5466,
+    "start_time": "2023-01-18T09:07:06+00:00",
+    "end_time": "2023-01-18T09:07:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56922",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56922",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5466,
+    "start_time": "2023-01-18T09:07:11+00:00",
+    "end_time": "2023-01-18T09:07:11+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57200",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57200",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5465,
+    "start_time": "2023-01-18T09:10:26+00:00",
+    "end_time": "2023-01-18T09:10:26+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57198",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57198",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5464,
+    "start_time": "2023-01-18T09:10:25+00:00",
+    "end_time": "2023-01-18T09:10:25+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56848",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56848",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5463,
+    "start_time": "2023-01-18T09:05:45+00:00",
+    "end_time": "2023-01-18T09:05:45+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57208",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57208",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5463,
+    "start_time": "2023-01-18T09:10:31+00:00",
+    "end_time": "2023-01-18T09:10:31+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56850",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56850",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5462,
+    "start_time": "2023-01-18T09:05:46+00:00",
+    "end_time": "2023-01-18T09:05:46+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56918",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56918",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5461,
+    "start_time": "2023-01-18T09:07:00+00:00",
+    "end_time": "2023-01-18T09:07:00+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56846",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56846",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5460,
+    "start_time": "2023-01-18T09:05:44+00:00",
+    "end_time": "2023-01-18T09:05:44+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35208-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35208",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5459,
+    "start_time": "2023-01-18T09:05:21+00:00",
+    "end_time": "2023-01-18T09:05:22+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56862",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56862",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5457,
+    "start_time": "2023-01-18T09:05:54+00:00",
+    "end_time": "2023-01-18T09:05:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57164",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57164",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5454,
+    "start_time": "2023-01-18T09:10:04+00:00",
+    "end_time": "2023-01-18T09:10:04+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56866",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56866",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5453,
+    "start_time": "2023-01-18T09:05:56+00:00",
+    "end_time": "2023-01-18T09:05:56+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56874",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56874",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5451,
+    "start_time": "2023-01-18T09:06:01+00:00",
+    "end_time": "2023-01-18T09:06:01+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56854",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56854",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5450,
+    "start_time": "2023-01-18T09:05:49+00:00",
+    "end_time": "2023-01-18T09:05:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56872",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56872",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5449,
+    "start_time": "2023-01-18T09:06:00+00:00",
+    "end_time": "2023-01-18T09:06:00+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57184",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57184",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5445,
+    "start_time": "2023-01-18T09:10:16+00:00",
+    "end_time": "2023-01-18T09:10:16+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56884",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56884",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5441,
+    "start_time": "2023-01-18T09:06:07+00:00",
+    "end_time": "2023-01-18T09:06:07+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56882",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56882",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5439,
+    "start_time": "2023-01-18T09:06:06+00:00",
+    "end_time": "2023-01-18T09:06:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56880",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56880",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5438,
+    "start_time": "2023-01-18T09:06:05+00:00",
+    "end_time": "2023-01-18T09:06:05+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56886",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56886",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5436,
+    "start_time": "2023-01-18T09:06:08+00:00",
+    "end_time": "2023-01-18T09:06:08+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56870",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56870",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5434,
+    "start_time": "2023-01-18T09:05:59+00:00",
+    "end_time": "2023-01-18T09:05:59+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57220",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57220",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5434,
+    "start_time": "2023-01-18T09:10:38+00:00",
+    "end_time": "2023-01-18T09:10:38+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56830",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56830",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5433,
+    "start_time": "2023-01-18T09:05:34+00:00",
+    "end_time": "2023-01-18T09:05:34+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56914",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56914",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5432,
+    "start_time": "2023-01-18T09:06:50+00:00",
+    "end_time": "2023-01-18T09:06:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56824",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56824",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5431,
+    "start_time": "2023-01-18T09:05:30+00:00",
+    "end_time": "2023-01-18T09:05:30+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56890",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56890",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5431,
+    "start_time": "2023-01-18T09:06:11+00:00",
+    "end_time": "2023-01-18T09:06:11+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56900",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56900",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5431,
+    "start_time": "2023-01-18T09:06:17+00:00",
+    "end_time": "2023-01-18T09:06:17+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56876",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56876",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5429,
+    "start_time": "2023-01-18T09:06:02+00:00",
+    "end_time": "2023-01-18T09:06:02+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56826",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56826",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5426,
+    "start_time": "2023-01-18T09:05:32+00:00",
+    "end_time": "2023-01-18T09:05:32+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57212",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57212",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5426,
+    "start_time": "2023-01-18T09:10:33+00:00",
+    "end_time": "2023-01-18T09:10:33+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57150",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57150",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5425,
+    "start_time": "2023-01-18T09:09:55+00:00",
+    "end_time": "2023-01-18T09:09:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57154",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57154",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5423,
+    "start_time": "2023-01-18T09:09:58+00:00",
+    "end_time": "2023-01-18T09:09:58+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57214",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57214",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5423,
+    "start_time": "2023-01-18T09:10:35+00:00",
+    "end_time": "2023-01-18T09:10:35+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56818",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56818",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5419,
+    "start_time": "2023-01-18T09:05:27+00:00",
+    "end_time": "2023-01-18T09:05:27+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56868",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56868",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5419,
+    "start_time": "2023-01-18T09:05:57+00:00",
+    "end_time": "2023-01-18T09:05:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57156",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57156",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5418,
+    "start_time": "2023-01-18T09:09:59+00:00",
+    "end_time": "2023-01-18T09:09:59+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56828",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56828",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5417,
+    "start_time": "2023-01-18T09:05:33+00:00",
+    "end_time": "2023-01-18T09:05:33+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57192",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57192",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5417,
+    "start_time": "2023-01-18T09:10:21+00:00",
+    "end_time": "2023-01-18T09:10:21+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57216",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57216",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5417,
+    "start_time": "2023-01-18T09:10:36+00:00",
+    "end_time": "2023-01-18T09:10:36+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57218",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57218",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5417,
+    "start_time": "2023-01-18T09:10:37+00:00",
+    "end_time": "2023-01-18T09:10:37+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56894",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56894",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5415,
+    "start_time": "2023-01-18T09:06:13+00:00",
+    "end_time": "2023-01-18T09:06:13+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57146",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57146",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5412,
+    "start_time": "2023-01-18T09:09:54+00:00",
+    "end_time": "2023-01-18T09:09:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56820",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56820",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5411,
+    "start_time": "2023-01-18T09:05:28+00:00",
+    "end_time": "2023-01-18T09:05:28+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35210-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35210",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 24,
+    "total_bytes": 5409,
+    "start_time": "2023-01-18T09:05:22+00:00",
+    "end_time": "2023-01-18T09:05:22+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56860",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56860",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5409,
+    "start_time": "2023-01-18T09:05:52+00:00",
+    "end_time": "2023-01-18T09:05:52+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56898",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56898",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5408,
+    "start_time": "2023-01-18T09:06:16+00:00",
+    "end_time": "2023-01-18T09:06:16+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56838",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56838",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5407,
+    "start_time": "2023-01-18T09:05:39+00:00",
+    "end_time": "2023-01-18T09:05:39+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56852",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56852",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5406,
+    "start_time": "2023-01-18T09:05:48+00:00",
+    "end_time": "2023-01-18T09:05:48+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57168",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57168",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5406,
+    "start_time": "2023-01-18T09:10:06+00:00",
+    "end_time": "2023-01-18T09:10:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56836",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56836",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5405,
+    "start_time": "2023-01-18T09:05:38+00:00",
+    "end_time": "2023-01-18T09:05:38+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56902",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56902",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5404,
+    "start_time": "2023-01-18T09:06:18+00:00",
+    "end_time": "2023-01-18T09:06:18+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56908",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56908",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5403,
+    "start_time": "2023-01-18T09:06:34+00:00",
+    "end_time": "2023-01-18T09:06:34+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56924",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56924",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5402,
+    "start_time": "2023-01-18T09:07:16+00:00",
+    "end_time": "2023-01-18T09:07:16+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57182",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57182",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5400,
+    "start_time": "2023-01-18T09:10:15+00:00",
+    "end_time": "2023-01-18T09:10:15+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56858",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56858",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5399,
+    "start_time": "2023-01-18T09:05:51+00:00",
+    "end_time": "2023-01-18T09:05:51+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56832",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56832",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5397,
+    "start_time": "2023-01-18T09:05:35+00:00",
+    "end_time": "2023-01-18T09:05:35+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56834",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56834",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5393,
+    "start_time": "2023-01-18T09:05:37+00:00",
+    "end_time": "2023-01-18T09:05:37+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56896",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56896",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5393,
+    "start_time": "2023-01-18T09:06:15+00:00",
+    "end_time": "2023-01-18T09:06:15+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56816",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56816",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5388,
+    "start_time": "2023-01-18T09:05:25+00:00",
+    "end_time": "2023-01-18T09:05:25+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57238",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57238",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5385,
+    "start_time": "2023-01-18T09:10:49+00:00",
+    "end_time": "2023-01-18T09:10:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56812",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56812",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5384,
+    "start_time": "2023-01-18T09:05:20+00:00",
+    "end_time": "2023-01-18T09:05:20+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57226",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57226",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5383,
+    "start_time": "2023-01-18T09:10:42+00:00",
+    "end_time": "2023-01-18T09:10:42+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56810",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56810",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5380,
+    "start_time": "2023-01-18T09:05:15+00:00",
+    "end_time": "2023-01-18T09:05:15+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57136",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57136",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5380,
+    "start_time": "2023-01-18T09:09:48+00:00",
+    "end_time": "2023-01-18T09:09:48+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57140",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57140",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5380,
+    "start_time": "2023-01-18T09:09:50+00:00",
+    "end_time": "2023-01-18T09:09:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35212-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35212",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 25,
+    "total_bytes": 5379,
+    "start_time": "2023-01-18T09:05:26+00:00",
+    "end_time": "2023-01-18T09:05:27+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56926",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56926",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5379,
+    "start_time": "2023-01-18T09:07:21+00:00",
+    "end_time": "2023-01-18T09:07:21+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57232",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57232",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5379,
+    "start_time": "2023-01-18T09:10:46+00:00",
+    "end_time": "2023-01-18T09:10:46+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56910",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56910",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5378,
+    "start_time": "2023-01-18T09:06:39+00:00",
+    "end_time": "2023-01-18T09:06:39+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57230",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57230",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5377,
+    "start_time": "2023-01-18T09:10:44+00:00",
+    "end_time": "2023-01-18T09:10:44+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57228",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57228",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5376,
+    "start_time": "2023-01-18T09:10:43+00:00",
+    "end_time": "2023-01-18T09:10:43+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56892",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56892",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5374,
+    "start_time": "2023-01-18T09:06:12+00:00",
+    "end_time": "2023-01-18T09:06:12+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57222",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57222",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5374,
+    "start_time": "2023-01-18T09:10:40+00:00",
+    "end_time": "2023-01-18T09:10:40+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57144",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57144",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5372,
+    "start_time": "2023-01-18T09:09:53+00:00",
+    "end_time": "2023-01-18T09:09:53+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56822",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56822",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5369,
+    "start_time": "2023-01-18T09:05:29+00:00",
+    "end_time": "2023-01-18T09:05:29+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57130",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57130",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5367,
+    "start_time": "2023-01-18T09:09:44+00:00",
+    "end_time": "2023-01-18T09:09:44+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57134",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57134",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5367,
+    "start_time": "2023-01-18T09:09:47+00:00",
+    "end_time": "2023-01-18T09:09:47+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57240",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57240",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5367,
+    "start_time": "2023-01-18T09:10:51+00:00",
+    "end_time": "2023-01-18T09:10:51+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56878",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56878",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5364,
+    "start_time": "2023-01-18T09:06:04+00:00",
+    "end_time": "2023-01-18T09:06:04+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57234",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57234",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5363,
+    "start_time": "2023-01-18T09:10:47+00:00",
+    "end_time": "2023-01-18T09:10:47+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56916",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56916",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5362,
+    "start_time": "2023-01-18T09:06:55+00:00",
+    "end_time": "2023-01-18T09:06:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.194:35204-3.125.199.146:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.194",
+    "src_port": "35204",
+    "dst_ip": "3.125.199.146",
+    "dst_port": "443",
+    "total_packets": 24,
+    "total_bytes": 5361,
+    "start_time": "2023-01-18T09:05:17+00:00",
+    "end_time": "2023-01-18T09:05:17+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.194) to Server (3.125.199.146) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56906",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56906",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5361,
+    "start_time": "2023-01-18T09:06:29+00:00",
+    "end_time": "2023-01-18T09:06:29+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56798",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56798",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5360,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:04:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56932",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56932",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5357,
+    "start_time": "2023-01-18T09:07:37+00:00",
+    "end_time": "2023-01-18T09:07:37+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56912",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56912",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5356,
+    "start_time": "2023-01-18T09:06:45+00:00",
+    "end_time": "2023-01-18T09:06:45+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57152",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57152",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5353,
+    "start_time": "2023-01-18T09:09:57+00:00",
+    "end_time": "2023-01-18T09:09:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56904",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56904",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5351,
+    "start_time": "2023-01-18T09:06:24+00:00",
+    "end_time": "2023-01-18T09:06:24+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56928",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56928",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5350,
+    "start_time": "2023-01-18T09:07:27+00:00",
+    "end_time": "2023-01-18T09:07:27+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56930",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56930",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5347,
+    "start_time": "2023-01-18T09:07:32+00:00",
+    "end_time": "2023-01-18T09:07:32+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57248",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57248",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5335,
+    "start_time": "2023-01-18T09:10:56+00:00",
+    "end_time": "2023-01-18T09:10:56+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56938",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56938",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5331,
+    "start_time": "2023-01-18T09:07:49+00:00",
+    "end_time": "2023-01-18T09:07:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56950",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56950",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5331,
+    "start_time": "2023-01-18T09:07:56+00:00",
+    "end_time": "2023-01-18T09:07:56+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56936",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56936",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5329,
+    "start_time": "2023-01-18T09:07:44+00:00",
+    "end_time": "2023-01-18T09:07:44+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57236",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57236",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5329,
+    "start_time": "2023-01-18T09:10:48+00:00",
+    "end_time": "2023-01-18T09:10:48+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56944",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56944",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5325,
+    "start_time": "2023-01-18T09:07:52+00:00",
+    "end_time": "2023-01-18T09:07:52+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57246",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57246",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5325,
+    "start_time": "2023-01-18T09:10:54+00:00",
+    "end_time": "2023-01-18T09:10:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57242",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57242",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5323,
+    "start_time": "2023-01-18T09:10:52+00:00",
+    "end_time": "2023-01-18T09:10:52+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57224",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57224",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5319,
+    "start_time": "2023-01-18T09:10:41+00:00",
+    "end_time": "2023-01-18T09:10:41+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57244",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57244",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5317,
+    "start_time": "2023-01-18T09:10:53+00:00",
+    "end_time": "2023-01-18T09:10:53+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56952",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56952",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5316,
+    "start_time": "2023-01-18T09:07:57+00:00",
+    "end_time": "2023-01-18T09:07:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57132",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57132",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5314,
+    "start_time": "2023-01-18T09:09:45+00:00",
+    "end_time": "2023-01-18T09:09:45+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56940",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56940",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5312,
+    "start_time": "2023-01-18T09:07:50+00:00",
+    "end_time": "2023-01-18T09:07:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57122",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57122",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5306,
+    "start_time": "2023-01-18T09:09:40+00:00",
+    "end_time": "2023-01-18T09:09:40+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56934",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56934",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5304,
+    "start_time": "2023-01-18T09:07:38+00:00",
+    "end_time": "2023-01-18T09:07:38+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57138",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57138",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5299,
+    "start_time": "2023-01-18T09:09:49+00:00",
+    "end_time": "2023-01-18T09:09:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56962",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56962",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5293,
+    "start_time": "2023-01-18T09:08:03+00:00",
+    "end_time": "2023-01-18T09:08:03+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57142",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57142",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5293,
+    "start_time": "2023-01-18T09:09:52+00:00",
+    "end_time": "2023-01-18T09:09:52+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57126",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57126",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5291,
+    "start_time": "2023-01-18T09:09:43+00:00",
+    "end_time": "2023-01-18T09:09:43+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56964",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56964",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5284,
+    "start_time": "2023-01-18T09:08:05+00:00",
+    "end_time": "2023-01-18T09:08:05+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57042",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57042",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5284,
+    "start_time": "2023-01-18T09:08:53+00:00",
+    "end_time": "2023-01-18T09:08:53+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56966",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56966",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5283,
+    "start_time": "2023-01-18T09:08:06+00:00",
+    "end_time": "2023-01-18T09:08:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57116",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57116",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5283,
+    "start_time": "2023-01-18T09:09:37+00:00",
+    "end_time": "2023-01-18T09:09:37+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57018",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57018",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5282,
+    "start_time": "2023-01-18T09:08:38+00:00",
+    "end_time": "2023-01-18T09:08:38+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57038",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57038",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5281,
+    "start_time": "2023-01-18T09:08:50+00:00",
+    "end_time": "2023-01-18T09:08:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56968",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56968",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5280,
+    "start_time": "2023-01-18T09:08:07+00:00",
+    "end_time": "2023-01-18T09:08:07+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57064",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57064",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5279,
+    "start_time": "2023-01-18T09:09:06+00:00",
+    "end_time": "2023-01-18T09:09:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57022",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57022",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5278,
+    "start_time": "2023-01-18T09:08:40+00:00",
+    "end_time": "2023-01-18T09:08:40+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56958",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56958",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5276,
+    "start_time": "2023-01-18T09:08:01+00:00",
+    "end_time": "2023-01-18T09:08:01+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56974",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56974",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5276,
+    "start_time": "2023-01-18T09:08:11+00:00",
+    "end_time": "2023-01-18T09:08:11+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57096",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57096",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5275,
+    "start_time": "2023-01-18T09:09:26+00:00",
+    "end_time": "2023-01-18T09:09:26+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56960",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56960",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5274,
+    "start_time": "2023-01-18T09:08:02+00:00",
+    "end_time": "2023-01-18T09:08:02+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57110",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57110",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5274,
+    "start_time": "2023-01-18T09:09:33+00:00",
+    "end_time": "2023-01-18T09:09:33+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57120",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57120",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5273,
+    "start_time": "2023-01-18T09:09:39+00:00",
+    "end_time": "2023-01-18T09:09:39+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57020",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57020",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5272,
+    "start_time": "2023-01-18T09:08:39+00:00",
+    "end_time": "2023-01-18T09:08:39+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57026",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57026",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5272,
+    "start_time": "2023-01-18T09:08:43+00:00",
+    "end_time": "2023-01-18T09:08:43+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57088",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57088",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5272,
+    "start_time": "2023-01-18T09:09:21+00:00",
+    "end_time": "2023-01-18T09:09:21+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57016",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57016",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5270,
+    "start_time": "2023-01-18T09:08:37+00:00",
+    "end_time": "2023-01-18T09:08:37+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57090",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57090",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5270,
+    "start_time": "2023-01-18T09:09:22+00:00",
+    "end_time": "2023-01-18T09:09:22+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57060",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57060",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5269,
+    "start_time": "2023-01-18T09:09:04+00:00",
+    "end_time": "2023-01-18T09:09:04+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57106",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57106",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5269,
+    "start_time": "2023-01-18T09:09:32+00:00",
+    "end_time": "2023-01-18T09:09:32+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57118",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57118",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5269,
+    "start_time": "2023-01-18T09:09:38+00:00",
+    "end_time": "2023-01-18T09:09:38+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57062",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57062",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5267,
+    "start_time": "2023-01-18T09:09:05+00:00",
+    "end_time": "2023-01-18T09:09:05+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57092",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57092",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5267,
+    "start_time": "2023-01-18T09:09:23+00:00",
+    "end_time": "2023-01-18T09:09:23+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57098",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57098",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5267,
+    "start_time": "2023-01-18T09:09:27+00:00",
+    "end_time": "2023-01-18T09:09:27+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57050",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57050",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5265,
+    "start_time": "2023-01-18T09:08:58+00:00",
+    "end_time": "2023-01-18T09:08:58+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57072",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57072",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5265,
+    "start_time": "2023-01-18T09:09:11+00:00",
+    "end_time": "2023-01-18T09:09:11+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56956",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56956",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5264,
+    "start_time": "2023-01-18T09:08:00+00:00",
+    "end_time": "2023-01-18T09:08:00+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56972",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56972",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5263,
+    "start_time": "2023-01-18T09:08:10+00:00",
+    "end_time": "2023-01-18T09:08:10+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57066",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57066",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5263,
+    "start_time": "2023-01-18T09:09:07+00:00",
+    "end_time": "2023-01-18T09:09:07+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57094",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57094",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5261,
+    "start_time": "2023-01-18T09:09:25+00:00",
+    "end_time": "2023-01-18T09:09:25+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57104",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57104",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5261,
+    "start_time": "2023-01-18T09:09:31+00:00",
+    "end_time": "2023-01-18T09:09:31+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57052",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57052",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5260,
+    "start_time": "2023-01-18T09:08:59+00:00",
+    "end_time": "2023-01-18T09:08:59+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57070",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57070",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5260,
+    "start_time": "2023-01-18T09:09:10+00:00",
+    "end_time": "2023-01-18T09:09:10+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57082",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57082",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5260,
+    "start_time": "2023-01-18T09:09:17+00:00",
+    "end_time": "2023-01-18T09:09:17+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56990",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56990",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5259,
+    "start_time": "2023-01-18T09:08:21+00:00",
+    "end_time": "2023-01-18T09:08:21+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57086",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57086",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5259,
+    "start_time": "2023-01-18T09:09:20+00:00",
+    "end_time": "2023-01-18T09:09:20+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57068",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57068",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5258,
+    "start_time": "2023-01-18T09:09:09+00:00",
+    "end_time": "2023-01-18T09:09:09+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56948",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56948",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5257,
+    "start_time": "2023-01-18T09:07:55+00:00",
+    "end_time": "2023-01-18T09:07:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57012",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57012",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5257,
+    "start_time": "2023-01-18T09:08:34+00:00",
+    "end_time": "2023-01-18T09:08:34+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56998",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56998",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5256,
+    "start_time": "2023-01-18T09:08:26+00:00",
+    "end_time": "2023-01-18T09:08:26+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57002",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57002",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5256,
+    "start_time": "2023-01-18T09:08:28+00:00",
+    "end_time": "2023-01-18T09:08:28+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57078",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57078",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5256,
+    "start_time": "2023-01-18T09:09:15+00:00",
+    "end_time": "2023-01-18T09:09:15+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57102",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57102",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5256,
+    "start_time": "2023-01-18T09:09:29+00:00",
+    "end_time": "2023-01-18T09:09:29+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56946",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56946",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5255,
+    "start_time": "2023-01-18T09:07:54+00:00",
+    "end_time": "2023-01-18T09:07:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56992",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56992",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5255,
+    "start_time": "2023-01-18T09:08:22+00:00",
+    "end_time": "2023-01-18T09:08:22+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57036",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57036",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5255,
+    "start_time": "2023-01-18T09:08:49+00:00",
+    "end_time": "2023-01-18T09:08:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56976",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56976",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5254,
+    "start_time": "2023-01-18T09:08:12+00:00",
+    "end_time": "2023-01-18T09:08:12+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57040",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57040",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5253,
+    "start_time": "2023-01-18T09:08:51+00:00",
+    "end_time": "2023-01-18T09:08:51+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56942",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56942",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5251,
+    "start_time": "2023-01-18T09:07:51+00:00",
+    "end_time": "2023-01-18T09:07:51+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56982",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56982",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5251,
+    "start_time": "2023-01-18T09:08:16+00:00",
+    "end_time": "2023-01-18T09:08:16+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57054",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57054",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5250,
+    "start_time": "2023-01-18T09:09:00+00:00",
+    "end_time": "2023-01-18T09:09:00+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56980",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56980",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5249,
+    "start_time": "2023-01-18T09:08:15+00:00",
+    "end_time": "2023-01-18T09:08:15+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57100",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57100",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5249,
+    "start_time": "2023-01-18T09:09:28+00:00",
+    "end_time": "2023-01-18T09:09:28+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56978",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56978",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5248,
+    "start_time": "2023-01-18T09:08:13+00:00",
+    "end_time": "2023-01-18T09:08:13+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56984",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56984",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5247,
+    "start_time": "2023-01-18T09:08:17+00:00",
+    "end_time": "2023-01-18T09:08:17+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57008",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57008",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5246,
+    "start_time": "2023-01-18T09:08:32+00:00",
+    "end_time": "2023-01-18T09:08:32+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57032",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57032",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5246,
+    "start_time": "2023-01-18T09:08:46+00:00",
+    "end_time": "2023-01-18T09:08:46+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57074",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57074",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5246,
+    "start_time": "2023-01-18T09:09:12+00:00",
+    "end_time": "2023-01-18T09:09:12+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57000",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57000",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5243,
+    "start_time": "2023-01-18T09:08:27+00:00",
+    "end_time": "2023-01-18T09:08:27+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56994",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56994",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5240,
+    "start_time": "2023-01-18T09:08:23+00:00",
+    "end_time": "2023-01-18T09:08:23+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57004",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57004",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5240,
+    "start_time": "2023-01-18T09:08:29+00:00",
+    "end_time": "2023-01-18T09:08:29+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57006",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57006",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5239,
+    "start_time": "2023-01-18T09:08:31+00:00",
+    "end_time": "2023-01-18T09:08:31+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57056",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57056",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5237,
+    "start_time": "2023-01-18T09:09:01+00:00",
+    "end_time": "2023-01-18T09:09:01+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57124",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57124",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5237,
+    "start_time": "2023-01-18T09:09:42+00:00",
+    "end_time": "2023-01-18T09:09:42+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57010",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57010",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5236,
+    "start_time": "2023-01-18T09:08:33+00:00",
+    "end_time": "2023-01-18T09:08:33+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57058",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57058",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5213,
+    "start_time": "2023-01-18T09:09:02+00:00",
+    "end_time": "2023-01-18T09:09:02+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57044",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57044",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5212,
+    "start_time": "2023-01-18T09:08:54+00:00",
+    "end_time": "2023-01-18T09:08:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57046",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57046",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5209,
+    "start_time": "2023-01-18T09:08:55+00:00",
+    "end_time": "2023-01-18T09:08:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56954",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56954",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5208,
+    "start_time": "2023-01-18T09:07:59+00:00",
+    "end_time": "2023-01-18T09:07:59+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57014",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57014",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5208,
+    "start_time": "2023-01-18T09:08:35+00:00",
+    "end_time": "2023-01-18T09:08:35+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57080",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57080",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5208,
+    "start_time": "2023-01-18T09:09:16+00:00",
+    "end_time": "2023-01-18T09:09:16+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57084",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57084",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5208,
+    "start_time": "2023-01-18T09:09:18+00:00",
+    "end_time": "2023-01-18T09:09:18+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57028",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57028",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5205,
+    "start_time": "2023-01-18T09:08:44+00:00",
+    "end_time": "2023-01-18T09:08:44+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57048",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57048",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5205,
+    "start_time": "2023-01-18T09:08:56+00:00",
+    "end_time": "2023-01-18T09:08:56+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56986",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56986",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5204,
+    "start_time": "2023-01-18T09:08:18+00:00",
+    "end_time": "2023-01-18T09:08:18+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56988",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56988",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5202,
+    "start_time": "2023-01-18T09:08:19+00:00",
+    "end_time": "2023-01-18T09:08:19+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57076",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57076",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5200,
+    "start_time": "2023-01-18T09:09:13+00:00",
+    "end_time": "2023-01-18T09:09:13+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57112",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57112",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5196,
+    "start_time": "2023-01-18T09:09:34+00:00",
+    "end_time": "2023-01-18T09:09:34+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57030",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57030",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5194,
+    "start_time": "2023-01-18T09:08:45+00:00",
+    "end_time": "2023-01-18T09:08:45+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57024",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57024",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5193,
+    "start_time": "2023-01-18T09:08:42+00:00",
+    "end_time": "2023-01-18T09:08:42+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57114",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57114",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5193,
+    "start_time": "2023-01-18T09:09:36+00:00",
+    "end_time": "2023-01-18T09:09:36+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56970",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56970",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5189,
+    "start_time": "2023-01-18T09:08:08+00:00",
+    "end_time": "2023-01-18T09:08:08+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57034",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57034",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5184,
+    "start_time": "2023-01-18T09:08:48+00:00",
+    "end_time": "2023-01-18T09:08:48+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56808",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56808",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5182,
+    "start_time": "2023-01-18T09:05:10+00:00",
+    "end_time": "2023-01-18T09:05:10+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56996",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56996",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5179,
+    "start_time": "2023-01-18T09:08:24+00:00",
+    "end_time": "2023-01-18T09:08:24+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56802",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56802",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 11,
+    "total_bytes": 5080,
+    "start_time": "2023-01-18T09:04:54+00:00",
+    "end_time": "2023-01-18T09:04:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56804",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56804",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5027,
+    "start_time": "2023-01-18T09:04:59+00:00",
+    "end_time": "2023-01-18T09:04:59+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56806",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56806",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 5026,
+    "start_time": "2023-01-18T09:05:05+00:00",
+    "end_time": "2023-01-18T09:05:05+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:fe80::c756:1309:bb2d:7796:54238-ff02::c:3702",
+    "transport_protocol": "UDP",
+    "src_ip": "fe80::c756:1309:bb2d:7796",
+    "src_port": "54238",
+    "dst_ip": "ff02::c",
+    "dst_port": "3702",
+    "total_packets": 7,
+    "total_bytes": 5026,
+    "start_time": "2023-01-18T09:09:49+00:00",
+    "end_time": "2023-01-18T09:09:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (fe80::c756:1309:bb2d:7796) to Server (ff02::c) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:54237-239.255.255.250:3702",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "54237",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "3702",
+    "total_packets": 7,
+    "total_bytes": 4886,
+    "start_time": "2023-01-18T09:09:49+00:00",
+    "end_time": "2023-01-18T09:09:56+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:0.0.0.0:68-255.255.255.255:67",
+    "transport_protocol": "UDP",
+    "src_ip": "0.0.0.0",
+    "src_port": "68",
+    "dst_ip": "255.255.255.255",
+    "dst_port": "67",
+    "total_packets": 12,
+    "total_bytes": 3984,
+    "start_time": "2023-01-18T09:04:53+00:00",
+    "end_time": "2023-01-18T09:10:53+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:46509-192.168.1.164:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "10001",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "46509",
+    "total_packets": 12,
+    "total_bytes": 2472,
+    "start_time": "2023-01-18T09:05:06+00:00",
+    "end_time": "2023-01-18T09:10:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:42285-233.89.188.1:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "42285",
+    "dst_ip": "233.89.188.1",
+    "dst_port": "10001",
+    "total_packets": 37,
+    "total_bytes": 2220,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:10:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.1) to Server (233.89.188.1) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:42285-192.168.1.255:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "42285",
+    "dst_ip": "192.168.1.255",
+    "dst_port": "10001",
+    "total_packets": 37,
+    "total_bytes": 2220,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:10:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:3478-192.168.1.164:51535",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "51535",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "3478",
+    "total_packets": 26,
+    "total_bytes": 2184,
+    "start_time": "2023-01-18T09:04:47+00:00",
+    "end_time": "2023-01-18T09:10:47+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:45318-233.89.188.1:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "45318",
+    "dst_ip": "233.89.188.1",
+    "dst_port": "10001",
+    "total_packets": 35,
+    "total_bytes": 2100,
+    "start_time": "2023-01-18T09:04:53+00:00",
+    "end_time": "2023-01-18T09:10:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.1) to Server (233.89.188.1) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:45318-255.255.255.255:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "45318",
+    "dst_ip": "255.255.255.255",
+    "dst_port": "10001",
+    "total_packets": 35,
+    "total_bytes": 2100,
+    "start_time": "2023-01-18T09:04:53+00:00",
+    "end_time": "2023-01-18T09:10:50+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56814",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56814",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 1885,
+    "start_time": "2023-01-18T09:05:22+00:00",
+    "end_time": "2023-01-18T09:05:22+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57108",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57108",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 1834,
+    "start_time": "2023-01-18T09:09:32+00:00",
+    "end_time": "2023-01-18T09:09:32+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57128",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57128",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 1817,
+    "start_time": "2023-01-18T09:09:43+00:00",
+    "end_time": "2023-01-18T09:09:43+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:57148",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "57148",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 1811,
+    "start_time": "2023-01-18T09:09:54+00:00",
+    "end_time": "2023-01-18T09:09:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.1:8080-192.168.1.164:56800",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.164",
+    "src_port": "56800",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "8080",
+    "total_packets": 10,
+    "total_bytes": 1809,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:04:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:5514-192.168.1.164:514",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "514",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "5514",
+    "total_packets": 7,
+    "total_bytes": 1719,
+    "start_time": "2023-01-18T09:05:07+00:00",
+    "end_time": "2023-01-18T09:09:54+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.50:52433-52.212.158.227:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.50",
+    "src_port": "52433",
+    "dst_ip": "52.212.158.227",
+    "dst_port": "443",
+    "total_packets": 11,
+    "total_bytes": 1038,
+    "start_time": "2023-01-18T09:06:32+00:00",
+    "end_time": "2023-01-18T09:09:59+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis.",
+      "Client (192.168.1.50) to Server (52.212.158.227) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:18.194.186.5:443-192.168.1.218:41950",
+    "transport_protocol": "TCP",
+    "src_ip": "18.194.186.5",
+    "src_port": "443",
+    "dst_ip": "192.168.1.218",
+    "dst_port": "41950",
+    "total_packets": 8,
+    "total_bytes": 1021,
+    "start_time": "2023-01-18T09:05:06+00:00",
+    "end_time": "2023-01-18T09:05:14+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis.",
+      "Server (18.194.186.5) to Client (192.168.1.218) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:49972-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "49972",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 4,
+    "total_bytes": 868,
+    "start_time": "2023-01-18T09:04:54+00:00",
+    "end_time": "2023-01-18T09:04:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:60814-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "60814",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 4,
+    "total_bytes": 868,
+    "start_time": "2023-01-18T09:06:54+00:00",
+    "end_time": "2023-01-18T09:06:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:51576-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "51576",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 4,
+    "total_bytes": 868,
+    "start_time": "2023-01-18T09:08:54+00:00",
+    "end_time": "2023-01-18T09:08:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:49970-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "49970",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 4,
+    "total_bytes": 864,
+    "start_time": "2023-01-18T09:04:54+00:00",
+    "end_time": "2023-01-18T09:04:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:60815-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "60815",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 4,
+    "total_bytes": 864,
+    "start_time": "2023-01-18T09:06:54+00:00",
+    "end_time": "2023-01-18T09:06:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:51578-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "51578",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 4,
+    "total_bytes": 864,
+    "start_time": "2023-01-18T09:08:54+00:00",
+    "end_time": "2023-01-18T09:08:57+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:10101-192.168.1.164:53624",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "53624",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "10101",
+    "total_packets": 4,
+    "total_bytes": 856,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:05:07+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:67-192.168.1.194:68",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "67",
+    "dst_ip": "192.168.1.194",
+    "dst_port": "68",
+    "total_packets": 2,
+    "total_bytes": 701,
+    "start_time": "2023-01-18T09:05:09+00:00",
+    "end_time": "2023-01-18T09:05:09+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:192.168.1.205:52470-52.50.246.74:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.205",
+    "src_port": "52470",
+    "dst_ip": "52.50.246.74",
+    "dst_port": "443",
+    "total_packets": 6,
+    "total_bytes": 612,
+    "start_time": "2023-01-18T09:05:54+00:00",
+    "end_time": "2023-01-18T09:09:14+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis.",
+      "Client (192.168.1.205) to Server (52.50.246.74) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.255:137-192.168.1.52:137",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "137",
+    "dst_ip": "192.168.1.255",
+    "dst_port": "137",
+    "total_packets": 6,
+    "total_bytes": 552,
+    "start_time": "2023-01-18T09:09:05+00:00",
+    "end_time": "2023-01-18T09:09:12+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:52459-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "52459",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 2,
+    "total_bytes": 434,
+    "start_time": "2023-01-18T09:10:54+00:00",
+    "end_time": "2023-01-18T09:10:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.52:52460-239.255.255.250:1900",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.52",
+    "src_port": "52460",
+    "dst_ip": "239.255.255.250",
+    "dst_port": "1900",
+    "total_packets": 2,
+    "total_bytes": 432,
+    "start_time": "2023-01-18T09:10:54+00:00",
+    "end_time": "2023-01-18T09:10:55+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.52) to Server (239.255.255.250) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:53-192.168.1.50:28185",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.50",
+    "src_port": "28185",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "53",
+    "total_packets": 4,
+    "total_bytes": 416,
+    "start_time": "2023-01-18T09:09:28+00:00",
+    "end_time": "2023-01-18T09:09:38+00:00",
+    "application_protocols": [
+      "DNS"
+    ],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.164:48000-239.254.127.63:48000",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "48000",
+    "dst_ip": "239.254.127.63",
+    "dst_port": "48000",
+    "total_packets": 3,
+    "total_bytes": 390,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:05:09+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.164) to Server (239.254.127.63) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:46509-233.89.188.1:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "46509",
+    "dst_ip": "233.89.188.1",
+    "dst_port": "10001",
+    "total_packets": 6,
+    "total_bytes": 360,
+    "start_time": "2023-01-18T09:05:06+00:00",
+    "end_time": "2023-01-18T09:10:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.1) to Server (233.89.188.1) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:46509-255.255.255.255:10001",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.1",
+    "src_port": "46509",
+    "dst_ip": "255.255.255.255",
+    "dst_port": "10001",
+    "total_packets": 6,
+    "total_bytes": 360,
+    "start_time": "2023-01-18T09:05:06+00:00",
+    "end_time": "2023-01-18T09:10:06+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.1:53-192.168.1.205:9496",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.205",
+    "src_port": "9496",
+    "dst_ip": "192.168.1.1",
+    "dst_port": "53",
+    "total_packets": 2,
+    "total_bytes": 208,
+    "start_time": "2023-01-18T09:09:17+00:00",
+    "end_time": "2023-01-18T09:09:17+00:00",
+    "application_protocols": [
+      "DNS"
+    ],
+    "notes": [
+      "Local network (private IP to private IP) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.164:46452-45.87.78.35:123",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "46452",
+    "dst_ip": "45.87.78.35",
+    "dst_port": "123",
+    "total_packets": 2,
+    "total_bytes": 180,
+    "start_time": "2023-01-18T09:05:02+00:00",
+    "end_time": "2023-01-18T09:05:02+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.164) to Server (45.87.78.35) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.164:47484-45.87.78.35:123",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "47484",
+    "dst_ip": "45.87.78.35",
+    "dst_port": "123",
+    "total_packets": 2,
+    "total_bytes": 180,
+    "start_time": "2023-01-18T09:07:13+00:00",
+    "end_time": "2023-01-18T09:07:13+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.164) to Server (45.87.78.35) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.205:62520-41.220.128.73:123",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.205",
+    "src_port": "62520",
+    "dst_ip": "41.220.128.73",
+    "dst_port": "123",
+    "total_packets": 2,
+    "total_bytes": 180,
+    "start_time": "2023-01-18T09:09:17+00:00",
+    "end_time": "2023-01-18T09:09:17+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.205) to Server (41.220.128.73) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "UDP:192.168.1.164:53019-45.87.78.35:123",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.164",
+    "src_port": "53019",
+    "dst_ip": "45.87.78.35",
+    "dst_port": "123",
+    "total_packets": 2,
+    "total_bytes": 180,
+    "start_time": "2023-01-18T09:09:21+00:00",
+    "end_time": "2023-01-18T09:09:21+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.164) to Server (45.87.78.35) conversation."
+    ],
+    "total_data_mb": 0.0
+  },
+  {
+    "conversation_id": "TCP:18.184.31.90:8883-192.168.1.194:56488",
+    "transport_protocol": "TCP",
+    "src_ip": "18.184.31.90",
+    "src_port": "8883",
+    "dst_ip": "192.168.1.194",
+    "dst_port": "56488",
+    "total_packets": 1,
+    "total_bytes": 66,
+    "start_time": "2023-01-18T09:04:49+00:00",
+    "end_time": "2023-01-18T09:04:49+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Server (18.184.31.90) to Client (192.168.1.194) conversation."
+    ],
+    "total_data_mb": 0.0
+  }
+]

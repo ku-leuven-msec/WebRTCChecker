@@ -1,0 +1,1900 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:10.32.237.239:50843-134.58.67.3:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50843-134.58.67.3:80",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 602 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "AutodiscoverResponse",
+          "be/Autodiscover/AutodiscoverServ",
+          "be/Autodiscover/AutodiscoverServ",
+          "be/Autodiscover/AutodiscoverServ",
+          "be/Autodiscover/AutodiscoverServ",
+          "be/Autodiscover/XFrame/XFram",
+          "be/Autodiscover/XFrame/XFram",
+          "be/Autodiscover/XFrame/XFram",
+          "/AutodiscoverRespons"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "GET /?sipuri=victor.goeman@kuleuven.be HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Keep-Alive\r\nPragma: no-cache\r\nAccept: application/vnd.microsoft.rtc.autodiscover+xml;v=1\r\nUser-Agent: OC/16.0.1882",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50844-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50844-134.58.67.3:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 568 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.57)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50847-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50847-134.58.67.3:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 673 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.68)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50848-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50848-134.58.67.3:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 673 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.67)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50857-13.107.139.11:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50857-13.107.139.11:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 980 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.69)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00a5{r\u00ec\u0081\u00de\u00e8\u00ab\u0087f\"@\u0007\u001c\u00c1\u00ed\u00eb~\u00af\u00850\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001\u008e\u0006\u0003U\u001d\u0011\u0004\u0082\u0001\u00850\u0082\u0001\u0081\u0082\u001cmicrosoftpersonalcontent.com\u0082\u001fmy.microsoftpersonalcontent.com\u0082!root.microsoftpersonalcon",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50858-13.107.42.12:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50858-13.107.42.12:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 968 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.15)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "tp://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u00141\r`\u0015\u0019\u00b7\u00a4\u0006F\u00e6\u0099\u0088\u0007\u00e4\"7\u00d6\u00dd;\u00b70\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\f7\u0006\u0003U\u001d\u0011\u0004\u0082\f.0\u0082\f*\u0082\rl-df.live.net\u0082\nl.live.net\u0082\fapi.live.com\u0082\fapi.live.net\u0082\rdocs.live.net\u0082\u000fskyapi.live.net\u0082\u000fapi-df.live.com\u0082",
+      "geoip_info": "US, Redmond, Washington, AS8068 Microsoft Corporation"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50886-13.107.139.11:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50886-13.107.139.11:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 811 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.74)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00a5{r\u00ec\u0081\u00de\u00e8\u00ab\u0087f\"@\u0007\u001c\u00c1\u00ed\u00eb~\u00af\u00850\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001\u008e\u0006\u0003U\u001d\u0011\u0004\u0082\u0001\u00850\u0082\u0001\u0081\u0082\u001cmicrosoftpersonalcontent.com\u0082\u001fmy.microsoftpersonalcontent.com\u0082!root.microsoftpersonalcon",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50887-13.107.139.11:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50887-13.107.139.11:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 854 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.75)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00a5{r\u00ec\u0081\u00de\u00e8\u00ab\u0087f\"@\u0007\u001c\u00c1\u00ed\u00eb~\u00af\u00850\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001\u008e\u0006\u0003U\u001d\u0011\u0004\u0082\u0001\u00850\u0082\u0001\u0081\u0082\u001cmicrosoftpersonalcontent.com\u0082\u001fmy.microsoftpersonalcontent.com\u0082!root.microsoftpersonalcon",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50899-134.58.67.4:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50899-134.58.67.4:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 823 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.78)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "SrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ac\u00c3t\u0000\u0000\u0004\u0003\u0000F0D\u0002 5\"\u00bc\u00c3 s\u008f\u00a9Y\u00ef\u000e\u00b9JK\u00b0x\u00b0Q=\u0005\u00d0H\u00e0\u008d\u008c5\u0090-\u008f\u00e8\u0004\u00ab\u0002  \u0007\u00ff\u00d1HL\u00c5\u00de\u00a11x@(<4\u00ae\u000e\u00b4O\u00b5\u000b\u008e\u00ec\u00a4\u00a3|\u00d2K4Q\u0084\u00a00\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool02.icts.kuleuven.be\u0082\u001eicts-s-fe0204.luna.kuleuven.be\u0082\u001eicts-s-fe0205",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51214-20.44.10.122:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51214-20.44.10.122:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 716 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.71)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00c2\u0098W\u00f2JPRw,\u008cn\u00dd\u00a6\u00bb\u0001\\\n\u00c3Q\u00070\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001V\u0006\u0003U\u001d\u0011\u0004\u0082\u0001M0\u0082\u0001I\u0082\u001b*.events.data.microsoft.com\u0082\u0019events.data.microsoft.com\u0082\u0019*.pipe.aria.microsoft.com\u0082\u000epipe.skype.com\u0082\u0010*.",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51276-13.107.139.11:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51276-13.107.139.11:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 853 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.75)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00a5{r\u00ec\u0081\u00de\u00e8\u00ab\u0087f\"@\u0007\u001c\u00c1\u00ed\u00eb~\u00af\u00850\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001\u008e\u0006\u0003U\u001d\u0011\u0004\u0082\u0001\u00850\u0082\u0001\u0081\u0082\u001cmicrosoftpersonalcontent.com\u0082\u001fmy.microsoftpersonalcontent.com\u0082!root.microsoftpersonalcon",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51278-13.107.139.11:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51278-13.107.139.11:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 853 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.76)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "microsoftpersonalcontent",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00a5{r\u00ec\u0081\u00de\u00e8\u00ab\u0087f\"@\u0007\u001c\u00c1\u00ed\u00eb~\u00af\u00850\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001\u008e\u0006\u0003U\u001d\u0011\u0004\u0082\u0001\u00850\u0082\u0001\u0081\u0082\u001cmicrosoftpersonalcontent.com\u0082\u001fmy.microsoftpersonalcontent.com\u0082!root.microsoftpersonalcon",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50871-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50871-134.58.67.3:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 834 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50877-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50877-134.58.67.3:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 763 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50878-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50878-134.58.67.3:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 747 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50897-134.58.67.4:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50897-134.58.67.4:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 907 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "SrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ac\u00c3t\u0000\u0000\u0004\u0003\u0000F0D\u0002 5\"\u00bc\u00c3 s\u008f\u00a9Y\u00ef\u000e\u00b9JK\u00b0x\u00b0Q=\u0005\u00d0H\u00e0\u008d\u008c5\u0090-\u008f\u00e8\u0004\u00ab\u0002  \u0007\u00ff\u00d1HL\u00c5\u00de\u00a11x@(<4\u00ae\u000e\u00b4O\u00b5\u000b\u008e\u00ec\u00a4\u00a3|\u00d2K4Q\u0084\u00a00\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool02.icts.kuleuven.be\u0082\u001eicts-s-fe0204.luna.kuleuven.be\u0082\u001eicts-s-fe0205",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50898-134.58.67.4:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50898-134.58.67.4:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 920 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "SrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ac\u00c3t\u0000\u0000\u0004\u0003\u0000F0D\u0002 5\"\u00bc\u00c3 s\u008f\u00a9Y\u00ef\u000e\u00b9JK\u00b0x\u00b0Q=\u0005\u00d0H\u00e0\u008d\u008c5\u0090-\u008f\u00e8\u0004\u00ab\u0002  \u0007\u00ff\u00d1HL\u00c5\u00de\u00a11x@(<4\u00ae\u000e\u00b4O\u00b5\u000b\u008e\u00ec\u00a4\u00a3|\u00d2K4Q\u0084\u00a00\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool02.icts.kuleuven.be\u0082\u001eicts-s-fe0204.luna.kuleuven.be\u0082\u001eicts-s-fe0205",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51069-134.224.0.54:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51069-134.224.0.54:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 578 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u009c\u0013\u00f1PC\u000127\u0081\u00b24\u008b?\u00c5\u00c9\u0082\u000b\u000bf\u0013w\u0092\u00ea\u00b7\u008aV\u00a2I\u0000\u00f48pr\u00bf6\u001bTd\u00daW\u0083Tq(\u00d6\u00a7&\u00c9W\u0083\u00a5F)\u0018vr+\u0097\u00fcv\u0001\u0082\u0093\u0098\u00catj=\u00e1\u00a2`\u00cb\u0018\u0011\u00a7\u008b\u0019y\u00ba\u00d4\u0004|T\u00d1\u0095\u00f1'a\u00d0\u00d8\u0019\u008c\u0017\u001f\u00d4\u00f9]\u00f2\u00d0\u0081>\u00a5\u008a\u001fF\u0017\u00af\u00a0Z\u0089,R\u00eb\u00a2\u0082aUM\u00ac\u00a3\u0093\u000b\u0082<\t\u0083\u001aC\u0099i)#\u00ab\u00ec\u00cb`6\u0083\u00897\u0089U\u00cf\u00f0'J\u00a3Q\u00c2\u009bPJ\u00d5\u0095\u00dc\u00b7\u0014\u00d0\u0004\u00be\u001dC\u00cb\u00a6\u00d0\u00a1\u0083\u00cc\u00caRlH>\u00da;\u00b1@co\u00a1\u0016-\u00e8$ph\u00be4\u00eb\u0083QcS\u00fd\u0081\u001a\u00d0LZ\u0019",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51073-134.224.0.54:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51073-134.224.0.54:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 555 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "l\u00d6)\u00b6(8\u008e\u00dd\u0003\u00af\u00af\u0093\u00b6\u00bcl\u0096\u0006EF2t,sxTr4N9\u00a4$9\u00b7\u00cf\u0082\u00a7\u0006\u00f1\u0099\\\t3\u00c9\u0084zt\u008f\u00d7\u0081\u0091\u00d9\u00b6\u00a1\u00e3|\u00c6\u00f4<K\u00b8\u001c2\u0015\u0011\u00f5P{=Z\u00ae\u00b7\u00c5R\u00d7yOW\u00b3])C\u008f/\u00c9)\u009c\u00e6>\u0010F\u0088\u00da\u00f5\u00c2\u0000\u0096.\u00bd\u000b[,\u00fb\u00aeO\u00bc`\u0093h<\u0092\u00c3\u00a0\u00ea\u00d4\u0085\u00fa7s[w\"\u0091\u00d4\u00bf\u00d6K/\u00fc\u000b@\"\u001c\rA\u00f2pC\u00d2\u008c\u00d1\u00eb\u008b\u008cA\u00a2\u00f2\b45+\u00cc\u00bf\u00ebQ$\u00f1\u001b\u00e5&\u00c3\u0082\u00fa\u0007\u007f\u0090.AYt\u0012XR\u00dc\u00fb\u009f!\u00e2\u00cf\u00a4\u008bR\u009b\u0087\u001b\u0098\u0013\u001eA*\u0087\u008b\ba\u0007\u00aa\u008au\u0086\u009a\u0091",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51077-134.224.0.54:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51077-134.224.0.54:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 536 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0015\u009e\u0092L\u00b0\u00c3+~+\u0097$\u00e5\u00f2\u0097\u00d7\u008b(\\\u00c9\u0086\u0096\u00e5^0,\u00c7,\u00d2\u00ce-\u00d8\u00a43\u009c1\u00efG\u00bf\u00b1\\\f\u0086\u00aaN17o\u00cfA*?(0F\u0011\u007f/\u00ab\u008f5\u0001\u00ba\u00c1F\u00c9N\u001c\u00be5U;\u0017\u00e5w\u001d\u008c\u00ae~\u008a\u00b9\u0000\u008c\u00a6.\u0019\u009a\u00cd\u00d6\u00a70\u00b6[\u001e\u00b0)\u00f2\u00a0^6<#\u00ef\u0097H\u00ef\u0084\u001a\u009f8Iq\u00ec-0\u00e4\u00bc\u00ec\u00034V\u0002X\u00fdZ\u00be\u0007j\u001a\u00bf\u0097g\u00e1\u00d9fN\u00d4\u00c2\u00da\u00dbD\u00b8\u0093\u00af\u00f8:\u0006\u00cf\u00a5\u00b7\u000ev\u00ca\u00c6q\u00adw\u0094\u00b4\u0080\u00aaA {X\u00e1\u0097\u0006\u00d4\u00b4=\u00b6+\u0085\u009a\u00ebF\u0013\u00f5w\u00f6v\u00b5\u00c6\u00f0\u008a\u001b\u001b\u00c3\u00d6'\u00a6\u00b2v[?\u00d7\u00b9\u00d5GI",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51207-134.224.0.54:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51207-134.224.0.54:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 569 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00caj2\u001b\u00b6BezB\u00c86\u00d2\u00c7nOI\u0004\u0007\u0087\u00a7+S)3\u0019F\u0019\u00a7\u00b4k\u001bz\u00c1\u0015wb\u00b4d(d\u009e\u0097gy1\u0002-\u0007\u0098gAJ\u0087\u00af\u00d5\\w\u00b0\u0012>\u009551\u00e9\u0016\u008d`+\u008e\u00eaU\u008bh\u00ceH\u0083%\u0095\u00d5i\u00a2W\u0080\u0096\u00c3'\u00a0dA\u00c5\u00f5\u009bP\u00ebs\u008e\u00ba\u0004\u00a5\u00c6\u00aa\u0003\u0098\u00b3\u00070y1\u00b7s\u00ec\u00c6jv\u00b2S\u0007\u00d1\\\t<\u0005_\u00e6\u008f\t!\u00cd\u0005\u0094\u00cb\u00eb\u00a8\u00c0\u00cb\\\u0007fj\u00175%\u00ac(\u0084`^d\u00abS\u00d6\u001f(a0\u00ee\u00f7{\u00d8:>\u008eXL\u00c6F{x;\u00bc9[\u00a0\u00a4\u0006\u0004F#\u00ae\u0094\u0087\u00b0\u0098+?\u0083\u00fc\u001c\u00c8v<\t\u00f78\u008a+\u0015>Jl",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51220-134.224.0.54:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51220-134.224.0.54:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 496 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": ".\u001b\u00a9\u00b1zU4\u00c1{N\u0084\u00c3\u00c6\\\u007f\u00ed\u00b1\b\u00a7\u00f9\u00b11\u008cG\u00e2\u00bc-9\u0086\u0012a4_\u001e\t\u0087\u0086`\u00b6A\u00a4\r1\u00c2s\f\"\u001e\u00cd\u00923\u0088\u00f7>\u00a2Xv\u0000q\u0011t\u00e8d\u0000,y\u0091{\u00b7\u0014\u0000\u0097d%\u0005&x\u0001\u00aa\u00baZ\u008f@\u0088\u00b1\u00a3\u009c\ntTp\u00bcU\u001c\u00845N\u0012+*e\u00b5\u00f9\u0087)^[Q\u0087\u0018W{\u00dcw\u009b\u00b6)C\u00e2 \u0092\u00a2\u0006\u00acBJ\u00e2\u0019\u0081\u00fe\u00ac\u0010[\u00d1|\u00ac'\u00a9\u00c3E\u0002\u00d7\f \u00a1p\u00a6\"$\u009fT\u0018\u001b\u00f9U\n\u00ff\u0082zu\u00e1#\u00a3\u00f8\u008a\u0090v\u00c0\u0093\u0093\u00cd[#\u0097\u00e6\u00c2\u00b3\u00ccp\u00abY\u00f2O-\u00dc\u00b2\u0088\u00c5\u00c5N\u00c3xc\u00d4K\u00d1\u0000fy\u0095",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51221-134.224.0.54:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51221-134.224.0.54:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 656 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00b7\u001b\u00fb\u0012\u00ae&K\u0014\u00c5\u00be\u00c8\u0095\u00b6\u0093\u00819\t\u00abj\u00a2\u00bb\u008c\u001e\u0017%\u0017y\u0081\u009c0 3\u0084R\u0010gX\u00e1\u0018p\u00908\u009e\u00be\u00abI\u00fa\\\u00bd\u00bex\u0097\u0094S#/\u0017\u001f\u001f<\u000e6\u00ec\u0006\f0\u00c9\u00faX$RzM\u00dc\u0016cse[\u00fd\u00e9O^Y;\u00f3\u00aa\u0084\u00d8\u009aRQ\u00fb1{17\u00c3eK\u00c5\u00d5&H73\u00fc\u009b.\u00e0B]\u0091\u00eby\u00a8TW\u00b39W\\\u00b5F\u00ea\u00a6\r\u00fb\u00d0\u0083\u009chT\r#zp\u0083\u00a4\u0018\u0003\u0085\u00ac\u009a\u001b\u00dcT\u0006}\u001a \u00c73\u0007\u00e4\u00b9\u008e\u00a0`<\u0090\u009b\u0081)\u0083a\u00f7\u00b0i\u00f3\u0082\u00b8\u00e9\u00812\u001c\u0001l\rP\\\u00e5y\u001b\u00c6[\u00b0\u00d1\u00c8\u0083\u001d\u00baV\u0088[t\u0003\u0086}\u00fb",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51223-206.247.99.206:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51223-206.247.99.206:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 60 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "zoomiad20624799206rw"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "~\u0084\u007f\u001a\u00e5,4\u00a5\u00be\u00aa\u00d1\u00baRh\u0096\u00c6e@\u00c8$\u0082\nP1\u009c\u00f7\u0010HAg+\u00e7B\u008a\u0007s#{\u00ad,\u00d6\u00cd\u008e\u0018D'\u00c6\u00b65vW\u008a\u00d5\u008f\u00b2!h*\u00a3\u00d7\u00a7|\u00f1\u00e9rC\u00be6\u0086$\u0003\u00f1\u00eb}\u00f8\u001a_\u009d\n\u001e\u00f4\u0080\u0083\u0010w\u00c1P\u00bf\u00df\u00d4\u00f0\u0095r\u00d2\u00ebMQ(+\u009cWu9\u0000\u001d\u0000 {\u00a9N4n)\u00ddJK\u0092\u00ea\u00d3\u00bd\u001f2d\u0082U,j\u00f6h\u0099n[I6\u00d5\u00cb\u00bf6v\u0000\u0017\u0000\u0000\u0000-\u0000\u0002\u0001\u0001\u0000\u0005\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u0000#\u0000\u0000\u0000\u0000\u0000&\u0000$\u0000\u0000!zoomiad20624799206rwg.iad.zoo",
+      "geoip_info": "US, Ashburn, Virginia, AS30103 Zoom Video Communications, Inc"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51227-206.247.99.206:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51227-206.247.99.206:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 60 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "zoomiad20624799206rw"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0082\u00f7\u008c\t\u00bca\u0012\u0081.p\u0082t\u009d\u00a1\u0005\u0090\u00f20\u00afh2\u00c7fv\u00f0\u0002\u00b6\u00c1{\u007f\u0017\u00c2\u008dWI\u00b4\u00fbF\u009f\u0005\u00ac\u0004c\u00bc\u0017\u0003\u0099\u001e\u00fa\u00a5\u00cd\u0011\"\u0005)\u00d3ge\u000b?\u0014l\u0017l\u0098\u00b1B\u008b\u00a3\u00fa\u0097\u0098?\u0082\u00c9,\u00861`\u00f1\u00b0LQl~\u00cc\u00cd<v^\u0005\u0093`^\u001a;\u0092[;\u00d7\u009a\u00ad\u000b\u0010>X4\u00af\f|VsWP\u00eef\u001b\be\u008ei\u00b8\u00a0\u00a1,\u00ca\u009e\u0097\u00b3\u00dd|\u0010\u00b9\u0093Pi\u00a9CK\u0011\u001f\u00b7q&\u0019\u00b5\u00c1\u00fb\u0007P]<\u0090\u0004%\u0016\u00afyO\u00fe\u00c2\u00cf\u00b8\u0087P\u00e9i\u00b3\u00ac\u0092\u00ca\ruZ\u00fc\u00b9\u0093\u008c\u00fcO\u00bePE\u00a6\u0081\u00a6\\WWu\u0014WE\u00e3. \u00b8\u00b8\u00ac\u00f2",
+      "geoip_info": "US, Ashburn, Virginia, AS30103 Zoom Video Communications, Inc"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51275-13.107.42.12:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51275-13.107.42.12:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 974 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "tp://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u00141\r`\u0015\u0019\u00b7\u00a4\u0006F\u00e6\u0099\u0088\u0007\u00e4\"7\u00d6\u00dd;\u00b70\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\f7\u0006\u0003U\u001d\u0011\u0004\u0082\f.0\u0082\f*\u0082\rl-df.live.net\u0082\nl.live.net\u0082\fapi.live.com\u0082\fapi.live.net\u0082\rdocs.live.net\u0082\u000fskyapi.live.net\u0082\u000fapi-df.live.com\u0082",
+      "geoip_info": "US, Redmond, Washington, AS8068 Microsoft Corporation"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50829",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50829",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.56)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0000\u00d1\u00ad\u00f6\u0087\u0014yT'W\u00c7/\u0005h<\u009b<\u00cdg\u00ecE\u0010,\u0084\u00f2\u00a4G\u00c4\u00d9SBE\t\u00bb\u00e4\u00fe3\u00c1\u00d7\u00bcF/\u00d1\u008b\u00e6\u00b7\u00b5gx|jp\u00be\u00fd\u00b8\u00e5\u00b6T\u00cfL^\u00ac\u00b8\"tsU)\bs\u00c8d\u00f7\u00d0\u0095\t\u000ey\u0083P\u00bf_\u00f5\u00d4\u00cc\u009bBa\u008e\u0080\u0004\u00b9A\u00aa\u00ceN\u0012\u0099\u009b\u00ac\u00d6\u00c5\u00be[\u0002s\u00b5\u0016\u00a4\u00abqb\u00d4\u0098\u00ea@9\u0085\u00a6\u00f6\u00bb/\u00e8\u00e7\u0087\u00c2\u008b\u00f6\u009c2\u00cd\u00ec\u00f8>\u00bf\u0089\u00e7t#\u0082K\u00da\u00ea\u00bfs\u00a6%<\u00fd\u00bf\u00a9\u00e5h\u00ff\u00f80\u00a2`\u00c7;.\u00a3\u00f3\u00c5\u007f;;\u00fd\u000f1\u00a1|t\u000f\u00d0\u00bf\u0014\u00c4\u00bdh\u00f1\u00a5\u00e7k\u00a7\u00df\u009b\u0000~F%N\u00e6\u00e8\u0013\u00f3\u00f6\u0006\u00c7",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50828",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50828",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.55)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250705170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50825",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50825",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.56)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50834",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50834",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 573 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.80)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50827",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50827",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.55)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50835",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50835",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.56)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50831",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50831",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.56)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50824",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50824",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.56)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250703170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50832",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50832",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.56)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50836",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50836",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.55)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250706170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50833",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50833",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 652 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.57)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1063:2000:1::12:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50873",
+      "protocol": "TCP",
+      "endpoints": "2603:1063:2000:1::12:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50873",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 793 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.70)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-%20xsign.crt0-\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u00f4\u00e2#\u00fb^\u00b2\u00d8f!B\u00bf\u001cL\u0088\u00f2\u0092\u0085\u00eb\u00b2\u00d50\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0003\u00c9\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00c00\u0082\u0003\u00bc\u0082\u0013officeapps.live.com\u0082\u0012officeppe.live.com\u0082\u0011*.office.live.com\u0082\u000foffice.live.co",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1063:2206:18::28:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50885",
+      "protocol": "TCP",
+      "endpoints": "2603:1063:2206:18::28:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50885",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 833 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.80)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0005\u0005\u00070\u0001\u0086!http://oneocsp.microsoft.com/ocsp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u0090p\u00df\u00ecV\fzCc\u00de@;\u00a9\u0094\u00cfU\u008b\u0084\u00fe[0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0082\u0001\u0099\u0006\u0003U\u001d\u0011\u0004\u0082\u0001\u00900\u0082\u0001\u008c\u0082\u0013officeapps.live.com\u0082\u0012officeppe.live.com\u0082\u0011*.office.live.com\u0082\u000foffice.live.com\u0082\u0015*.officeapps.live",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f18:4405:f30b:f1da:20f3:6a0d:fda2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51063",
+      "protocol": "TCP",
+      "endpoints": "2600:1f18:4405:f30b:f1da:20f3:6a0d:fda2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51063",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 449 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00cc\u00a3>f\u009a\u00ce\u00ef\u00ad/\u00f1w\u001b\u00e8\u00e7\u00c0\u0089\u00b8\u00a9I\\\u00dd\u00b0\u0082\u00ac%\u00cc9\u0092}\u0080X/\u00f2\u00bd9=\u00e0'\u0090N\u00f3^\u00e6\u00e8\u00cb\u008f6\u00b4\u00c1\u00deS]\f\u0000\u001d\u0000 \u00d7tq\u00bf\u00ab\u00f6\u00cb\u0099\u0015\u007f\u00ea\u0010S2\u00fe\u0012fSZ\u009dT\b\u00bfxt\u00a1\f\u008d\u00f0\u00e68a\u0000\r\u0000\u0012\u0000\u0010\u0004\u0003\b\u0004\u0004\u0001\u0005\u0003\b\u0005\u0005\u0001\b\u0006\u0006\u0001\u0000\u0005\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u00fe\r\u0000\u00da\u0000\u0000\u0001\u0000\u00017\u0000 _hJM\u0001\u00c1\u00ac\u001b\u00b3\"a\u0093P\u00beubG\u0084\u0089\u00a9:?\u00ea\u0095\f4\u00f0\u0015\u00a1w_v\u0000\u00b0J\"\u0088]\u00c9\u009dy\u00aa\u00abkl+q\u00d4\u001c\u001b\u00f9D\u0087@4a~z{\u00bb\u0095\u00a9\u00cc\u0084\u00dd\u00ad\u0090\u00c6",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50826",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50826",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 939 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50830",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:207:163::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50830",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 969 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0001\u0016\u001bhttp://www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertClo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50849-134.58.67.3:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50849-134.58.67.3:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "N4\u00bdSrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ab\u00ff\u00d3\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00dcK\u001a\u00ec\u009b\u00a6\u001f\u00d5\u00df\u001dP>\u00aa\u0015`w\u008968g\u0002\u0081'\u00d6\n\u00a1\u00bb\u00fc\u00bb\u0094\u00ab;\u0002 p\u0010Zt\t\u0096@\u001c\u00fc\u00ff<L\u00f7\u00ca\u00bb\u0004g\u00bex\u00eb\u00eft\u00d8\u008d(i\u00d4S\u0001\u0005\u00c9\u00de0\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool01.icts.kuleuven.be\u0082\u001eicts-s-fe0104.luna.kuleuven.be\u0082\u001eicts-s-fe",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50883-134.58.22.119:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50883-134.58.22.119:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust",
+          "com/AAACertificateServic"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00aeK\u00a8\u0000\u0000\u0004\u0003\u0000G0E\u0002 G,\u00d4\u0088\u00f2\u00c48\u00e8\u00e9e\u00a8\u00e7\u00ba =\u00bfg\u001aS\u009b\u0002\u00b9T\u00cf\u00e5A\u00b7\u00aax\u0006\u00f0y\u0002!\u0000\u00f3_\u00e1\u00a5\f\u00f2\u00e9\u00ec\u00f9\u00df/2\u00d2j\u00a1UH\u00aa\u0087\u00cc+\u0005\u00c7g\u0007\u00ab\u007f\u001f6o\u00a3\u008f0\u0081\u00d6\u0006\u0003U\u001d\u0011\u0004\u0081\u00ce0\u0081\u00cb\u0082\u0016lyncaccess.kuleuven.be\u0082\u0014lyncaccess.conict.be\u0082\u0017lyncaccess.luca-arts.be\u0082\u001elync",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50888",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50888",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 798 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250705170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50893-134.58.67.4:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50893-134.58.67.4:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "SrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ac\u00c3t\u0000\u0000\u0004\u0003\u0000F0D\u0002 5\"\u00bc\u00c3 s\u008f\u00a9Y\u00ef\u000e\u00b9JK\u00b0x\u00b0Q=\u0005\u00d0H\u00e0\u008d\u008c5\u0090-\u008f\u00e8\u0004\u00ab\u0002  \u0007\u00ff\u00d1HL\u00c5\u00de\u00a11x@(<4\u00ae\u000e\u00b4O\u00b5\u000b\u008e\u00ec\u00a4\u00a3|\u00d2K4Q\u0084\u00a00\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool02.icts.kuleuven.be\u0082\u001eicts-s-fe0204.luna.kuleuven.be\u0082\u001eicts-s-fe0205",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50892-134.58.67.4:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50892-134.58.67.4:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "lyncdiscoverinternal",
+          "com/USERTrustRSACertificationAuthori",
+          "com/USERTrustRSAAddTrust"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "SrL\u0084\u0006\u0019\u00c3\u008f?z\u0013\u00f8\u00e7\u00b5b\u0087\u0088\u009cm0\u0005\u0084\u00eb\u00e5\u0086&:\u0000\u0000\u0001\u0093w\u00ac\u00c3t\u0000\u0000\u0004\u0003\u0000F0D\u0002 5\"\u00bc\u00c3 s\u008f\u00a9Y\u00ef\u000e\u00b9JK\u00b0x\u00b0Q=\u0005\u00d0H\u00e0\u008d\u008c5\u0090-\u008f\u00e8\u0004\u00ab\u0002  \u0007\u00ff\u00d1HL\u00c5\u00de\u00a11x@(<4\u00ae\u000e\u00b4O\u00b5\u000b\u008e\u00ec\u00a4\u00a3|\u00d2K4Q\u0084\u00a00\u0082\u0003\u001c\u0006\u0003U\u001d\u0011\u0004\u0082\u0003\u00130\u0082\u0003\u000f\u0082\u0017pool02.icts.kuleuven.be\u0082\u001eicts-s-fe0204.luna.kuleuven.be\u0082\u001eicts-s-fe0205",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50894",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50894",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 746 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250705170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50895",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50895",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 748 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50906",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50906",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 741 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250706170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50902",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50902",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 682 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250703170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50907",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50907",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 840 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50908",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50908",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 690 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50905",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50905",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 740 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50903",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50903",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 749 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250706170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50904",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50904",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 676 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250702170156Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50910",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:581b::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:50910",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 756 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250707170157Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50950-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50950-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50948-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50948-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50947-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50947-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:50949-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:50949-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:2600:1f18:4405:f30b:f1da:20f3:6a0d:fda2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51064",
+      "protocol": "TCP",
+      "endpoints": "2600:1f18:4405:f30b:f1da:20f3:6a0d:fda2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51064",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 577 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00f0\u0090\u00e3\u00c9Y\u00d1(I\b(\u00bc\u00d9\u00b5|=S<\u00df\u00fc\u007f\u00f2\u0094<]\u0015\u00bb\u00a5\u00a6\u00b6\u00ed0\u008a\u0087t\u00a6\u00169\u00c7\u00a2\u00d9-|Sd\u009d\u00c6Z\u0095\u0005?\u00ee\u00a2$\u00de\u00f8\u00bc]\u00d1\u000f \u0092\u00a4\u0096\u00c3\u00cex\u00daW\u0089*\u00c7:\u0083t'\u00a6\u000fK\u00f9G\u00ca\u0003\u00b0\u0019\u00f3\u009f\u0093P\u0087\u00c7\u00bc\u0093X\u0095sv\u0002\u000bH4\u001aO*\u00be\u00d0\u009a\u0095\u0006\u00b2 \u00cb\u0082\r\u00df\n\u0093M\u00d6\u000f%\u0014t\u008d\u0094KZ\u00fc\u00a1u\u0006\u00aa\u0081\u0019l\u00e3:\u001eA\u0014\u00a0\u00912 \u000fp\b\u0084\u00c1z\u0003\u00f9\u00b9\u00ef\u00d1D53R\u00ec\nh\u00a1\u0089~\u00e5,\u00cf\u00c9\u00f8s\u009c)Fasn\u0006\u0019\u0002\u00b9\u0018\u0082\u00b9Y4\b\u0002-\u00be)`\u00b2\u0017 \u00ea\u0097h8\u0007\u0099",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51086",
+      "protocol": "TCP",
+      "endpoints": "2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51086",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 723 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "-r`[P\u0010$Q\u0012\u009f\u008b|\u00bf\b^\u00b7p\u00b3Td6\u00b7\u0010\u00bd2\u0099\u0093T\u00c7\u00a4!\u00ea[;\u0004x\\\u0002\u000f\u0014\u0010\u00c7\u0099\u00d0<\f\u00e4S\u00d2\u0014\u00fem\u0014o\u0095R_\u00dcX\u00a3\u00ed\u00ea\u000e\u0002\u00ad\u00e8W\u00f2\u008b\u0010(\u00fe\n\u00b4v\u0085~\u00ce\u00ec8/\u00f0O\u00b2`\u00cb=\u000fs\u001cZ-\u00c3M\u008f@\u00b7i\u00acL\u0015\u00c3/\u00a8\u00a2.2-\\\u00a7\u0096I\u0000\u001d\u0000 |\u00c2L5\u00f3w\u00afb\u00f1\u009e0\u0012\u0004\u00c0b\u0094\u00aaQ\t|\u00a6\u00e6\u00ce#\u00ee\u00a8\u0095\u001f\u0096\u00dc|/\u0000#\u0000\u0000D\u00cd\u0000\u0005\u0000\u0003\u0002h2\u0000\n\u0000\f\u0000\nzz\u0011\u00ec\u0000\u001d\u0000\u0017\u0000\u0018\u0000\u0012\u0000\u0000\u0000\u0010\u0000\u000e\u0000\f\u0002h2\bhttp/1.1\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51085",
+      "protocol": "TCP",
+      "endpoints": "2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51085",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 720 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "]+\u0090I\u00d8\u00aa\u00ca\u00edk\u0098\u00c4\u00f7\u00f3\u00a4\u00d3Y\u00da\u00e8\u0092\u00b8)\u0083\u00e8\\\u00ec2\u0087\u0003e9\u001a\u0089$\u00b2`jU\u0000\u001d\u0000 6\u00ad:><\u00b2\u00104\u00cf\u00aa\u00e4\u001f\u00fc'\u0080H\u001f\u00dbX\u00e9\u00b7t\u009b\u00ban\u00ae\u00b2\u00047\u0007\u00de2\u0000\u0010\u0000\u000e\u0000\f\u0002h2\bhttp/1.1\u0000\n\u0000\f\u0000\n\u00da\u00da\u0011\u00ec\u0000\u001d\u0000\u0017\u0000\u0018\u0000\u0000\u0000\u0015\u0000\u0013\u0000\u0000\u0010us04file.zoom.us\u0000+\u0000\u0007\u0006\u001a\u001a\u0003\u0004\u0003\u0003\u0000\u0017\u0000\u0000\u00ff\u0001\u0000\u0001\u0000\u0000\u000b\u0000\u0002\u0001\u0000\u0000\u001b\u0000\u0003\u0002\u0000\u0002\u0000\u0005\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u00fe\r\u0000\u00fa\u0000\u0000\u0001\u0000\u0001\u0000\u0000 \u00ce\u0002_09 \u00b0s\u000e\u0080\u00ef]}~",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51084",
+      "protocol": "TCP",
+      "endpoints": "2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51084",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 713 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "M\u008e\u00d6\u0086\u00a0d`\"tq\u00cf\u0019?\u00a5`pc\u00d5\u00adE\u0090\u00c8\u00bd\u0087J\u001d\u00dbW\u00e7\u00b2\u0081)\u0098L{8\u00be+\u00c7\u0082\\$\r%\u009a(\u00d6\u00e8$)$}\u00cd\u00eae\u00ab\u0081Xw\u0018\u0007\u00a6\u00d0\u00ab\u0091 K\u001b[j\u00da\u001a[\u0098Xu\u00a0\u00e3\u000e.p=\u00c7\u00d4\u00c28\u00de!o\u009d\u0089\u001d\u00dc\u0081\u00b0\u00b7\u00e5\u000e\u00c2D\u00ce\u00eed\u0082\u00b8<r\u000f\u0007\"'DqX\u00b6H\u00fc>\u00ceq+b\u00f1\u00df\u00de\u00aa\u00d3k3\u00d1\u009005@\u00bbN\u00e9\u00a1\u00dc \u0000\u001d\u0000 1\u0080y]mMv;\u00ca\u00b6\u0094\u00b9\u0084A_\u000e\u00de\"\u00ffx\u00cd\u00ce(\u00c5\u00d4\\\u0004\u00e1\u0003\u00f3\u00e5t\u0000\u0017\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0013\u0000\u0000\u0010us04file.zo",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51088",
+      "protocol": "TCP",
+      "endpoints": "2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51088",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 714 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0017\u00fbg{\u001d\u00b3+\u00db\u00fdk/\u0015\u00c5\u00e69 \u009fZ\u00b0}\u0016\u009fr\u00bb\u00ac\u0016\u00c3Vq\u0085j\"\u00be\u00cb\u00ea2\u00dc\u000bh4|M\u00ce\u00bcy6\u00d2_@\u0099\u0089\u008dS\u0000\u001d\u0000 \u0019p\u008b\u0080\u00d3\u0090\u00b7\u008f+e\u00d0U}\u00d3g_&\u0005\u00b5IY\u0015l\u0081\u00a1\u00a9\u0086\u0080)\u0012\u009c!\u0000\n\u0000\f\u0000\n\u001a\u001a\u0011\u00ec\u0000\u001d\u0000\u0017\u0000\u0018\u00fe\r\u0000\u00ba\u0000\u0000\u0001\u0000\u0001\u0013\u0000 S\u001dt\u00b0]\u00c7\u001d4R\u0018`g!\u00de\u00e1\u00cf\u00d19h\u00fb\u00e4iwn\u00b5\u0017\u00ff\u00e3\u00fa\u00b9\u00a8y\u0000\u0090\u00b7\u0015\u00d5\u00c7\u00e1\u00bf\u00d9\u0015\u00c3\u00a1\u00af\u00f6\u0018%fT\u00af8J\u00d6\u009e\u00f9\u00c3\u00baT\u0018!qye\u009f\u0005\u00c5_\u00e2\u00cb\u0081\u00aa\t\u00c1\u0002L\r_\u00da\u00f1\u00bc<+",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51087",
+      "protocol": "TCP",
+      "endpoints": "2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51087",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 723 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "(\u001dW\u00ec\u00e7?1\u00b1\u00f8\u008e\u001d95\u00cd(\u0080\u00b1'S\u00e0\u00e9\u00b5u\u00b2\u00b7B\u001d|\u00c5\u0005\u00cc\u00d7\u00d3\u0002\u00a9B\u0082\u00d6=9x\u00d3\u00f6\u00a5\"\u00aaZ4D\u00e0\u008f\u0016\u008b\u0017\u00b63\u00ec\u00d4\u0094\u001c\u0000\u001d\u0000 F\ny\u008a\u00a0q\u00e7\u00be\u000fQ-\u00c0\t\u00ff\u00cd\u00fd\u009a\u0007\u008f\u00ab\f\u00ba\u00dd\u00b3f_\u00d2s\u00f9\u00ae\u00b5\u000b\u0000\u0005\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u00ff\u0001\u0000\u0001\u0000\u0000\u001b\u0000\u0003\u0002\u0000\u0002\u0000#\u0000\u0000\u0000\u0017\u0000\u0000\u00fe\r\u0001\u001a\u0000\u0000\u0001\u0000\u0001\u00a8\u0000 }\u00c9\u0011\u000fi=3gO\u0013\u009ah\u001cYF\u00fdp\u00b1\u0093yn\u00f7m\u00a8\u0000\u00c8\u00d5\u00cf\u00fd\u00845x\u0000\u00f00\u00b7\u009c\u00a1\u00b3\u00c8\u0085\u00adL\u0084\u00e9\b'Y\u00d9\u008c\bE\u00bb\u00b9|9M\u00a2:W\u00c7\u00ed\\",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51089",
+      "protocol": "TCP",
+      "endpoints": "2600:1f16:2b2:6e0b:9b01:dcb4:af96:30d7:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51089",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 723 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00d1b\u00f1\u00cf\u00e8b\u00cd8\u008e]M!l>D5j1>\u008e\u00aa\u0091\u0099Fy\u0002 \u00b4L\u00cf$\u00d5\u000f,\u00f6\u00dd\u00d8c\u0098\u008e\u0017\u0000\u001d\u0000 \u00db\u008e\u0089\u00a1Q-\u0089_\u00cd\u009e\u0004\u00db\b\u0088\u009f\u001c\u00d0s$\u0016)\u00a4\u00b9Q\u0095j\u00c5\u00c6\u00c0c\u0000k\u00fe\r\u0001\u001a\u0000\u0000\u0001\u0000\u0001W\u0000 \u00bds\u001f\u0089&<\u00da\u00ab\u00b2\u00e5GWD\u008dN\u00b7\u009ae\u0019\u0090x\u00f1;\u00ca>\u000e\u0007\u00f9x\u00d0\u0005'\u0000\u00f0\u00a0[u<\u0090\u00fetj8<\u00da\u00d4?\u00d8F\u00a6\u00b7p\u0093V\u00e3\u00b3\u00da\u00c2\u00da\u00a8\u00a7N\u0091\u00ab\u00a1\u00d4\u00db\u008c\u00a8\u0007\u009c;\u000f\u00ac\u0095\u008eC\u00fc\u009f\u008c\u009e\u00bf\u0017H.\u00eb{\u00da\u0013P\u008c\u0091\u00e6\u00a1\u0088\u0004t`\u00c59\u008a\u00aa\u00f5\u00c8u\u0002\u00fb\u00ee\u00fa\u00f4`",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51091-54.237.141.217:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51091-54.237.141.217:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 500 bytes)",
+        "Medium entropy (7.79)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "Q\u00009\u0002!\u0000\u00fc\u008c\u008a!c\u00dc\b\u0015\u00b0\u0006\u00e7P<Z\u00b7d\u0014\u00f1\u0007\u00a2\u00f3m|=U\u00fc\u0003\u00db\u0012\r\\\u00830\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000e\u0004+\u00a0S!\u00f0\u00e0\u00c65\u00cf]\u007fnQ1\u00c9\"Z\u00e6Of\u00af\u00a8\u0092\b\u00b2\u0098\u0011\u00c4F+\u00f49\u0012\u00a4t\u00a1iD\u001f\u00cd\u00e4,\u00c6\u0095\u00145a&L\u00c6\u0012d\u008d/\u00df)\r6\u00a4Y\u0002U=\u00e6\u00fe\u0013\u00aeD\u0089\u0013OV\u00cb\u009bi.lI\u00b6v]\u0085\u00f7\u00e7\u00e3\u0083l\b\u0082)\u00c9\u00d8\u0088M#\u0017\u008b\u00d0\u00e0s\u00d0\u00d6\u00aa\u000e\u0088\u00f3\u00aa\u0003;:\u00bdeX\u0097\u00cf\u001d\u00fb\u00c08\u0096\u00ff+\"\u00d2h;\u001b\u00eb\u00ef\u00f4\u0081\u00ca\u001a\u00bd:\u00c6\u00ab\u00a7\u0013\u00a1",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:2600:1f18:4405:f30b:f1da:20f3:6a0d:fda2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51131",
+      "protocol": "TCP",
+      "endpoints": "2600:1f18:4405:f30b:f1da:20f3:6a0d:fda2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51131",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 600 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2",
+          "20250708124842Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\\\u00d7\u00e6n\u009f\n\u0097x\u00f26&\u00f37f9\u00d6u\u008e\u0085\u00d6\u00b1\u00b1\u00a7X\u00a1\u0085\\\n$\u00f7\nB1\u0014<\u00f4\u0017\u0000\u001d\u0000 \u0080vq\u00cb\u00cf>\u0003s,\u008b\u0084\b:\u00e8G\u0092\u001fh\u00b7\u00f8\u00fb\u00df\r\u00d8i\u00d9\u0090+\u008c-\u0003[\u00ff\u0001\u0000\u0001\u0000\u0000\u0005\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017\u0000\u0015\u0000\u0000\u0012us04images.zoom.us\u0000\u001b\u0000\u0003\u0002\u0000\u0002\u0000\u0010\u0000\u000e\u0000\f\u0002h2\bhttp/1.1\u0000-\u0000\u0002\u0001\u0001\u0000\u0012\u0000\u0000\u0000#\u0000\u0000\u0000\u000b\u0000\u0002\u0001\u0000D\u00cd\u0000\u0005\u0000\u0003\u0002h2\u0000\u0017\u0000\u0000\u0000\r\u0000\u0012\u0000\u0010\u0004\u0003\b\u0004\u0004\u0001\u0005\u0003\b\u0005\u0005\u0001\b\u0006\u0006\u0001\u00fe\r\u0000\u00ba\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2620:123:2015:1:206:247:99:206:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51219",
+      "protocol": "TCP",
+      "endpoints": "2620:123:2015:1:206:247:99:206:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51219",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 253 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "zoomiad20624799206rw"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "@iP\u001bTQ\u00b1\u0001i?\u0097\u000e:\u001c%F\u000bh\u009a\u0007\tPa\\3j\u0015(\u00c7I\u0083+\u00a6kzm\u00d4f^\u0010\u00e1\u0081\u00fbc\u0088\u0082\u0015\u0010r\u00ac\u0084\u00b1AM\u00ebH\u00a1cB\t\u00c2\u0097\u00bf\u000e\u0018\u00a0|A3O\u00e0\u00ad\u00d8\u0001\b\u008cZ^\u008f\u00e4GIHq\u0010\u00e1\u008e\u00b0rN\u00c3s\u0004\u00c76\u0080:\u00bbv\u00a4Wv\u0012<\u0016\nsj\u00b8\u00b4\u00b4O\u00e9\u00b2\u00a1\u009a\u00c9\u00e4#\u0003Y\u009c3\u00e1i\u0081\u0011qV\u0016\b\u007f\u008a\u00b1=m\u0006\t\u0012Uri\u0084\u00a6|\u0084-\u00d0<\u00a8i\u0095\u00a0cg\u008d\u00f2{]\u00b6\u009bY\u00d4\u00a1\u0019\u00ef\u00f0f\u00a3\u00d1\u008b>\u00cb_.\u0013\u001a\b\u00b3\u0011\u00d1\u0094\u0099\u00c6\u001aF\u009d`}H;\u0086w\u00b1\u00b5\u00e8\u00d3\f\u0092\u00a9",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2620:123:2015:1:206:247:99:206:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51222",
+      "protocol": "TCP",
+      "endpoints": "2620:123:2015:1:206:247:99:206:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51222",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 60 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "zoomiad20624799206rw"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u000f\u0000\u0014y\u00af\u00f6\u0001qE)\u009fD!\u00a6*+\u0094\u0006\u00ce\u00b2\u0012\u009f2\u00d7\u008f\u00c5\u00c99\u001ec\u0090\u0085\u00f0\u00cdq\t\u00ca\u00f8dW\u0003\u00d3\"\u0012%\u009c8\u00ef!\u009c\u00b1\u00e7-\u00e9\u00b8)\u00da\u00e0\u009c\u00c0\u00beb\u00b3\u00fdArQ\u0018\u0095\u00c7\u00cb\u00d3w\u00bfV\u0096u\u00c0Q[yL\u00a4\u00f3QH\u00f0\u0016\u0096Q\u009f\u000e\u00f1\u007fg\u0000\u001d\u0000 \u00faEsg\u0098s\u00d8\u00bb\u00cd\u00ea\u008d\"\u008e\u00d6\t\u001bZ\u008cm\u008c\u00f0\u0013'jUh\u0095\u00a9\u00aeJ\u00d30\u0000\u0005\u0000\u0005\u0001\u0000\u0000\u0000\u0000\u0000+\u0000\u0007\u0006JJ\u0003\u0004\u0003\u0003\u0000\u0000\u0000&\u0000$\u0000\u0000!zoomiad20624799206rwg.iad.zoom.us\u0000\u000b\u0000\u0002\u0001\u0000\u0000",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:2620:123:2015:1:206:247:99:206:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51224",
+      "protocol": "TCP",
+      "endpoints": "2620:123:2015:1:206:247:99:206:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51224",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 50 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "zoomiad20624799206rw"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0091\u00aa\u0015(?jdD\u00f4y\u00b5\u00b7\u0088\u00ba\u0002\u00e2\u008f4\u0094\u0006 U\u0086s\u0001\u0081\u00fdc\u00cc\u007f\u00f1Py\u00f9\u0085)\u0084M\u0012\u00f3\u00c3\u00c1\u0016\u00b0\u00c7\u00dc\u00b2\u00a0\u0011*\u0086P\u007f\u00a7\u00dbb\u009d\u00a7g\u00a3\u00b6\u001c\u00942\u00beI\u00b1xx\u00cc\u00a9\u00db\u0003\u00bb\u0012\u00a2~;\u00951\u00be\u00a3\u00bf\u00fd%\t\f\u00d0>Y\u00c9\u00cc8\u00d0\u00cf/9l\u0091\u0001T-:E7\u00b0N\u00c3\u00e5Am\u000b`X\u0005\u009c\u00c9\u00dc[\u00d3\u0000\u00bbP\u0015\u00a9\u00ed\u00c4\u000f\u00e0\u0085\u0011\tZI\u0015C\u008c$\u0097\u0099\u00c2\u0010\u00c26f9\t\u0084q\u00ab\u00f2x\u00be\u0019\u00b0\u00b4\u00a4V>\u00c7\u0015\u0017\u0089\u00ca.\u00fc>cF@P3\u0093\u008d3O:\u00dbJN\u00e7\u00b0\u00dd\u00f1\to$\u0006g\u00dc<ya\f\u00deh7\u00ccu|",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51232-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51232-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51231-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51231-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51230-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51230-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51233-81.242.3.34:80",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51233-81.242.3.34:80",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 170 bytes)",
+        "Medium entropy (5.00)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "GET /connecttest.txt HTTP/1.1\r\nCache-Control: no-cache\r\nConnection: Close\r\nPragma: no-cache\r\nUser-Agent: Microsoft NCSI\r\nHost: www.msftconnecttest.com\r\n\r\nHTTP/1.1 200 OK\r\nContent-Length: 22\r\nDate: Tue",
+      "geoip_info": "BE, Wortegem, Flanders, AS5432 Proximus NV"
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:7070::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51238",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:7070::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51238",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 765 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250704170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51274-54.237.141.217:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51274-54.237.141.217:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 167 bytes)",
+        "Medium entropy (7.79)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00cc\u00d1\u00f6\u001c\u00a1\u00ab\u00ef\u00afH\u00ea\u00b1\u00af\u00f5\u0003\u0086\u00ad\u0006\u0087\u009d\u0088\u0006\n\u0081\u0005j\u00a4\u00b4\u00e0\n\u0091\u00fd\u00e8\u00eeO\u0080\u00e3&\u00b2JL{,Z\u00a8\u00b3\u0094\u00fcO\u00c6\u00df\u0007\u009eB\u00d2*\u00d7jfS\u00db\u00e2\u009f5\u00e6\u00db\u0093\u0084\u0086\u0001\u00cd\u00bd&)\u00e1\u00b8pp\u00a8\u0004\u00cdK\u00c9\u0095Q\u009d,\u00c9<\u0013\u00e1\u0015&\u00b3u\u00cb\u00d2\u00b7to\u00b4j\u001a\u00e9`\u00ed\u00bf\u00a6c\u0080\u0002m\u00f2\u00eeB\u00b0.[\u00f99\u00c5<\u0016\u00d7\u00ads\u00e0MV\u00d1\"k(as?w\u00cbS\u00f7\u00f96H\u00dc\u00dc3z}\u00b1\u00ce\u0099\u00de#V\u00a80#\u008d\u008d\u00bf\u0014\u00a6\u0010.r\u008b\u000em\u00a4\u008a\u0018\u00ae\u00de\u009e\u00e6\u00c9AK\u0080\u0019\u0000jW?W\u0087\u00e7\u00e0\u009d\\\u00b9\u009c@2\u00e8\u001c\u00e1\u00efdL\u0016",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:10.32.237.239:51297-34.230.97.182:443",
+      "protocol": "TCP",
+      "endpoints": "10.32.237.239:51297-34.230.97.182:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 450 bytes)",
+        "Medium entropy (7.71)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "Q\u00009\u0002!\u0000\u00fc\u008c\u008a!c\u00dc\b\u0015\u00b0\u0006\u00e7P<Z\u00b7d\u0014\u00f1\u0007\u00a2\u00f3m|=U\u00fc\u0003\u00db\u0012\r\\\u00830\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000e\u0004+\u00a0S!\u00f0\u00e0\u00c65\u00cf]\u007fnQ1\u00c9\"Z\u00e6Of\u00af\u00a8\u0092\b\u00b2\u0098\u0011\u00c4F+\u00f49\u0012\u00a4t\u00a1iD\u001f\u00cd\u00e4,\u00c6\u0095\u00145a&L\u00c6\u0012d\u008d/\u00df)\r6\u00a4Y\u0002U=\u00e6\u00fe\u0013\u00aeD\u0089\u0013OV\u00cb\u009bi.lI\u00b6v]\u0085\u00f7\u00e7\u00e3\u0083l\b\u0082)\u00c9\u00d8\u0088M#\u0017\u008b\u00d0\u00e0s\u00d0\u00d6\u00aa\u000e\u0088\u00f3\u00aa\u0003;:\u00bdeX\u0097\u00cf\u001d\u00fb\u00c08\u0096\u00ff+\"\u00d2h;\u001b\u00eb\u00ef\u00f4\u0081\u00ca\u001a\u00bd:\u00c6\u00ab\u00a7\u0013\u00a1",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:2603:1026:c03:5818::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51298",
+      "protocol": "TCP",
+      "endpoints": "2603:1026:c03:5818::2:443-2a02:a020:5c7:20da:6978:3bb5:5a96:9bb:51298",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 756 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20250705170155Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/www.digicert.com/CPS0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u001d\u0006\u0003U\u001d%\u0004\u00160\u0014\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudService",
+      "geoip_info": "Not available"
+    }
+  ]
+}

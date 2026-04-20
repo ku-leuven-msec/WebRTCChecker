@@ -1,0 +1,278 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.8:48208-52.98.253.2:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:48208-52.98.253.2:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 661 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.78)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20240912040115Z0s0q0"
+        ]
+      },
+      "payload_snippet": "\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudServicesCA-1-g1.crl0|\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004p0n0%\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086\u0019http://ocspx.d",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:48990",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:48990",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.39)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:40202-40.126.53.21:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:40202-40.126.53.21:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 827 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.77)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "mobileappcommunicato",
+          "2strongauthenticationservice",
+          "strongauthenticationserv",
+          "com/DigicertSHA2SecureServer",
+          "com/DigicertSHA2SecureServer",
+          "com/DigiCertSHA2SecureServer",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20240911163700Z0s0q0"
+        ]
+      },
+      "payload_snippet": "communicator.auth-ppe.microsoft.com\u0082(mobileappcommunicator.auth.microsoft.com\u0082\u0017pad-stage.thepftest.com\u0082\u0013pad.phonefactor.net\u00822strongauthenticationservice.auth-ppe.microsoft.com\u0082.strongauthenticationser",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:45868-4.153.25.145:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:45868-4.153.25.145:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 751 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.64)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "payload_snippet": "\u00e3\u00fbR\u00fa\u00bb\u00a1\u00ad\u0090\u00da\u00ab-\u0085\u00e9\u00dfW\u0005\u00d30\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00E\u0006\u0003U\u001d\u0011\u0004>0<\u0082\u000e*.appcenter.ms\u0082\fappcenter.ms\u0082\u001ccodepush.teams.microsoft.com0\f\u0006\u0003U\u001d\u0013\u0001\u0001\u00ff\u0004\u00020\u00000j\u0006\u0003U\u001d\u001f\u0004c0a0_\u00a0]\u00a0[\u0086Yhttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20T",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:45870-4.153.25.145:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:45870-4.153.25.145:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 751 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.64)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "payload_snippet": "\u00e3\u00fbR\u00fa\u00bb\u00a1\u00ad\u0090\u00da\u00ab-\u0085\u00e9\u00dfW\u0005\u00d30\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00E\u0006\u0003U\u001d\u0011\u0004>0<\u0082\u000e*.appcenter.ms\u0082\fappcenter.ms\u0082\u001ccodepush.teams.microsoft.com0\f\u0006\u0003U\u001d\u0013\u0001\u0001\u00ff\u0004\u00020\u00000j\u0006\u0003U\u001d\u001f\u0004c0a0_\u00a0]\u00a0[\u0086Yhttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20T",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:40222-40.126.53.21:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:40222-40.126.53.21:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 674 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.58)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "mobileappcommunicato",
+          "2strongauthenticationservice",
+          "strongauthenticationserv",
+          "com/DigicertSHA2SecureServer",
+          "com/DigicertSHA2SecureServer",
+          "com/DigiCertSHA2SecureServer",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20240911163700Z0s0q0"
+        ]
+      },
+      "payload_snippet": "communicator.auth-ppe.microsoft.com\u0082(mobileappcommunicator.auth.microsoft.com\u0082\u0017pad-stage.thepftest.com\u0082\u0013pad.phonefactor.net\u00822strongauthenticationservice.auth-ppe.microsoft.com\u0082.strongauthenticationser",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:49016",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:49016",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:49018",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:49018",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.39:57110-3.65.95.68:8883",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.39:57110-3.65.95.68:8883",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 69 bytes)",
+        "Medium entropy (7.55)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000@\u0084$JV\u0081\u008fC\b\u00bb\u00f4ke\u00a4Amrr\u001c\bC\u00a4\u00c8\u00e6\u001e\u008f5\f\u0007K}\u0002\u00f1\u00e5\u0095\u0087:>n\u0092\u0013\u0095\u008ciUFP\u00f6\u00bcu\u00a0*\u00cb\fc\u00d7\u0016\u00df>\u0089\u00f4\u00b7\n[\u0001\u0017\u0003\u0003\u0000@\u00b4+\u0014BJM=\u0015\u00fd\f2\u00a3\u00bb\u00ddX\u00fe\u00bbn\u0004g9\u0096U\u00ae\u00fda\u00c4\u0096>\u00e5\u00b9\u0001\u00ffr\u0000_h\n\u009f\u00dc-e\u00ef\u009c\u00e3\u008c\u0085\u0087\u001fb\u001d\u0097\u00ab\u00d3\u00eb\u001a\u007f'\u00f5\u00eb',\u00b9\u00fe\u0017\u0003\u0003\u0000@a\u0098\u0017\u0003+\u0087\u00a8\u008bM|p\u00cc\u00e8\u0081U\u0083\u008b\b\u00a2\nZ\u009c@-\u00cb\u00dd:\u0018\u00cf\u0093d_:\u0003\u00a1\u008b:\"\u0083_.\u0085u\u00d6r!q\u0011\u0016\u00d4i\u0003\tD<\u00a8\u00fe",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:48206-52.98.253.2:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:48206-52.98.253.2:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20240911040117Z0s0q0"
+        ]
+      },
+      "payload_snippet": "\u0003\u0001\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudServicesCA-1-g1.crl0|\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004p0n0%\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086\u0019http://ocspx.d",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:38508-40.126.32.66:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:38508-40.126.32.66:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "enterpriseregistrati",
+          "enterpriseregistrati",
+          "enterpriseregistrati",
+          "enterpriseregistrati",
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "payload_snippet": "csp0\u001d\u0006\u0003U\u001d\u000e\u0004\u0016\u0004\u0014\u0097Y\u00e2\u0013\u00f7#\u00876\u0003\u00ea\b9\t\u00b5h\u001d&\u00df\u00ccQ0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0081\u00a7\u0006\u0003U\u001d\u0011\u0004\u0081\u009f0\u0081\u009c\u0082(*.enterpriseregistration-ppe.windows.net\u0082$*.enterpriseregistration.windows.net\u0082&enterpriseregistration-ppe.windows.net\u0082\"enterpriseregi",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.39:54234-3.125.199.146:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.39:54234-3.125.199.146:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 276 bytes)",
+        "Medium entropy (7.73)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0011\f\r*.tuya-inc.cn1\u00150\u0013\u0006\u0003U\u001d\u0011\f\f*.tuyajp.com1\u00150\u0013\u0006\u0003U\u001d\u0011\f\f*.tuyain.com1\u00150\u0013\u0006\u0003U\u001d\u0011\f\f*.tuyaas.com1\u00150\u0013\u0006\u0003U\u001d\u0011\f\f*.tuyaaf.com1\u00150\u0013\u0006\u0003U\u001d\u0011\f\f*.tuyasa.com1\u00150\u0013\u0006\u0003U\u001d\u0011\f\f*.tuyarf.com1\u00130\u0011\u0006\u0003U\u001d\u0011\f\n*.tuya.com0\u0082\u0001\"0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u0001\u0005\u0000\u0003\u0082\u0001\u000f\u00000",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

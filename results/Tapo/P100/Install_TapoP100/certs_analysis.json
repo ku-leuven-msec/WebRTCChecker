@@ -1,0 +1,145 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-11-02T13:42:26+00:00",
+    "valid_until": "2023-01-25T13:42:25+00:00",
+    "issuer_cn": "GTS CA 1C3",
+    "subject_cn": "*.google-analytics.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.google-analytics.com')>",
+      "<DNSName(value='region1.app-measurement.com')>",
+      "<DNSName(value='app-measurement.com')>",
+      "<DNSName(value='google-analytics.com')>",
+      "<DNSName(value='region1.google-analytics.com')>",
+      "<DNSName(value='ssl.google-analytics.com')>",
+      "<DNSName(value='www.google-analytics.com')>",
+      "<DNSName(value='region1.analytics.google.com')>",
+      "<DNSName(value='googletagmanager.com')>",
+      "<DNSName(value='www.googletagmanager.com')>",
+      "<DNSName(value='urchin.com')>",
+      "<DNSName(value='service.urchin.com')>",
+      "<DNSName(value='fps.goog')>",
+      "<DNSName(value='*.fps.goog')>",
+      "<DNSName(value='googleoptimize.com')>",
+      "<DNSName(value='www.googleoptimize.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "ECPublicKey",
+    "fingerprint": "B6:B1:26:F5:83:0E:01:71:E6:2C:7C:BD:83:38:60:D0:FD:17:40:06:EE:FE:8D:05:E1:8F:8C:D1:54:BE:DF:F7",
+    "found_in_packet_number": "219",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "172.217.168.206",
+      "type": "Public",
+      "hostname": "ams16s32-in-f14.1e100.net"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.218",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-06-17T00:00:00+00:00",
+    "valid_until": "2023-06-17T23:59:59+00:00",
+    "issuer_cn": "GEANT OV RSA CA 4",
+    "subject_cn": "outlookanywhere.kuleuven.be",
+    "subject_alternative_names": [
+      "<DNSName(value='outlookanywhere.kuleuven.be')>",
+      "<DNSName(value='activesync.kuleuven.be')>",
+      "<DNSName(value='autodiscover.conict.be')>",
+      "<DNSName(value='autodiscover.kuleuven.be')>",
+      "<DNSName(value='autodiscover.luca-arts.be')>",
+      "<DNSName(value='autodiscover.rooms.kuleuven.be')>",
+      "<DNSName(value='ews.groupware.kuleuven.be')>",
+      "<DNSName(value='owa.groupware.kuleuven.be')>",
+      "<DNSName(value='owa.student.kuleuven.be')>"
+    ],
+    "signature_algorithm": "sha384WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "7F:E8:77:3B:1C:9A:DF:9D:37:94:75:88:39:35:75:76:D3:2B:5A:3D:07:A3:6C:72:11:94:F7:42:02:71:AE:41",
+    "found_in_packet_number": "345",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "134.58.67.53",
+      "type": "Public",
+      "hostname": "activesync.icts.kuleuven.be"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.218",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-09-08T21:29:33+00:00",
+    "valid_until": "2023-09-03T21:29:33+00:00",
+    "issuer_cn": "Microsoft Azure TLS Issuing CA 06",
+    "subject_cn": "*.events.data.microsoft.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.events.data.microsoft.com')>",
+      "<DNSName(value='events.data.microsoft.com')>",
+      "<DNSName(value='*.pipe.aria.microsoft.com')>",
+      "<DNSName(value='pipe.skype.com')>",
+      "<DNSName(value='*.pipe.skype.com')>",
+      "<DNSName(value='*.mobile.events.data.microsoft.com')>",
+      "<DNSName(value='mobile.events.data.microsoft.com')>",
+      "<DNSName(value='*.events.data.msn.com')>",
+      "<DNSName(value='events.data.msn.com')>",
+      "<DNSName(value='*.events.data.msn.cn')>",
+      "<DNSName(value='events.data.msn.cn')>",
+      "<DNSName(value='oca.microsoft.com')>",
+      "<DNSName(value='watson.microsoft.com')>",
+      "<DNSName(value='*.vortex.data.microsoft.com')>",
+      "<DNSName(value='vortex.data.microsoft.com')>"
+    ],
+    "signature_algorithm": "sha384WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "EF:50:FC:16:79:FD:38:5C:CC:C1:9D:1D:10:77:16:59:3B:17:8A:F5:48:E9:F4:F6:49:F3:B0:10:70:1F:B2:6E",
+    "found_in_packet_number": "438",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "40.79.141.154",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.218",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2021-10-22T01:40:18+00:00",
+    "valid_until": "2023-10-22T01:40:18+00:00",
+    "issuer_cn": "TP-LINK CA P1",
+    "subject_cn": "*.tplinknbu.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.tplinknbu.com')>",
+      "<DNSName(value='*.i.tplinknbu.com')>",
+      "<DNSName(value='*.iot.i.tplinknbu.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "56:3C:B5:3E:2C:93:14:C0:A0:CB:9B:13:C9:B4:71:56:75:04:5E:D7:2C:81:E7:CC:94:9C:85:E0:F1:84:08:EA",
+    "found_in_packet_number": "991",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.16.50.221",
+      "type": "Public",
+      "hostname": "ec2-52-16-50-221.eu-west-1.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.205",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

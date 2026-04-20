@@ -1,0 +1,95 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:10.129.179.30:64140-170.72.231.161:443",
+      "protocol": "TCP",
+      "endpoints": "10.129.179.30:64140-170.72.231.161:443",
+      "likelihood_score": 6,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.65)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "20230104031916Z0l0j0",
+          "com/repository/mastergodaddy2issuing"
+        ]
+      },
+      "payload_snippet": "\u001e\u00e9\u0084\u0016p2\u0013\u0085M;\u00d2+\u00c1:W\u00a3R\u00ebR\u0000\u0000\u0001\u0082K\u0097<\u00af\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00bf\u00c3Qk\u00e1_\u00b3y{\u009c:\u0086\u00ab\u001e\u00fc\u008cxmz^\u00b8\u00efiq\u00e56)/\u00bb\u00a7\u00bf\u00e3\u0002 \b\u00b7-R\u00e0\u00e2Y\u000b\u00a4$$P\u008dy\fe\u001a\u00d4\u00f4\u0098m\\\u00c7Z\u00fe\u0018\u00df\u00ef\u009bjj{0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000\u00a7\u0014\u00b3.?\u0088\u00c8aF\u00a9\u00a1\u0081\u0089\u008c\u001e\u00ac*\u00fa^\u008c\t2\u00c0Zy\u00ae.\u00d7\u00aa\u001c5\u00cfA\u008d\u00df\u001cp\u00bc\u001f#8\u00d1\u00b4\u001c\u00ff]\u00bf\u00f4\u00d4[\u0081\b\u00d4\u00ef@;'\u007f\u00a3\u0013u\u00f0}\u00e2\u001f\u001cc\u0002\u00ba\u00fb\u00e5\u00d2|\u0083N^",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "UDP:10.129.179.30:54402-134.58.40.31:1194",
+      "protocol": "UDP",
+      "endpoints": "10.129.179.30:54402-134.58.40.31:1194",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 83 bytes)",
+        "Medium entropy (7.79)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "H\u0000\u0000\u0001\u0000\u0000\u0004p\u00a0\u00c2AFY\u008e\u00c3`\u00d8\u009c1\u0005\u0097\u0084;\u001e9\u00ea\u00daeh\u00a0\u00baP\u00b7\u00b1T\u00a8\u00f7O\u0098\u00b2\u00ae)\u00bar\u00b2`\u00aa\u00d4Nkq\u00ba\u00e9\n\u00ed\u00c8\u00fa\u0007\u00b8\u00cam\u00dar\u001d\u00d6\u00a0\u00c4\u00b3w\u0084\u007f\b\u0007\u00f6q\u00a7\u0083RO\u0087\u00ea+\u009c\u00bes\u001c\u0010\u00fb\u0001\u0096\u0016<\u000b\u00981\u00e0\u00ac\u00dbk\u00fbvx\u00e5\u0094|\u001b\u008b\u0000\u00dd\u0013\u00e2\u00e2\\H\u0000\u0000\u0001\u0000\u0000\u0003A\u00dd\r\u00b2ba\u00c5^\u00f7\u00c3_\u00e5\u00efC\u00d3\u00f2\u00d5h6l\u0012\u001dO\u00b2\u0097w\u00de\u00f4b\u00f1^\u00fc\u00e3\u00ae\u00c03Vn\u00ee\u0016\u00e6F\u00fe\u0007n2\u009br\u00bd\u00a1\u00a1\u00943Cj\u00a1OH\u0000\u0000\u0001\u0000\u0000\u0004qBF\u00cb\u009a\u00ea\u0001\u00eeD\u00cf^\u009b\u001fq~k",
+      "geoip_info": "BE, Leuven, Flanders, AS2611 BELNET"
+    },
+    {
+      "session_id": "TCP:10.129.179.30:45276-54.149.255.187:8883",
+      "protocol": "TCP",
+      "endpoints": "10.129.179.30:45276-54.149.255.187:8883",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 31 bytes)",
+        "Medium entropy (5.64)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000\u001a\u00dd*\u00e5,\u00b0\u00dd\u00ff\u00b3\u001flZ\r\u0018O\u00f0\u0091!\u00d6\u00fb\u0088\u00ed\u00de!\u00e0ZG\u0017\u0003\u0003\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\rU\u00f7\u0095\u00e8\u00fbhM\u0007\u00dd\u00ed\u00fa7\u008c\u00de)X\u001ai\u007f\u0017\u0003\u0003\u0000\u001a\u00dd*\u00e5,\u00b0\u00dd\u00ff\u00b4\u00fc\u001d\u00d7\u00bbD\u00e3\u0018E.\u0010\b\u00c8o\u00df\u001f\t\u00e7t\u0017\u0003\u0003\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\rV\u008a\u00c2\\\u00f2\u00bb6\u0010\u00e5)\u00b5\u00c8S\u00bd\u0016\u00f7\u00de\u00e2B",
+      "geoip_info": "US, Boardman, Oregon, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:10.129.179.30:64114-170.72.231.161:443",
+      "protocol": "TCP",
+      "endpoints": "10.129.179.30:64114-170.72.231.161:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (5.26)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00ea\u00cd\u00d6\u00fe#U\u00ecO\u00ecd\f@,O\u001dE\u00027\u00ae\u00fa\u0018\u009b\u00f2!\u0000\u0000\u0000\u0000\u0000\u0003\u0080]i\u0091\u007f\u00cf\u00a2\u001c\u00cb\u00c5H\u00bb`\n\\\u0015\u00bf\u001f",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:10.129.179.30:63892-142.250.179.170:443",
+      "protocol": "TCP",
+      "endpoints": "10.129.179.30:63892-142.250.179.170:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.02)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000e\u00f2\u00b7\u0096\u0001\u00a55\u00e4\u007f\u0002e\u008d\u00d5<\u00e8\u00ff8\u0084\u00f4",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:10.129.179.30:64139-142.250.179.202:443",
+      "protocol": "TCP",
+      "endpoints": "10.129.179.30:64139-142.250.179.202:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (5.26)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00baJ\u009dJ\u0095\u0092\u00fa\u00dc\u00c5\u00ed\u0090\u00b2\u00c3\u0093[\u00d6v\u00c4\u008f\u00e1Y\u00e4\u00ael\u00c19\u00c1\u00f9\u00e9\u00f7\u00fe\u0093\u001b$L\u001dt\u00e1}\u0090\u00f4W\u00ff\u008e\u00c1\u0003\u0093\u00d9",
+      "geoip_info": "NL, Amsterdam, North Holland, AS15169 Google LLC"
+    }
+  ]
+}

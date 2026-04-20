@@ -1,0 +1,65 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.125:50019-23.12.150.38:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50019-23.12.150.38:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.22)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00b1\u00df\u0098\u0087k*VV\u00bc\u001f\u00c9w\u008a`gV\u00bc\u00de\u00ea*\u009e\u00fb\u00b3X",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS16625 Akamai Technologies, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50015-23.12.150.38:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50015-23.12.150.38:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.42)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00e5\u00f1\u00b4\u00fb\u008ae\u0013j1\u00cbp\u0018]j\u0093\u001a\u000e\u000781g^&\u0092",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS16625 Akamai Technologies, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50123-64.233.166.94:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50123-64.233.166.94:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 46 bytes)",
+        "Medium entropy (6.71)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00b4M\u00d2Xl\u0004\u00a2\u00e4\u0080\u008d\u0095\u00dd\u0080\u008f\u00c34\u00037\u00ea\u00ec\u00d7\u00fc\u00a3\u007f=\u00e9+\u00e2q\u0087\u00e5Xr\u0090\u00e2t\u0019m\u00a0\u008b\u00c9\u0007:\u008a\u0014]\u001e\f\u00b8z\u0018\u00c7t\u00a45v\u000f\u00cfC0\u00a2c\u00ce\u0002\u001d\u0013\u0099V\u0094\u0003!\u0088\u0090\u009c\u0095\u0088\u00b6\u00e5t;A\u00f9e\u00ca\u00bbv9\u00b3)1\u00be$\u00cbJ!\u00ce7\u00846(\u00f6\u009boHh\u00ce\u00af\u00f2\u00a1\u00f5\u001fV|U\u0081\u0099\u008ek\u00b9A@\u00e8\u00e4\u00eeI\u0084\u0010\u00a4!\t1\u001c\u00be\u00ab\nH\u00b4\u0005\u0000",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.125:50132-99.77.190.2:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.125:50132-99.77.190.2:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 595 bytes)",
+        "Medium entropy (7.51)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": ":\u00e9\u00ae \u0093\u0018R\u0099\u0088\u0094Qr\u00a0\u0094\u00b8\u0002 Q%\u0091\u00e6\u00da\u00a23\u00f8k\u00b1\u00b9\u0000\u00f1\u0001s\u009elw\u001f\tt\u00f1\u00ccpS\u009b\u00e6\u008a9_\u00c7\u00800\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000\u00b8:*.\u008e!\u0087{7\u0083\u0097I\u008e\u00ab\u00fe5f\u00c7\u0095\u001a\u0083\u0081\u00c3\u00a8\u00b9\u00ec\u009a\u00b2?\u009c\tK\u00ff\u00a5\u001f\u00f7G\u00a5\u008a\u001bZ\u001fF~\u00d9{\u00072d\u0017\u001e\u0094\u00f7\u007f\u00c6\u00beQ\u0014\u00df\u00e6\u0095\u00e3?\f\u0003\u00b3c\u00cb\u00a5\u00d3\u00b5vn\u00cb\u00ffn\n\u0000hmA\u00b4\u008c\u00f4\u00e7\u00ac/d\u00af\u001cg\u00baJ\u00e2\u007f\u00a2\u009e\u00df\u00d4\\\u00a1s\u009d\u000b&\u00bb\u009f\u00c0\u00ae\\r\u0090\u00ed)\u0088G\u00a5\"\u00be\u0085}\u0010\u00c0\u009c?_\u00f3g_\u00ca\u00e1",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    }
+  ]
+}

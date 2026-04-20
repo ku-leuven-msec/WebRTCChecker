@@ -1,0 +1,47 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.205:52432-34.255.72.122:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.205:52432-34.255.72.122:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 328 bytes)",
+        "Medium entropy (7.71)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "0\u0011\u0006\u0003U\u0004\u0003\u0013\ntp-link-CA0 \u0017\r200519092102Z\u0018\u000f20680119083752Z0Z1\u00120\u0010\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0002cn1\u00130\u0011\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0003com1\u00170\u0015\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0007tp-link1\u00160\u0014\u0006\u0003U\u0004\u0003\u0013\rTP-LINK CA P10\u0082\u0001\"0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u0001\u0005\u0000\u0003\u0082\u0001\u000f\u00000\u0082\u0001\n\u0002\u0082\u0001\u0001\u0000\u00bf\u0080\u00cc\u00ad$M\u00b68\u00ed?\u00edl\u00c0\u00dbB\n\u00d8l8(\u00b2\u00cb",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.205:52433-34.241.202.223:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.205:52433-34.241.202.223:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 435 bytes)",
+        "Medium entropy (7.70)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "0\u0011\u0006\u0003U\u0004\u0003\u0013\ntp-link-CA0 \u0017\r200519092102Z\u0018\u000f20680119083752Z0Z1\u00120\u0010\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0002cn1\u00130\u0011\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0003com1\u00170\u0015\u0006\n\t\u0092&\u0089\u0093\u00f2,d\u0001\u0019\u0016\u0007tp-link1\u00160\u0014\u0006\u0003U\u0004\u0003\u0013\rTP-LINK CA P10\u0082\u0001\"0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u0001\u0005\u0000\u0003\u0082\u0001\u000f\u00000\u0082\u0001\n\u0002\u0082\u0001\u0001\u0000\u00bf\u0080\u00cc\u00ad$M\u00b68\u00ed?\u00edl\u00c0\u00dbB\n\u00d8l8(\u00b2\u00cb",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:18.200.77.90:443-192.168.1.205:52437",
+      "protocol": "TCP",
+      "endpoints": "18.200.77.90:443-192.168.1.205:52437",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 62 bytes)",
+        "Medium entropy (5.79)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00fd^\u0090\u0082\u00c6!\u0098_8\u00ef\u001c&=\f\u00c5\u00dc\u00f4~%P\u00ed\u0085$\u00a2sR\u0083[\u00ce\u00a0\u0018\u00c7\u00e4\u00c2.\u00e4Q\u0003\u0088\b\u0085\u008d\u00f60\u00fc$\u00db0>Og\u0080\u00be\u009c\u00ca\u0001\u001dl\u0095=\u0005\u001a",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    }
+  ]
+}

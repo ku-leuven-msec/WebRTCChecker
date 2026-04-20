@@ -1,0 +1,132 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.16:50871-52.105.157.27:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.16:50871-52.105.157.27:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 786 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.78)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00c0\u00f3^\u00f1\u00ac\u0090\u00b5\u00aa\u00ae0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0081\u00af\u0006\u0003U\u001d\u0011\u0004\u0081\u00a70\u0081\u00a4\u0082\u0010*.sharepoint.com\u0082%*.sharepoint.apac.microsoftonline.com\u0082%*.sharepoint.emea.microsoftonline.com\u0082 *.sharepoint.microsoftonline.com\u0082 *.gr.global.aa-rt.sharepoint.",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.16:50873-40.99.204.18:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.16:50873-40.99.204.18:443",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 659 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.71)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertCloudService",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "com/DigiCertGlobalRootCA",
+          "20241130050128Z0s0q0"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u0005\u0007\u0003\u00020\u0081\u008d\u0006\u0003U\u001d\u001f\u0004\u0081\u00850\u0081\u00820?\u00a0=\u00a0;\u00869http://crl3.digicert.com/DigiCertCloudServicesCA-1-g1.crl0?\u00a0=\u00a0;\u00869http://crl4.digicert.com/DigiCertCloudServicesCA-1-g1.crl0|\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004p0n0%\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0001\u0086\u0019http://ocspx.digicert.",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:13.70.79.200:443-192.168.1.16:50870",
+      "protocol": "TCP",
+      "endpoints": "13.70.79.200:443-192.168.1.16:50870",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 756 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/MicSecSerCA20",
+          "com/pkiops/certs/MicSecSerCA2011",
+          "com/pki/crl/products/MicRooCerAut201",
+          "com/pki/certs/MicRooCerAut20"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "/<\u00acB\u0016PM\u0091\u00b93\u00d7\u00910S\u0006\u0003U\u001d\u001f\u0004L0J0H\u00a0F\u00a0D\u0086Bhttp://www.microsoft.com/pkiops/crl/MicSecSerCA2011_2011-10-18.crl0`\u0006\b+\u0006\u0001\u0005\u0005\u0007\u0001\u0001\u0004T0R0P\u0006\b+\u0006\u0001\u0005\u0005\u00070\u0002\u0086Dhttp://www.microsoft.com/pkiops/certs/MicSecSerCA2011_2011-10-18.crt0\r\u0006\t*",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:13.107.138.10:443-192.168.1.16:50872",
+      "protocol": "TCP",
+      "endpoints": "13.107.138.10:443-192.168.1.16:50872",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 822 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/pkiops/crl/Microsoft",
+          "com/pkiops/Docs/Reposito",
+          "com/DigiCertGlobalRootG2",
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u009dp\u001b\u0091\u0001\u0005Z]\u00ed\\\u0003Rd\u00e4\u00fc|\u00cd\u0092Y0\u000e\u0006\u0003U\u001d\u000f\u0001\u0001\u00ff\u0004\u0004\u0003\u0002\u0005\u00a00\u0081\u00af\u0006\u0003U\u001d\u0011\u0004\u0081\u00a70\u0081\u00a4\u0082\u0010*.sharepoint.com\u0082%*.sharepoint.apac.microsoftonline.com\u0082%*.sharepoint.emea.microsoftonline.com\u0082 *.sharepoint.microsoftonline.com\u0082 *.gr.global.aa-rt.s",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.16:50874-3.14.237.94:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.16:50874-3.14.237.94:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 285 bytes)",
+        "Medium entropy (7.71)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u00bdw\u00fb0\u0011\u001a\u00ce\u00c5\u00e3`\u0098\u00d2\u0005\u0019d\u008e_\u0005z\u0004\u00d8(\u00d4C\u0099\u00ac\u00bcp\u00b8\u00f0a'C\u001a\u00b3\u00b9j\u00dfP\u00c2\u00e9\u00e11u\u00d8b\u00c0\u00b6X>\u00f7\u009b\u00d4\u00ab8L\"x&\u00c9\u00174q\u00ce\n\u008a\u00ba\u00bc\u00dc\u00c0\u00a0,:\u0083\u00e2\u00c3)\u0087\u00a9\u00a5\u00e5J\u00e2\u00bc\u00c4\u00ec\"\u0013\u00eb\u0084O\u00d0%R\u00fe\u00c4\u00b5\u00fbK\u0093\u001a\nC\u00c9s\u00aaT\u00d1!8\u0000%T\u00fbZ\u00e4\u0094K\u00d5\u00c0\u008d\u00d6\u00bc\u0096\u00d9\u0011&\u00ac\u008a\u0083h\u0012\u001c\u009ajVX\u0000\r\u00f4\u0083WM\u00b8\u0006\u00e1\u00c2L\u0091\u00b9\u008f\u008d\u00ea\u0003v\u00e1v\u00d1\u00eb`\u00c8,d\u0011\u00c6Ry|\u001aM\f\u001b\u00e9Q\u00ce\u0083\u0014\u000f\\Q\u00c2\u00d4\u00fa\u001f\u00c8\u00b45y\u000b\u0000\u000fX,W\u00a3\u00b9\u00abj\u0095\u00b0",
+      "geoip_info": "US, Columbus, Ohio, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.16:50882-74.125.71.103:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.16:50882-74.125.71.103:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 337 bytes)",
+        "Medium entropy (7.70)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "?|\u00d6\"\u000ft\u00c5/b:@\u00ea\u00ca\u0002q\u00ccI\u0018\u000f\u00f9\u00c4&~\u00edN\n7\u00c2\u000f\u00bcW<\u00d3;|\u00b7n\u0012\u001e\u00b3\u00e8Fy\u008c\u00e5\u0004\u0000\u001d\u0000 \u0011\u00176C\u00a7\u00df\u008b\u00f2\u00b0xkb\u0012\u00d9\u00ed\u00fe\u00d9\u00b3\u00fa\u008c\u0087\u001aN\u00a3\u00d1\u001b\\o\u00fa\u001d(^\u0000\u001b\u0000\u0003\u0002\u0000\u0002\u0000\r\u0000\u0012\u0000\u0010\u0004\u0003\b\u0004\u0004\u0001\u0005\u0003\b\u0005\u0005\u0001\b\u0006\u0006\u0001\u0000\u0010\u0000\u000e\u0000\f\u0002h2\bhttp/1.1\u00fe\r\u0000\u00fa\u0000\u0000\u0001\u0000\u0001\u00f0\u0000 \u0003\u0094\u0001\u0093\u00a7\u007f\u0085T\u00ec2\u00fb\u0096\u00b2\u00f0\u00cd\u0005HSp4C\u007f\u0093\u00f2D,\u0000\u00e0\u00c2\u00d9\u00d46\u0000\u00d0\u0086\u009e*F\u00f9\u00b0\u009e\u00d3E\u008a\u000e\u00cb\u00fcvom\u00e3\u0011\u0098\u00bb\u00c4\u00fb\u00een\u008d",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    }
+  ]
+}

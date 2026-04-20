@@ -1,0 +1,1145 @@
+{
+  "geoip_summary": {
+    "3.126.77.24": {
+      "ip": "3.126.77.24",
+      "hostname": "ec2-3-126-77-24.eu-central-1.compute.amazonaws.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS16509 Amazon.com, Inc.",
+      "timezone": "Europe/Berlin"
+    },
+    "192.168.1.57": {
+      "ip": "192.168.1.57",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "35.207.114.84": {
+      "ip": "35.207.114.84",
+      "hostname": "84.114.207.35.bc.googleusercontent.com",
+      "city": "Frankfurt am Main",
+      "region": "Hesse",
+      "country": "DE",
+      "location": "50.1155,8.6842",
+      "organization": "AS15169 Google LLC",
+      "timezone": "Europe/Berlin"
+    },
+    "193.190.225.246": {
+      "ip": "193.190.225.246",
+      "error": "hostname is not a valid attribute of Details"
+    },
+    "192.168.1.39": {
+      "ip": "192.168.1.39",
+      "error": "hostname is not a valid attribute of Details"
+    }
+  },
+  "stun_transactions": {
+    "4df136ece8ab7ee987cae530": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "None",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "3.126.77.24",
+      "exposed_ip_address": "193.190.225.246:34909",
+      "library_info": "Coturn-4.5.1.3 'dan Eider'",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.4598985,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "3.126.77.24",
+          "dst_port": 3478,
+          "message_type": "Binding Request",
+          "attributes": {
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "FINGERPRINT": "b34edbf0"
+          }
+        },
+        {
+          "timestamp": 1699519806.4749963,
+          "src_ip": "3.126.77.24",
+          "src_port": 3478,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.246:34909",
+            "MAPPED-ADDRESS": "0001885dc1bee1f6",
+            "Unknown(0x802b)": "00010d96037e4d18",
+            "Unknown(0x802c)": "00010d9712c4e1ae",
+            "SOFTWARE": "Coturn-4.5.1.3 'dan Eider'",
+            "FINGERPRINT": "2ae9cdc0"
+          }
+        }
+      ]
+    },
+    "41595554cefc914c64e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "193.190.225.246",
+      "exposed_ip_address": "Not detected",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.4871888,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519806.507566,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519806.5800397,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519806.6703696,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519806.8485856,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519807.1679194,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519807.8200426,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519809.1068494,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519811.6700025,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519816.6854045,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519821.6953006,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        },
+        {
+          "timestamp": 1699519826.7021534,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "193.190.225.246",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "ab08329ecdca1b1e199cc859daa50262941608c4",
+            "FINGERPRINT": "ac19bc55"
+          }
+        }
+      ]
+    },
+    "415955544e4a470e65e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "35.207.114.84",
+      "exposed_ip_address": "193.190.225.246:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.4891508,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 53605,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "75c94a56ef4f68e01908b2f58cef5c00c9c9adc7",
+            "FINGERPRINT": "922acdae"
+          }
+        },
+        {
+          "timestamp": 1699519806.5093884,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 53605,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "75c94a56ef4f68e01908b2f58cef5c00c9c9adc7",
+            "FINGERPRINT": "922acdae"
+          }
+        },
+        {
+          "timestamp": 1699519806.5810459,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 53605,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "75c94a56ef4f68e01908b2f58cef5c00c9c9adc7",
+            "FINGERPRINT": "922acdae"
+          }
+        },
+        {
+          "timestamp": 1699519806.6712534,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 53605,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "75c94a56ef4f68e01908b2f58cef5c00c9c9adc7",
+            "FINGERPRINT": "922acdae"
+          }
+        },
+        {
+          "timestamp": 1699519806.7008588,
+          "src_ip": "35.207.114.84",
+          "src_port": 53605,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "193.190.225.246:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "48b1ff9a4d65b64ce0b6fcc1c4bb2adba41e7b1d",
+            "FINGERPRINT": "e57737a6"
+          }
+        }
+      ]
+    },
+    "4159555421a4f9440c8cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.5617077,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "89071afaf49b40c6af1086acf0912340948d8882",
+            "FINGERPRINT": "43e101f8"
+          }
+        },
+        {
+          "timestamp": 1699519806.5814366,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "89071afaf49b40c6af1086acf0912340948d8882",
+            "FINGERPRINT": "43e101f8"
+          }
+        },
+        {
+          "timestamp": 1699519806.586761,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "95c0d64bbe5de0bbe30a22e8c3b323fdafff36ad",
+            "FINGERPRINT": "d01ab2e3"
+          }
+        },
+        {
+          "timestamp": 1699519806.588133,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "95c0d64bbe5de0bbe30a22e8c3b323fdafff36ad",
+            "FINGERPRINT": "d01ab2e3"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955541b9d172074e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.5922582,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "af05519c67384ac7acc398af2fc6bb40d17de25b",
+            "FINGERPRINT": "346b565d"
+          }
+        },
+        {
+          "timestamp": 1699519806.5993938,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "7b5e29a83606cdb63314e86cc57e3344b888125d",
+            "FINGERPRINT": "3c0f79a7"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41595554cb17624275e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.6038737,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "992ae3c8ba68daca1b957f886aaa8f877d289521",
+            "FINGERPRINT": "eeeee6cd"
+          }
+        },
+        {
+          "timestamp": 1699519806.606116,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "d93ab5c719afff743414fe731dcf6bca06ac5935",
+            "FINGERPRINT": "c7a6c860"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41595554ea5e5c151a8cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.6066215,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "8ea81f41b82e4e6e02d1523f6b72fa917c0fea0f",
+            "FINGERPRINT": "57ebb5d8"
+          }
+        },
+        {
+          "timestamp": 1699519806.6122148,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "7d583c7722fe850eeb870daaf2901927cc779811",
+            "FINGERPRINT": "a0f0aa8d"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955544782ea57148cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "35.207.114.84",
+      "exposed_ip_address": "35.207.114.84:53605",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.613588,
+          "src_ip": "35.207.114.84",
+          "src_port": 53605,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "a66792b6b45f9ad70d37c9648c77308cb7510a81",
+            "FINGERPRINT": "61bf7f1d"
+          }
+        },
+        {
+          "timestamp": 1699519806.6307201,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 53605,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.114.84:53605",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "385980035615405e36054d629674cd05e4da2050",
+            "FINGERPRINT": "25ef1262"
+          }
+        },
+        {
+          "timestamp": 1699519806.6350734,
+          "src_ip": "35.207.114.84",
+          "src_port": 53605,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "a66792b6b45f9ad70d37c9648c77308cb7510a81",
+            "FINGERPRINT": "61bf7f1d"
+          }
+        },
+        {
+          "timestamp": 1699519806.644766,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "35.207.114.84",
+          "dst_port": 53605,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "35.207.114.84:53605",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "385980035615405e36054d629674cd05e4da2050",
+            "FINGERPRINT": "25ef1262"
+          }
+        }
+      ]
+    },
+    "41595554997a092177e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519806.618268,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "57a322cfddcb10a2be11a85f8d945f15787fb763",
+            "FINGERPRINT": "1def5f59"
+          }
+        },
+        {
+          "timestamp": 1699519806.6219578,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "0db0dad7a80a26d72a667268275c6f5bd2ca57ba",
+            "FINGERPRINT": "3de26246"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41595554dee54104268cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519811.6162932,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "1f8f1ed9a298908a05559db5c0904c1056afb057",
+            "FINGERPRINT": "a335a910"
+          }
+        },
+        {
+          "timestamp": 1699519811.6191297,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "084ce2b247842cf75f05834e25ff2a9019aebb46",
+            "FINGERPRINT": "bb11573e"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955546d47d71386e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519811.6228313,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "bcf2bfb701bb0c188c48eb2105118964ddd24e4e",
+            "FINGERPRINT": "7e2f6cd8"
+          }
+        },
+        {
+          "timestamp": 1699519811.624728,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "eef585b70ffabe9334960c20d68e1628315552d0",
+            "FINGERPRINT": "9895e5d0"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955540f452e2688e8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519816.6289387,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "043aad316b035e9ebe537e1c548dabdc07e03134",
+            "FINGERPRINT": "35bc865a"
+          }
+        },
+        {
+          "timestamp": 1699519816.6345243,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "866ecb522b8195275b1837fa0474f6fb599dae61",
+            "FINGERPRINT": "86d5f381"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "4159555433d40c44288cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519816.634696,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "68327592c6f9f93adaeadc0a58c37c29bab0d76b",
+            "FINGERPRINT": "5923465e"
+          }
+        },
+        {
+          "timestamp": 1699519816.6424673,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "bde20dbd37705b8ca229b45326b4e5f34a8c12d7",
+            "FINGERPRINT": "97b5e3d2"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "4159555459dd6e532a8cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519821.6605122,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "f4b9780ae73e921cabdac06668d492c7e7fdc737",
+            "FINGERPRINT": "3863250d"
+          }
+        },
+        {
+          "timestamp": 1699519821.6639636,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "7ee4655c686d684433c8eb89f3e839753b127d05",
+            "FINGERPRINT": "b0b8203b"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41595554290ad2298ae8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519821.6663694,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "04902a2800ec9d9e67f6de322fd2509432f85a55",
+            "FINGERPRINT": "75fdcddf"
+          }
+        },
+        {
+          "timestamp": 1699519821.6676717,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "534ba7b710a0586f210dca51c1e15d03c1981219",
+            "FINGERPRINT": "94a8f1ec"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41595554cf17b8282d8cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519826.6832678,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "06bafaf925388faaa4a1f5a4ec5cb45b0d0be186",
+            "FINGERPRINT": "8bf3ae8c"
+          }
+        },
+        {
+          "timestamp": 1699519826.6854455,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "ae1972938ef506c14046f28c8e6f2f0138fc4ae0",
+            "FINGERPRINT": "54e180c0"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955544eec48018ce8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519826.686945,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "a99b7c02c4262ced99b0afb074df225feae55a66",
+            "FINGERPRINT": "3db56508"
+          }
+        },
+        {
+          "timestamp": 1699519826.6906285,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "a39fa1eb1c1891fc091de1c02975097fb6bc314a",
+            "FINGERPRINT": "489188f6"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "41595554d09d5a338ee8f068": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.39",
+      "stun_server_ip": "192.168.1.57",
+      "exposed_ip_address": "192.168.1.39:34909",
+      "library_info": "3.5.2\u0000\u0000\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519831.6876779,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x0025)": "",
+            "Unknown(0x802a)": "ffffffff2bcab4a6",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "USERNAME": "Jsj5:AsF0",
+            "MESSAGE-INTEGRITY": "839826c67e3fa71abfd8462bc32fc0cbf2b890b6",
+            "FINGERPRINT": "f2dfdd85"
+          }
+        },
+        {
+          "timestamp": 1699519831.6906557,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.39:34909",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "MESSAGE-INTEGRITY": "b12d2102e9e4506e684305a79e8e886ba5db9906",
+            "FINGERPRINT": "d4604abc"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    },
+    "415955545289ff052e8cfc31": {
+      "is_stun_used": true,
+      "stun_standard": "RFC 5389 (inferred by magic cookie)",
+      "authentication_type": "Short-term (ICE Credentials)",
+      "cleartext_passwords_in_stun": "N/A (Passwords are not sent in STUN)",
+      "client_lan_ip": "192.168.1.57",
+      "stun_server_ip": "192.168.1.39",
+      "exposed_ip_address": "192.168.1.57:39697",
+      "library_info": "tuya_p2p_sdk_v3.3.5\u0000",
+      "asn_info": "Unknown",
+      "packets": [
+        {
+          "timestamp": 1699519831.6911426,
+          "src_ip": "192.168.1.57",
+          "src_port": 39697,
+          "dst_ip": "192.168.1.39",
+          "dst_port": 34909,
+          "message_type": "Binding Request",
+          "attributes": {
+            "Unknown(0x0024)": "6effffff",
+            "Unknown(0x8029)": "ffffffff7bcf8c1e",
+            "SOFTWARE": "3.5.2\u0000\u0000\u0000",
+            "USERNAME": "AsF0:Jsj5",
+            "MESSAGE-INTEGRITY": "11fb57da4b4c35eb121329443c72e818d96d04c2",
+            "FINGERPRINT": "7b4605a7"
+          }
+        },
+        {
+          "timestamp": 1699519831.6944528,
+          "src_ip": "192.168.1.39",
+          "src_port": 34909,
+          "dst_ip": "192.168.1.57",
+          "dst_port": 39697,
+          "message_type": "Binding Success Response",
+          "attributes": {
+            "XOR-MAPPED-ADDRESS": "192.168.1.57:39697",
+            "SOFTWARE": "tuya_p2p_sdk_v3.3.5\u0000",
+            "MESSAGE-INTEGRITY": "be15db03f3c9e98e9ae691d98f582d23702c7731",
+            "FINGERPRINT": "2e78854d"
+          }
+        }
+      ],
+      "note": "Could not definitively determine roles; assuming first sender is client."
+    }
+  }
+}

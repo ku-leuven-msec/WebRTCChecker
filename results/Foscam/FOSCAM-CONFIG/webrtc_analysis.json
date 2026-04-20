@@ -1,0 +1,1703 @@
+[
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:42490",
+    "server_endpoint": "52.3.84.22:443",
+    "total_bytes": 4041,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:33448",
+    "server_endpoint": "3.214.189.252:443",
+    "total_bytes": 4041,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:33862",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 3888,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:54854",
+    "server_endpoint": "54.174.38.205:443",
+    "total_bytes": 3938,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:33866",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 3938,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:54900",
+    "server_endpoint": "54.174.38.205:443",
+    "total_bytes": 4638,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:33940",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 4638,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:55026",
+    "server_endpoint": "54.174.38.205:443",
+    "total_bytes": 4621,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:34064",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 4621,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:34112",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 4621,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:45806",
+    "server_endpoint": "52.218.179.49:443",
+    "total_bytes": 959913,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-09-21T00:00:00+00:00",
+      "valid_until": "2023-08-26T23:59:59+00:00",
+      "issuer_cn": "Amazon",
+      "subject_cn": "*.s3.amazonaws.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.s3.amazonaws.com')>",
+        "<DNSName(value='s3.amazonaws.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "A8:C3:D3:F3:B0:80:74:E2:E2:13:E1:9C:B9:8D:57:CE:08:43:15:06:1B:7E:6E:21:4F:DD:8F:58:E2:C2:82:56"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:49426",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 3938,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:60236",
+    "server_endpoint": "3.214.189.252:443",
+    "total_bytes": 9563,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:59910",
+    "server_endpoint": "54.175.100.95:443",
+    "total_bytes": 65303,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:47848",
+    "server_endpoint": "34.197.170.64:443",
+    "total_bytes": 73523,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:49808",
+    "server_endpoint": "54.174.38.205:443",
+    "total_bytes": 4621,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:42698",
+    "server_endpoint": "52.21.187.214:443",
+    "total_bytes": 5620,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:56196",
+    "server_endpoint": "52.218.204.146:443",
+    "total_bytes": 2920188,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-09-21T00:00:00+00:00",
+      "valid_until": "2023-08-26T23:59:59+00:00",
+      "issuer_cn": "Amazon",
+      "subject_cn": "*.s3.amazonaws.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.s3.amazonaws.com')>",
+        "<DNSName(value='s3.amazonaws.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "A8:C3:D3:F3:B0:80:74:E2:E2:13:E1:9C:B9:8D:57:CE:08:43:15:06:1B:7E:6E:21:4F:DD:8F:58:E2:C2:82:56"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:54976",
+    "server_endpoint": "18.208.31.239:443",
+    "total_bytes": 3938,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:55862",
+    "server_endpoint": "52.54.83.95:8884",
+    "total_bytes": 10358,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-03-01T00:00:00+00:00",
+      "valid_until": "2023-03-23T23:59:59+00:00",
+      "issuer_cn": "DigiCert Basic RSA CN CA G2",
+      "subject_cn": "*.ivyiot.io",
+      "subject_alternative_names": [
+        "<DNSName(value='*.ivyiot.io')>",
+        "<DNSName(value='ivyiot.io')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "3E:08:4B:68:BA:4D:8A:C2:CA:7C:95:5D:8D:BF:9F:71:D5:39:75:1F:31:EB:E8:52:7F:3C:42:0C:67:4F:43:AA"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.155:34156",
+    "server_endpoint": "52.3.84.22:443",
+    "total_bytes": 4392,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_AES_256_GCM_SHA384",
+        "TLS_CHACHA20_POLY1305_SHA256",
+        "TLS_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown (0xccaa)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown (0x0039)",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown (0x0033)",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA256",
+        "TLS_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+          "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA256",
+          "TLS_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": false,
+      "validity_period_ok": true,
+      "valid_from": "2022-05-12T00:00:00+00:00",
+      "valid_until": "2023-06-11T23:59:59+00:00",
+      "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+      "subject_cn": "*.myfoscam.com",
+      "subject_alternative_names": [
+        "<DNSName(value='*.myfoscam.com')>",
+        "<DNSName(value='myfoscam.com')>"
+      ],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "41:D2:07:EF:9A:B4:57:D9:97:F6:5C:89:9E:8E:11:F0:50:45:4B:C8:57:AB:D5:1F:92:3C:1B:6E:35:D2:5A:D9"
+    }
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "conversation_id": "UDP:108.128.214.160:57501-192.168.1.111:51504",
+    "transport_protocol": "UDP",
+    "src_ip": "192.168.1.111",
+    "src_port": "51504",
+    "dst_ip": "108.128.214.160",
+    "dst_port": "57501",
+    "total_packets": 10725,
+    "total_bytes": 6788310,
+    "start_time": "2023-03-13T12:16:45+00:00",
+    "end_time": "2023-03-13T12:18:36+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.111) to Server (108.128.214.160) conversation."
+    ],
+    "total_data_mb": 6.47
+  },
+  {
+    "conversation_id": "TCP:192.168.1.111:51117-52.223.23.226:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.111",
+    "src_port": "51117",
+    "dst_ip": "52.223.23.226",
+    "dst_port": "443",
+    "total_packets": 566,
+    "total_bytes": 403223,
+    "start_time": "2023-03-13T12:18:38+00:00",
+    "end_time": "2023-03-13T12:18:40+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.111) to Server (52.223.23.226) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.38
+  },
+  {
+    "conversation_id": "TCP:192.168.1.111:64109-54.84.129.4:9998",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.111",
+    "src_port": "64109",
+    "dst_ip": "54.84.129.4",
+    "dst_port": "9998",
+    "total_packets": 290,
+    "total_bytes": 51928,
+    "start_time": "2023-03-13T12:16:27+00:00",
+    "end_time": "2023-03-13T12:18:41+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.111) to Server (54.84.129.4) conversation."
+    ],
+    "total_data_mb": 0.05
+  },
+  {
+    "conversation_id": "TCP:192.168.1.111:56919-54.156.211.246:443",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.111",
+    "src_port": "56919",
+    "dst_ip": "54.156.211.246",
+    "dst_port": "443",
+    "total_packets": 38,
+    "total_bytes": 15650,
+    "start_time": "2023-03-13T12:18:36+00:00",
+    "end_time": "2023-03-13T12:18:41+00:00",
+    "application_protocols": [
+      "TLS"
+    ],
+    "notes": [
+      "Client (192.168.1.111) to Server (54.156.211.246) conversation.",
+      "TLS detected. Higher-layer protocols (e.g., HTTP/2, WebSocket) within TLS are encrypted and require decryption for analysis."
+    ],
+    "total_data_mb": 0.01
+  },
+  {
+    "conversation_id": "TCP:108.128.214.160:8557-192.168.1.111:50672",
+    "transport_protocol": "TCP",
+    "src_ip": "192.168.1.111",
+    "src_port": "50672",
+    "dst_ip": "108.128.214.160",
+    "dst_port": "8557",
+    "total_packets": 57,
+    "total_bytes": 13626,
+    "start_time": "2023-03-13T12:16:45+00:00",
+    "end_time": "2023-03-13T12:18:36+00:00",
+    "application_protocols": [],
+    "notes": [
+      "Client (192.168.1.111) to Server (108.128.214.160) conversation."
+    ],
+    "total_data_mb": 0.01
+  }
+]

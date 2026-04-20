@@ -1,0 +1,80 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2023-05-29T00:00:00+00:00",
+    "valid_until": "2024-06-14T23:59:59+00:00",
+    "issuer_cn": "WoTrus OV Server CA  [Run by the Issuer]",
+    "subject_cn": "*.myfoscam.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.myfoscam.com')>",
+      "<DNSName(value='myfoscam.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "60:D5:9C:CB:E1:57:B8:68:8F:0C:24:7B:A9:50:C4:13:B4:5F:F9:E3:BE:3C:A4:FA:54:C6:09:9A:AE:8F:32:0F",
+    "found_in_packet_number": "29",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.1.125.5",
+      "type": "Public",
+      "hostname": "ec2-52-1-125-5.compute-1.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2023-02-28T00:00:00+00:00",
+    "valid_until": "2024-03-30T23:59:59+00:00",
+    "issuer_cn": "TrustAsia OV TLS Pro CA G3",
+    "subject_cn": "*.ivyiot.io",
+    "subject_alternative_names": [
+      "<DNSName(value='*.ivyiot.io')>",
+      "<DNSName(value='ivyiot.io')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "06:B1:8E:64:6D:A0:C8:62:86:4C:99:0A:E2:96:8E:D0:EC:8A:FE:96:19:92:27:EA:07:E8:FE:78:B6:5B:1B:1B",
+    "found_in_packet_number": "62",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "54.235.50.30",
+      "type": "Public",
+      "hostname": "ec2-54-235-50-30.compute-1.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2021-11-02T11:16:53+00:00",
+    "valid_until": "2071-10-21T11:16:53+00:00",
+    "issuer_cn": "security-iot-mqtt.ivyiot.io",
+    "subject_cn": "security-iot-mqtt",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "F6:E3:9B:3A:21:A8:1E:ED:34:A6:E4:20:93:2B:C3:16:2B:A4:3F:93:91:F7:FD:12:B7:01:BD:A7:72:6D:5F:62",
+    "found_in_packet_number": "69",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "192.168.1.155",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    },
+    "receiver_info": {
+      "ip": "54.235.50.30",
+      "type": "Public",
+      "hostname": "ec2-54-235-50-30.compute-1.amazonaws.com"
+    }
+  }
+]

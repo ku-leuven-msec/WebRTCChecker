@@ -1,0 +1,132 @@
+[
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2023-01-03T09:48:50+00:00",
+    "valid_until": "2023-02-03T09:48:50+00:00",
+    "issuer_cn": "WebRTC",
+    "subject_cn": "WebRTC",
+    "subject_alternative_names": [],
+    "signature_algorithm": "ecdsa-with-SHA256",
+    "public_key_algorithm": "ECPublicKey",
+    "fingerprint": "2D:3B:8E:3C:E4:E6:76:AE:2C:D5:5B:C5:6E:B3:20:CB:1C:A0:32:1D:98:FA:34:A9:50:7D:25:0E:8B:BE:93:6A",
+    "found_in_packet_number": "310",
+    "found_in_packet_summary": "DTLS Packet",
+    "sender_info": {
+      "ip": "193.190.225.242",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "10.129.179.30",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2023-01-03T09:48:52+00:00",
+    "valid_until": "2024-01-04T09:48:52+00:00",
+    "issuer_cn": "WebRTC",
+    "subject_cn": "WebRTC",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha1WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "7E:C6:1A:F5:28:D1:48:45:C8:ED:2E:0A:51:16:38:0A:F8:2C:DC:03:23:9C:82:A7:AE:C2:42:52:C9:67:75:BB",
+    "found_in_packet_number": "311",
+    "found_in_packet_summary": "DTLS Packet",
+    "sender_info": {
+      "ip": "10.129.179.30",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    },
+    "receiver_info": {
+      "ip": "193.190.225.242",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-07-26T00:00:00+00:00",
+    "valid_until": "2023-07-25T23:59:59+00:00",
+    "issuer_cn": "DigiCert Cloud Services CA-1",
+    "subject_cn": "outlook.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.clo.footprintdns.com')>",
+      "<DNSName(value='*.hotmail.com')>",
+      "<DNSName(value='*.internal.outlook.com')>",
+      "<DNSName(value='*.live.com')>",
+      "<DNSName(value='*.nrb.footprintdns.com')>",
+      "<DNSName(value='*.office.com')>",
+      "<DNSName(value='*.office365.com')>",
+      "<DNSName(value='*.outlook.com')>",
+      "<DNSName(value='*.outlook.office365.com')>",
+      "<DNSName(value='attachment.outlook.live.net')>",
+      "<DNSName(value='attachment.outlook.office.net')>",
+      "<DNSName(value='attachment.outlook.officeppe.net')>",
+      "<DNSName(value='attachments.office.net')>",
+      "<DNSName(value='attachments-sdf.office.net')>",
+      "<DNSName(value='ccs.login.microsoftonline.com')>",
+      "<DNSName(value='ccs-sdf.login.microsoftonline.com')>",
+      "<DNSName(value='hotmail.com')>",
+      "<DNSName(value='mail.services.live.com')>",
+      "<DNSName(value='office365.com')>",
+      "<DNSName(value='outlook.com')>",
+      "<DNSName(value='outlook.office.com')>",
+      "<DNSName(value='substrate.office.com')>",
+      "<DNSName(value='substrate-sdf.office.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "D8:41:79:5B:EB:73:BB:7C:9E:78:A3:71:3E:3A:F6:E1:A5:06:E8:6A:00:B9:52:35:A0:E4:53:04:AC:C6:B6:9F",
+    "found_in_packet_number": "9753",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.98.152.242",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "10.129.179.30",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-12-01T00:00:00+00:00",
+    "valid_until": "2023-12-01T23:59:59+00:00",
+    "issuer_cn": "DigiCert SHA2 Secure Server CA",
+    "subject_cn": "stamp2.login.microsoftonline.com",
+    "subject_alternative_names": [
+      "<DNSName(value='stamp2.login.microsoftonline.com')>",
+      "<DNSName(value='login.microsoftonline-int.com')>",
+      "<DNSName(value='login.microsoftonline-p.com')>",
+      "<DNSName(value='login.microsoftonline.com')>",
+      "<DNSName(value='login2.microsoftonline-int.com')>",
+      "<DNSName(value='login2.microsoftonline.com')>",
+      "<DNSName(value='loginex.microsoftonline-int.com')>",
+      "<DNSName(value='loginex.microsoftonline.com')>",
+      "<DNSName(value='stamp2.login.microsoftonline-int.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "7E:32:B6:69:FD:A6:7E:02:2F:20:5F:6D:1D:43:13:DD:62:F3:95:43:D7:69:07:E2:4C:05:F8:51:5F:8E:0B:39",
+    "found_in_packet_number": "12443",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "40.126.31.70",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "10.129.179.30",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:142.250.110.94:443-192.168.1.125:55698",
+      "protocol": "TCP",
+      "endpoints": "142.250.110.94:443-192.168.1.125:55698",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 46 bytes)",
+        "Medium entropy (6.69)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u0096\u00b0\u00f0!79\u009a\\:\u0087\u00dd\u00d2M\u00ca\u0085Tm?\u001d\u009c=\u00dcjB\u00c6\u0091F\u00dd\u00b0\u00f4w\u00cd\u0015\u00cb\u009al\u0088\u00ec\u00e0~\u00998f\u009a2\u0081\u00e9\u00e5\u0095k\u00dcM4\u00c1\u00f8\u009b:h\u00cf\u00ac`g\u001d2NF\u00bb\u00def\u0099R\u0010\rps\u00a3><\u00ae\u00ba\f\u00f2I\u0012r\u0086\u00a1f\u0019\u00ffW\u00d2X_\u00e1yjC\u008d]\u0097!\u00fb\u0095\u00e9\u008f*\u00b5\u008a\u00bf]\u00e3-\u0099\u00be\u00baknr\u00e85\u009aV\u00b9\u00f2\n\u001d\u00e5\u001b\u009e\u00af/\u00a8<\u001ao\u00bc\u00b3\u0000",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    }
+  ]
+}

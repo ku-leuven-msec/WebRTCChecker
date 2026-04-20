@@ -1,0 +1,63 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.139:59592-192.168.1.140:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:59592-192.168.1.140:80",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 159 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.48)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "application/xhtml+xm",
+          "application/xhtml+xm"
+        ]
+      },
+      "payload_snippet": "GET / HTTP/1.1\r\nHost: 192.168.1.140\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.139:59608-192.168.1.140:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:59608-192.168.1.140:80",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 166 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.43)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "application/xhtml+xm"
+        ]
+      },
+      "payload_snippet": "GET / HTTP/1.1\r\nHost: 192.168.1.140\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.139:59612-192.168.1.140:80",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.139:59612-192.168.1.140:80",
+      "likelihood_score": 6,
+      "evidence": [
+        "Chatty (avg size: 166 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.43)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "application/xhtml+xm"
+        ]
+      },
+      "payload_snippet": "GET / HTTP/1.1\r\nHost: 192.168.1.140\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.",
+      "geoip_info": "Not available"
+    }
+  ]
+}

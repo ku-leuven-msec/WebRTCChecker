@@ -1,0 +1,85 @@
+[
+  {
+    "is_webrtc_used": true,
+    "notes_on_library": "Cannot be reliably determined from DTLS handshake.",
+    "client_hello": {
+      "dtls_version": "DTLS 1.2 (0xfefd)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "Unknown Cipher Suite: 0x009f",
+        "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+        "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "Unknown Cipher Suite: 0xccaa",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "Unknown Cipher Suite: 0x009e",
+        "Unknown Cipher Suite: 0xc024",
+        "Unknown Cipher Suite: 0xc028",
+        "Unknown Cipher Suite: 0x006b",
+        "Unknown Cipher Suite: 0xc023",
+        "Unknown Cipher Suite: 0xc027",
+        "Unknown Cipher Suite: 0x0067",
+        "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "Unknown Cipher Suite: 0x0039",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown Cipher Suite: 0x0033",
+        "TLS_RSA_WITH_AES_256_GCM_SHA384",
+        "TLS_RSA_WITH_AES_128_GCM_SHA256",
+        "Unknown Cipher Suite: 0x003d",
+        "Unknown Cipher Suite: 0x003c",
+        "TLS_RSA_WITH_AES_256_CBC_SHA",
+        "TLS_RSA_WITH_AES_128_CBC_SHA",
+        "Unknown Cipher Suite: 0x00ff"
+      ],
+      "extensions_summary": {
+        "extended_master_secret_present": false,
+        "srtp_protection_profiles": [
+          "SRTP_AES128_CM_HMAC_SHA1_80 (0x0001)"
+        ],
+        "supported_groups": [
+          "x25519 (0x001d)"
+        ],
+        "signature_algorithms": [
+          "ecdsa_secp256r1_sha256 (0x0403)"
+        ]
+      },
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_RSA_WITH_AES_256_GCM_SHA384",
+          "TLS_RSA_WITH_AES_128_GCM_SHA256",
+          "TLS_RSA_WITH_AES_256_CBC_SHA",
+          "TLS_RSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {},
+    "certificate_details": {}
+  },
+  {
+    "is_webrtc_used": true,
+    "notes_on_library": "Cannot be reliably determined from DTLS handshake.",
+    "client_hello": {},
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)",
+      "is_encryption_strong": true
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": false,
+      "valid_from": "2023-06-08T08:07:41+00:00",
+      "valid_until": "2023-07-09T08:07:41+00:00",
+      "issuer_cn": "WebRTC",
+      "subject_cn": "WebRTC",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "ecdsa-with-SHA256"
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2024-06-27T00:00:00+00:00",
+    "valid_until": "2025-06-26T23:59:59+00:00",
+    "issuer_cn": "DigiCert Cloud Services CA-1",
+    "subject_cn": "outlook.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.clo.footprintdns.com')>",
+      "<DNSName(value='*.hotmail.com')>",
+      "<DNSName(value='*.internal.outlook.com')>",
+      "<DNSName(value='*.live.com')>",
+      "<DNSName(value='*.nrb.footprintdns.com')>",
+      "<DNSName(value='*.office.com')>",
+      "<DNSName(value='*.office365.com')>",
+      "<DNSName(value='*.outlook.com')>",
+      "<DNSName(value='*.outlook.office365.com')>",
+      "<DNSName(value='attachment.outlook.live.net')>",
+      "<DNSName(value='attachment.outlook.office.net')>",
+      "<DNSName(value='attachment.outlook.officeppe.net')>",
+      "<DNSName(value='attachments.office.net')>",
+      "<DNSName(value='attachments-sdf.office.net')>",
+      "<DNSName(value='ccs.login.microsoftonline.com')>",
+      "<DNSName(value='ccs-sdf.login.microsoftonline.com')>",
+      "<DNSName(value='hotmail.com')>",
+      "<DNSName(value='mail.services.live.com')>",
+      "<DNSName(value='office365.com')>",
+      "<DNSName(value='outlook.com')>",
+      "<DNSName(value='outlook.office.com')>",
+      "<DNSName(value='substrate.office.com')>",
+      "<DNSName(value='substrate-sdf.office.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "9F:8E:D1:FC:11:3F:F4:A0:5B:DD:72:BA:B5:D9:AB:02:E0:08:49:86:0A:FB:B8:5D:56:7E:00:E6:05:01:90:AE",
+    "found_in_packet_number": "972",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "52.98.253.2",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.8",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2024-09-02T00:00:00+00:00",
+    "valid_until": "2025-03-02T23:59:59+00:00",
+    "issuer_cn": "DigiCert SHA2 Secure Server CA",
+    "subject_cn": "credentials.azure.com",
+    "subject_alternative_names": [
+      "<DNSName(value='credentials.azure.com')>",
+      "<DNSName(value='*.adnotifications-ppe.windowsazure.com')>",
+      "<DNSName(value='*.adnotifications.windowsazure.com')>",
+      "<DNSName(value='*.auth.microsoft.com')>",
+      "<DNSName(value='*.thepftest.com')>",
+      "<DNSName(value='adnotifications-canary.windowsazure.com')>",
+      "<DNSName(value='adnotifications-ppe.windowsazure.com')>",
+      "<DNSName(value='adnotifications.windowsazure.com')>",
+      "<DNSName(value='canary.mfavalidation.auth.microsoft.com')>",
+      "<DNSName(value='canary.strongauthenticationservice.auth.microsoft.com')>",
+      "<DNSName(value='canary.testmymfa.auth.microsoft.com')>",
+      "<DNSName(value='credentials-ppe.auth.microsoft.com')>",
+      "<DNSName(value='credentials-ppe.azure.com')>",
+      "<DNSName(value='credentials.auth.microsoft.com')>",
+      "<DNSName(value='mface-ppe.windowsazure.com')>",
+      "<DNSName(value='mface.windowsazure.com')>",
+      "<DNSName(value='mfavalidation-ppe.auth.microsoft.com')>",
+      "<DNSName(value='mfavalidation.auth.microsoft.com')>",
+      "<DNSName(value='mobileappcommunicator.auth-ppe.microsoft.com')>",
+      "<DNSName(value='mobileappcommunicator.auth.microsoft.com')>",
+      "<DNSName(value='pad-stage.thepftest.com')>",
+      "<DNSName(value='pad.phonefactor.net')>",
+      "<DNSName(value='strongauthenticationservice.auth-ppe.microsoft.com')>",
+      "<DNSName(value='strongauthenticationservice.auth.microsoft.com')>",
+      "<DNSName(value='testmymfa-ppe.auth.microsoft.com')>",
+      "<DNSName(value='testmymfa.auth.microsoft.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "C8:BD:0D:8D:E4:EF:65:45:F7:60:E5:EE:35:5E:29:51:8D:20:3C:60:D7:BA:5F:D1:F1:54:F7:4D:05:4A:50:10",
+    "found_in_packet_number": "1703",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "40.126.53.21",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.8",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2024-09-02T21:02:35+00:00",
+    "valid_until": "2025-03-01T21:02:35+00:00",
+    "issuer_cn": "Microsoft Azure RSA TLS Issuing CA 07",
+    "subject_cn": "enterpriseregistration.windows.net",
+    "subject_alternative_names": [
+      "<DNSName(value='*.enterpriseregistration-ppe.windows.net')>",
+      "<DNSName(value='*.enterpriseregistration.windows.net')>",
+      "<DNSName(value='enterpriseregistration-ppe.windows.net')>",
+      "<DNSName(value='enterpriseregistration.windows.net')>"
+    ],
+    "signature_algorithm": "sha384WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "EE:9F:47:EA:4F:93:6F:D8:65:6C:5D:A5:50:6B:C4:07:3D:32:70:31:DE:C8:C9:AB:14:D9:7C:F1:EE:DF:F0:C2",
+    "found_in_packet_number": "1723",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "40.126.32.66",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.8",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2024-06-14T09:39:48+00:00",
+    "valid_until": "2025-06-09T09:39:48+00:00",
+    "issuer_cn": "Microsoft Azure RSA TLS Issuing CA 03",
+    "subject_cn": "*.appcenter.ms",
+    "subject_alternative_names": [
+      "<DNSName(value='*.appcenter.ms')>",
+      "<DNSName(value='appcenter.ms')>",
+      "<DNSName(value='codepush.teams.microsoft.com')>"
+    ],
+    "signature_algorithm": "sha384WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "79:CA:45:61:95:49:1C:D7:77:34:9E:34:58:89:B7:07:E1:4B:13:F2:A4:A2:15:FD:9A:F9:D2:D6:F5:F4:77:9F",
+    "found_in_packet_number": "1831",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "4.153.25.145",
+      "type": "Public",
+      "hostname": "Resolution Failed"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.8",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2018-10-31T05:30:48+00:00",
+    "valid_until": "2118-10-07T05:30:48+00:00",
+    "issuer_cn": "*.tuyacn.com",
+    "subject_cn": "*.tuyacn.com",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3",
+    "found_in_packet_number": "3382",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "3.125.199.146",
+      "type": "Public",
+      "hostname": "ec2-3-125-199-146.eu-central-1.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.39",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

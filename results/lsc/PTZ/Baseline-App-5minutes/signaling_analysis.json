@@ -1,0 +1,713 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.8:47920-37.252.173.215:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:47920-37.252.173.215:443",
+      "likelihood_score": 10,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 284 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (7.31)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1\u001d0\u001b\u0006\u0003U\u0004\u0003\u0013\u0014GeoTrust ECC CA 20180Y0\u0013\u0006\u0007*\u0086H\u00ce=",
+      "geoip_info": "DE, M\u00f6rfelden-Walldorf, Hesse, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:185.89.210.90:443-192.168.1.8:45710",
+      "protocol": "TCP",
+      "endpoints": "185.89.210.90:443-192.168.1.8:45710",
+      "likelihood_score": 10,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 357 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (7.23)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "\u0002\u0001\u0002\u0002\u0010\u000f\u001c ';\u001e3B-g3\u0081\u0017\u0089\u00ddZ0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000a1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCer",
+      "geoip_info": "NL, Amsterdam, North Holland, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:37362-37.252.172.68:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:37362-37.252.172.68:443",
+      "likelihood_score": 10,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 455 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (7.28)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1\u001d0\u001b\u0006\u0003U\u0004\u0003\u0013\u0014GeoTrust ECC CA 20180Y0\u0013\u0006\u0007*\u0086H\u00ce=\u0002\u0001\u0006\b*\u0086",
+      "geoip_info": "DE, M\u00f6rfelden-Walldorf, Hesse, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:39878-52.29.0.171:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:39878-52.29.0.171:443",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 768 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootG2"
+        ]
+      },
+      "payload_snippet": "\u0014\u00c5\u0015P\u0092\u0088\u00bf]\u0098nP\u00bd\u00d6\u00b4\u0000\u00bef0\u00f0s5`\u00b4\u0089\u00d0\u0015SNt\u00ddU\u00c76\u00e0F\u00cf\u00f1\u00b5\u00ed\u00f5i\u008a\tvM3\u0005\u000f\u00a1\u00ca\u00efE\u0097\u00f8\u00b9\u0006\u0086Y\u0014O:\"\u00d3YpZ7\u00e2\u00ff\u0097\u00dd`~$\u0011~1\u0090F\u001ab\u0088\u00ab\u00f2\u00e5\u0003F\u0003\u00d9r\u0099x\u00a2\u00012\u00ae'~\u0080'\u00e2%\u00ee\u00fe\u001a\u00a0em\u00e9\u00bb\u0085c)\u00f2\u00c9z\u0010\u00c6\u00d2s\u009e&\u0086Z\u00e6\u00d4e\u0089\u0002s\u0088g\u00f7\u00ab\u00a5\u00b9\u00a4(\u008c \u0093\u001d\u008e\u009e\u00cf\u00ed\u001cU\u00e0\u0003\u00bcb\u0083f\u00c2\u00a1\u0004\u0004s&:\u0087\u00d6\b\u0015\u00de\u00ee?W\u0089\u00f0\\c\u009a\t\u00bc\u00d73\u0086#\u00ae\u00e0\u00a7b}\u001a\u0082\u00cb\u00e9=7\u00aa\u00e1\u00bfe\u0085p{\u00e0\u00d9",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:185.89.210.82:443-192.168.1.8:37236",
+      "protocol": "TCP",
+      "endpoints": "185.89.210.82:443-192.168.1.8:37236",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 522 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "0\u0082\u0002\u00a8\u00a0\u0003\u0002\u0001\u0002\u0002\u0010\u000f\u001c ';\u001e3B-g3\u0081\u0017\u0089\u00ddZ0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000a1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fD",
+      "geoip_info": "NL, Amsterdam, North Holland, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:185.89.210.122:443-192.168.1.8:39580",
+      "protocol": "TCP",
+      "endpoints": "185.89.210.122:443-192.168.1.8:39580",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 511 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "\u0002\u0001\u0002\u0002\u0010\u000f\u001c ';\u001e3B-g3\u0081\u0017\u0089\u00ddZ0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000a1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCer",
+      "geoip_info": "NL, Amsterdam, North Holland, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:185.89.210.212:443-192.168.1.8:48796",
+      "protocol": "TCP",
+      "endpoints": "185.89.210.212:443-192.168.1.8:48796",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 540 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "\u0002\u0001\u0002\u0002\u0010\u000f\u001c ';\u001e3B-g3\u0081\u0017\u0089\u00ddZ0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000a1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCer",
+      "geoip_info": "NL, Amsterdam, North Holland, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:47924-37.252.173.215:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:47924-37.252.173.215:443",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 486 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "0\u0082\u0002\u00a8\u00a0\u0003\u0002\u0001\u0002\u0002\u0010\u000f\u001c ';\u001e3B-g3\u0081\u0017\u0089\u00ddZ0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000a1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fD",
+      "geoip_info": "DE, M\u00f6rfelden-Walldorf, Hesse, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:47922-37.252.173.215:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:47922-37.252.173.215:443",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 494 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "0\u0082\u0002\u00a8\u00a0\u0003\u0002\u0001\u0002\u0002\u0010\u000f\u001c ';\u001e3B-g3\u0081\u0017\u0089\u00ddZ0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u00000a1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fD",
+      "geoip_info": "DE, M\u00f6rfelden-Walldorf, Hesse, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:47932-37.252.173.215:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:47932-37.252.173.215:443",
+      "likelihood_score": 9,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 692 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1\u001d0\u001b\u0006\u0003U\u0004\u0003\u0013\u0014GeoTrust ECC CA 20180Y0\u0013\u0006\u0007*\u0086H\u00ce=\u0002\u0001\u0006\b*\u0086",
+      "geoip_info": "DE, M\u00f6rfelden-Walldorf, Hesse, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:49270",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:49270",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.39)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:49284",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:49284",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:49298",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:49298",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.153:80-192.168.1.8:49304",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.153:80-192.168.1.8:49304",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:146.59.29.0:443-192.168.1.8:43336",
+      "protocol": "TCP",
+      "endpoints": "146.59.29.0:443-192.168.1.8:43336",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 362 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (7.20)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/USERTrustECCCertificationAuthori",
+          "com/USERTrustECCAddTrust",
+          "com/AAACertificateServic"
+        ]
+      },
+      "payload_snippet": "\nNew Jersey1\u00140\u0012\u0006\u0003U\u0004\u0007\u0013\u000bJersey City1\u001e0\u001c\u0006\u0003U\u0004\n\u0013\u0015The USERTRUST Network1.0,\u0006\u0003U\u0004\u0003\u0013%USERTrust ECC Certification Authority0\u001e\u0017\r181102000000Z\u0017\r301231235959Z0\u0081\u008f1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002GB1\u001b0\u0019\u0006\u0003U\u0004\b\u0013\u0012Greater Manchester1\u00100\u000e\u0006\u0003U\u0004\u0007\u0013",
+      "geoip_info": "PL, Warsaw, Mazovia, AS16276 OVH SAS"
+    },
+    {
+      "session_id": "TCP:104.117.77.129:80-192.168.1.8:49436",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.129:80-192.168.1.8:49436",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.129:80-192.168.1.8:49438",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.129:80-192.168.1.8:49438",
+      "likelihood_score": 8,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 197 bytes)",
+        "Contains long ID-like strings",
+        "Medium entropy (5.38)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ],
+        "base64_strings": [
+          "2003863e2ff8e39f2691361927843bcd"
+        ]
+      },
+      "payload_snippet": "GET /generate204 HTTP/1.1\r\nConnection: close\r\nUser-Agent: Dalvik/2.1.0 (Linux; U; Android 13; CPH2375 Build/TP1A.220905.001)\r\nHost: conn-service-eu-03.allawnos.com\r\nAccept-Encoding: gzip\r\n\r\nHTTP/1.1 2",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:37322-37.252.172.68:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:37322-37.252.172.68:443",
+      "likelihood_score": 7,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "com/DigiCertGlobalRootCA",
+          "20240912020118Z0s0q0"
+        ]
+      },
+      "payload_snippet": "1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1 0\u001e\u0006\u0003U\u0004\u0003\u0013\u0017DigiCert Global Root CA0\u001e\u0017\r171106122409Z\u0017\r271106122409Z0^1\u000b0\t\u0006\u0003U\u0004\u0006\u0013\u0002US1\u00150\u0013\u0006\u0003U\u0004\n\u0013\fDigiCert Inc1\u00190\u0017\u0006\u0003U\u0004\u000b\u0013\u0010www.digicert.com1\u001d0\u001b\u0006\u0003U\u0004\u0003\u0013\u0014GeoTrust ECC CA 20180Y0\u0013\u0006\u0007*\u0086H\u00ce=",
+      "geoip_info": "DE, M\u00f6rfelden-Walldorf, Hesse, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:41622-63.33.26.118:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:41622-63.33.26.118:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.77)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\b.\u00c1\u00872\u00e9\u0085\u00c7\u00ccr\u0099\u009f+y\u0085\u00dfb*V\u0000\u0000\u0000\u0000\u0000\u0007\u00e3\u00ac\u0082\u00d9d\u00fd4\u0001\u0099{\u00ef\u00aa\u00c5\u00cc|B\u001cP",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.39:57110-3.65.95.68:8883",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.39:57110-3.65.95.68:8883",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 78 bytes)",
+        "Medium entropy (7.70)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000\u00b0\u00bf\u00fcU2\u00dd)\u00f7E\u00cf{\u00df\u00d00\u00bc{N?\u00de\u00ae(\u00bc&\u0083T\u0017@\u00d4\u0010\u00ae\u00fbC.\u0088\u0006kB\u00cd\u00cf\u00b1\u00d3\u00fb7A\u00d0\u00a6*\u00ce\u009b\u00a2\u0080\u0002^\u00ee\u00a3\u00c5\u00f0G\u00f8\u009eZ/\u00da\u00df\u0003\u00d6\u001b\u0081\u00e9\u0011Q\u00fa)Le\u0098\u00df\u00de\u00b39\u00ce\u000bF\u00ef*8\u0015oXV\n\u00a1\u001d\u00d9\u00b4\u00a0\u00c7\u00045SB\u009f+\u009d\u008b\u00bf\u00d0y\u00cdr#<c\u00a6GZ\u008f^Ip\u00cd\u00cd\u000b\u00bd6\u00dc\u00bc\u00f1<:`1\u0082\u0018\u00a0/\u00e8\u00a6\u00a9\u00e0#\u0016A\u00dbX\u00946D\u00fbF\u00b0W\u00f54\n\u00fc\u00cd 2k\u008b\u0019\u008f\u0005\u0017wN^>\u00aa6\u008f\"\u00f8v\u00f6\u001f\u0017\u0003\u0003\u0000@\u00de\u00aa$\u00d6\u00b1B\u0096`\u00aa\u00b0w+D\u00eb",
+      "geoip_info": "DE, Frankfurt am Main, Hesse, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:179.60.195.7:443-192.168.1.8:41540",
+      "protocol": "TCP",
+      "endpoints": "179.60.195.7:443-192.168.1.8:41540",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 79 bytes)",
+        "Medium entropy (6.77)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "X\u00bb L\u0081\u00ff\u00fd14\u0014,\u00dc\n8.\u00fe\u00c6Jk\u00da2n:%\u00df[x\u0000\u00c4\b\u001d\u00eb\u00cf\u00c9\u0004\u00e1\u001f\u00d1C\u00a6\u00afI\u00b8\u0093\u00e2\u00a1\u00df\u0099$\u00a6\u00d90H\u00ac$\u00ee\u009c)9GO4l\u008eb\u0093\u001d\u00e9\b\u00cfN\u009a\u0017\u0003\u0003\u0000Q\u008c\u00a4T\u009en+\u001ea\u0097\u001f\u00f44\u00e3\u008e\u00d6R\u00c8\u00f2UIyU\u00ec\u00f5R\u00ab\u001b\u00da\u0098\u0085\u0094c\u0099l\u00a9 \u001ccQ\u000byp2\u000b\u0095J\u0000\u00e8\u000e\u0013\u0001\u001f\u0015\u00bd\u0001\u00f8\u00b8\u009e42\u00c5\u00b1\u00f3\u0013M\u0080a\u00fd)t\u00e4\u0088^\u0092\u00c8\u00be\u00de&\u00b2\u00f7\u00a1",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS32934 Facebook, Inc."
+    },
+    {
+      "session_id": "TCP:185.89.210.141:443-192.168.1.8:46238",
+      "protocol": "TCP",
+      "endpoints": "185.89.210.141:443-192.168.1.8:46238",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.10)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u0002\u00d2NJ-\u00ff\u0005\u00a5\u0098\u00d9\u00adx\u00de@B\u00b1\u00f1\u00ae\u00cf",
+      "geoip_info": "NL, Amsterdam, North Holland, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:179.60.195.7:443-192.168.1.8:41546",
+      "protocol": "TCP",
+      "endpoints": "179.60.195.7:443-192.168.1.8:41546",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 79 bytes)",
+        "Medium entropy (6.73)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "fL\u00a3\"\u00b9as<k\u009e+J\u0081\u00a9\r~o\u009b$\u008e\u0095\u0092c\u0004\u00e7(\bJt\u00d0p8\u00a4\u00c8\u0090\u009e\u0018\u0004\u00b5\u0081\n\u0018\\\u00ee\u00b3\u00b8*\u00a2\u0094\u000e\b-\u00ef\u00e1H\u00c3-\u0081\u00c8\u00b3\u00a9\u00ff\u00bf\u00a4/\u00d2\u00b0\u00beT{\u00b6\u00be\u0017\u0003\u0003\u0000Q\u00ba\u00d3\u0003\u00d0{W\u0002\t\u00d9\u00c40\u00d5\u00ea\u009a\u0083\u00a7\u00f8\u00a63\u00fb\u00aeQ@D\u0085!6\u009a\u00b3\u001a\u0090\u0080\u00ff\u009a\u00823Xe\u00b5\u0086w\u0010h?\ft\u0083\u00a6\u000f&\u00b9\u009eS\u001f\u00cd\u000f\u001eb\u0004\u000e\u00c4Aq\u00fa\u00a7\u00fb\u00a2\u0012 O\u00d22\u00c0\u00b6<A<\u00146d\u00db",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS32934 Facebook, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:38714-52.210.99.135:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:38714-52.210.99.135:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 572 bytes)",
+        "Medium entropy (7.55)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000Nu\u00a3'\\\u009a\u0010\u00c38[l\u00d4\u00df?R\u00eb\u001d\u00f0\u00e0\u008e\u001b\u008di\u00c0\u00b1\u00fad\u00b1b\u009a9\u00df\u0000\u0000\u0001\u008d\u00ed?^W\u0000\u0000\u0004\u0003\u0000F0D\u0002 \u0003\u00dc\u00ff\u00cf\u00ca&\u000e\u0003,\u00c9\u00d6\u000b[\u00de\u00ff\u00d5\u00d9\u0001\u00fb\u00aa\u00c8\u0096\u00ecA{?\u00d6\u008a2}\u0095\u00d9\u0002 h\u00af\u007f-\u00b0\u008d\u0093\u00d2y\\2\u00bd#\f\u00e2l\u0092x\u00ca\u00bfA:t\u00d2\u009d[\u000b\u001a\u009fb\u0013\u009d\u0000v\u0000}Y\u001e\u0012\u00e1x*{\u001cag|^\u00fd\u00f8\u00d0\u0087\\\u0014\u00a0N\u0095\u009e\u00b9\u0003/\u00d9\u000e\u008c.y\u00b8\u0000\u0000\u0001\u008d\u00ed?^\u00bd\u0000\u0000\u0004\u0003\u0000G0E\u0002!\u0000\u00ca\u0087\u0001\u00e6h\u00ec<\u0000\u0092;4XC}\u00e6\u00db\u0018l\u0082\u0099\u00e3\u00a3\u0093\u00c4\u00dc\u00f4R\u0016\u00c6",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:48254-34.240.95.33:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:48254-34.240.95.33:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 639 bytes)",
+        "Medium entropy (7.55)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0089:\u00cc\u008c\u0007s\u00eae\u00ad\u00e9\u0090:\u00b3g\u0001K\u00c0[0E\u00d2C\u00be\u0002!\u0000\u0097\u009aU[\u00ff\u00bc\u0091R*\u00ab#D*\"\b\u0019\u00e4\u00ee\u00c6Cs.\u00e9\u009cA\r\u0016\u00acPs\u0013\u00d6\u0000u\u0000}Y\u001e\u0012\u00e1x*{\u001cag|^\u00fd\u00f8\u00d0\u0087\\\u0014\u00a0N\u0095\u009e\u00b9\u0003/\u00d9\u000e\u008c.y\u00b8\u0000\u0000\u0001\u0091X\u00e1\\\u00b7\u0000\u0000\u0004\u0003\u0000F0D\u0002 .\u00d8\u00c7\u0092<\u00e7 \u00a35\u00fb\u00c6\u00dcA\u00d15\u0097-\u00036\u0012\u00edrx&4\u0095\u00fe\u0088\u009b\u00a1\u00cf\u00af\u0002 7\u008b\u00c8\u001c\u00b5\u00d0\u00de\u0083\u00da@D8\u0082\u00a9d\tz\u00e5$v\u0014\u00e7\u0002\u0002K\u00e1%\u00fa\u00c7\u00e0\u00a3a\u0000v\u0000\u00e6\u00d21c@w\u008c\u00c1\u0010A\u0006\u00d7q\u00b9\u00ce\u00c1\u00d2@\u00f6\u0096",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:46766-52.215.149.83:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:46766-52.215.149.83:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 698 bytes)",
+        "Medium entropy (7.50)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000U\u009a[\u00adN\u00b6\u00f1\u00b9Q\u0087E\u00b8u\u00e5\u00c0\u0001l\u00ce\u00f1\u0082\u00dcA\u00b9j\u00c4\u0082\u00b2\\[\u00c6\u00a7\u00c8Z\u0018Lk>\r.\u0094a\u0016n\u0083j\u008cS5\u0017\u00181\u00f7q\u00eb\u0004aX\u0007\u008c=m\u0094d\u00c2\u00ebP>\u00d3YyA\u00e4\u00a8YA4lQ\u00da&\u00d4GH{<\u0010S!\u009d\u00c0'zc\u00de\u0014\u00b5\u00b4\u00dd\u00d3\u00bf\u009e\u00edr\u00f2E\u00ef6\rt\u00cc\u00ad\u009733c\u008c\u000b`cc\u0080/\u00a5\u00fb\u00b1gI\u00b2g\u00c6\u0000K\u00e8\u0089\u0001\u00d4\"i\u000e\u00da9@\u00d2\f\u00ff\u0019\u0083nT\"I\u0099\u00f5\u00ce\u001d\u00c5\u00c8c\u00e2H(\r\u00a4O\u00c1\u00b7tE\u00f0#\u0095|\u00ddp\u00c0\u00b6\u00d43\u00db\u008ar\u00bd\u001bJ\u00ca\u00a1\u00ac",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:37258-34.227.240.46:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:37258-34.227.240.46:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 701 bytes)",
+        "Medium entropy (7.50)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00ee\"\u0018\u0090d\u00a1oZ2g\u00acO0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000\u008a\u0086\f\u00ed\u000e\u00bdUr0\u00e3\u0083Y4\n\u00b9P\u00e9\u00c7\u00cbZ\rd\u0006\u008cujX\u009cT\u009d\u00b6O\u00f5\u009e\u00afQ7\u0096G}\u0010W\u00f2:P\u00e5\u00e1#\u0093O\u00a2\u00a3\u0011\u00ddd\f\u00ed\u00d4\u00a0\u00c3\u00d9\u00c5*\u00b5>F\u00da-\u0005\u00e48\u009e\u00f7*\u001f\u00ab\u009a\u00fc\u00f3 G\u00f1\u00a6R\u00f0\u009c\n\"\u00f4\u00c4\u00f5\u00db\u009a</mCG\u00b4\u0096P\u001f\u0098v /ge\u00ce\u00ea\u0082\u0094\u00c3\u0086v\u00df>6\u0010g\u00a0|\u00b9\u00904P\u0083\u0019\u00ae`\"f\u00e5|\u0017\u00c2M\u00b9T\u00d9=\u00e5\u00d6\u00b2\u0001_+\u00a5\u00a34o\u00c2\u00d8\u008d\u00c5\u00eb\u00a1\u0006\u00aab\u00d2G%\u00b6_\u0016\u00ddf",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:37260-34.227.240.46:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:37260-34.227.240.46:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 836 bytes)",
+        "Medium entropy (7.51)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u00ee\"\u0018\u0090d\u00a1oZ2g\u00acO0\r\u0006\t*\u0086H\u0086\u00f7\r\u0001\u0001\u000b\u0005\u0000\u0003\u0082\u0001\u0001\u0000\u008a\u0086\f\u00ed\u000e\u00bdUr0\u00e3\u0083Y4\n\u00b9P\u00e9\u00c7\u00cbZ\rd\u0006\u008cujX\u009cT\u009d\u00b6O\u00f5\u009e\u00afQ7\u0096G}\u0010W\u00f2:P\u00e5\u00e1#\u0093O\u00a2\u00a3\u0011\u00ddd\f\u00ed\u00d4\u00a0\u00c3\u00d9\u00c5*\u00b5>F\u00da-\u0005\u00e48\u009e\u00f7*\u001f\u00ab\u009a\u00fc\u00f3 G\u00f1\u00a6R\u00f0\u009c\n\"\u00f4\u00c4\u00f5\u00db\u009a</mCG\u00b4\u0096P\u001f\u0098v /ge\u00ce\u00ea\u0082\u0094\u00c3\u0086v\u00df>6\u0010g\u00a0|\u00b9\u00904P\u0083\u0019\u00ae`\"f\u00e5|\u0017\u00c2M\u00b9T\u00d9=\u00e5\u00d6\u00b2\u0001_+\u00a5\u00a34o\u00c2\u00d8\u008d\u00c5\u00eb\u00a1\u0006\u00aab\u00d2G%\u00b6_\u0016\u00ddf",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:108.177.15.139:443-192.168.1.8:41078",
+      "protocol": "TCP",
+      "endpoints": "108.177.15.139:443-192.168.1.8:41078",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.10)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u0002?&\rg>\u00ed;\u00da\u00e8\u00bb\u001b\u0005j\u00d8\u0091\u0084\u00eah",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:37022-216.239.32.36:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:37022-216.239.32.36:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.10)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u0003\u0099EWV\u00e1\u00c5\u00e7\u0095\u000bR\u00a3K\u00d8s\u00db\u007fN\u00d5",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:46180-3.248.157.32:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:46180-3.248.157.32:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (5.10)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u0002S\u00a5\u00a1\\\u00d1\u00e2\u00c5\u00d5W0\u0082\u00de\u00d0\u00db-\u00bc\u00e3Nfnf\u00b8\u008e\u00d1\u00ab\u0000\r\u00aa[F\u00ad|\u00e9U\u00b7\u00e2\u00069w\u00ad\u00e1\u00a7",
+      "geoip_info": "IE, Dublin, Leinster, AS16509 Amazon.com, Inc."
+    },
+    {
+      "session_id": "TCP:185.89.210.59:443-192.168.1.8:45126",
+      "protocol": "TCP",
+      "endpoints": "185.89.210.59:443-192.168.1.8:45126",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (5.05)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "&\u00daN\u00ef\f\u0010g\u0016d<\u0001\u00e0O\u009e\u0016\u0016\u00ea_\u00f3X66\u00b0\u00f9\u0000\u0000\u0000\u0000\u0000\u0004\u0007P\u00a4O\u00cd\u0099\u001af\u00f9\u00df\u0016y\u009a\u008a\u00c6\u00d9\u0096\u00a7",
+      "geoip_info": "NL, Amsterdam, North Holland, AS29990 Xandr Inc."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:46188-2.17.196.106:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:46188-2.17.196.106:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 127 bytes)",
+        "Medium entropy (7.15)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000.*`\u00f5Y\u00a5q\u009bn\u00a3\u00d0\u00a19\u00a6aC \u00c3\u00eaO\u0088$\u00e0<{\u00b1\u00bbS\u008b\u0082J\u00e1x\u0005\u00ce\u00c6\u00a3\u00c6\u00fa;\u00e4\u00ab\u00c1]\u0099\u0000\u00d7\u0017\u0003\u0003\u0000E\b'\u00aa\u00f5\u00d1\u00d5\u00a6g\u008d4/TmB\u00ee\u008a\rs\u00a9B\u0093\u00bf\u00c7T\u00d6\u001a\u0096\u00c2\u00d3\u0092s\u00c3t\u009d\u00ebx\u0082\u0091\u00bb\u00ac\u001f\u0097j\u00b0\u00b7`|\u0003\u00de\u001cK\u0099G\u00ed>\u00bb\u0094!\u0007\u00fcT\u00cd?4\u00aa\u00f6\u008f\u00de_%\u0093 W\u0002T\u00a2\u00f2pr\u00ee\u009c\u00cc\u00de=\u0010Rbb\u0096#:\u00f79\u00b3\u00dd\u00c6\u001c\u00ab\u00b4&\u001c\u0098\u00f2\u00ab\u008fg\u00f9!\u00fa\u00ec\u0083\u00f6\u0091^\u0007\u0015^\u00d7\u00c3\u00d4\u0097\u001cc,;\u001d\u00f2\u00eai\u00ad\u00d2\u00af@\u00a7\u0088\r0\u00fb\u00dc\u00a5\u00ad\u0003\u00f1\u00d8",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:178.250.7.10:443-192.168.1.8:40704",
+      "protocol": "TCP",
+      "endpoints": "178.250.7.10:443-192.168.1.8:40704",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 283 bytes)",
+        "Medium entropy (7.78)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000*\u00b8\u009b\u00c3\u00e0\u00c8S#\u00802\u00e3yq\u0092\u0004a\u00ff\u0085Y\u00d8\u00ffaV\bR\u00a5\u00d4\u0015y\u00dcv\u00a7A*t\u00d4\u00fe\u0083y\u00d8\u00ca)\u00fb\u0017\u0003\u0003\u00005\u00e8\u00c3\u00dc\u00a6!=\u00a7\u001f\u009e\u00aaI\u0004)\u0006\u00e2\u00d5\u0016C\u00cbr\u00bf\u00af \u0095\u00cb\u0007!\u00bb\u00af\u0088\u008f\u0080\u0019\u0015=4\u00e66\u0093\u00a2\u00c2he\u00bd\u001a\u00ed\bz\u00e1\u00ad\u009d\u00d5\u00f7\u00deT\u00e9\u00b9\u00ca\u0086\u00b1\u0015\u00fbJw\u001b\u00ab\u001c.:)\u00fc\\Np\u0019\u00c0$\u0090\u00ac\u009b\u00d2\u008e\u00ce\u00a2\ny\u00f6\u0013\u00f5\u00bf\u0083\u00b2F\u00fb\u0019\u00cd\u00de\u00deF\u00bc\u0002U\u00df)\u00a7\u009f\u00bf@\u0011\u0089\u00cf\u00b4\u00b2\u00fc\u0081\u008c\u00d6\u008a]\u00c4O\u00b1\u00cc\u001c\u009b4\u00b4W\u0085t\u00e30q%\u00ddG3%\"\u00af\u00c1h\u00e4@J\u00b8_\u008a",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:178.250.7.10:443-192.168.1.8:40706",
+      "protocol": "TCP",
+      "endpoints": "178.250.7.10:443-192.168.1.8:40706",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 105 bytes)",
+        "Medium entropy (6.27)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000*\u0005\"\u00e2\u00f7P\u00c39\u00c0\u0091u\u0093\n\u00f9\u00f8\u001e4\u00ceJ\r|\u00b9,ZT\u00cf2>*\u00b9\u00f6\u00db [\u009d\u00e1}|FEd\u00b6\u001f\u0017\u0003\u0003\u00005\u00e1\u00f2\u00ac\u009c+]\u0089\u00f5\u0095\u008cwuQ4\u0007\u00dbl%|Y\u0011\u00a9\u00aer\u00ael\u00ea\u00d2\u00a3]=\u0003\u0099G\u0094\u009e\u001e?\u00bda\u0096\u008e<D1\u00c3%8\u009a6\u0018\u00b9\u00ca",
+      "geoip_info": "N/A, N/A, N/A, N/A"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:40264-23.76.204.46:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:40264-23.76.204.46:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 125 bytes)",
+        "Medium entropy (6.43)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u0000.\u00e5\u0013\u00c42\u00ce\u00ee\u0096\u008b&\u0094Z\u00ad\u008d\u001c\u00aa\u00d0\u0080\u00c6\u0092\u00aeq\u00dc^A\u00b5\n\u0005\u00f0\u008b^\u00a5\u0094>\u00f4\u00b0?\u000e^\u008f\u00ff\\\u00bc\\\u00199\u00c9\u0017\u0003\u0003\u0000Eq\u00e9\u008f\u00f2\u007f\u00e6\u008e\u00c0/\b\u0017\u00fa]\u00e7\u00e2\u0080\u00eew3\u00ea\u00fd9Z\u009e\u009e`\u00bav\u00ffL*l_l\u00e7\u0006\u00f3r\u00ef\"\u00fcx3\u0013\u00b9\u00a5\u00bd\u007f\u0002M\u0091\u00dc\u00ca\u00f7wSz\u00d1\u00a0\u00e8o\u0095\u00ca{9\u008b\u00f4\u00d5I",
+      "geoip_info": "NL, Zwaanshoek, North Holland, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.97:443-192.168.1.8:38806",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.97:443-192.168.1.8:38806",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 131 bytes)",
+        "Medium entropy (6.56)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u00004\u0017g\u00f9\u0011\u00ed%+@\u00d1\u001d7\u0085\u00bd\u001en}z\u00f3/\u0004\u00049D\u00d4)\u009e\u0099Z\u00e5\u00db\u0099\b\u00c5\u00e8$\u00d9[\u001a\u00ae\u00ee)\u0090\u00a9\u00edb\u0015\u00ad\\X4\u00e8\u0004\u0017\u0003\u0003\u0000E\u00ac\u00a5QF{\u00960\u0082\u00da\u00f8\u009b\u008aiHU\u00f6\u0091\u00bb\u00f2\u009cN<\u000f\u0099\u00b8\u0007\u008f\u00ee\u00fb%\u00af\t\u0015\u0088\u009c}\u000e\u00e0\u00a8vc\u00b9\r\u00bb\u00d3\u00bct\u00bb\u00a6\u00aa\u0002YKk\u0090H\u0089F\t\u00d7\u00ca\u00fe\u0004\u0087\bp~\u008b\r",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:104.117.77.169:443-192.168.1.8:44930",
+      "protocol": "TCP",
+      "endpoints": "104.117.77.169:443-192.168.1.8:44930",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 131 bytes)",
+        "Medium entropy (6.62)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0017\u0003\u0003\u00004\u0093\u001b`\u00a6\u008e\u0088&8\u009b\u00ac\u0010`G.\u00cbqf\u00ae\u00eb\u0016\u00a2+\u00dc\u00f1d\u0080\u00c5It\u00afP1\u00ff\u00e2\u001f\u00f1b\u00fa\u0080\u00d7\u007f\u0015\u00b2 p\u00a0?\u00ffw\u0099\u00f7\u00f3\u0017\u0003\u0003\u0000E\u00d8\u00a7\u00d8'\u00a9\u0017\t\u008b70\u00c7\t\u00e3\u00e7\u00b1B\u0090\u008a\u00c1w*T\u00d5U\u00b3x?\u00ec\u0091\u007f\u00e0m\u0015<A\u00f3,\u00aa\u001c\u00d9\u0016H/\u001a_\u00a1\u008c6\u00a9_\u001b\u00c9\u00c2\u00d5\u0081\u00d0\u0010\u000f=(\u00eaN\u00e8/\u00e8c\u00ac\u008f\u00c8",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS20940 Akamai International B.V."
+    },
+    {
+      "session_id": "TCP:192.168.1.8:48584-64.233.184.97:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:48584-64.233.184.97:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (4.10)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0000\u0000\u0000\u0000\u0000\u00037#(+\u00c8\u00f2\u0006d8\u00c4\u00ac_I\u00f9\u00ae\u00baO\u000f",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:192.168.1.8:39900-66.102.1.97:443",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.8:39900-66.102.1.97:443",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 24 bytes)",
+        "Medium entropy (5.46)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "\u0081P\u00ef\u00fb@7\u00e6\u0002\u00db\u0080rT\u00de\u00b08\u0000\u008d3\u00c3\u0080\u00c79|\u0084\u00a0d\u00c91\u009f\n~\u00ed!\u0099Sz\b\u00cag\u00d3vd4\u00ea\u00a6}\u00c9b",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS15169 Google LLC"
+    },
+    {
+      "session_id": "TCP:179.60.195.7:443-192.168.1.8:41674",
+      "protocol": "TCP",
+      "endpoints": "179.60.195.7:443-192.168.1.8:41674",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (WAN to LAN)",
+        "Chatty (avg size: 79 bytes)",
+        "Medium entropy (6.74)"
+      ],
+      "extracted_strings": {},
+      "payload_snippet": "l\u0099\u00d4q\u00aa\u00b3H\u00d1A%\u00b2\u00ee\u00d3,\u00fc\u00d3\u00d4\u000e>\u00b0=\u0084\u00a6R\u00a5\u009f\u00f4K\u0086\u00fa\f+\u00bb\u0087\u00c0;.)\u009b]%\u009f\u009a,\u00026\u0091\u00a1\u0099\u009f\u00ee\u00f7\u00cc\u008a\u001b\u00b5\u0080\u00c0\u00e0\u00ed\u00ed\b~B\u00fb@=\u00c8\u00cb\u0088\u000e\u0094\u0017\u0003\u0003\u0000Q\u00fc\u00ean\u00b7\u00daX\u001d\u0014\u00e6\u001c\u00a4\u0005\u009c`\u00de\t\u00f2\u00ea\u00db\u00d9PV\u0000\u009e\u00ca}@}\u00ba\u009f\u00daO\u0096\u00ef8\u0002\u008d\u00f3m\u00f2\u001d\u00de\u0088\u00df7\u00b4e\u0017V\u0010\u00c8\u009e\u00cbq\u00eb\u00b4\u0097*9\u001eZ\u00bb\u00edR\u00ab)\b|d\u0090\u00e8\u00f7\u00f3\u00ea\u000b\u001b\u00a0/\u00ed[\u00d0",
+      "geoip_info": "BE, Brussels, Brussels Capital, AS32934 Facebook, Inc."
+    }
+  ]
+}

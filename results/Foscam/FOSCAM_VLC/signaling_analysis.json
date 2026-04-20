@@ -1,0 +1,117 @@
+{
+  "detection_method": "Heuristic-Based",
+  "sessions": [
+    {
+      "session_id": "TCP:192.168.1.155:88-192.168.1.16:53820",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:88-192.168.1.16:53820",
+      "likelihood_score": 8,
+      "evidence": [
+        "Chatty (avg size: 246 bytes)",
+        "Contains likely Unix timestamps",
+        "Contains long ID-like strings",
+        "Medium entropy (5.58)"
+      ],
+      "extracted_strings": {
+        "hex_strings": [
+          "0b22f72e036d3d7a09c7cb42a26c1bf0",
+          "0b22f72e036d3d7a09c7cb42a26c1bf0",
+          "9630ccdbbce4a74ba04590ae640c8bb2",
+          "df190cf0be142b18f1bd8bb004061d36",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "087bd13c73a1163ad994c7d0fb5d2bf4",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "7dd45eb0f09662f064f2c596b1ffffcd",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "7dd45eb0f09662f064f2c596b1ffffcd",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "86ff3b54dd57344caa485e082786fc38",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "93affe5ad782e5576ffa12ec5b93556f"
+        ],
+        "base64_strings": [
+          "0b22f72e036d3d7a09c7cb42a26c1bf0",
+          "0b22f72e036d3d7a09c7cb42a26c1bf0",
+          "9630ccdbbce4a74ba04590ae640c8bb2",
+          "df190cf0be142b18f1bd8bb004061d36",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "087bd13c73a1163ad994c7d0fb5d2bf4",
+          "65534/videoMain/trac",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "7dd45eb0f09662f064f2c596b1ffffcd",
+          "65534/videoMain/trac",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "7dd45eb0f09662f064f2c596b1ffffcd",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "86ff3b54dd57344caa485e082786fc38",
+          "65534/videoMain/trac",
+          "65534/videoMain/trac",
+          "9c9da8c80f3d75025a782657cd31e68f",
+          "93affe5ad782e5576ffa12ec5b93556f"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "ONS rtsp://192.168.1.155:88/videoMain RTSP/1.0\r\nCSeq: 2\r\nUser-Agent: LibVLC/3.0.18 (LIVE555 Streaming Media v2016.11.28)\r\n\r\n/1.0 200 OK\r\nCSeq: 2\r\nDate: Fri, Feb 24 2023 14:31:38 GMT\r\nPublic: OPTIONS, ",
+      "geoip_info": "Not available"
+    },
+    {
+      "session_id": "TCP:192.168.1.155:35680-54.89.236.61:8884",
+      "protocol": "TCP",
+      "endpoints": "192.168.1.155:35680-54.89.236.61:8884",
+      "likelihood_score": 5,
+      "evidence": [
+        "Client-Server (LAN to WAN)",
+        "Chatty (avg size: 31 bytes)",
+        "Medium entropy (6.04)"
+      ],
+      "extracted_strings": {},
+      "fingerprint": [],
+      "payload_snippet": "\u0017\u0003\u0003\u0000\u001a\u00b1\u00c6\u00f2[\u00da\u001f/\u00af\u00e6\u00f2\u0017e \u00c4\u00f0\u001d\u00f8/RY<\u00cf3\u0089\u00e6\u00c3\u0017\u0003\u0003\u0000\u001a\u0094g1\u00a9\u008e\u001d\u00c3\"\u00ae7\u001dD*`?\u0080AgV&Uv\u0011\u00c5\u009c\u0090\u0017\u0003\u0003\u0000\u001a\u00b1\u00c6\u00f2[\u00da\u001f/\u00b0V?\u00c1\u00182v\u00bc\u0015\r\u0013[u\u0007o\u0011'\u009b\n\u0017\u0003\u0003\u0000\u001a\u0094g1\u00a9\u008e\u001d\u00c3#\t\u00a1\u00db2\u0087\u00ae\u00d3\u00a8%^\u0085W\u00d1\u008bp\u0005\u0091\u00a2",
+      "geoip_info": "US, Ashburn, Virginia, AS14618 Amazon.com, Inc."
+    },
+    {
+      "session_id": "UDP:192.168.1.155:6972-192.168.1.16:52852",
+      "protocol": "UDP",
+      "endpoints": "192.168.1.155:6972-192.168.1.16:52852",
+      "likelihood_score": 5,
+      "evidence": [
+        "Chatty (avg size: 489 bytes)",
+        "Contains long ID-like strings"
+      ],
+      "extracted_strings": {
+        "hex_strings": [],
+        "base64_strings": [
+          "zyvywswrtpppoqupnmovonkz",
+          "tuptsottynsxqysywsys",
+          "ttzvsvxttvwrtzuxyyxyyyzz",
+          "zyzzwxywvvvuwyyyzzyy",
+          "zzzyxvuutqqpprtssropqswy",
+          "xvtsqooonnmnnnnnooqtvwwyyzzz",
+          "zzyyxwxwuvyywwzzyyyz",
+          "zyyyywuuvuuvvuuutuwwvvwwyyxy",
+          "wupoomoqsuuwtromllkl",
+          "tnkihgghhjkllkjiihhikmov",
+          "ywuutsrqqqqqqrssrrrt",
+          "zxvttttsstuvvvvwwvusrrrrstvy",
+          "zzyxxwwvutttssrqpppoooooonooooooonnnnnnnnnmmmmmmmmnmmmmmmmmmlkllkkkkjjjjkkklkjjkkkllmlllmmlmonmmnnnoopqssvww",
+          "zyyyxwwutttuusrqppoooonnmmmmmmllllllmmlllllllllmmlmmmmnnooooppprsrrsstuuuutuvwvvxxxyzyyxxyyyyxwwwwxwvvwwwwyyyyyy",
+          "zyxwwvuutrrrqqqpppqqqqqppooooooooooooppppppqrrsstuuuuuvvuuuuuuututttuuuuuvvvwvwwwwwwwwwwwwvwxyyz",
+          "zyyyxxxwwvvvutssrqqqpppppqqqqqqqqrrrrrrsrrrrqqqpqqqrrsttuuvvvuuutttssrrssstttttuuuwxxxxxxxxxxwwwxyyz",
+          "zzzyyzyyyyyyzzzzzyyxxwwwvvvvvvvvvuuuuuuuuuuttttsssrrrrssssstuuvwwwwwxxxxxxwwxwxxyyyy",
+          "zyyxxxwwvvvvvvvwwxxyyyyyxxwvvutttsssssssttvvwxyz",
+          "zzzzyyyyxxxwwwwwwxxxxyyyyyyyzyyyyyyyyyzzzzzz",
+          "zzzzzyzyyyyyxxyyyyyy",
+          "zzzzzzyyxxxwwwwwwwxxxxxxxxxxwwwvvwwwxxxxyyyzzzzz",
+          "sheimkfglrxsotsongem",
+          "pozofinihoofizsjlgfx",
+          "xtstsrrqoooprsuvvwxy"
+        ]
+      },
+      "fingerprint": [],
+      "payload_snippet": "\u00ce\u00fa\u00ed\u00fe\u00ce\u00fa\u00ed\u00fe\u0080\u0000Q\u0083\u00dai9\u0012{\u0097\u0091!\u00ef\u00ef\\LN^[ag\u00df\u00ec\u00edaUd|h~\u00ebshffc]Y\u00fbv`][_`k~\u00fa\u00fc\u00ed\u00fe\u00fe\u00ffmaozkmhe|jWc\u00f4\u00f2|\u00e8\u00e1\u00e9shp\u00fepi~\u00ee\u00e9x\u00f8\u00f3\u00ef\u00e9\u00fa\u00e4mugsao\u00f6\u00fc\u00e5\u00fb\u00ef\u00f8\u00eduecgmk\u00ec\u00e8\u00df\u00ec\u00f3\u00fctn\u00fd\u00ef\u00ec\u00ec\u00e3\u00e5\u00ea\u00f0\u00e6\u00ff\u00eb\u00ed\u00e5\u00ef\u00ec\u00e8\u00eb\u00e9\u00ec\u00e4r\u00e6\u00e4\u00e2\u00e8\u00e5\u00e6\u00f9\u00eek\u00dc\u00dd\u00e3\u00f7\u00e1\u00dd\u00eeum\u00e5\u00e6\u00eb|\u00f0\u00ee\u00eez{{|yzu\u00f5{dunl\u00ee}py\u00f2{\u00f0\u00f7p\u00f2{\u007fy\u00f4\u00f8vi\u00fez",
+      "geoip_info": "Not available"
+    }
+  ]
+}

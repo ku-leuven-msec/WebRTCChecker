@@ -1,0 +1,56 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-08-24T00:00:00+00:00",
+    "valid_until": "2023-09-24T23:59:59+00:00",
+    "issuer_cn": "DigiCert SHA2 Secure Server CA",
+    "subject_cn": "*.ring.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.ring.com')>",
+      "<DNSName(value='ring.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "1E:75:00:C5:C1:7B:FA:A5:8A:78:3C:38:45:67:AA:0A:D2:1A:F5:7C:85:6A:D0:27:D5:8B:29:55:FB:DF:8C:31",
+    "found_in_packet_number": "190",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "54.156.211.246",
+      "type": "Public",
+      "hostname": "ec2-54-156-211-246.compute-1.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.111",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2023-01-17T00:00:00+00:00",
+    "valid_until": "2023-12-18T23:59:59+00:00",
+    "issuer_cn": "Amazon RSA 2048 M01",
+    "subject_cn": "*.688489872635.eu-west-1.prod.rms.ring.devices.a2z.com",
+    "subject_alternative_names": [
+      "<DNSName(value='eu-west-1.prod.rms.ring.devices.a2z.com')>",
+      "<DNSName(value='*.688489872635.eu-west-1.prod.rms.ring.devices.a2z.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "8F:45:B1:C9:FC:2F:34:7C:A8:66:2E:A7:3F:49:00:3C:0C:76:BD:31:73:72:33:DE:1B:FF:88:C8:CD:72:1C:BF",
+    "found_in_packet_number": "2047",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "18.200.70.75",
+      "type": "Public",
+      "hostname": "ec2-18-200-70-75.eu-west-1.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.111",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

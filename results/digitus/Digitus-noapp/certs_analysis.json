@@ -1,0 +1,53 @@
+[
+  {
+    "self_signed": true,
+    "validity_period_ok": true,
+    "valid_from": "2018-10-31T05:30:48+00:00",
+    "valid_until": "2118-10-07T05:30:48+00:00",
+    "issuer_cn": "*.tuyacn.com",
+    "subject_cn": "*.tuyacn.com",
+    "subject_alternative_names": [],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3",
+    "found_in_packet_number": "140",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "18.184.31.90",
+      "type": "Public",
+      "hostname": "ec2-18-184-31-90.eu-central-1.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.56",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  },
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2022-07-05T00:00:00+00:00",
+    "valid_until": "2023-08-03T23:59:59+00:00",
+    "issuer_cn": "Amazon",
+    "subject_cn": "trace.svc.ui.com",
+    "subject_alternative_names": [
+      "<DNSName(value='trace.svc.ui.com')>",
+      "<DNSName(value='*.trace.svc.ui.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "AE:4E:8C:10:CC:B9:5D:63:DE:AE:69:67:22:0C:B7:57:26:B1:8F:E6:B0:03:9E:B1:70:7E:2E:DE:F0:9E:9B:47",
+    "found_in_packet_number": "7135",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "44.235.189.148",
+      "type": "Public",
+      "hostname": "ec2-44-235-189-148.us-west-2.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.164",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]

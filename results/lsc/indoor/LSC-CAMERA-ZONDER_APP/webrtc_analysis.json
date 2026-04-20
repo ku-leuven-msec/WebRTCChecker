@@ -1,0 +1,420 @@
+[
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:45826",
+    "server_endpoint": "18.184.31.90:8883",
+    "total_bytes": 14770,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35196",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4545,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35198",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4593,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35200",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4481,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35202",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4513,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35204",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4367,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35206",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 5169,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35208",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4465,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35210",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4415,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35212",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4385,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  },
+  {
+    "protocol": "TLS",
+    "client_endpoint": "192.168.1.194:35214",
+    "server_endpoint": "3.125.199.146:443",
+    "total_bytes": 4577,
+    "client_hello": {
+      "version": "TLS 1.2 (0x0303)",
+      "offered_cipher_suites": [
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+      ],
+      "security_summary": {
+        "offers_weak_ciphers": true,
+        "weak_ciphers_list": [
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+          "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+          "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+        ]
+      }
+    },
+    "server_hello": {
+      "chosen_crypto_suite": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+      "is_encryption_strong": false
+    },
+    "certificate_details": {
+      "self_signed": true,
+      "validity_period_ok": true,
+      "valid_from": "2018-10-31T05:30:48+00:00",
+      "valid_until": "2118-10-07T05:30:48+00:00",
+      "issuer_cn": "*.tuyacn.com",
+      "subject_cn": "*.tuyacn.com",
+      "subject_alternative_names": [],
+      "key_exchange_algorithm": "sha256WithRSAEncryption",
+      "fingerprint": "10:76:A1:50:8A:07:57:AB:52:85:AB:F4:F5:CE:1D:F7:57:0F:4B:D1:D7:63:E2:D4:6D:D3:CF:4A:72:F4:1A:F3"
+    }
+  }
+]

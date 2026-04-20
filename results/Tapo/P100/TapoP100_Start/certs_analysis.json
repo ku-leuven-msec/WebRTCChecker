@@ -1,0 +1,30 @@
+[
+  {
+    "self_signed": false,
+    "validity_period_ok": true,
+    "valid_from": "2021-10-22T01:40:18+00:00",
+    "valid_until": "2023-10-22T01:40:18+00:00",
+    "issuer_cn": "TP-LINK CA P1",
+    "subject_cn": "*.tplinknbu.com",
+    "subject_alternative_names": [
+      "<DNSName(value='*.tplinknbu.com')>",
+      "<DNSName(value='*.i.tplinknbu.com')>",
+      "<DNSName(value='*.iot.i.tplinknbu.com')>"
+    ],
+    "signature_algorithm": "sha256WithRSAEncryption",
+    "public_key_algorithm": "RSAPublicKey",
+    "fingerprint": "56:3C:B5:3E:2C:93:14:C0:A0:CB:9B:13:C9:B4:71:56:75:04:5E:D7:2C:81:E7:CC:94:9C:85:E0:F1:84:08:EA",
+    "found_in_packet_number": "130",
+    "found_in_packet_summary": "TLS Packet",
+    "sender_info": {
+      "ip": "54.74.50.251",
+      "type": "Public",
+      "hostname": "ec2-54-74-50-251.eu-west-1.compute.amazonaws.com"
+    },
+    "receiver_info": {
+      "ip": "192.168.1.205",
+      "type": "Private",
+      "hostname": "N/A (Private IP)"
+    }
+  }
+]
