@@ -49,12 +49,13 @@ pip install -r requirements.txt
 - **QUIC / HTTP/2 / HTTP/3 / Encrypted WebSocket traffic:**  
   1. **Generate SSLKEYLOGFILE**  
      Set an environment variable before launching your browser to save TLS keys.  
-  2. **Extract Keys in wireshark**
-    Extract Secrets
+  2. **Extract keys in Wireshark**  
+     Use **File > Export TLS Session Keys** or your browser keylog file.
   3. **Run with Tshark**
-     ```bash
-    tshark -r capture.pcapng -o tls.keylog_file:key.txt -w decrypted.pcapng
-     ```
+
+```bash
+tshark -r capture.pcapng -o tls.keylog_file:key.txt -w decrypted.pcapng
+```
 
 
 ### Step 2: Run the Application
@@ -64,6 +65,7 @@ python app.py
 
 ## Project Structure
 
+```text
 /WebRTCChecker
 │
 ├── app.py # Main Flask web application
@@ -90,6 +92,7 @@ python app.py
 ├── _summary_card.html
 ├── _communication_map.html
 └── ...
+```
 
 ## Features
 
