@@ -9,6 +9,26 @@ It is designed for **security researchers, pentesters, and developers** to quick
 
 ---
 
+## 🐳 Pull and Run with Docker
+
+Pull the published image from Docker Hub:
+
+```bash
+docker pull christoph0sanders/webrtcchecker:1.0.2
+```
+
+Run the container:
+
+```bash
+docker run -d --name webrtc-checker -p 5000:5000 christoph0sanders/webrtcchecker:1.0.2
+```
+
+Open the web interface at:
+
+```text
+http://127.0.0.1:5000
+```
+
 ## 🚀 Setup & Installation
 
 ### Prerequisites
