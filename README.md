@@ -52,7 +52,7 @@ pip install -r requirements.txt
   2. **Extract Keys in wireshark**
     Extract Secrets
   3. **Run with Tshark**
-     ```
+     ```bash
     tshark -r capture.pcapng -o tls.keylog_file:key.txt -w decrypted.pcapng
      ```
 
